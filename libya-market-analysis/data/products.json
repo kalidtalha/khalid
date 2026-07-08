@@ -1,0 +1,257 @@
+{
+  "products": [
+    {
+      "num": 1,
+      "ref": "ALI1",
+      "name_from_list": "AliExpress Item 1005011889868887 (name not in URL)",
+      "identified_name": null,
+      "what_it_is": "غير متوفر - could not identify product type or title. WebSearch for the exact item ID '1005011889868887' returned only generic AliExpress platform pages (homepage, price trackers, tracking tools), never the actual listing content, snapshot, or cached title. AliExpress item pages are not indexed with title text retrievable via search for this specific ID, and direct fetch of aliexpress.com is blocked by network policy.",
+      "verified_price_usd": null,
+      "category_price_estimate_usd": null,
+      "moq": null,
+      "weight_size": null,
+      "battery_or_liquid": null,
+      "supplier": null,
+      "identification_confidence": "low",
+      "sources": [
+        "https://www.aliexpress.com/",
+        "https://www.aliexpress.com/price.html",
+        "https://alitools.io/en",
+        "https://www.pricearchive.org/",
+        "https://www.aliprice.com/en/Information/extension.html"
+      ],
+      "notes": "Tried: 'aliexpress item 1005011889868887', '\"1005011889868887\" price aliexpress', 'aliprice OR dsers OR cjdropshipping \"1005011889868887\"'. None returned the actual product title/category. Cannot verify or even guess what this product is without direct page access. Flagging as unresolved — recommend manual check or a different lookup path (e.g. AliExpress mobile app share link, image search) outside this session's constraints."
+    },
+    {
+      "num": 2,
+      "ref": "ALI2",
+      "name_from_list": "Wholesale Fajas Reductor Shapewear for Women",
+      "identified_name": "Fajas Reductoras / Fajas Reductor Shapewear (women's waist-trainer / body-shaper garment)",
+      "what_it_is": "Compression shapewear garment (waist trainer / body shaper / girdle), often marketed for post-surgery (BBL, C-section, liposuction) recovery or daily body contouring. Category confirmed via multiple Alibaba showroom and product-detail search hits for 'fajas reductoras' matching the listed category (Beauty & Personal Care).",
+      "verified_price_usd": null,
+      "category_price_estimate_usd": "Category-level (not the exact SKU 1600602289350): average listed price around $11.18/unit per one search summary; individual Alibaba fajas listings commonly range roughly $4-$25/unit depending on compression grade, material (latex vs powernet) and steel-boning.",
+      "moq": "Category-level: varies by supplier, commonly seen from 1 piece up to 50 pieces in search snippets (e.g. 'Shapewear for Women - Tummy Control' and 'FAJAS SHAPEWEAR' listings).",
+      "weight_size": "غير متوفر - specific SKU page not retrievable; general fajas garments are lightweight fabric (typically 150-400g), foldable/compressible, no special shipping constraints (no battery, no liquid).",
+      "battery_or_liquid": false,
+      "supplier": null,
+      "identification_confidence": "medium",
+      "sources": [
+        "https://www.alibaba.com/showroom/fajas-reductoras.html",
+        "https://www.alibaba.com/product-detail/Shapewear-for-Women-Tummy-Control-Fajas_1600584073272.html",
+        "https://www.alibaba.com/product-detail/FAJAS-SHAPEWEAR-FOR-A-SNATCHED-WAIST_1601208983739.html",
+        "https://www.alibaba.com/product-detail/High-Waist-Compression-Slimming-Fajas-Shapers_1601172508278.html"
+      ],
+      "notes": "Exact SKU 1600602289350 never surfaced in search results; identification is at the product-category level (fajas/shapewear), which matches the source list's own title and category tag, so confidence is medium rather than high."
+    },
+    {
+      "num": 3,
+      "ref": "ALI3",
+      "name_from_list": "Modern Style Home Use Ultrasonic Electric Device",
+      "identified_name": null,
+      "what_it_is": "AMBIGUOUS - could not resolve exact product type for SKU 1600854518390. Search for 'ultrasonic electric' + 'home use' on Alibaba surfaces several distinct competing product families: (a) ultrasonic skin scrubber/facial spatula (beauty tool, usually listed under Beauty & Personal Care), (b) ultrasonic cleaner (for jewelry/glasses, Home Appliances), (c) ultrasonic humidifier/essential-oil diffuser/atomizer (Home Appliances), (d) ultrasonic hair dryer (Beauty & Personal Care). Since the source list itself tags this item's category as 'Home Appliances' (not Beauty & Personal Care, unlike products 2 and 12), the most plausible matches are (b) ultrasonic cleaner or (c) ultrasonic humidifier/atomizer rather than a skin scrubber - but this is inference from category tag, not a verified product page.",
+      "verified_price_usd": null,
+      "category_price_estimate_usd": "Category-level, split by most likely candidate: ultrasonic cleaners/humidifiers commonly $3-$15/unit at wholesale; ultrasonic skin scrubbers commonly $2-$8/unit; neither confirmed as the correct match.",
+      "moq": null,
+      "weight_size": "غير متوفر - not found. If a cleaner/humidifier: typically contains a small water reservoir (liquid-adjacent, ships empty) and sometimes a battery for cordless models. If a skin scrubber: small handheld device, USB-rechargeable battery.",
+      "battery_or_liquid": true,
+      "supplier": null,
+      "identification_confidence": "low",
+      "sources": [
+        "https://www.alibaba.com/showroom/ultrasonic-skin-scrubber.html",
+        "https://www.alibaba.com/showroom/ultrasonic-humidifier.html",
+        "https://www.alibaba.com/showroom/ultrasonic-cleaner-home-use.html",
+        "https://www.alibaba.com/showroom/portable-electric-ultrasonic-atomizer.html",
+        "https://www.alibaba.com/showroom/ultrasonic-hair-dryer.html"
+      ],
+      "notes": "This is the flagged ambiguous product per task instructions. Genuinely could not disambiguate between cleaner / humidifier / skin scrubber / hair dryer without the actual product page. battery_or_liquid set to true as a conservative default since most candidate product types involve a battery, a water reservoir, or both — treat as a shipping-relevant flag either way. Recommend treating this SKU as unresolved in downstream analysis rather than assuming a specific sub-category."
+    },
+    {
+      "num": 4,
+      "ref": "ALI4..1",
+      "name_from_list": "Lateefah Mother's Day Gift 18K Gold Necklace",
+      "identified_name": "Lateefah-brand Mother's Day gift necklace (18K gold-plated, likely stainless steel or brass base)",
+      "what_it_is": "Gold-plated fashion necklace/pendant marketed as a Mother's Day gift, sold under the 'Lateefah' storefront/brand name which recurs across many similar Alibaba listings (necklaces, earrings, bracelets), suggesting Lateefah is a jewelry supplier's house brand rather than a real 18K solid gold product. Typical of low-cost gold-plated stainless-steel fashion jewelry common on Alibaba.",
+      "verified_price_usd": null,
+      "category_price_estimate_usd": "Category-level: gold-plated fashion jewelry on Alibaba commonly starts as low as $0.90/piece with MOQ 1, up to a few dollars per piece for more elaborate designs (zircon/birthstone settings).",
+      "moq": "Category-level: as low as 1 piece seen for similar Lateefah-brand listings (e.g. 'MOQ 1PC Fashion 18K Gold Plated Stainless Steel...').",
+      "weight_size": "غير متوفر - small lightweight jewelry item, typically under 50g, no battery or liquid.",
+      "battery_or_liquid": false,
+      "supplier": "Likely 'Lateefah' (recurring brand/store name across multiple matching Alibaba jewelry listings) - not independently verified as the legal supplier company name.",
+      "identification_confidence": "medium",
+      "sources": [
+        "https://www.alibaba.com/product-detail/Lateefah-New-Simple-Fashionable-Women-Necklace_1601461078454.html",
+        "https://www.alibaba.com/product-detail/Lateefah-OEM-Mother-s-Day-Gift_1600822322362.html",
+        "https://www.alibaba.com/product-detail/Lateefah-OEM-Stainless-Steel-Girls-Gift_1600473643638.html",
+        "https://www.alibaba.com/product-detail/MOQ-1PC-Fashion-18K-Gold-Plated_1600820748275.html",
+        "https://www.ebay.com/itm/365551585704"
+      ],
+      "notes": "Exact SKU 1601612650386 not found in search results, but 'Lateefah' as a recurring name across many similarly-titled 18K-gold-plated Mother's Day jewelry listings (including an eBay cross-listing of a Lateefah item) gives medium confidence this is a real supplier/brand line rather than a one-off title, even though the specific listing wasn't located."
+    },
+    {
+      "num": 5,
+      "ref": "ALI4..2",
+      "name_from_list": "Exquisite Mama Necklace — Gold Plated Stainless Steel",
+      "identified_name": "'Mama' pendant necklace, gold-plated stainless steel",
+      "what_it_is": "Fashion necklace with a 'Mama' script/heart pendant, gold-plated stainless steel base - a common gift-jewelry category confirmed by multiple matching Alibaba and third-party listings (e.g. 'Mama Bear Necklace', 'Mama Original | Gold Plated stainless steel | Necklace').",
+      "verified_price_usd": null,
+      "category_price_estimate_usd": "Category-level: gold-plated stainless-steel fashion necklaces commonly $0.90-$5/piece wholesale.",
+      "moq": "Category-level: MOQ as low as 1 piece seen in similar listings.",
+      "weight_size": "غير متوفر - small lightweight jewelry item, no battery or liquid.",
+      "battery_or_liquid": false,
+      "supplier": null,
+      "identification_confidence": "medium",
+      "sources": [
+        "https://www.alibaba.com/product-detail/Gold-Plated-Stainless-Steel-Mama-Bear_1600443212570.html",
+        "https://www.zibastyles.co.za/products/mama-gold-plated-necklace",
+        "https://lulibebeus.com/products/mama-pendant",
+        "https://www.alibaba.com/product-detail/Stainless-Steel-Necklace-Crystal-Exquisite-18K_1601385169056.html"
+      ],
+      "notes": "Exact SKU 1601234825040 not found, but the 'Mama necklace, gold plated stainless steel' product type is well-attested across both Alibaba and independent retail sites, giving medium confidence in the general product identity even without the exact listing."
+    },
+    {
+      "num": 6,
+      "ref": "ALI5",
+      "name_from_list": "Kids Electric Toothbrush — U-Shaped",
+      "identified_name": "U-shaped kids electric/sonic toothbrush",
+      "what_it_is": "Silicone U-shaped mouthpiece electric toothbrush for children (typically ages 2-12), full-arch/360° cleaning design, USB or wireless rechargeable, often IPX7 waterproof with cartoon designs. Product type strongly confirmed by many matching Alibaba listings (e.g. 'OEM Kids U-Shape Electric Toothbrush', 'OralGos Kids U-shaped Electric Toothbrush').",
+      "verified_price_usd": null,
+      "category_price_estimate_usd": "Category-level: wholesale prices for similar auto/U-shaped kids toothbrushes cited around $5.4-$14/unit; some listings for related items are lower.",
+      "moq": "Category-level: highly variable across suppliers - seen from as low as MOQ 2 up to MOQ 500-3000 pieces.",
+      "weight_size": "غير متوفر - small handheld item; CONTAINS A BATTERY (rechargeable, USB/DC/wireless charging) - shipping relevant (battery restrictions may apply for air/sea freight).",
+      "battery_or_liquid": true,
+      "supplier": null,
+      "identification_confidence": "medium",
+      "sources": [
+        "https://www.alibaba.com/product-detail/OEM-Kids-U-Shape-Electric-Toothbrush_1601419054921.html",
+        "https://www.alibaba.com/product-detail/OralGos-Kids-U-shaped-Electric-Toothbrush_1600990597677.html",
+        "https://www.alibaba.com/showroom/u-shaped-electric-toothbrush.html",
+        "https://www.alibaba.com/product-detail/OralGos-dinosaur-kids-u-shaped-electric-1600488537198.html"
+      ],
+      "notes": "Exact SKU 1601836523303 not located, but the U-shaped kids electric toothbrush category is unambiguous and heavily represented on Alibaba, so confidence in what_it_is is medium-high even without price/MOQ verification for this exact listing."
+    },
+    {
+      "num": 7,
+      "ref": "ALI6",
+      "name_from_list": "Rolled Ice Cream Maker Kit (At-Home)",
+      "identified_name": "At-home rolled ice cream making kit/tray (likely a manual/DIY tray-based kit, not a commercial electric machine)",
+      "what_it_is": "Given the listing says 'Kit' and 'At-Home' rather than 'commercial machine', this most likely refers to a small consumer-grade tray/plate DIY kit for making rolled ice cream at home, similar to an AliExpress-listed comparable item found: 'At Home Rolled Ice Cream Kit, Maker Portable - Larger 10.4 x 8.4' (non-electric, tray-based). This differs from the $739 commercial electric rolled-ice-cream machines also found in search, which are a different (much higher-priced, much heavier) product class - the 'At-Home Kit' framing suggests the cheaper tray/kit version, but this is an inference, not a confirmed match to the exact SKU.",
+      "verified_price_usd": null,
+      "category_price_estimate_usd": "Category-level: if a small DIY tray/kit (non-electric), likely low-cost consumer item (~$10-$40 range typical for this product type in general market knowledge, not verified via search); if instead an electric tabletop unit, commercial-grade units start around $739 (verified as a category price point via search, but for a different/larger product class).",
+      "moq": null,
+      "weight_size": "غير متوفر. If tray/kit type: lightweight, no battery/liquid, roughly 10.4 x 8.4 inch per comparable AliExpress listing. If electric tabletop machine: heavy (likely 10+ kg), contains electric compressor, no liquid shipped but bulky/high freight cost.",
+      "battery_or_liquid": false,
+      "supplier": null,
+      "identification_confidence": "low",
+      "sources": [
+        "https://www.aliexpress.com/item/1005010680256770.html",
+        "https://www.alibaba.com/showroom/rolled-ice-cream-machine.html",
+        "https://www.alibaba.com/showroom/instant-ice-cream-maker.html"
+      ],
+      "notes": "Exact SKU 1601647669223 not located. Two very different product classes both match the title text ('kit' vs 'machine'); flagged as low confidence because the price/weight implications differ enormously between them (a $10-40 tray vs a $739+ compressor machine)."
+    },
+    {
+      "num": 8,
+      "ref": "ALI7",
+      "name_from_list": "Home Door Lever Lock — Security Protection",
+      "identified_name": "Home door lever lock (mechanical, non-smart)",
+      "what_it_is": "A standard mechanical lever-handle door lock for residential doors, sold as a security/anti-theft product. Confirmed as a real, common Alibaba product category via multiple matching listings for 'Entry Lever Locks' and similar mechanical door hardware.",
+      "verified_price_usd": null,
+      "category_price_estimate_usd": "Category-level: heavy duty aluminum-alloy entry lever locks cited around $9-$9.99/unit; related deadbolt/handle-lock products found in the $3.86-$5.32/unit range depending on features.",
+      "moq": null,
+      "weight_size": "غير متوفر - metal hardware item, moderately heavy (likely 0.5-1.5 kg per unit), no battery/liquid (this appears to be a mechanical, not 'smart', lock based on the title).",
+      "battery_or_liquid": false,
+      "supplier": null,
+      "identification_confidence": "medium",
+      "sources": [
+        "https://www.alibaba.com/showroom/door-lock.html",
+        "https://www.alibaba.com/showroom/home-security-door-lock.html",
+        "https://www.alibaba.com/product-detail/Home-Security-Door-Lock-Reinforcement-Lock_11000002628431.html"
+      ],
+      "notes": "Exact SKU 1601808017976 not located; product type identification (mechanical lever lock, not smart/electronic) is medium confidence based on title wording ('Lever Lock' typically denotes a mechanical handle-lock, distinct from the 'smart lock' listings also seen in search)."
+    },
+    {
+      "num": 9,
+      "ref": "ALI8",
+      "name_from_list": "Vintage Decorative Foldable Portable Bedside Mini Table/Lamp",
+      "identified_name": null,
+      "what_it_is": "AMBIGUOUS between a foldable mini bedside table (furniture) and a bedside table lamp (lighting) - the source title itself contains both 'Table' and 'Lamp', and search results returned strong matches for both distinct product types ('Antique Ins Mini Bedside Table Modern Wooden Small Coffee...' as furniture, and multiple 'vintage mini touch table lamps' as lighting). Could not determine which the actual SKU 1600300616408 is without the page.",
+      "verified_price_usd": null,
+      "category_price_estimate_usd": "Category-level: if furniture (mini folding table/nightstand): roughly $13-$71/unit depending on material seen in search (e.g. $13-14 for basic wood nightstands up to $65-71 for mirrored designs); if a lamp: pricing not found in search results, general market knowledge suggests small decorative table lamps commonly $3-$15/unit wholesale.",
+      "moq": null,
+      "weight_size": "غير متوفر. If furniture: foldable, moderate weight (wood/metal, several kg), bulky for shipping. If lamp: lightweight, may contain electrical components but no battery/liquid typically.",
+      "battery_or_liquid": false,
+      "supplier": null,
+      "identification_confidence": "low",
+      "sources": [
+        "https://www.alibaba.com/product-detail/Antique-Ins-Mini-Bedside-Table-Modern_1601377269339.html",
+        "https://www.alibaba.com/showroom/vintage-mini-touch-table-lamps.html",
+        "https://www.alibaba.com/showroom/foldable-table-lamp.html",
+        "https://www.alibaba.com/showroom/bedside-table-lamps-cheap.html"
+      ],
+      "notes": "Genuinely ambiguous product identity (furniture vs. lighting) not resolvable from search alone; flagged low confidence deliberately rather than guessing."
+    },
+    {
+      "num": 10,
+      "ref": "ALI10",
+      "name_from_list": "SEB BBQ Gloves — Heat Resistant Grilling",
+      "identified_name": "Heat-resistant BBQ/grilling gloves (brand/model 'SEB' not independently confirmed)",
+      "what_it_is": "Heat-resistant protective gloves for grilling/BBQ use, typically made of silicone-coated fabric, aramid fiber, or similar heat-resistant material, rated up to ~800°C/1472°F in comparable listings. Product category strongly confirmed; the 'SEB' branding/model specifically was not found in any search result.",
+      "verified_price_usd": null,
+      "category_price_estimate_usd": "Category-level (no numeric wholesale price surfaced in search for this exact type, using general market knowledge): typically $2-$8/pair at wholesale for silicone/aramid BBQ gloves.",
+      "moq": "Category-level: some suppliers cited as low as 10-30 pairs MOQ for smaller buyers.",
+      "weight_size": "غير متوفر - textile/fabric item, lightweight, no battery/liquid.",
+      "battery_or_liquid": false,
+      "supplier": null,
+      "identification_confidence": "low",
+      "sources": [
+        "http://offer.alibaba.com/products/bbq_gloves.html",
+        "https://www.alibaba.com/bbq-glove-suppliers.html",
+        "https://www.ebay.com/itm/186718017210",
+        "https://fqglove.en.alibaba.com/"
+      ],
+      "notes": "Exact SKU 1601428463702 and the 'SEB' brand/model were not found in any search result; product category (heat-resistant BBQ gloves) is confirmed but the specific listing, its supplier, and its exact price/MOQ remain unverified. Do not attribute the supplier found (Wuxi Fangqian Plastic Working Glove Co.) to this listing - it was a generic category match, not a confirmed match to 'SEB'."
+    },
+    {
+      "num": 11,
+      "ref": "ALI11",
+      "name_from_list": "Custom Print Eco-Friendly Baby Bottle",
+      "identified_name": "Custom-printed eco-friendly baby bottle (glass or silicone, exact material not confirmed for this SKU)",
+      "what_it_is": "A baby feeding bottle marketed as eco-friendly with custom print/logo options - likely glass (borosilicate) with a silicone sleeve, or full silicone, based on the dominant product types found under this search category on Alibaba.",
+      "verified_price_usd": null,
+      "category_price_estimate_usd": "Category-level: glass baby bottles found at US$0.32-$0.62/piece (MOQ 5,000) from one supplier and US$2.80-$6.00/piece (MOQ 3,000) from another; silicone bottles typically have lower MOQ (100-300 pieces) per design.",
+      "moq": "Category-level: ranges widely, roughly 500-5,000 pieces for glass bottles depending on customization level; 100-300 for silicone.",
+      "weight_size": "غير متوفر - if glass: fragile, heavier, shipping-sensitive (breakage risk); if silicone: lightweight, more shipping-robust. No liquid shipped (bottle sold empty), no battery.",
+      "battery_or_liquid": false,
+      "supplier": null,
+      "identification_confidence": "medium",
+      "sources": [
+        "https://www.alibaba.com/showroom/custom-glass-baby-bottle.html",
+        "https://www.alibaba.com/showroom/eco-friendly-baby-bottles.html",
+        "https://www.alibaba.com/price-comparison/baby-glass-feeder-manufacturer",
+        "https://htsilicon.com/custom-silicone-bottle/"
+      ],
+      "notes": "Exact SKU 1601713201868 not found; product category (custom eco-friendly baby bottle) is well-confirmed but the specific material (glass vs. silicone) and thus weight/fragility/MOQ profile for this exact listing is not verified."
+    },
+    {
+      "num": 12,
+      "ref": "ALI12",
+      "name_from_list": "Wholesale Cordless Lady Shaver — Rechargeable",
+      "identified_name": "Cordless rechargeable electric lady shaver/epilator",
+      "what_it_is": "A battery-powered electric shaver/epilator for women's body hair removal (legs, bikini area, underarms), rechargeable via USB, often IPX-rated waterproof for wet/dry use. Product category strongly confirmed by numerous matching Alibaba listings.",
+      "verified_price_usd": null,
+      "category_price_estimate_usd": "Category-level: ladies battery-operated shavers found around $2.60/unit (bulk orders from 100 units); some listings as low as ~$1.19/unit; 4-in-1 USB-rechargeable epilators from ~$5.09/unit.",
+      "moq": "Category-level: highly variable, seen from 10 units up to 500-1000 pieces depending on supplier.",
+      "weight_size": "غير متوفر - small handheld device; CONTAINS A BATTERY (rechargeable, USB) - shipping relevant (battery restrictions may apply for air/sea freight).",
+      "battery_or_liquid": true,
+      "supplier": null,
+      "identification_confidence": "medium",
+      "sources": [
+        "https://www.alibaba.com/showroom/ladies-battery-operated-shaver.html",
+        "https://www.alibaba.com/showroom/electric-shaver-wholesale.html",
+        "https://www.alibaba.com/product-detail/USB-Rechargeable-Shaver-Mini-Shave-Portable_1600803425023.html",
+        "https://www.alibaba.com/showroom/mini-battery-lady-shaver.html"
+      ],
+      "notes": "Exact SKU 1601683387072 not located, but the cordless rechargeable lady shaver product category is unambiguous and well-represented in search results, so confidence in what_it_is is medium-high; price/MOQ figures are category-level only, not verified for this exact listing."
+    }
+  ]
+}

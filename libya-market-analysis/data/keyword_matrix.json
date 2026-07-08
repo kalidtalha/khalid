@@ -1,0 +1,67 @@
+{
+  "notes": "Keyword matrix per product. tier1 = core Arabic (MSA + common ecommerce Arabic), tier2 = Arabic variants/plurals/misspellings/dialect, tier3 = French + English + transliterations. Hunters must search tier1 and tier2 fully, then tier3, and log every search with its result count. Saturation rule: stop a product only after 12+ consecutive searches yield zero NEW competitor pages.",
+  "products": {
+    "P1_aliexpress_unknown": {
+      "depends_on": "products.json identification of AliExpress item 1005011889868887",
+      "tier1": [], "tier2": [], "tier3": [],
+      "instruction": "Build keywords after identification; if unidentified, mark the product's ad hunt as غير متوفر with reason."
+    },
+    "P2_shapewear": {
+      "tier1": ["مشد", "مشدات", "مشد نسائي", "مشد للبطن", "مشد البطن", "مشد الخصر", "مشد التنحيف", "حزام التنحيف", "حزام تنحيف", "مشد الجسم", "كورسيه", "كورسيت", "مشد كولومبي", "مشد بعد الولادة", "مشد الارداف", "شد البطن"],
+      "tier2": ["مشد حراري", "مشد لاصق", "مشد صدر", "مشد ظهر", "مشدات نسائية", "المشد", "مشد تخسيس", "حزام التخسيس", "حزام البطن", "لباس داخلي شد", "بودي شيمر", "بودي مشد", "مشد قطعتين", "مشد سوستة", "شداد بطن", "مشد رياضي", "تنحيف البطن", "ازالة الكرش", "الكرش"],
+      "tier3": ["faja", "fajas", "faja colombiana", "gaine", "gaine amincissante", "ceinture amincissante", "body shaper", "shapewear", "waist trainer", "corset", "tummy control", "body gainant", "sweat belt", "بودي شيبر", "ويست ترينر"]
+    },
+    "P3_ultrasonic_device": {
+      "tier1": ["جهاز الموجات فوق الصوتية", "منظف بالموجات", "جهاز تنظيف بالموجات فوق الصوتية", "غسالة الموجات", "جهاز الترا سونيك", "الترا سونيك", "فواحة", "مرطب الهواء", "مرطب هواء", "جهاز البخار"],
+      "tier2": ["منظف النظارات", "منظف المجوهرات", "جهاز تنظيف البشرة", "سكرابر البشرة", "طارد الحشرات بالموجات", "طارد الفئران", "جهاز طارد الناموس", "فواحة عطرية", "فواحة كهربائية", "مبخرة كهربائية", "جهاز الرذاذ", "غسالة صغيرة بالموجات"],
+      "tier3": ["ultrasonic cleaner", "ultrasonic", "nettoyeur ultrason", "humidificateur", "diffuseur", "ultrasonic washer", "skin scrubber", "ultrasonic pest repeller", "الترासونيك"]
+    },
+    "P4_gold_necklace_gift": {
+      "tier1": ["قلادة", "سلسلة", "سلسال", "عقد", "قلادة ذهب", "سلسلة ذهب", "هدية عيد الام", "هدية الام", "هدية للام", "مجوهرات", "اكسسوارات نسائية", "طقم مجوهرات"],
+      "tier2": ["قلاده", "سلسله", "قلادة مطلية بالذهب", "ذهب مطلي", "مطلي ذهب", "قلادة اسم", "سلسلة اسم", "تعليقة", "هدية عيد الحب", "هدية عيد ميلاد", "هدايا نسائية", "اكسسوارات ذهبية", "عقد ذهبي", "قلادة عيار 18"],
+      "tier3": ["collier", "collier or", "cadeau maman", "bijoux", "necklace", "18k gold necklace", "gold plated necklace", "mothers day gift", "لطيفة", "lateefah"]
+    },
+    "P5_mama_necklace": {
+      "tier1": ["قلادة ماما", "سلسلة ماما", "قلادة الام", "سلسال الام", "هدية ماما", "قلادة MAMA", "عقد ماما"],
+      "tier2": ["ستانلس ستيل", "ستيل مطلي", "اكسسوارات ستيل", "قلادة حروف", "قلادة قلب", "هدية الام العظيمة", "امي الغالية", "هدية لامي"],
+      "tier3": ["mama necklace", "collier mama", "stainless steel necklace", "mom necklace", "ماما نكلس"]
+    },
+    "P6_kids_u_toothbrush": {
+      "tier1": ["فرشاة اسنان اطفال", "فرشاة اسنان كهربائية", "فرشاة كهربائية للاطفال", "فرشاة اسنان الاطفال", "فرشاة يو", "تنظيف اسنان الاطفال", "فرشاة الاطفال"],
+      "tier2": ["فرشاه اسنان", "فرشاة سيليكون", "فرشاة اسنان على شكل U", "فرشة اسنان", "اسنان طفلك", "تسوس الاسنان عند الاطفال", "فرشاة اوتوماتيكية", "فرشاة ذكية"],
+      "tier3": ["brosse à dents enfant", "brosse à dents électrique", "kids electric toothbrush", "u shaped toothbrush", "u-shape toothbrush", "toothbrush kids", "فرشاة يو شيب"]
+    },
+    "P7_ice_cream_maker": {
+      "tier1": ["صانعة الايس كريم", "الة ايس كريم", "جهاز ايس كريم", "ايس كريم رول", "صانع الايس كريم", "ماكينة ايس كريم", "الايس كريم في البيت"],
+      "tier2": ["آيس كريم", "ايسكريم", "بوظة", "جيلاتي", "مثلجات", "صينية الايس كريم", "صحن الايس كريم رول", "ايس كريم منزلي", "حلويات باردة", "جهاز الجيلاتي"],
+      "tier3": ["ice cream maker", "rolled ice cream", "machine à glace", "sorbetière", "ice cream roll pan", "glace maison", "ايس رول"]
+    },
+    "P8_door_lever_lock": {
+      "tier1": ["قفل باب", "قفل امان", "قفل الباب", "قفل حماية", "قفل اطفال", "امان الاطفال", "قفل مقبض الباب", "اقفال ابواب"],
+      "tier2": ["قفل سلامة الاطفال", "حماية الاطفال من الابواب", "قفل اضافي للباب", "قفل داخلي", "قفل غرفة", "سكرة الباب", "ترباس", "ترباس امان", "حماية المنزل", "امان المنزل"],
+      "tier3": ["door lock", "child safety lock", "door lever lock", "serrure", "sécurité enfant", "verrou porte", "security lock", "door guard"]
+    },
+    "P9_folding_bedside_table_lamp": {
+      "tier1": ["طاولة قابلة للطي", "طاولة سرير", "طاولة جانبية", "طاولة صغيرة", "اباجورة", "مصباح سرير", "لمبة سرير", "طاولة متنقلة"],
+      "tier2": ["طاوله", "ترابيزة", "طاولة قهوة", "طاولة خدمة", "مصباح ليلي", "اضاءة غرفة النوم", "لمبة ليلية", "ديكور غرفة النوم", "طاولة ديكور", "منضدة"],
+      "tier3": ["table pliante", "table de chevet", "lampe de chevet", "folding table", "bedside table", "bedside lamp", "night lamp", "portable table"]
+    },
+    "P10_bbq_gloves": {
+      "tier1": ["قفازات شواء", "قفازات حرارية", "قفازات فرن", "قفاز مقاوم للحرارة", "قفازات المطبخ", "مستلزمات الشواء", "ادوات الشواء"],
+      "tier2": ["قفاز شوي", "قفازات الشوي", "كفوف حرارية", "كفوف فرن", "قفازات سيليكون", "شواية", "مشويات", "عدة الشواء", "ادوات المطبخ"],
+      "tier3": ["gants barbecue", "gants anti chaleur", "bbq gloves", "heat resistant gloves", "grill gloves", "oven gloves", "barbecue"]
+    },
+    "P11_baby_bottle": {
+      "tier1": ["رضاعة", "رضاعات", "ببرونة", "زجاجة رضاعة", "رضاعة اطفال", "رضاعة بيبي", "مستلزمات الاطفال", "مستلزمات المواليد"],
+      "tier2": ["رضّاعة", "رضاعه", "ببرونه", "بيبرونة", "رضاعة ضد المغص", "رضاعة سيليكون", "حلمة رضاعة", "اغراض البيبي", "اغراض المولود", "عالم الطفل"],
+      "tier3": ["biberon", "biberon bébé", "baby bottle", "feeding bottle", "anti colic bottle", "بيبي بوتل"]
+    },
+    "P12_lady_shaver": {
+      "tier1": ["ماكينة حلاقة نسائية", "ماكينة ازالة الشعر", "جهاز ازالة الشعر", "ازالة الشعر", "حلاقة نسائية", "ماكينة نسائية", "الة ازالة الشعر", "جهاز ازالة الشعر للنساء"],
+      "tier2": ["مكينة حلاقه", "ماكينه حلاقه نسائيه", "ازالة شعر الجسم", "ازالة شعر الوجه", "الشعر الزائد", "جهاز الحلاقة", "شفرة نسائية", "ليدي شيفر", "تشقير", "نزع الشعر"],
+      "tier3": ["rasoir femme", "épilateur", "epilateur femme", "lady shaver", "hair remover", "women shaver", "hair removal", "IPL", "ليزر منزلي"]
+    }
+  },
+  "generic_cod_terms": ["توصيل مجاني", "الدفع عند الاستلام", "توصيل لجميع المدن", "عرض خاص", "خصم"],
+  "generic_instruction": "Generic COD terms are NOT searched alone (too broad); use only combined with a product term if a product's specific terms are exhausted before saturation."
+}

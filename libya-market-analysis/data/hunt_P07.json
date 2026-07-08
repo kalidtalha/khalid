@@ -1,0 +1,384 @@
+{
+ "product": "P07",
+ "product_key": "P7_ice_cream_maker",
+ "hunter": "C",
+ "searches": [
+  {
+   "kw": "صانعة الايس كريم",
+   "count": 0,
+   "new_pages": 0,
+   "tier": 1
+  },
+  {
+   "kw": "الة ايس كريم",
+   "count": 1,
+   "new_pages": 1,
+   "tier": 1
+  },
+  {
+   "kw": "جهاز ايس كريم",
+   "count": 0,
+   "new_pages": 0,
+   "tier": 1
+  },
+  {
+   "kw": "ايس كريم رول",
+   "count": 2,
+   "new_pages": 2,
+   "tier": 1
+  },
+  {
+   "kw": "صانع الايس كريم",
+   "count": 0,
+   "new_pages": 0,
+   "tier": 1
+  },
+  {
+   "kw": "ماكينة ايس كريم",
+   "count": 3,
+   "new_pages": 2,
+   "tier": 1
+  },
+  {
+   "kw": "الايس كريم في البيت",
+   "count": 512,
+   "new_pages": 4,
+   "tier": 1
+  },
+  {
+   "kw": "جيلاتو",
+   "count": 4,
+   "new_pages": 3,
+   "tier": "libyan"
+  },
+  {
+   "kw": "مكينة الجيلاتو",
+   "count": 0,
+   "new_pages": 0,
+   "tier": "libyan"
+  },
+  {
+   "kw": "صانعة الجيلاتو",
+   "count": 0,
+   "new_pages": 0,
+   "tier": "libyan"
+  },
+  {
+   "kw": "جهاز البوظة",
+   "count": 0,
+   "new_pages": 0,
+   "tier": "libyan"
+  },
+  {
+   "kw": "ماكينة بوظة",
+   "count": 0,
+   "new_pages": 0,
+   "tier": "libyan"
+  },
+  {
+   "kw": "حلى بارد للصيف",
+   "count": 0,
+   "new_pages": 0,
+   "tier": "libyan"
+  },
+  {
+   "kw": "ايس كريم البيت",
+   "count": 3,
+   "new_pages": 2,
+   "tier": "libyan"
+  },
+  {
+   "kw": "جهاز صنع الجيلاتي البيتي",
+   "count": 0,
+   "new_pages": 0,
+   "tier": "libyan"
+  },
+  {
+   "kw": "ماكينة عمل الايس كريم في البيت",
+   "count": 1,
+   "new_pages": 0,
+   "tier": "libyan"
+  }
+ ],
+ "sweep_end_reason": "saturation",
+ "sweep_end_detail": "10 consecutive searches (#7-#16) with zero NEW relevant pages; ended early per orchestrator's relaxed 10-search rule. Tier2/tier3 not reached.",
+ "historic_all_counts": [
+  {
+   "kw": "جيلاتو",
+   "all_count": 6
+  },
+  {
+   "kw": "ماكينة ايس كريم",
+   "all_count": 3
+  },
+  {
+   "kw": "ايس كريم رول",
+   "all_count": 2
+  }
+ ],
+ "competitors": [
+  {
+   "page_id": "587543867785344",
+   "page_name": "El AQaba",
+   "classification": "relevant",
+   "reason": "COD gadget store; ad titled 'آلة صنع الايسكريم الصحي' (healthy ice-cream maker)",
+   "seen_under_keywords": [
+    "الة ايس كريم"
+   ],
+   "active_ads_total": 3,
+   "oldest_ad_start": "2026-07-05",
+   "profiled": true,
+   "ads": [
+    {
+     "id": "1664122678472819",
+     "start": "2026-07-07",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1664122678472819"
+    },
+    {
+     "id": "1001055429468782",
+     "start": "2026-07-05",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1001055429468782"
+    },
+    {
+     "id": "1643289833409668",
+     "start": "2026-07-05",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1643289833409668"
+    }
+   ]
+  },
+  {
+   "page_id": "107940813994057",
+   "page_name": "متجر النوفليين الإلكتروني",
+   "classification": "relevant",
+   "reason": "electronics/home-goods e-store advertising an ice-cream machine",
+   "seen_under_keywords": [
+    "ماكينة ايس كريم"
+   ],
+   "active_ads_total": 12,
+   "oldest_ad_start": "2026-06-30",
+   "profiled": true,
+   "ads": [
+    {
+     "id": "4287721974826907",
+     "start": "2026-07-03",
+     "snapshot": "https://www.facebook.com/ads/library/?id=4287721974826907"
+    },
+    {
+     "id": "1343816204362374",
+     "start": "2026-07-03",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1343816204362374"
+    },
+    {
+     "id": "1983085802356447",
+     "start": "2026-07-03",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1983085802356447"
+    },
+    {
+     "id": "2493607744435359",
+     "start": "2026-07-03",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2493607744435359"
+    },
+    {
+     "id": "1467275738485810",
+     "start": "2026-07-03",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1467275738485810"
+    },
+    {
+     "id": "2053110768613751",
+     "start": "2026-07-03",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2053110768613751"
+    },
+    {
+     "id": "1578296033657421",
+     "start": "2026-07-03",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1578296033657421"
+    },
+    {
+     "id": "1599618581878965",
+     "start": "2026-06-30",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1599618581878965"
+    },
+    {
+     "id": "2811128719265371",
+     "start": "2026-06-30",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2811128719265371"
+    },
+    {
+     "id": "3677108375763347",
+     "start": "2026-06-30",
+     "snapshot": "https://www.facebook.com/ads/library/?id=3677108375763347"
+    },
+    {
+     "id": "768248703012330",
+     "start": "2026-06-30",
+     "snapshot": "https://www.facebook.com/ads/library/?id=768248703012330"
+    },
+    {
+     "id": "1039793121879638",
+     "start": "2026-06-30",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1039793121879638"
+    }
+   ]
+  },
+  {
+   "page_id": "110449434774691",
+   "page_name": "شركة المتميز الأفضل الإستيراد معدات المطاعم والمقاهي والمحلات تجاريه",
+   "classification": "uncertain",
+   "reason": "restaurant/cafe equipment importer; sells commercial ice-cream machines, not consumer at-home kits",
+   "seen_under_keywords": [
+    "ايس كريم رول",
+    "ماكينة ايس كريم",
+    "ماكينة عمل الايس كريم في البيت"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "ads": []
+  },
+  {
+   "page_id": "465017574310800",
+   "page_name": "شركة ليبيا سنتر لمعدات المقاهي والمطاعم جملة وقطاعي",
+   "classification": "uncertain",
+   "reason": "commercial cafe/restaurant equipment wholesaler, not consumer product",
+   "seen_under_keywords": [
+    "ماكينة ايس كريم"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "ads": []
+  },
+  {
+   "page_id": "1083617274846090",
+   "page_name": "الأندلس بوينت للتسوق",
+   "classification": "uncertain",
+   "reason": "shopping page matched 'جيلاتو'; product unclear from metadata",
+   "seen_under_keywords": [
+    "جيلاتو"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "ads": []
+  },
+  {
+   "page_id": "107663705089943",
+   "page_name": "حلا السموثي لتجهيز المناسبات",
+   "classification": "off-topic",
+   "reason": "event-catering service (serves rolled ice cream), not a product seller",
+   "seen_under_keywords": [
+    "ايس كريم رول"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "ads": []
+  },
+  {
+   "page_id": "105140552342284",
+   "page_name": "LaCarraia لاكارايا - Tripoli",
+   "classification": "off-topic",
+   "reason": "gelato shop/cafe (food service)",
+   "seen_under_keywords": [
+    "جيلاتو"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "ads": []
+  },
+  {
+   "page_id": "1118347314696369",
+   "page_name": "Tumi",
+   "classification": "off-topic",
+   "reason": "international brand ad (CAD currency), unrelated",
+   "seen_under_keywords": [
+    "جيلاتو"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "ads": []
+  },
+  {
+   "page_id": "267762957368260",
+   "page_name": "Hisham Baeshen - هشام باعشن",
+   "classification": "off-topic",
+   "reason": "SAR-currency personality page; broad-match noise",
+   "seen_under_keywords": [
+    "الايس كريم في البيت"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "ads": []
+  },
+  {
+   "page_id": "1019109297960152",
+   "page_name": "Ns-Yxb-Ag5",
+   "classification": "off-topic",
+   "reason": "drama-app promo page; broad-match noise",
+   "seen_under_keywords": [
+    "الايس كريم في البيت"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "ads": []
+  },
+  {
+   "page_id": "1092734483917348",
+   "page_name": "Ns-Yxb-Ag2",
+   "classification": "off-topic",
+   "reason": "drama-app promo page; broad-match noise",
+   "seen_under_keywords": [
+    "الايس كريم في البيت"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "ads": []
+  },
+  {
+   "page_id": "1125289154004272",
+   "page_name": "القراءة المجانية-القراءة المجانية",
+   "classification": "off-topic",
+   "reason": "GoodNovel reading-app ads; broad-match noise",
+   "seen_under_keywords": [
+    "الايس كريم في البيت"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "ads": []
+  },
+  {
+   "page_id": "423034224237482",
+   "page_name": "اكله من مطبخ أم يوسف",
+   "classification": "off-topic",
+   "reason": "EGP recipe/food content page",
+   "seen_under_keywords": [
+    "ايس كريم البيت"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "ads": []
+  },
+  {
+   "page_id": "110453761299833",
+   "page_name": "Amira mohamed/ام سليم وسيليا",
+   "classification": "off-topic",
+   "reason": "EGP content-creator page",
+   "seen_under_keywords": [
+    "ايس كريم البيت"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "ads": []
+  }
+ ],
+ "profiling_capped": false,
+ "notes": "Very thin niche: only 2 relevant consumer sellers (El AQaba 3 active ads incl. the ice-cream maker; متجر النوفليين 12 active ads). Rolled-ice-cream signal in LY is dominated by commercial equipment importers and food-service pages, not COD consumer kits. The 512-count for 'الايس كريم في البيت' is broad-match noise (novel apps, SAR/EGP pages) and was excluded from the top-3 ALL depth checks for that reason."
+}

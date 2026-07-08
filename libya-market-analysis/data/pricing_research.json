@@ -91,12 +91,18 @@
       "findings": [
         {
           "price_lyd": null,
-          "where": "green3ataba.com — Arabic online store selling exactly 'فرشة أسنان كهربائية للأطفال بتصميم كرتوني على شكل حرف U' (U-shaped kids electric toothbrush). Store locale (Libya vs other Arab country) and LYD price not confirmed from snippet.",
+          "where": "green3ataba.com — Arabic online store selling exactly 'فرشة أسنان كهربائية للأطفال بتصميم كرتوني على شكل حرف U' (U-shaped kids electric toothbrush). Store name references Cairo's El-Ataba market, likely Egyptian not Libyan; price not in snippet, fetch 403.",
           "source": "https://www.green3ataba.com/product/u-فرشة-أسنان-كهربائية-للأطفال-بتصميم-كر/"
+        },
+        {
+          "price_lyd": 75,
+          "where": "ADJACENT COMP ONLY: Libyan Facebook shop 'Olympia Store LYD' selling a dental kit ('طقم الأسنان') at 75 LYD with COD delivery to all Libyan cities — same oral-care-gadget-via-FB-COD channel, NOT the same product. Recorded to anchor the Libyan FB-shop price band for oral-care gadgets.",
+          "source": "https://www.facebook.com/OlympiaStoreLYD/videos/945928416967511/ (via search snippet; facebook.com fetch blocked)"
         }
       ],
       "nothing_found_queries": [
-        "فرشاة أسنان كهربائية للأطفال شكل U للبيع ليبيا (results were Kuwait/Oman/Saudi/Egypt stores: khaimati.com, arkankuw.com, kapy.om, tafaseelek.com — none confirmed Libyan, no LYD price)"
+        "فرشاة أسنان كهربائية للأطفال شكل U للبيع ليبيا (results were Kuwait/Oman/Saudi/Egypt stores: khaimati.com, arkankuw.com, kapy.om, tafaseelek.com — none confirmed Libyan, no LYD price)",
+        "كوكوبي ستور cocobeestore فرشاة اسنان U سعر دينار ليبي (cocobeestore.com sells U-shaped kids toothbrush but store country and currency unconfirmed, no price in snippet)"
       ]
     },
     "P07_rolled_ice_cream_kit": {
@@ -150,7 +156,8 @@
         }
       ],
       "nothing_found_queries": [
-        "ماكينة حلاقة نسائية شحن للبيع ليبيا opensooq (category pages found, no per-item LYD price in snippets)"
+        "ماكينة حلاقة نسائية شحن للبيع ليبيا opensooq (category pages found, no per-item LYD price in snippets)",
+        "دينار ليبيا سعر ماكينة حلاقة نسائية متجر ليبي أونلاين (confirmed active Libyan channels — ly.opensooq.com shaver categories, ubuy.com.ly women's electric shavers category page https://www.ubuy.com.ly/ar/category/beauty-personal-care/shave-hair-removal/women-x27-s/electric-shavers/foil-shavers-13295182011, TikTok 'أسعار ماكينات الحلاقة في ليبيا' videos, Facebook 'LibyanSmartMarket' 50%-off shaver promo — but no numeric LYD price retrievable from any snippet)"
       ]
     }
   },
@@ -167,10 +174,28 @@
       "transit_days": "1-7",
       "source": "https://momocalc.com/china/shipping"
     },
-    "sea_freight": {
-      "note": "Per-kg sea LCL figure for China→North Africa not yet verified from a fetchable source; see notes. General guides: https://www.bsifreight.com/knowledge/guides-resources/air-freight-rates-from-china-to-world and https://suaidglobal.com/insights/international-shipping-costs-2026/",
-      "estimate": null
+    "china_to_libya_air_door_to_door_usd_per_kg": {
+      "low": 7.5,
+      "high": 15,
+      "transit_days": "10-14 (door-to-door)",
+      "tiering": "Per-kg rate falls at breakpoints +45kg, +100kg, +300kg, +500kg, +1000kg",
+      "source": "https://www.dantful.com/how-much-is-shipping-from-china-to-libya/ (2026 cost guide, via search snippet; direct fetch 403)"
     },
+    "china_to_libya_sea_lcl": {
+      "usd_per_cbm_low": 50,
+      "usd_per_cbm_high": 150,
+      "misrata_consolidator_usd_per_cbm": 150,
+      "misrata_consolidator_min_cbm": 2,
+      "misrata_lyd_per_cbm_april_2026": 603,
+      "transit_days": "30-40",
+      "sources": [
+        "https://www.dantful.com/how-much-is-shipping-from-china-to-libya/ ($50-150/CBM, Misrata consolidators $150/cbm min 2cbm)",
+        "https://hongocean.com/shipping-from-china-to-libya/ ($50-100/CBM, 30-40 days)",
+        "https://goodhopefreight.com/freight/shipping-rates-from-china-to-libya.html (Misrata LCL 603 LYD/CBM for 0-15 CBM, April 2026, MSC/ONE)"
+      ],
+      "per_kg_equivalence_estimate": "ESTIMATE: at ~150 USD/CBM and a typical 200 kg/CBM parcel density, sea LCL ≈ $0.75/kg + fixed clearance costs — roughly 10x cheaper than air but 3-6x slower. Reasoning-based conversion, not a quoted per-kg rate."
+    },
+    "100_unit_relevance_note": "ESTIMATE: a ~100-unit consignment of the light products here (shapewear/jewelry/gloves: <0.5 kg/unit, <0.5 CBM total) is below LCL minimums (2 CBM at Misrata consolidators), so realistic options are air standard at $5.5-12/kg or piggy-backing on a consolidator's groupage at the ~$150/CBM+min charge. Heavier items (door lock ~1kg+, ice-cream kit) shift the math toward sea groupage.",
     "battery_caveat": "P06 (toothbrush) and P12 (shaver) contain lithium batteries; P03 likely does. Battery goods are restricted/ surcharged on air freight — sea or special battery-line air is typically required (estimate/reasoning, no single source; consistent with standard freight practice)."
   },
   "customs": {
@@ -200,8 +225,21 @@
       "https://trackify.net/cod-fulfillment-operations-guide-2026/",
       "https://www.wamda.com/2013/09/reduce-cash-on-delivery-middle-east-e-commerce"
     ],
-    "libya_specific": null,
-    "note": "No Libya-specific COD return-rate figure verified yet; Shipeh site not yet checked. Regional MENA/North Africa proxies above. A Libya COD refusal rate of 25-40% is a reasonable ESTIMATE (reasoning: cash-only market, weak addressing, above-UAE logistics friction), not a sourced figure."
+    "libya_specific": {
+      "shipeh": {
+        "what": "Shipeh (https://shipeh.com/) is a COD e-commerce fulfillment platform 'empowering entrepreneurs to launch, grow and scale e-commerce ventures across Iraq and Libya' — shipping, warehousing, customs clearance, COD collection and seller remittance; recently launched a 'COD Drop' feature (https://www.instagram.com/reel/DO83RHQiHs5/). Site returns 403 to direct fetch; no published Libya fee schedule found.",
+        "simulation_benchmarks": "Shipeh's own 'Simulation' planning documents (Scribd) use these baseline metrics — Iraq version: confirmation rate 50%, delivery rate 50%, return fee $150 (interpretation of return fee unclear from snippet; possibly per-simulation batch). A parallel 'Shipeh Simulation (Libya) V2.0' document exists but its figures were not extractable from search snippets.",
+        "sources": [
+          "https://shipeh.com/",
+          "https://www.linkedin.com/company/shipeh",
+          "https://www.scribd.com/document/982156968/Shipeh-Simulation-Iraq",
+          "https://www.scribd.com/document/982156971/Shipeh-Simulation-Libya-V2-0"
+        ]
+      },
+      "implied_delivery_economics": "If Shipeh's planning assumptions (50% confirmation of placed orders, 50% delivery of confirmed) are representative, only ~25% of raw COD orders convert to collected cash — a critical margin input. Labeled: sourced from Shipeh's own simulation docs, but they are planning templates, not audited performance data.",
+      "market_context": "Libya e-commerce is small: most Libyan online stores do <$100/month in sales (https://www.aftership.com/ecommerce/statistics/regions/ly); e-commerce 'does not play a significant role' per https://www.lloydsbanktrade.com/en/market-potential/libya/ecommerce. Facebook/Instagram shops with COD to 'all Libyan cities' are the dominant retail channel (e.g. https://www.facebook.com/OlympiaStoreLYD/videos/945928416967511/ — dental kit at 75 LYD + nationwide COD delivery)."
+    },
+    "note": "No audited Libya-specific COD return-rate figure exists publicly. Best available anchors: Shipeh's own 50%/50% planning rates (above), UAE 20% COD return rate, and the generic 15-30% COD-vs-prepaid refusal delta. A Libya COD refusal rate of 25-40% remains a reasonable ESTIMATE (cash-only market, weak addressing, higher friction than UAE)."
   },
   "notes": "All Libyan domains (cbl.gov.ly, libyaobserver.ly, libyaakhbar.com, ly.opensooq.com, ubuy.com.ly, meam.ly, dollar2day.com) returned HTTP 403 to WebFetch from this environment; every LYD figure therefore comes from WebSearch result snippets and is dated where the snippet allowed. Key takeaway: the official/parallel FX spread (~6.37 vs ~8.52, ~34%) is the single biggest margin variable for a COD importer. meam.ly is a confirmed live Libyan online store useful for retail price benchmarking (SHEIN-sourced goods: shapewear 51 LYD, gold-plated necklace set 21 LYD)."
 }

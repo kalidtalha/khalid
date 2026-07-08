@@ -85,3 +85,26 @@ Session 2026-07-08. All searches: `ads_library_search`, countries=["LY"], ACTIVE
 | قفل اطفال الباب | libyan | 0 | 0 |
 
 Sweep ended: saturation (12 consecutive zero-new-relevant, searches 5–16). Historic ALL-status depth: قفل باب 1245, قفل الباب 1682, قفل حماية 182 (noise-inflated). Anomaly: search results heavily polluted by NetShort drama-clip ad farms; no advertiser sells a mechanical lever lock specifically — all 3 retail competitors sell keyless/password smart locks.
+
+## P07 rolled ice cream maker kit (Hunter C)
+
+| keyword | tier | result count | new relevant pages |
+|---|---|---|---|
+| صانعة الايس كريم | 1 | 0 | 0 |
+| الة ايس كريم | 1 | 1 | 1 |
+| جهاز ايس كريم | 1 | 0 | 0 |
+| ايس كريم رول | 1 | 2 | 0 |
+| صانع الايس كريم | 1 | 0 | 0 |
+| ماكينة ايس كريم | 1 | 3 | 1 |
+| الايس كريم في البيت | 1 | 512 | 0 |
+| جيلاتو | libyan | 4 | 0 |
+| مكينة الجيلاتو | libyan | 0 | 0 |
+| صانعة الجيلاتو | libyan | 0 | 0 |
+| جهاز البوظة | libyan | 0 | 0 |
+| ماكينة بوظة | libyan | 0 | 0 |
+| حلى بارد للصيف | libyan | 0 | 0 |
+| ايس كريم البيت | libyan | 3 | 0 |
+| جهاز صنع الجيلاتي البيتي | libyan | 0 | 0 |
+| ماكينة عمل الايس كريم في البيت | libyan | 1 | 0 |
+
+Sweep ended: saturation (10 consecutive zero-new-relevant searches #7-#16; relaxed 10-search rule per orchestrator). 512 count on 'الايس كريم في البيت' is broad-match noise. Historic ALL: جيلاتو=6, ماكينة ايس كريم=3, ايس كريم رول=2.

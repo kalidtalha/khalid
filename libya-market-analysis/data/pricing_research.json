@@ -1,0 +1,207 @@
+{
+  "meta": {
+    "generated": "2026-07-08",
+    "agent": "Agent #10 Pricing & Margin Analyst (data gathering)",
+    "integrity_note": "Every figure carries a source URL or is explicitly labeled 'estimate'. alibaba.com/aliexpress.com/facebook.com are network-blocked; Libyan sites (cbl.gov.ly, libyaobserver.ly, libyaakhbar.com, ly.opensooq.com, ubuy.com.ly, meam.ly) all returned HTTP 403 to direct WebFetch, so figures from them come from WebSearch result snippets.",
+    "p01_note": "P1 (AliExpress item 1005011889868887) is unidentified per products.json — skipped, no pricing research possible."
+  },
+  "exchange_rates": {
+    "official": {
+      "rate": 6.3732,
+      "currency_pair": "USD/LYD",
+      "date": "early July 2026 (previous close 6.3845; CBL rates page last updated 2026-07-05)",
+      "source": "https://www.investing.com/currencies/usd-lyd (rate) and https://cbl.gov.ly/en/currency-exchange-rates/ (official CBL bulletin, page updated 5 July 2026; direct fetch blocked with 403, update date via search snippet)",
+      "context": "CBL Board devalued the dinar 14.7% effective 18 January 2026: 1 LYD = 0.1150 SDR (down from 0.1348 SDR), bringing the official rate to ~6.40 LYD/USD. CBL also allows exchange companies a max 4% cash selling margin (2.5% for checks/transfers). Source: https://libyaobserver.ly/economy/central-bank-libya-revalues-dinar-against-us-dollar and https://cbl.gov.ly/en/exchange-rate-policy/",
+      "52_week_range": "5.3766 - 6.4296 (source: https://www.investing.com/currencies/usd-lyd)"
+    },
+    "parallel": {
+      "rate": 8.52,
+      "currency_pair": "USD/LYD",
+      "date": "2026-07-08 (Tripoli close; Benghazi 8.51, Zliten 8.525)",
+      "source": "https://www.libyaakhbar.com/business-news/2830787.html (daily parallel-market bulletin, Wednesday 8 July 2026; via search snippet, direct fetch 403)",
+      "related_quotes": {
+        "hawala_dollar_turkey": 8.56,
+        "hawala_dollar_dubai": 8.53,
+        "bank_check_dollar": "8.65-8.67 (Wahda/Commerce & Development banks)",
+        "source": "https://www.libyaakhbar.com/business-news/2830787.html"
+      },
+      "history_2026": "Parallel rate broke 10.50 LYD/USD in Feb 2026 (https://libyaherald.com/2026/02/as-the-dollar-breaks-the-ld-10-50-mark-aldabaiba-attempts-to-deflect-blame-squarely-onto-hafter-for-libyas-runaway-economic-crisis/); CBL briefings in April 2026 targeted 7.90 then 6.90 with $1.5bn injections while market traded ~8.75 (https://libyaherald.com/2026/04/libyan-dinar-will-be-down-to-ld-7-90-before-mid-april-cbl-briefing/); rate has settled ~8.5 as of 8 July 2026."
+    },
+    "spread_note": "Parallel premium over official = 8.52/6.3732 ≈ 33.7%. For COD revenue analysis, LYD collected in cash converts to USD at the PARALLEL rate (~8.5), not the official rate, unless the importer has CBL letter-of-credit access at the official rate."
+  },
+  "product_prices_lyd": {
+    "P01": {
+      "findings": null,
+      "note": "Product unidentified in products.json — skipped."
+    },
+    "P02_fajas_shapewear": {
+      "findings": [
+        {
+          "price_lyd": 51,
+          "where": "meam.ly (Libyan e-commerce store, Arabic) — 'SHEIN ملابس داخلية لتحديد الجسم مشد بطن' (SHEIN tummy-control body-shaping underwear). Budget-tier comparable, not a full compression faja.",
+          "source": "https://meam.ly/products/shein-ملابس-داخلية-لتحديد-الجسم-مشد-بطن (price 51 LYD via WebSearch snippet; direct fetch 403)"
+        },
+        {
+          "price_lyd": null,
+          "where": "ubuy.com.ly carries M MYODRESS Fajas Colombianas full body shaper and a Fajas Salome brand page (cross-border import model, USA store). LYD price not shown in snippets; a mirror listing displayed KWD 96.35 (≈ USD 315) — Ubuy cross-border prices are far above local retail and not representative for COD price setting.",
+          "source": "https://www.ubuy.com.ly/en/product/1PHG7PTP2-m-myodress-fajas-colombianas-full-body-shaper-for-women-compression-garment and https://www.ubuy.com.ly/it/brand/fajas-salome"
+        },
+        {
+          "price_lyd": null,
+          "where": "ly.opensooq.com has a listing 'مشد حراري كولومبي اصلي' (original Colombian thermal girdle) — price not in snippet, listing may be expired.",
+          "source": "https://ly.opensooq.com/ar/search/176787431"
+        }
+      ],
+      "nothing_found_queries": []
+    },
+    "P03_ultrasonic_device": {
+      "findings": null,
+      "nothing_found_queries": [
+        "(not searched — product identity ambiguous per products.json: cleaner vs humidifier vs skin scrubber; a Libyan retail comp cannot be meaningfully matched)"
+      ]
+    },
+    "P04_lateefah_gold_necklace": {
+      "findings": [
+        {
+          "price_lyd": 21,
+          "where": "meam.ly (Libyan store) — 'SHEIN طقم قلادة وسوار مطلي بالذهب 18 قيراط' (SHEIN 18K gold-plated stainless-steel necklace + bracelet set), directly comparable to gold-plated gift jewelry category.",
+          "source": "https://meam.ly/products/shein-طقم-سلسلة-وسوار-مطلي-بالذهب (price 21 LYD via WebSearch snippet)"
+        },
+        {
+          "price_lyd": 150,
+          "where": "Instagram shop post 'قلادة ذهب — السعر التقريبي 150 دينار' (gold necklace, approx. 150 dinars). Country/shop not confirmed as Libyan; treat as low-confidence datapoint.",
+          "source": "https://www.instagram.com/p/DKr3cessGGO/ (via search snippet)"
+        }
+      ],
+      "nothing_found_queries": []
+    },
+    "P05_mama_necklace": {
+      "findings": [
+        {
+          "price_lyd": 21,
+          "where": "Same comparable as P04: meam.ly SHEIN 18K gold-plated necklace set at 21 LYD — gold-plated stainless-steel gift necklace category.",
+          "source": "https://meam.ly/products/shein-طقم-سلسلة-وسوار-مطلي-بالذهب"
+        }
+      ],
+      "nothing_found_queries": [
+        "قلادة ماما مطلية ذهب ليبيا (no Libya-specific 'Mama necklace' listing surfaced)"
+      ]
+    },
+    "P06_kids_u_toothbrush": {
+      "findings": [
+        {
+          "price_lyd": null,
+          "where": "green3ataba.com — Arabic online store selling exactly 'فرشة أسنان كهربائية للأطفال بتصميم كرتوني على شكل حرف U' (U-shaped kids electric toothbrush). Store locale (Libya vs other Arab country) and LYD price not confirmed from snippet.",
+          "source": "https://www.green3ataba.com/product/u-فرشة-أسنان-كهربائية-للأطفال-بتصميم-كر/"
+        }
+      ],
+      "nothing_found_queries": [
+        "فرشاة أسنان كهربائية للأطفال شكل U للبيع ليبيا (results were Kuwait/Oman/Saudi/Egypt stores: khaimati.com, arkankuw.com, kapy.om, tafaseelek.com — none confirmed Libyan, no LYD price)"
+      ]
+    },
+    "P07_rolled_ice_cream_kit": {
+      "findings": null,
+      "nothing_found_queries": [
+        "ماكينة ايس كريم رول منزلية سعر دينار ليبي (results: Egypt/Gulf commercial suppliers only — sulkblue.com, goldenicestore.com, elantablyatoz.com; no Libyan listing, no LYD price)"
+      ]
+    },
+    "P08_door_lever_lock": {
+      "findings": [
+        {
+          "price_lyd": null,
+          "where": "ly.opensooq.com has a doors/windows/aluminum section; snippet mentioned Turkish MEGA doors WITH DAF lock + aluminum handle from 1,790 LYD (full door incl. lock — not a standalone lever lock price, recorded for context only).",
+          "source": "https://ly.opensooq.com/ar/المنزل-والحديقة/أبواب-شبابيك-ألمنيوم (via search snippet)"
+        }
+      ],
+      "nothing_found_queries": [
+        "قفل باب مقبض للبيع ليبيا opensooq (no standalone lever-lock LYD price surfaced)"
+      ]
+    },
+    "P09_bedside_table_lamp": {
+      "findings": [
+        {
+          "price_lyd": 62,
+          "where": "Instagram reel: 'طاولة قابلة للطي متعددة الاستخدامات بسعر 62 دينار فقط' (multi-use folding table, 62 dinars). Dinar country not confirmed as Libya (could be Jordan/Kuwait/Tunisia-adjacent shop); low confidence. Product identity itself is ambiguous (table vs lamp) per products.json.",
+          "source": "https://www.instagram.com/reel/DPtr1H0jMoR/?hl=ar (via search snippet)"
+        }
+      ],
+      "nothing_found_queries": [
+        "طاولة زينة صغيرة قابلة للطي سعر دينار ليبي (other hits were Egypt/Gulf: jumia.com.eg, noon.com, rahatystore.com; a Kuwait OpenSooq folding table at 25 KWD-dinars is NOT Libyan)"
+      ]
+    },
+    "P10_bbq_gloves": {
+      "findings": null,
+      "nothing_found_queries": [
+        "قفازات شواء مقاومة للحرارة للبيع ليبيا (all results Saudi/Jordan/Gulf stores: bbqhouse.shop, saudicliq.com, jafarshop.com, bashitihardware.com — no Libyan store or LYD price)"
+      ]
+    },
+    "P11_baby_bottle": {
+      "findings": null,
+      "nothing_found_queries": [
+        "رضاعة أطفال صحية سعر دينار ليبي (results were Jordan (dumyah.com), Egypt (amazon.eg), Saudi stores + medical articles; no Libyan LYD price surfaced)"
+      ]
+    },
+    "P12_lady_shaver": {
+      "findings": [
+        {
+          "price_lyd": null,
+          "where": "ly.opensooq.com has dedicated category pages: 'أجهزة الحلاقة والعناية الشخصية للبيع في ليبيا' and 'ماكينات حلاقة للبيع في ليبيا' (shavers & personal-care devices for sale in Libya, incl. Tripoli listings). Category confirmed active; individual LYD prices not exposed in search snippets and direct fetch returns 403.",
+          "source": "https://ly.opensooq.com/ar/اجهزة-الكترونيات/أجهزة-الحلاقة-والعناية-الشخصية"
+        }
+      ],
+      "nothing_found_queries": [
+        "ماكينة حلاقة نسائية شحن للبيع ليبيا opensooq (category pages found, no per-item LYD price in snippets)"
+      ]
+    }
+  },
+  "shipping": {
+    "china_to_africa_air_standard_usd_per_kg": {
+      "low": 5.5,
+      "high": 12,
+      "transit_days": "6-14",
+      "source": "https://momocalc.com/china/shipping (China→Africa shipping calculator, indicative rates referenced to June 2026)"
+    },
+    "china_to_africa_air_express_usd_per_kg": {
+      "low": 9,
+      "high": 17,
+      "transit_days": "1-7",
+      "source": "https://momocalc.com/china/shipping"
+    },
+    "sea_freight": {
+      "note": "Per-kg sea LCL figure for China→North Africa not yet verified from a fetchable source; see notes. General guides: https://www.bsifreight.com/knowledge/guides-resources/air-freight-rates-from-china-to-world and https://suaidglobal.com/insights/international-shipping-costs-2026/",
+      "estimate": null
+    },
+    "battery_caveat": "P06 (toothbrush) and P12 (shaver) contain lithium batteries; P03 likely does. Battery goods are restricted/ surcharged on air freight — sea or special battery-line air is typically required (estimate/reasoning, no single source; consistent with standard freight practice)."
+  },
+  "customs": {
+    "structure": "Libya abolished traditional customs duties on most goods in Aug 2005; imports instead pay a 4% Port Services Tax on CIF value, plus category-specific Production Tax (2%) and Consumption Tax (25% or 50%) on regulated products. No VAT.",
+    "structure_source": "https://deepbeez.com/import-duty/libya-customs-tariff",
+    "import_tax_2026": {
+      "consumer_goods_cleaning_car_parts_pct": 12,
+      "construction_clothing_household_appliances_pct": 25,
+      "electronics_luxury_cars_pct": "30-35",
+      "some_food_raw_materials_pct": 7,
+      "staple_food": "exempt",
+      "context": "New import tax law moved to implementation by CBL as the dollar passed 10 LYD (early 2026); Tripoli government contested it. Rates should be confirmed at HS-code level.",
+      "sources": [
+        "https://libyaobserver.ly/economy/cbl-moves-implement-import-tax-law-dollar-passes-10-dinars",
+        "https://deepbeez.com/import-duty/libya-customs-tariff",
+        "https://libyaherald.com/2026/02/tripoli-libyan-government-rejects-new-import-taxes-blames-dinar-collapse-on-hafters-parallel-spending-outside-approved-budget/"
+      ]
+    },
+    "compliance": "Importers need a CBL Letter of Credit, Electronic Cargo Tracking Note (ECTN), Arabic labeling, pre-shipment Certificate of Inspection, and Ministry of Economy product registration. Source: https://carraglobe.com/importer-of-record-libya/ (via search snippet)"
+  },
+  "cod_return_rates": {
+    "uae_cod_return_rate_pct": 20,
+    "cod_vs_prepaid_refusal_delta_pct": "15-30% higher refusal than prepaid orders",
+    "cod_share_of_orders_mena": "~80% (MarkaVIP, MENA e-commerce)",
+    "sources": [
+      "https://selligate.com/top-10-e-commerce-cash-on-delivery-cod-countries-in-2026/",
+      "https://trackify.net/cod-fulfillment-operations-guide-2026/",
+      "https://www.wamda.com/2013/09/reduce-cash-on-delivery-middle-east-e-commerce"
+    ],
+    "libya_specific": null,
+    "note": "No Libya-specific COD return-rate figure verified yet; Shipeh site not yet checked. Regional MENA/North Africa proxies above. A Libya COD refusal rate of 25-40% is a reasonable ESTIMATE (reasoning: cash-only market, weak addressing, above-UAE logistics friction), not a sourced figure."
+  },
+  "notes": "All Libyan domains (cbl.gov.ly, libyaobserver.ly, libyaakhbar.com, ly.opensooq.com, ubuy.com.ly, meam.ly, dollar2day.com) returned HTTP 403 to WebFetch from this environment; every LYD figure therefore comes from WebSearch result snippets and is dated where the snippet allowed. Key takeaway: the official/parallel FX spread (~6.37 vs ~8.52, ~34%) is the single biggest margin variable for a COD importer. meam.ly is a confirmed live Libyan online store useful for retail price benchmarking (SHEIN-sourced goods: shapewear 51 LYD, gold-plated necklace set 21 LYD)."
+}

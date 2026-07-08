@@ -60,3 +60,28 @@ No exact-SKU product page was retrievable for any of the 12 products via WebSear
 | فرشة اسنان | 2 | 3 | 0 |
 
 Sweep ended: saturation (12 consecutive zero-new-relevant searches, #8-#19). Tier3 not reached. Historic ALL counts: تنظيف اسنان الاطفال=14, فرشاة الاطفال=9, فرشاة اسنان الاطفال=7.
+
+## P08 Home door lever security lock (Hunter D)
+
+Session 2026-07-08. All searches: `ads_library_search`, countries=["LY"], ACTIVE, limit=30.
+
+| keyword | tier | result count | new relevant pages |
+|---|---|---|---|
+| قفل باب | 1 | 23 | 2 (سوقنا souqna, متجر العزة) |
+| قفل امان | 1 | 116 | 0 |
+| قفل الباب | 1 | 20 | 1 (Souq tika-سوق الثقة) |
+| قفل حماية | 1 | 14 | 1 (lock factory) |
+| قفل اطفال | 1 | 35 | 0 |
+| امان الاطفال | 1 | 44 | 0 |
+| قفل مقبض الباب | 1 | 0 | 0 |
+| اقفال ابواب | 1 | 11 | 0 |
+| ضبة الباب | libyan | 0 | 0 |
+| ضبة امان | libyan | 0 | 0 |
+| كالون الباب | libyan | 0 | 0 |
+| قفل الباب حق الصغار | libyan | 0 | 0 |
+| قفل مقبض الباب للصغار | libyan | 0 | 0 |
+| حمايه الاطفال من الابواب | libyan | 10 | 0 |
+| سكرة باب | libyan | 0 | 0 |
+| قفل اطفال الباب | libyan | 0 | 0 |
+
+Sweep ended: saturation (12 consecutive zero-new-relevant, searches 5–16). Historic ALL-status depth: قفل باب 1245, قفل الباب 1682, قفل حماية 182 (noise-inflated). Anomaly: search results heavily polluted by NetShort drama-clip ad farms; no advertiser sells a mechanical lever lock specifically — all 3 retail competitors sell keyless/password smart locks.

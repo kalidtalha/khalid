@@ -1,0 +1,614 @@
+{
+  "P01": {
+    "risks": [
+      {
+        "risk": "Product identity is completely unresolved (AliExpress SKU 1005011889868887) - quality, legality, shipping class, and market fit cannot be assessed at all",
+        "dimension": "identification_ambiguity",
+        "severity": 5,
+        "probability": 5,
+        "score": 25,
+        "mitigation": "Do not commit any budget; obtain the exact listing via AliExpress app share-link, image search, or supplier chat before deciding anything",
+        "basis": "source"
+      },
+      {
+        "risk": "Committing to a 100-unit batch of an unidentified item risks total capital loss if it proves low-demand, illegal, or undeliverable",
+        "dimension": "operational",
+        "severity": 5,
+        "probability": 3,
+        "score": 15,
+        "mitigation": "Skip this product or cut to a minimum viable sample (10-20 units) until identity is confirmed",
+        "basis": "source"
+      },
+      {
+        "risk": "Unknown category could fall into a restricted/controlled import class (e.g. medical device, weapon-adjacent item, counterfeit electronics), risking customs seizure",
+        "dimension": "legal_customs",
+        "severity": 4,
+        "probability": 2,
+        "score": 8,
+        "mitigation": "Verify HS code and product photos before any customs declaration is filed",
+        "basis": "assumption"
+      },
+      {
+        "risk": "No compliant ad creative can be built without knowing what is being sold, risking vague or misleading Arabic ads that get flagged by Meta review",
+        "dimension": "meta_policy",
+        "severity": 3,
+        "probability": 3,
+        "score": 9,
+        "mitigation": "Withhold any ad campaign creation until the product is identified",
+        "basis": "well-known"
+      }
+    ],
+    "overall_risk_level": "high",
+    "top_risk": "The product's identity itself is unknown, making every other risk dimension unassessable before committing capital."
+  },
+  "P02": {
+    "risks": [
+      {
+        "risk": "Shapewear/fajas is a textbook saturated global COD dropshipping niche with years of ad exposure, driving high CPMs and creative fatigue",
+        "dimension": "saturation",
+        "severity": 4,
+        "probability": 4,
+        "score": 16,
+        "mitigation": "Differentiate with a unique Arabic-language angle or bundle rather than generic fajas creative",
+        "basis": "well-known"
+      },
+      {
+        "risk": "Sizing failure is endemic to shapewear (body-type variance); wrong-size COD orders drive high door-refusal and return rates",
+        "dimension": "quality_returns",
+        "severity": 4,
+        "probability": 4,
+        "score": 16,
+        "mitigation": "Publish a detailed Arabic size chart and confirm size by chat before dispatch",
+        "basis": "well-known"
+      },
+      {
+        "risk": "Body-contouring shapewear creative routinely triggers Meta's body-image / before-after ad policy rejections",
+        "dimension": "meta_policy",
+        "severity": 3,
+        "probability": 4,
+        "score": 12,
+        "mitigation": "Avoid before/after and skin-tight body shots; use product-only or loose-fit lifestyle imagery",
+        "basis": "well-known"
+      },
+      {
+        "risk": "Near-identical fajas products are sold by many MENA COD dropshippers from the same Alibaba supplier pool, compressing margins",
+        "dimension": "price_war",
+        "severity": 3,
+        "probability": 4,
+        "score": 12,
+        "mitigation": "Brand or bundle the product rather than competing on price alone",
+        "basis": "well-known"
+      },
+      {
+        "risk": "Publicly advertising a body-shaping garment on mainstream Facebook/Instagram feeds in a socially conservative market may draw negative comments or limit organic reach",
+        "dimension": "cultural_religious",
+        "severity": 3,
+        "probability": 3,
+        "score": 9,
+        "mitigation": "Use modest, fabric-focused creative and consider female-skewed audience/placement targeting",
+        "basis": "assumption"
+      },
+      {
+        "risk": "A 100-unit batch split across multiple sizes multiplies unsold-stock risk if the size mix doesn't match actual demand",
+        "dimension": "operational",
+        "severity": 3,
+        "probability": 3,
+        "score": 9,
+        "mitigation": "Weight the initial batch toward the most common sizes based on general size-distribution norms",
+        "basis": "well-known"
+      }
+    ],
+    "overall_risk_level": "high",
+    "top_risk": "Structural niche saturation combined with sizing-driven COD return/refusal rates is the dominant risk."
+  },
+  "P03": {
+    "risks": [
+      {
+        "risk": "Underlying product could be a skin-care device, cleaner, humidifier, or hair dryer - each with a different battery/liquid/certification profile; ordering the wrong sub-type wastes the batch",
+        "dimension": "identification_ambiguity",
+        "severity": 4,
+        "probability": 4,
+        "score": 16,
+        "mitigation": "Request exact listing photos/spec sheet from the supplier and confirm the sub-category before ordering",
+        "basis": "source"
+      },
+      {
+        "risk": "If the device is battery-powered, lithium batteries are restricted for air freight without special dangerous-goods handling, forcing slower/costlier sea freight",
+        "dimension": "shipping_fulfillment",
+        "severity": 4,
+        "probability": 3,
+        "score": 12,
+        "mitigation": "Confirm battery presence and required freight mode with the forwarder before booking shipping",
+        "basis": "well-known"
+      },
+      {
+        "risk": "Electrical/beauty devices commonly require electrical safety documentation for import; missing paperwork risks customs delay or seizure",
+        "dimension": "legal_customs",
+        "severity": 3,
+        "probability": 3,
+        "score": 9,
+        "mitigation": "Request CE/RoHS-equivalent documentation from the supplier prior to shipment",
+        "basis": "assumption"
+      },
+      {
+        "risk": "If marketed as a beauty/skin device, efficacy claims (e.g. 'removes wrinkles', 'deep cleans pores') are restricted under Meta's health-claims ad policy",
+        "dimension": "meta_policy",
+        "severity": 3,
+        "probability": 3,
+        "score": 9,
+        "mitigation": "Use descriptive, non-medical claims only in Arabic ad copy",
+        "basis": "well-known"
+      },
+      {
+        "risk": "Wholesale price uncertainty across candidate sub-types (roughly $2-$15/unit) makes 100-unit capital budgeting unreliable",
+        "dimension": "operational",
+        "severity": 3,
+        "probability": 3,
+        "score": 9,
+        "mitigation": "Get a firm quote on the exact confirmed listing before committing spend",
+        "basis": "source"
+      }
+    ],
+    "overall_risk_level": "high",
+    "top_risk": "Fundamental product-identity ambiguity blocks reliable shipping, legal, and marketing planning."
+  },
+  "P04": {
+    "risks": [
+      {
+        "risk": "Explicitly Mother's Day-themed jewelry has a narrow demand window; unsold stock after the date carries much weaker appeal",
+        "dimension": "seasonality",
+        "severity": 3,
+        "probability": 4,
+        "score": 12,
+        "mitigation": "Time import and ad launch to land before Mother's Day and reposition remaining stock as a generic gift afterward",
+        "basis": "source"
+      },
+      {
+        "risk": "Gold plating wears/tarnishes with normal wear, causing post-delivery complaints and disputes over 'defective' product in a COD model",
+        "dimension": "quality_returns",
+        "severity": 3,
+        "probability": 4,
+        "score": 12,
+        "mitigation": "Use a higher-micron plating supplier and set clear 'gold-plated, not solid gold' expectations in the ad",
+        "basis": "well-known"
+      },
+      {
+        "risk": "Marketing a gold-plated item as '18K Gold' risks Meta ad rejection or takedown for misleading composition/quality claims",
+        "dimension": "meta_policy",
+        "severity": 3,
+        "probability": 3,
+        "score": 9,
+        "mitigation": "Use 'gold-plated' / مطلي بالذهب language rather than '18K gold' in Arabic ad copy",
+        "basis": "well-known"
+      },
+      {
+        "risk": "Generic gold-plated fashion jewelry is a commoditized, easily-sourced product line carried by many dropshippers",
+        "dimension": "price_war",
+        "severity": 3,
+        "probability": 3,
+        "score": 9,
+        "mitigation": "Differentiate with custom Arabic engraving or gift packaging",
+        "basis": "well-known"
+      },
+      {
+        "risk": "A narrow seasonal window combined with a 100-unit commitment risks dead stock if China-to-Libya shipping timing slips past the date",
+        "dimension": "operational",
+        "severity": 3,
+        "probability": 3,
+        "score": 9,
+        "mitigation": "Order with a 4-6 week buffer ahead of Mother's Day to absorb transit delays",
+        "basis": "well-known"
+      }
+    ],
+    "overall_risk_level": "medium",
+    "top_risk": "Narrow seasonal sales window creates unsold-stock risk if shipping timing slips past Mother's Day."
+  },
+  "P05": {
+    "risks": [
+      {
+        "risk": "The Latin-script 'Mama' pendant may resonate less with Arabic-speaking Libyan buyers than an Arabic-script equivalent, reducing perceived localization and gift appeal",
+        "dimension": "cultural_religious",
+        "severity": 2,
+        "probability": 3,
+        "score": 6,
+        "mitigation": "Test an Arabic-script variant alongside or instead of the Latin-script 'Mama' pendant",
+        "basis": "assumption"
+      },
+      {
+        "risk": "Generic gift-necklace category is heavily commoditized across Alibaba/AliExpress dropship listings, limiting pricing power",
+        "dimension": "price_war",
+        "severity": 3,
+        "probability": 4,
+        "score": 12,
+        "mitigation": "Bundle with packaging or a gift card to differentiate from bare competitor listings",
+        "basis": "well-known"
+      },
+      {
+        "risk": "Gold-plating wear/tarnish and possible nickel-allergy skin reaction from the base metal risk complaints and returns",
+        "dimension": "quality_returns",
+        "severity": 3,
+        "probability": 3,
+        "score": 9,
+        "mitigation": "Source nickel-free/hypoallergenic plated stock",
+        "basis": "well-known"
+      },
+      {
+        "risk": "Gift jewelry is evergreen but heavily advertised by many competitors, raising ad costs over time",
+        "dimension": "saturation",
+        "severity": 3,
+        "probability": 3,
+        "score": 9,
+        "mitigation": "Rotate creative angles (family gift, birthday, generic 'for mom') to avoid fatigue",
+        "basis": "well-known"
+      },
+      {
+        "risk": "Low per-unit cost keeps capital lock for 100 units relatively small, but with no strong seasonal anchor, unsold stock can linger without a clearance trigger",
+        "dimension": "operational",
+        "severity": 2,
+        "probability": 2,
+        "score": 4,
+        "mitigation": "Treat as an always-on catalog item rather than a single large seasonal push",
+        "basis": "well-known"
+      }
+    ],
+    "overall_risk_level": "medium",
+    "top_risk": "Commoditized gift-jewelry category with weak differentiation drives price-war pressure and rising ad costs."
+  },
+  "P06": {
+    "risks": [
+      {
+        "risk": "Contains a rechargeable lithium battery, subject to air-freight dangerous-goods restrictions that can block or delay air shipment, forcing sea freight or special documentation",
+        "dimension": "shipping_fulfillment",
+        "severity": 4,
+        "probability": 4,
+        "score": 16,
+        "mitigation": "Confirm the freight forwarder's lithium-battery handling capability and default to sea freight if air is restricted",
+        "basis": "well-known"
+      },
+      {
+        "risk": "Meta ad policy restricts advertising to or featuring minors; creative depicting a child's face using the product faces extra review/rejection risk",
+        "dimension": "meta_policy",
+        "severity": 3,
+        "probability": 4,
+        "score": 12,
+        "mitigation": "Frame creative around the parent (purchaser) rather than depicting a child's face directly using the device",
+        "basis": "well-known"
+      },
+      {
+        "risk": "Cheap electronics with a silicone waterproof seal are prone to water-ingress failure and short motor life; risk-averse parents drive high complaint/return rates on any defect",
+        "dimension": "quality_returns",
+        "severity": 4,
+        "probability": 3,
+        "score": 12,
+        "mitigation": "Source from a supplier with IPX7 waterproof certification and offer a short replacement window",
+        "basis": "well-known"
+      },
+      {
+        "risk": "Children's products often face stricter safety expectations (small/detachable parts, battery safety) than general goods",
+        "dimension": "legal_customs",
+        "severity": 3,
+        "probability": 2,
+        "score": 6,
+        "mitigation": "Request safety test reports (choking-hazard/small-parts testing) from the supplier",
+        "basis": "assumption"
+      },
+      {
+        "risk": "Battery-plus-kids-safety complexity raises the odds of a failed 100-unit batch (customs hold or high return rate) versus simpler non-electronic items",
+        "dimension": "operational",
+        "severity": 3,
+        "probability": 3,
+        "score": 9,
+        "mitigation": "Pilot with a smaller sub-batch (20-30 units) before committing to the full 100",
+        "basis": "well-known"
+      }
+    ],
+    "overall_risk_level": "high",
+    "top_risk": "Lithium-battery air-freight restriction combined with Meta's minors-targeting ad policy creates compounding shipping and marketing friction."
+  },
+  "P07": {
+    "risks": [
+      {
+        "risk": "Listing could be a cheap non-electric tray/kit (~$10-40) or a heavy commercial compressor machine (~$739+); sourcing the wrong one either blows the budget on 100 units of an unaffordable item or delivers the wrong product entirely",
+        "dimension": "identification_ambiguity",
+        "severity": 5,
+        "probability": 3,
+        "score": 15,
+        "mitigation": "Get the exact listing/photos and confirm 'manual tray kit' vs 'electric compressor machine' before ordering",
+        "basis": "source"
+      },
+      {
+        "risk": "DIY 'rolled ice cream at home' kits commonly fail to replicate cafe-style results without proper deep-freeze equipment, creating an expectation gap that drives dissatisfaction and returns",
+        "dimension": "quality_returns",
+        "severity": 4,
+        "probability": 4,
+        "score": 16,
+        "mitigation": "Set realistic expectations in ad copy/demo video about achievable home-freezer results",
+        "basis": "well-known"
+      },
+      {
+        "risk": "Ice-cream/frozen-dessert novelty products sell strongest in hot summer months and drop off sharply once temperatures fall",
+        "dimension": "seasonality",
+        "severity": 3,
+        "probability": 4,
+        "score": 12,
+        "mitigation": "Launch and clear the batch within the summer window; avoid over-ordering near season end",
+        "basis": "assumption"
+      },
+      {
+        "risk": "Price uncertainty spans roughly a 10x-70x range between candidate variants, making 100-unit capital budgeting unreliable",
+        "dimension": "operational",
+        "severity": 4,
+        "probability": 3,
+        "score": 12,
+        "mitigation": "Do not place the 100-unit order until the exact SKU is confirmed and priced",
+        "basis": "source"
+      },
+      {
+        "risk": "Novelty kitchen-gadget/food-fad products often see fast viral rise followed by fast ad fatigue as the trend cools",
+        "dimension": "saturation",
+        "severity": 3,
+        "probability": 3,
+        "score": 9,
+        "mitigation": "Move quickly while the trend is fresh; avoid inventory bets on sustained long-term demand",
+        "basis": "well-known"
+      }
+    ],
+    "overall_risk_level": "high",
+    "top_risk": "Order-identity ambiguity risks a catastrophic budget miss between a cheap tray-kit and a commercial-grade machine."
+  },
+  "P08": {
+    "risks": [
+      {
+        "risk": "Metal hardware is heavy relative to its sale price, so China-to-Libya freight cost consumes a large share of margin on a low-unit-value item",
+        "dimension": "shipping_fulfillment",
+        "severity": 3,
+        "probability": 4,
+        "score": 12,
+        "mitigation": "Model full landed cost (product + freight) before finalizing batch size; consider sea freight for weight efficiency",
+        "basis": "well-known"
+      },
+      {
+        "risk": "Mechanical locks are highly install-fit-dependent (door thickness, backset, handing); mismatches with local door hardware standards drive high return/refusal rates",
+        "dimension": "quality_returns",
+        "severity": 4,
+        "probability": 3,
+        "score": 12,
+        "mitigation": "Confirm common local door specs before sourcing and publish clear compatibility information",
+        "basis": "assumption"
+      },
+      {
+        "risk": "Security hardware is typically a considered/planned purchase, not an impulse buy, which is a structural mismatch with the impulse-driven Meta-ads-plus-COD model",
+        "dimension": "saturation",
+        "severity": 3,
+        "probability": 3,
+        "score": 9,
+        "mitigation": "Use trust/security-benefit messaging (policy-compliant) and consider pairing with a lower-cost impulse add-on",
+        "basis": "well-known"
+      },
+      {
+        "risk": "Generic mechanical door locks are a commodity hardware category widely available through local hardware stores, competing directly with the online offer",
+        "dimension": "price_war",
+        "severity": 3,
+        "probability": 3,
+        "score": 9,
+        "mitigation": "Emphasize delivery convenience and design differentiation versus local hardware stores",
+        "basis": "assumption"
+      },
+      {
+        "risk": "Heavier per-unit weight raises total shipping cost for the 100-unit batch, increasing capital exposure beyond unit price alone",
+        "dimension": "operational",
+        "severity": 3,
+        "probability": 3,
+        "score": 9,
+        "mitigation": "Confirm total landed cost before committing to the full batch size",
+        "basis": "well-known"
+      }
+    ],
+    "overall_risk_level": "medium",
+    "top_risk": "Mismatch between a considered-purchase product and the impulse-driven COD ad model, compounded by a high freight-to-value ratio."
+  },
+  "P09": {
+    "risks": [
+      {
+        "risk": "Listing could be furniture (foldable table) or lighting (table lamp) - two entirely different product classes with different weight, fragility, certification, and price profiles; a wrong assumption misdirects the whole batch",
+        "dimension": "identification_ambiguity",
+        "severity": 4,
+        "probability": 4,
+        "score": 16,
+        "mitigation": "Obtain exact listing photos/spec sheet before ordering to confirm which product class it is",
+        "basis": "source"
+      },
+      {
+        "risk": "If furniture: the item is bulky and heavier, raising freight cost and breakage risk (wood/mirror parts) in transit and last-mile COD handling",
+        "dimension": "shipping_fulfillment",
+        "severity": 3,
+        "probability": 3,
+        "score": 9,
+        "mitigation": "Use reinforced packaging and confirm dimensional-weight freight cost before ordering",
+        "basis": "well-known"
+      },
+      {
+        "risk": "If a lamp: the electrical item must match local voltage/plug standards and may need electrical safety documentation for customs",
+        "dimension": "legal_customs",
+        "severity": 3,
+        "probability": 2,
+        "score": 6,
+        "mitigation": "Confirm voltage/plug compatibility and request safety certification if the lamp variant is confirmed",
+        "basis": "assumption"
+      },
+      {
+        "risk": "The wide price band (roughly $13-71 for furniture vs. $3-15 for a lamp) makes 100-unit capital planning unreliable until the SKU is confirmed",
+        "dimension": "operational",
+        "severity": 3,
+        "probability": 3,
+        "score": 9,
+        "mitigation": "Delay batch commitment until the listing is confirmed and priced",
+        "basis": "source"
+      }
+    ],
+    "overall_risk_level": "high",
+    "top_risk": "Product-class ambiguity between furniture and lighting blocks reliable shipping and budget planning."
+  },
+  "P10": {
+    "risks": [
+      {
+        "risk": "Heat-resistant BBQ gloves are a widely available generic commodity item sold cheaply through many channels, limiting pricing power",
+        "dimension": "price_war",
+        "severity": 3,
+        "probability": 4,
+        "score": 12,
+        "mitigation": "Bundle with tongs/apron or brand as a set to escape pure price competition",
+        "basis": "well-known"
+      },
+      {
+        "risk": "Heat-resistance is a safety-relevant claim; inferior material that underperforms its advertised rating risks burns and a liability/complaint exposure heavier than a simple return",
+        "dimension": "quality_returns",
+        "severity": 4,
+        "probability": 2,
+        "score": 8,
+        "mitigation": "Source from a supplier with third-party heat-resistance test results and keep advertised temperature ratings conservative",
+        "basis": "well-known"
+      },
+      {
+        "risk": "Low novelty/utility product is harder to make engaging for impulse-driven Meta video ads, risking weak click-through and rising CPMs over time",
+        "dimension": "saturation",
+        "severity": 3,
+        "probability": 3,
+        "score": 9,
+        "mitigation": "Use demonstration-style video content (flame/heat test) to boost engagement",
+        "basis": "well-known"
+      },
+      {
+        "risk": "Outdoor grilling demand likely peaks around summer gatherings and meat-focused occasions, with a corresponding demand trough at other times",
+        "dimension": "seasonality",
+        "severity": 2,
+        "probability": 3,
+        "score": 6,
+        "mitigation": "Time the launch to precede the relevant seasonal peak and pull back ad spend in the off-peak months",
+        "basis": "assumption"
+      },
+      {
+        "risk": "Low unit price keeps 100-unit capital exposure modest, limiting downside if demand underperforms",
+        "dimension": "operational",
+        "severity": 2,
+        "probability": 2,
+        "score": 4,
+        "mitigation": "No specific mitigation needed beyond standard inventory monitoring",
+        "basis": "well-known"
+      }
+    ],
+    "overall_risk_level": "medium",
+    "top_risk": "Commoditized, low-engagement product category struggles to justify impulse-driven Meta ad spend against cheap local alternatives."
+  },
+  "P11": {
+    "risks": [
+      {
+        "risk": "Baby-feeding products carry outsized reputational risk - any leak, mold in silicone seams, or nipple-flow defect triggers strong parental complaints and disproportionate negative word-of-mouth versus other categories",
+        "dimension": "quality_returns",
+        "severity": 4,
+        "probability": 3,
+        "score": 12,
+        "mitigation": "Source from a supplier providing food-grade/BPA-free certification and test samples before the full batch ships",
+        "basis": "well-known"
+      },
+      {
+        "risk": "If the bottle is glass-based, it is fragile and prone to breakage during import shipping and last-mile COD delivery handling",
+        "dimension": "shipping_fulfillment",
+        "severity": 3,
+        "probability": 3,
+        "score": 9,
+        "mitigation": "Confirm the exact material (glass vs. silicone) before ordering; use reinforced packaging if glass",
+        "basis": "source"
+      },
+      {
+        "risk": "COD customers may be wary of trusting an unbranded/unknown-brand product for infant use, which can suppress conversion even before any delivery-stage returns are counted",
+        "dimension": "operational",
+        "severity": 3,
+        "probability": 3,
+        "score": 9,
+        "mitigation": "Build trust via visible certifications, reviews, and a recognizable simple brand name in ad creative",
+        "basis": "assumption"
+      },
+      {
+        "risk": "Infant-contact products often face stricter safety/material scrutiny (BPA-free, food-safe material) from customs or cautious consumers than general goods",
+        "dimension": "legal_customs",
+        "severity": 3,
+        "probability": 2,
+        "score": 6,
+        "mitigation": "Carry supplier safety documentation and reference it in the product listing/ad",
+        "basis": "assumption"
+      },
+      {
+        "risk": "Baby products generally carry low religious/cultural sensitivity in Libya relative to other categories on this list",
+        "dimension": "cultural_religious",
+        "severity": 1,
+        "probability": 2,
+        "score": 2,
+        "mitigation": "No specific mitigation needed",
+        "basis": "assumption"
+      }
+    ],
+    "overall_risk_level": "medium",
+    "top_risk": "Outsized reputational and return risk from any quality defect given the sensitive infant-use category."
+  },
+  "P12": {
+    "risks": [
+      {
+        "risk": "Battery epilators/shavers are, like shapewear, a classic long-running saturated global COD niche with heavy ad-market exposure",
+        "dimension": "saturation",
+        "severity": 4,
+        "probability": 4,
+        "score": 16,
+        "mitigation": "Differentiate the creative angle (convenience/travel use) rather than leading with generic hair-removal claims",
+        "basis": "well-known"
+      },
+      {
+        "risk": "Rechargeable lithium battery triggers the same air-freight dangerous-goods restriction as the kids' toothbrush, requiring sea freight or special handling",
+        "dimension": "shipping_fulfillment",
+        "severity": 4,
+        "probability": 4,
+        "score": 16,
+        "mitigation": "Confirm a battery-compliant freight method with the forwarder before shipping",
+        "basis": "well-known"
+      },
+      {
+        "risk": "Hair-removal ads for women's bodies commonly trigger Meta's adult-content/body-image ad review, especially with before/after or skin close-up imagery",
+        "dimension": "meta_policy",
+        "severity": 3,
+        "probability": 4,
+        "score": 12,
+        "mitigation": "Use product-only shots and avoid skin close-ups or before/after comparisons in Arabic creative",
+        "basis": "well-known"
+      },
+      {
+        "risk": "Cheap epilator blades/motors dull or fail quickly and can cause skin irritation, driving complaint and return volume",
+        "dimension": "quality_returns",
+        "severity": 3,
+        "probability": 4,
+        "score": 12,
+        "mitigation": "Source from a supplier with a track record and offer a short defect-replacement window",
+        "basis": "well-known"
+      },
+      {
+        "risk": "Extremely commoditized product sold at near-identical price points by many MENA dropshippers, compressing margin",
+        "dimension": "price_war",
+        "severity": 3,
+        "probability": 4,
+        "score": 12,
+        "mitigation": "Bundle accessories or use differentiated branding/packaging",
+        "basis": "well-known"
+      },
+      {
+        "risk": "Publicly advertising a women's body-hair-removal device on mainstream Facebook/Instagram feeds in a socially conservative market may draw negative public comments even though the underlying hygiene practice is broadly normal",
+        "dimension": "cultural_religious",
+        "severity": 3,
+        "probability": 3,
+        "score": 9,
+        "mitigation": "Use discreet, product-focused creative and consider female-targeted audience/placement controls",
+        "basis": "assumption"
+      }
+    ],
+    "overall_risk_level": "high",
+    "top_risk": "Compounding risk of lithium-battery shipping restriction and Meta's adult/body-image ad policy exposure on top of structural niche saturation."
+  }
+}

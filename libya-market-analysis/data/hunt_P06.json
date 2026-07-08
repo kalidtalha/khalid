@@ -1,0 +1,623 @@
+{
+ "product": "P06",
+ "product_key": "P6_kids_u_toothbrush",
+ "hunter": "C",
+ "searches": [
+  {
+   "kw": "فرشاة اسنان اطفال",
+   "count": 0,
+   "new_pages": 0,
+   "tier": 1
+  },
+  {
+   "kw": "فرشاة اسنان كهربائية",
+   "count": 3,
+   "new_pages": 3,
+   "tier": 1
+  },
+  {
+   "kw": "فرشاة كهربائية للاطفال",
+   "count": 0,
+   "new_pages": 0,
+   "tier": 1
+  },
+  {
+   "kw": "فرشاة اسنان الاطفال",
+   "count": 7,
+   "new_pages": 2,
+   "tier": 1
+  },
+  {
+   "kw": "فرشاة يو",
+   "count": 0,
+   "new_pages": 0,
+   "tier": 1
+  },
+  {
+   "kw": "تنظيف اسنان الاطفال",
+   "count": 13,
+   "new_pages": 5,
+   "tier": 1
+  },
+  {
+   "kw": "فرشاة الاطفال",
+   "count": 9,
+   "new_pages": 2,
+   "tier": 1
+  },
+  {
+   "kw": "فرشايه اسنان",
+   "count": 0,
+   "new_pages": 0,
+   "tier": "libyan"
+  },
+  {
+   "kw": "فرشاة اسنان صغار",
+   "count": 2,
+   "new_pages": 0,
+   "tier": "libyan"
+  },
+  {
+   "kw": "سنان الصغار",
+   "count": 0,
+   "new_pages": 0,
+   "tier": "libyan"
+  },
+  {
+   "kw": "فرشاة اسنان للصغار",
+   "count": 2,
+   "new_pages": 0,
+   "tier": "libyan"
+  },
+  {
+   "kw": "فرشاية كهربائية للصغار",
+   "count": 0,
+   "new_pages": 0,
+   "tier": "libyan"
+  },
+  {
+   "kw": "تنظيف سنان الصغار",
+   "count": 0,
+   "new_pages": 0,
+   "tier": "libyan"
+  },
+  {
+   "kw": "فرشاة اسنان شكل حرف U",
+   "count": 0,
+   "new_pages": 0,
+   "tier": "libyan"
+  },
+  {
+   "kw": "فرشاة سيليكون للصغار",
+   "count": 0,
+   "new_pages": 0,
+   "tier": "libyan"
+  },
+  {
+   "kw": "فرشاه اسنان",
+   "count": 0,
+   "new_pages": 0,
+   "tier": 2
+  },
+  {
+   "kw": "فرشاة سيليكون",
+   "count": 1,
+   "new_pages": 0,
+   "tier": 2
+  },
+  {
+   "kw": "فرشاة اسنان على شكل U",
+   "count": 0,
+   "new_pages": 0,
+   "tier": 2
+  },
+  {
+   "kw": "فرشة اسنان",
+   "count": 3,
+   "new_pages": 1,
+   "tier": 2
+  }
+ ],
+ "sweep_end_reason": "saturation",
+ "sweep_end_detail": "12 consecutive searches (kw #8 'فرشايه اسنان' through kw #19 'فرشة اسنان') produced zero NEW relevant pages; tier2 partially searched, tier3 not reached",
+ "historic_all_counts": [
+  {
+   "kw": "تنظيف اسنان الاطفال",
+   "all_count": 14
+  },
+  {
+   "kw": "فرشاة الاطفال",
+   "all_count": 9
+  },
+  {
+   "kw": "فرشاة اسنان الاطفال",
+   "all_count": 7
+  }
+ ],
+ "competitors": [
+  {
+   "page_id": "738742665983691",
+   "page_name": "لحظة-Momento",
+   "classification": "relevant",
+   "reason": "general-goods COD store; its ads matched five kids-toothbrush keywords",
+   "seen_under_keywords": [
+    "فرشاة اسنان الاطفال",
+    "تنظيف اسنان الاطفال",
+    "فرشاة الاطفال",
+    "فرشاة اسنان صغار",
+    "فرشاة اسنان للصغار",
+    "فرشة اسنان"
+   ],
+   "active_ads_total": 36,
+   "oldest_ad_start": "2026-03-04",
+   "profiled": true,
+   "ads": [
+    {
+     "id": "28367150472888105",
+     "start": "2026-07-07",
+     "snapshot": "https://www.facebook.com/ads/library/?id=28367150472888105"
+    },
+    {
+     "id": "1312051497741224",
+     "start": "2026-06-27",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1312051497741224"
+    },
+    {
+     "id": "1577859443900202",
+     "start": "2026-06-27",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1577859443900202"
+    },
+    {
+     "id": "1432080815274909",
+     "start": "2026-06-03",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1432080815274909"
+    },
+    {
+     "id": "1670197080689153",
+     "start": "2026-06-01",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1670197080689153"
+    },
+    {
+     "id": "2068000287447803",
+     "start": "2026-05-12",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2068000287447803"
+    },
+    {
+     "id": "3444693009020752",
+     "start": "2026-05-04",
+     "snapshot": "https://www.facebook.com/ads/library/?id=3444693009020752"
+    },
+    {
+     "id": "1476733097429234",
+     "start": "2026-05-04",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1476733097429234"
+    },
+    {
+     "id": "1273915998192371",
+     "start": "2026-04-23",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1273915998192371"
+    },
+    {
+     "id": "1281579770857692",
+     "start": "2026-04-23",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1281579770857692"
+    },
+    {
+     "id": "798622356347162",
+     "start": "2026-04-23",
+     "snapshot": "https://www.facebook.com/ads/library/?id=798622356347162"
+    },
+    {
+     "id": "1278815530895047",
+     "start": "2026-04-23",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1278815530895047"
+    },
+    {
+     "id": "1553988029777420",
+     "start": "2026-04-23",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1553988029777420"
+    },
+    {
+     "id": "952844414401937",
+     "start": "2026-04-23",
+     "snapshot": "https://www.facebook.com/ads/library/?id=952844414401937"
+    },
+    {
+     "id": "935605965751425",
+     "start": "2026-04-23",
+     "snapshot": "https://www.facebook.com/ads/library/?id=935605965751425"
+    },
+    {
+     "id": "947814477870419",
+     "start": "2026-04-23",
+     "snapshot": "https://www.facebook.com/ads/library/?id=947814477870419"
+    },
+    {
+     "id": "1701804450814413",
+     "start": "2026-04-23",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1701804450814413"
+    },
+    {
+     "id": "1683041259399461",
+     "start": "2026-04-23",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1683041259399461"
+    },
+    {
+     "id": "1480987007051625",
+     "start": "2026-04-23",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1480987007051625"
+    },
+    {
+     "id": "1285286702987337",
+     "start": "2026-04-23",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1285286702987337"
+    },
+    {
+     "id": "2183089292463446",
+     "start": "2026-04-23",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2183089292463446"
+    },
+    {
+     "id": "2060378078154343",
+     "start": "2026-04-23",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2060378078154343"
+    },
+    {
+     "id": "2123713255073267",
+     "start": "2026-04-23",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2123713255073267"
+    },
+    {
+     "id": "1331715085481537",
+     "start": "2026-04-25",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1331715085481537"
+    },
+    {
+     "id": "1009670934915583",
+     "start": "2026-04-23",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1009670934915583"
+    },
+    {
+     "id": "829061793056887",
+     "start": "2026-04-24",
+     "snapshot": "https://www.facebook.com/ads/library/?id=829061793056887"
+    },
+    {
+     "id": "1206917254693195",
+     "start": "2026-04-23",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1206917254693195"
+    },
+    {
+     "id": "1907541166580827",
+     "start": "2026-04-25",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1907541166580827"
+    },
+    {
+     "id": "988111830211891",
+     "start": "2026-04-22",
+     "snapshot": "https://www.facebook.com/ads/library/?id=988111830211891"
+    },
+    {
+     "id": "1569267067496093",
+     "start": "2026-04-13",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1569267067496093"
+    },
+    {
+     "id": "1560492575247799",
+     "start": "2026-03-09",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1560492575247799"
+    },
+    {
+     "id": "896597633152717",
+     "start": "2026-03-04",
+     "snapshot": "https://www.facebook.com/ads/library/?id=896597633152717"
+    },
+    {
+     "id": "1611929716720308",
+     "start": "2026-03-04",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1611929716720308"
+    },
+    {
+     "id": "1678864603479587",
+     "start": "2026-03-04",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1678864603479587"
+    },
+    {
+     "id": "2851219618546591",
+     "start": "2026-03-04",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2851219618546591"
+    },
+    {
+     "id": "1249265263981240",
+     "start": "2026-03-04",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1249265263981240"
+    }
+   ]
+  },
+  {
+   "page_id": "1107148715825879",
+   "page_name": "NajdMarket",
+   "classification": "relevant",
+   "reason": "COD ecommerce store ('free delivery, cash on delivery') running kids-toothbrush ads under 3 keywords",
+   "seen_under_keywords": [
+    "فرشاة اسنان الاطفال",
+    "تنظيف اسنان الاطفال",
+    "فرشاة الاطفال"
+   ],
+   "active_ads_total": 20,
+   "oldest_ad_start": "2026-06-30",
+   "profiled": true,
+   "ads": [
+    {
+     "id": "1008522145367851",
+     "start": "2026-07-03",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1008522145367851"
+    },
+    {
+     "id": "989216123864422",
+     "start": "2026-07-03",
+     "snapshot": "https://www.facebook.com/ads/library/?id=989216123864422"
+    },
+    {
+     "id": "4615264612040687",
+     "start": "2026-07-03",
+     "snapshot": "https://www.facebook.com/ads/library/?id=4615264612040687"
+    },
+    {
+     "id": "952336421151159",
+     "start": "2026-07-03",
+     "snapshot": "https://www.facebook.com/ads/library/?id=952336421151159"
+    },
+    {
+     "id": "798845629889905",
+     "start": "2026-07-03",
+     "snapshot": "https://www.facebook.com/ads/library/?id=798845629889905"
+    },
+    {
+     "id": "1355376593472775",
+     "start": "2026-07-03",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1355376593472775"
+    },
+    {
+     "id": "1549750336542988",
+     "start": "2026-07-03",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1549750336542988"
+    },
+    {
+     "id": "1511509024007277",
+     "start": "2026-07-02",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1511509024007277"
+    },
+    {
+     "id": "1254553296621754",
+     "start": "2026-07-02",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1254553296621754"
+    },
+    {
+     "id": "3547434782082430",
+     "start": "2026-07-02",
+     "snapshot": "https://www.facebook.com/ads/library/?id=3547434782082430"
+    },
+    {
+     "id": "1020227890602413",
+     "start": "2026-07-02",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1020227890602413"
+    },
+    {
+     "id": "2124545574791931",
+     "start": "2026-07-01",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2124545574791931"
+    },
+    {
+     "id": "1026098773146971",
+     "start": "2026-07-01",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1026098773146971"
+    },
+    {
+     "id": "1423917646225766",
+     "start": "2026-07-01",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1423917646225766"
+    },
+    {
+     "id": "1924080311608321",
+     "start": "2026-07-01",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1924080311608321"
+    },
+    {
+     "id": "1837975510513303",
+     "start": "2026-07-01",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1837975510513303"
+    },
+    {
+     "id": "1018267590595337",
+     "start": "2026-06-30",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1018267590595337"
+    },
+    {
+     "id": "781699991631119",
+     "start": "2026-06-30",
+     "snapshot": "https://www.facebook.com/ads/library/?id=781699991631119"
+    },
+    {
+     "id": "1558495732540663",
+     "start": "2026-06-30",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1558495732540663"
+    },
+    {
+     "id": "1045143914668550",
+     "start": "2026-06-30",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1045143914668550"
+    }
+   ]
+  },
+  {
+   "page_id": "554149151584741",
+   "page_name": "حنين لمستلزمات الأم و الطفل",
+   "classification": "relevant",
+   "reason": "mother-and-baby supplies store; matched kids-brush and silicone-brush keywords",
+   "seen_under_keywords": [
+    "فرشاة الاطفال",
+    "فرشاة سيليكون"
+   ],
+   "active_ads_total": 2,
+   "oldest_ad_start": "2026-07-06",
+   "profiled": true,
+   "ads": [
+    {
+     "id": "1037643195882495",
+     "start": "2026-07-07",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1037643195882495"
+    },
+    {
+     "id": "2462766030830469",
+     "start": "2026-07-06",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2462766030830469"
+    }
+   ]
+  },
+  {
+   "page_id": "557288254133148",
+   "page_name": "الرعاية التامة - Perfect Care",
+   "classification": "relevant",
+   "reason": "personal-care products page advertising an electric toothbrush",
+   "seen_under_keywords": [
+    "فرشاة اسنان كهربائية"
+   ],
+   "active_ads_total": 1,
+   "oldest_ad_start": "2026-07-08",
+   "profiled": true,
+   "ads": [
+    {
+     "id": "2074335113166559",
+     "start": "2026-07-08",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2074335113166559"
+    }
+   ]
+  },
+  {
+   "page_id": "379657645226612",
+   "page_name": "AFAQ Cosmetics",
+   "classification": "relevant",
+   "reason": "cosmetics/personal-care store whose ad matched electric-toothbrush keyword",
+   "seen_under_keywords": [
+    "فرشاة اسنان كهربائية"
+   ],
+   "active_ads_total": 1,
+   "oldest_ad_start": "2026-07-08",
+   "profiled": true,
+   "ads": [
+    {
+     "id": "2041261256780522",
+     "start": "2026-07-08",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2041261256780522"
+    }
+   ]
+  },
+  {
+   "page_id": "1206592825866583",
+   "page_name": "HT.Tripoli",
+   "classification": "uncertain",
+   "reason": "Tripoli shop with uninformative name; single ad matched electric-toothbrush keyword",
+   "seen_under_keywords": [
+    "فرشاة اسنان كهربائية"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "ads": []
+  },
+  {
+   "page_id": "106210897825412",
+   "page_name": "DAR",
+   "classification": "uncertain",
+   "reason": "uninformative page name; single ad matched toothbrush misspelling keyword",
+   "seen_under_keywords": [
+    "فرشة اسنان"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "ads": []
+  },
+  {
+   "page_id": "1048239121715172",
+   "page_name": "Art Dida",
+   "classification": "off-topic",
+   "reason": "art page; 'فرشاة' match is likely paint brush, not toothbrush",
+   "seen_under_keywords": [
+    "فرشاة الاطفال"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "ads": []
+  },
+  {
+   "page_id": "977633525427527",
+   "page_name": "مركز الصفوة لطب وتقويم وزراعة الأسنان",
+   "classification": "off-topic",
+   "reason": "dental clinic (service, not product seller)",
+   "seen_under_keywords": [
+    "تنظيف اسنان الاطفال"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "ads": []
+  },
+  {
+   "page_id": "1094191053768032",
+   "page_name": "AMAL clinic أمل كلينيك",
+   "classification": "off-topic",
+   "reason": "medical/dental clinic (service)",
+   "seen_under_keywords": [
+    "تنظيف اسنان الاطفال"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "ads": []
+  },
+  {
+   "page_id": "109762853976093",
+   "page_name": "معهد ميدسن العالي للمهن الطبية والإدارية",
+   "classification": "off-topic",
+   "reason": "medical training institute",
+   "seen_under_keywords": [
+    "تنظيف اسنان الاطفال"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "ads": []
+  },
+  {
+   "page_id": "604352596105351",
+   "page_name": "مركز الملكة لطب الأسنان",
+   "classification": "off-topic",
+   "reason": "dental clinic (service)",
+   "seen_under_keywords": [
+    "تنظيف اسنان الاطفال"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "ads": []
+  },
+  {
+   "page_id": "107258885182976",
+   "page_name": "د:/ وفاء فانان // wafaa fanan",
+   "classification": "off-topic",
+   "reason": "dentist personal/professional page (service)",
+   "seen_under_keywords": [
+    "تنظيف اسنان الاطفال"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "ads": []
+  }
+ ],
+ "profiling_capped": false,
+ "notes": "Niche is thin in LY: only 5 relevant seller pages, and none of the ads explicitly confirms the U-shaped form factor from metadata alone (creative bodies not returned by API). Momento (36 active ads, running since 2026-03-04) and NajdMarket (20 active ads, generic COD store) dominate. Several tier1 keyword hits were dental clinics (services), not sellers. Historic ALL counts barely exceed ACTIVE counts (14 vs 13; 9 vs 9; 7 vs 7), so there is little inactive/historic depth. Sweep saturated inside tier2; tier3 (FR/EN) never reached."
+}

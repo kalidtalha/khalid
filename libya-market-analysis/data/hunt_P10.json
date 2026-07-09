@@ -1,0 +1,44 @@
+{
+  "product": "P10",
+  "product_key": "P10_bbq_gloves",
+  "product_name": "P10_bbq_gloves (heat-resistant BBQ/grilling gloves)",
+  "hunter": "G",
+  "date": "2026-07-09",
+  "searches": [
+    {"kw": "قفازات شواء", "tier": 1, "count": 0, "new_pages": 0, "new_relevant": 0},
+    {"kw": "قفازات حرارية", "tier": 1, "count": 0, "new_pages": 0, "new_relevant": 0},
+    {"kw": "قفازات فرن", "tier": 1, "count": 0, "new_pages": 0, "new_relevant": 0},
+    {"kw": "قفاز مقاوم للحرارة", "tier": 1, "count": 0, "new_pages": 0, "new_relevant": 0},
+    {"kw": "قفازات المطبخ", "tier": 1, "count": 0, "new_pages": 0, "new_relevant": 0},
+    {"kw": "مستلزمات الشواء", "tier": 1, "count": 0, "new_pages": 0, "new_relevant": 0},
+    {"kw": "ادوات الشواء", "tier": 1, "count": 0, "new_pages": 0, "new_relevant": 0},
+    {"kw": "كفوف شوي", "tier": "libyan(2)", "count": 0, "new_pages": 0, "new_relevant": 0},
+    {"kw": "كفوف مقاومة للحراره", "tier": "libyan(2)", "count": 0, "new_pages": 0, "new_relevant": 0},
+    {"kw": "قفاز حق الشواء", "tier": "libyan(2)", "count": 0, "new_pages": 0, "new_relevant": 0},
+    {"kw": "مستلزمات شوايه", "tier": "libyan(2)", "count": 0, "new_pages": 0, "new_relevant": 0},
+    {"kw": "ادوات شوايه", "tier": "libyan(2)", "count": 1, "new_pages": 1, "new_relevant": 0}
+  ],
+  "sweep_end_reason": "saturation (12 consecutive searches with zero new relevant pages: searches 1-12; remaining libyan(2) terms, tier2 and tier3 not needed)",
+  "historic_all_status_counts": [
+    {"kw": "ادوات شوايه", "estimated_total_count_ALL": 1, "note": "only keyword with any yield; all other searched keywords returned 0 active ads so no further ALL checks were meaningful"}
+  ],
+  "competitors": [
+    {
+      "page_id": "100287276116874",
+      "page_name": "استراحة الامل - للعائلات",
+      "classification": "off-topic",
+      "reason": "family resthouse/venue rental page, not a BBQ-gloves or kitchen-goods seller",
+      "seen_under_keywords": ["ادوات شوايه"],
+      "active_ads_total": null,
+      "oldest_ad_start": null,
+      "profiled": false,
+      "creative_texts": [],
+      "landing_url": null,
+      "ads": [
+        {"id": "1459464929283170", "start": "2026-06-18", "snapshot": "https://www.facebook.com/ads/library/?id=1459464929283170"}
+      ]
+    }
+  ],
+  "profiling_capped": false,
+  "notes": "BBQ-gloves niche appears EMPTY in the Libya Ad Library: 11 of 12 searched keywords (all tier1 Arabic + most Libyan-dialect terms) returned 0 active ads; the single hit under ادوات شوايه is an off-topic family resthouse ad (empty ad_creative_link_title, no creative text returned by the API, so creative_texts is empty and landing_url null). Zero relevant and zero uncertain pages, so no page profiling was performed. Historic ALL count for the only nonzero keyword is also 1 (same single ad), indicating no historic advertiser depth either. Counts are estimated_total_count from the tool; new_pages = unique page_ids not seen under earlier keywords for this product."
+}

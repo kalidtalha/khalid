@@ -1,0 +1,366 @@
+{
+ "product": "P12",
+ "product_name": "P12_lady_shaver (cordless rechargeable lady shaver / epilator)",
+ "product_key": "P12_lady_shaver",
+ "hunter": "Ad Library Hunter I",
+ "date": "2026-07-09",
+ "searches": [
+  {
+   "kw": "ماكينة حلاقة نسائية",
+   "tier": 1,
+   "count": 0,
+   "new_pages": 0,
+   "new_relevant": 0
+  },
+  {
+   "kw": "ازالة الشعر",
+   "tier": 1,
+   "count": 120,
+   "new_pages": 28,
+   "new_relevant": 6
+  },
+  {
+   "kw": "جهاز ازالة الشعر",
+   "tier": 1,
+   "count": 46,
+   "new_pages": 10,
+   "new_relevant": 4
+  },
+  {
+   "kw": "ماكينة ازالة الشعر",
+   "tier": 1,
+   "count": 7,
+   "new_pages": 3,
+   "new_relevant": 2
+  },
+  {
+   "kw": "جهاز ازالة الشعر للنساء",
+   "tier": 1,
+   "count": 0,
+   "new_pages": 0,
+   "new_relevant": 0
+  },
+  {
+   "kw": "ليدي شيفر",
+   "tier": 2,
+   "count": 0,
+   "new_pages": 0,
+   "new_relevant": 0
+  },
+  {
+   "kw": "épilateur",
+   "tier": 3,
+   "count": 1,
+   "new_pages": 0,
+   "new_relevant": 0
+  },
+  {
+   "kw": "مكينة ازاله الشعر",
+   "tier": 2,
+   "count": 0,
+   "new_pages": 0,
+   "new_relevant": 0
+  },
+  {
+   "kw": "حلاقة نسائية",
+   "tier": 1,
+   "count": 0,
+   "new_pages": 0,
+   "new_relevant": 0
+  },
+  {
+   "kw": "hair remover",
+   "tier": 3,
+   "count": 87,
+   "new_pages": 20,
+   "new_relevant": 0
+  },
+  {
+   "kw": "IPL",
+   "tier": 3,
+   "count": 74,
+   "new_pages": 14,
+   "new_relevant": 2
+  },
+  {
+   "kw": "نتف الشعر",
+   "tier": "libyan(2)",
+   "count": 0,
+   "new_pages": 0,
+   "new_relevant": 0
+  }
+ ],
+ "sweep_end_reason": "core keyword space exhausted: product-specific terms (ماكينة حلاقة نسائية, جهاز ازالة الشعر للنساء, ليدي شيفر, épilateur, مكينة ازاله الشعر, حلاقة نسائية, نتف الشعر) returned 0-1; volume concentrated in generic ازالة الشعر / جهاز ازالة الشعر / IPL / hair remover. Relevant LY device sellers identified; further tier2/tier3 variants would dedupe to the same stores, clinics, or foreign B2B.",
+ "tier_deviation_note": "Not every tier2/tier3/libyan variant exhaustively run (session-budget discipline). Representatives across Arabic/French/English + IPL/epilator tested; picture is stable.",
+ "relevance_rule_applied": "Per instructions: general beauty-device pages advertising hair-removal (IPL/epilator/shaver) counted RELEVANT; makeup-only pages off-topic. Laser hair-removal CLINICS (advertising a service, not selling the device) classified uncertain; foreign salon-laser B2B and drama/dropship noise off-topic.",
+ "historic_all_status_counts": [
+  {
+   "kw": "IPL",
+   "estimated_total_count_ALL": 3813,
+   "note": "hugely inflated by foreign B2B laser manufacturers + English-term drama/dropship noise"
+  },
+  {
+   "kw": "ازالة الشعر",
+   "estimated_total_count_ALL": 312
+  },
+  {
+   "kw": "جهاز ازالة الشعر",
+   "estimated_total_count_ALL": 60
+  }
+ ],
+ "competitors": [
+  {
+   "page_id": "723210444209275",
+   "page_name": "ليبيا شوب",
+   "classification": "relevant",
+   "reason": "general Libyan COD store; among ~94 active ads it runs a women's hair-removal/skin-smoothing device ('ودّعي تعب الصالونات… خلي بشرتك ناعمة في دقائق','فتحي بشرتك ونعميها من أول أسبوع'); catalog is mixed (bed-wetting alarm, ear cleaner, sunglasses, belts, perfume, wallet, comb, flashlight)",
+   "seen_under_keywords": [
+    "ازالة الشعر",
+    "جهاز ازالة الشعر"
+   ],
+   "active_ads_total": 94,
+   "oldest_ad_start": "2026-06-27",
+   "profiled": true,
+   "ads_truncated": true,
+   "creative_texts": [
+    "🔥 ودّعي تعب الصالونات… وخلي بشرتك ناعمة في دقائق ✨",
+    "فتحي بشرتك ونعميها من أول أسبوع ✨",
+    "ودّعي البقع والتصبغات بسهولة 🌿"
+   ],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "964424376641982",
+     "start": "2026-07-08",
+     "snapshot": "https://www.facebook.com/ads/library/?id=964424376641982"
+    },
+    {
+     "id": "2208108249730126",
+     "start": "2026-07-08",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2208108249730126"
+    },
+    {
+     "id": "1425484966086456",
+     "start": "2026-07-08",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1425484966086456"
+    },
+    {
+     "id": "851487801106415",
+     "start": "2026-07-04",
+     "snapshot": "https://www.facebook.com/ads/library/?id=851487801106415"
+    },
+    {
+     "id": "1361367922597375",
+     "start": "2026-07-04",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1361367922597375"
+    },
+    {
+     "id": "1652577825845692",
+     "start": "2026-07-04",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1652577825845692"
+    },
+    {
+     "id": "1597173438503362",
+     "start": "2026-06-27",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1597173438503362"
+    }
+   ]
+  },
+  {
+   "page_id": "989409001091241",
+   "page_name": "ماركة . marka",
+   "classification": "relevant",
+   "reason": "Libyan fashion/general COD store ('Marka Fashion') that surfaced under ازالة الشعر / جهاز / ماكينة / IPL; 35 active ads (mostly image ads, empty titles) — carries a hair-removal device among general goods",
+   "seen_under_keywords": [
+    "ازالة الشعر",
+    "جهاز ازالة الشعر",
+    "ماكينة ازالة الشعر",
+    "hair remover",
+    "IPL"
+   ],
+   "active_ads_total": 35,
+   "oldest_ad_start": "2025-04-19",
+   "profiled": true,
+   "ads_truncated": true,
+   "creative_texts": [
+    "ماركة فاشن - Marka Fashion"
+   ],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1465722431976929",
+     "start": "2026-07-09",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1465722431976929"
+    },
+    {
+     "id": "1345446061009102",
+     "start": "2026-07-09",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1345446061009102"
+    },
+    {
+     "id": "1694807178329444",
+     "start": "2026-07-09",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1694807178329444"
+    },
+    {
+     "id": "2246468189453236",
+     "start": "2026-07-08",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2246468189453236"
+    },
+    {
+     "id": "833120072985465",
+     "start": "2026-06-15",
+     "snapshot": "https://www.facebook.com/ads/library/?id=833120072985465"
+    },
+    {
+     "id": "2482510348888553",
+     "start": "2026-05-24",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2482510348888553"
+    },
+    {
+     "id": "1815254482376688",
+     "start": "2025-04-19",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1815254482376688"
+    }
+   ]
+  },
+  {
+   "page_id": "1036571729533010",
+   "page_name": "متجر الماسة",
+   "classification": "relevant",
+   "reason": "Libyan device store; matched épilateur + IPL + ازالة الشعر (hair-removal / IPL beauty device); 2 active ads",
+   "seen_under_keywords": [
+    "ازالة الشعر",
+    "épilateur",
+    "IPL"
+   ],
+   "active_ads_total": 2,
+   "oldest_ad_start": "2026-07-08",
+   "profiled": true,
+   "ads_truncated": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1714026176534797",
+     "start": "2026-07-08",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1714026176534797"
+    },
+    {
+     "id": "1545171167019090",
+     "start": "2026-07-08",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1545171167019090"
+    }
+   ]
+  },
+  {
+   "page_id": "111407390445927",
+   "page_name": "Allura LY",
+   "classification": "relevant",
+   "reason": "Libyan beauty store; matched IPL (home IPL hair-removal device); 1 active ad captured",
+   "seen_under_keywords": [
+    "IPL"
+   ],
+   "active_ads_total": 1,
+   "oldest_ad_start": "2026-07-07",
+   "profiled": true,
+   "ads_truncated": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "2406059889880401",
+     "start": "2026-07-07",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2406059889880401"
+    }
+   ]
+  },
+  {
+   "page_id": "935224676349785",
+   "page_name": "سوقنا souqna",
+   "classification": "relevant",
+   "reason": "general Libyan COD store running a women's hair-removal/skin-smoothing device ad ('💖 نعومة في دقائق... بدون تعقيد'); mixed catalog",
+   "seen_under_keywords": [
+    "ازالة الشعر"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [
+    "💖 نعومة في دقائق... بدون تعقيد"
+   ],
+   "landing_url": null
+  },
+  {
+   "page_id": "312454861947612",
+   "page_name": "شركة برلنت الصحة لأستيراد",
+   "classification": "relevant",
+   "reason": "Libyan importer of laser/IPL hair-removal machines for salons & clinics ('أهم أجهزة الليزر المتطورة بأخر إصداراتها') — device supplier (B2B), hair-removal relevant",
+   "seen_under_keywords": [
+    "ازالة الشعر",
+    "IPL"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [
+    "كل مصحات البشرة والجلدية ومراكز التجميل توفر لكم شركة برلنت الصحة اهم اجهزة الليزر المتطورة"
+   ],
+   "landing_url": null
+  },
+  {
+   "page_id": "RELEVANT_DEVICE_STORES_BULK",
+   "page_name": "~10 more LY general/electronics device stores advertising hair-removal",
+   "classification": "relevant",
+   "reason": "additional Libyan COD/electronics stores surfaced under ازالة الشعر/جهاز/ماكينة/IPL selling a hair-removal or IPL device (not profiled, cap reached): For lady's store, متجر بنغازي, متجر لوما Loma Store, متجر زفير Sapphire Store, Electro Tech store, NK boutique, Lenova trend, Fashion Bluebell_Ly, متجر الرقة, شركة الماسة ليبيا / شركة الماسة",
+   "seen_under_keywords": [
+    "ازالة الشعر",
+    "جهاز ازالة الشعر",
+    "ماكينة ازالة الشعر",
+    "IPL"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false
+  },
+  {
+   "page_id": "UNCERTAIN_LASER_CLINICS_BULK",
+   "page_name": "~13 laser hair-removal clinics / aestheticians (service, not device)",
+   "classification": "uncertain",
+   "reason": "advertise laser hair-removal as a SERVICE, not selling the cordless shaver product: مركز ايفا الطبي, Glow of beauty clinic, Rediva Clinic (EGP), مركز لارين الطبي, صالة سلطان Sultan's Spa (EUR), Lady clinic, مركز إيڤا للجلدية والتجميل, الصيدلية التجميلية الزاوية, Dr Areej Alzarroug, د.رنده باكير, حواء الفرجاني Eve Aesthetic, MT Beauty, د سارة المحجوب",
+   "seen_under_keywords": [
+    "ازالة الشعر",
+    "جهاز ازالة الشعر",
+    "hair remover"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false
+  },
+  {
+   "page_id": "1134812369711686",
+   "page_name": "SolMx",
+   "classification": "off-topic",
+   "reason": "matched ازالة الشعر but product is an ANTI-hair-loss / hair-growth solution ('وداعاً تساقط الشعر.. الحل الأفضل جاء لليبيا') — opposite of hair removal",
+   "seen_under_keywords": [
+    "ازالة الشعر"
+   ],
+   "profiled": false
+  },
+  {
+   "page_id": "OFFTOPIC_FOREIGN_AND_NOISE_BULK",
+   "page_name": "foreign IPL/laser B2B + drama/cloaked-dropship noise",
+   "classification": "off-topic",
+   "reason": "Alibaba.com / Aispirit laser beauty manufacturer / Lola's Beauty (EUR) = foreign salon-laser B2B reaching LY; plus 'hair remover' English term polluted by short-drama farms (Elope to the Moon, QTVBestSeries) and cloaked dust/drain-remover dropshippers (Asconsider, Uproot Clean, Ancienflow, Accurateg); ليبيا رويال = drain unclogger",
+   "seen_under_keywords": [
+    "hair remover",
+    "IPL",
+    "ازالة الشعر"
+   ],
+   "profiled": false
+  }
+ ],
+ "profiling_capped": true,
+ "profiling_note": "~15 relevant LY pages exist; profiled the 4 highest-appearance device sellers (ليبيا شوب, ماركة, متجر الماسة, Allura LY). Remaining relevant pages (souqna, شركة برلنت الصحة, and ~10 general/electronics stores) recorded but not individually profiled to respect session budget — hence profiling_capped=true.",
+ "notes": "No Libyan advertiser markets the specific 'cordless rechargeable lady shaver/epilator' as a clearly-named product; the specific terms (ليدي شيفر, ماكينة حلاقة نسائية, épilateur, نتف الشعر) are ~0. The hair-removal ad space in Libya is instead: (1) general COD/electronics stores that include a hair-removal or IPL device among many products (ليبيا شوب 94 mixed ads, ماركة 35, متجر الماسة, Allura LY, souqna, +~10 stores); (2) laser hair-removal CLINICS advertising a service (uncertain); (3) a Libyan laser-device importer (شركة برلنت الصحة); (4) foreign IPL/laser B2B manufacturers (Alibaba, Aispirit, Lola's Beauty EUR) reaching LY; (5) heavy English-term ('hair remover'/'IPL') pollution from short-drama farms and cloaked dust/drain-remover dropshippers. Counts are estimated_total_count; timestamps unix→ISO (UTC)."
+}

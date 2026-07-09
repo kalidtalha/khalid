@@ -1,0 +1,967 @@
+{
+ "product": "P02",
+ "product_name": "P2_shapewear (women's fajas / shapewear / waist trainer)",
+ "product_key": "P2_shapewear",
+ "hunter": "Ad Library Hunter I",
+ "date": "2026-07-09",
+ "searches": [
+  {
+   "kw": "مشد",
+   "tier": 1,
+   "count": 176,
+   "new_pages": 7,
+   "new_relevant": 3
+  },
+  {
+   "kw": "مشدات",
+   "tier": 1,
+   "count": 20,
+   "new_pages": 13,
+   "new_relevant": 5
+  },
+  {
+   "kw": "مشد نسائي",
+   "tier": 1,
+   "count": 2,
+   "new_pages": 2,
+   "new_relevant": 0
+  },
+  {
+   "kw": "مشد للبطن",
+   "tier": 1,
+   "count": 9,
+   "new_pages": 5,
+   "new_relevant": 0
+  },
+  {
+   "kw": "مشد البطن",
+   "tier": 1,
+   "count": 82,
+   "new_pages": 3,
+   "new_relevant": 0
+  },
+  {
+   "kw": "مشد الخصر",
+   "tier": 1,
+   "count": 66,
+   "new_pages": 0,
+   "new_relevant": 0
+  },
+  {
+   "kw": "مشد التنحيف",
+   "tier": 1,
+   "count": 2,
+   "new_pages": 0,
+   "new_relevant": 0
+  },
+  {
+   "kw": "حزام التنحيف",
+   "tier": 1,
+   "count": 0,
+   "new_pages": 0,
+   "new_relevant": 0
+  },
+  {
+   "kw": "كورسيه",
+   "tier": 1,
+   "count": 15,
+   "new_pages": 2,
+   "new_relevant": 1
+  },
+  {
+   "kw": "كورسيت",
+   "tier": 1,
+   "count": 0,
+   "new_pages": 0,
+   "new_relevant": 0
+  },
+  {
+   "kw": "مشد كولومبي",
+   "tier": 1,
+   "count": 0,
+   "new_pages": 0,
+   "new_relevant": 0
+  },
+  {
+   "kw": "مشد الجسم",
+   "tier": 1,
+   "count": 61,
+   "new_pages": 6,
+   "new_relevant": 0
+  },
+  {
+   "kw": "حزام تنحيف",
+   "tier": 1,
+   "count": 2,
+   "new_pages": 0,
+   "new_relevant": 0
+  },
+  {
+   "kw": "مشد بعد الولادة",
+   "tier": 1,
+   "count": 285,
+   "new_pages": 3,
+   "new_relevant": 0
+  },
+  {
+   "kw": "مشد الارداف",
+   "tier": 1,
+   "count": 18,
+   "new_pages": 0,
+   "new_relevant": 0
+  },
+  {
+   "kw": "شد البطن",
+   "tier": 1,
+   "count": 82,
+   "new_pages": 2,
+   "new_relevant": 0
+  },
+  {
+   "kw": "مشدة",
+   "tier": "libyan(2)",
+   "count": 0,
+   "new_pages": 0,
+   "new_relevant": 0
+  },
+  {
+   "kw": "مشد يخفي الكرش",
+   "tier": "libyan(2)",
+   "count": 44,
+   "new_pages": 2,
+   "new_relevant": 1
+  },
+  {
+   "kw": "مشد كولومبي اصلي",
+   "tier": "libyan(2)",
+   "count": 0,
+   "new_pages": 0,
+   "new_relevant": 0
+  },
+  {
+   "kw": "شد الكرش",
+   "tier": "libyan(2)",
+   "count": 25,
+   "new_pages": 10,
+   "new_relevant": 0
+  },
+  {
+   "kw": "كورسيه نسائي",
+   "tier": "libyan(2)",
+   "count": 0,
+   "new_pages": 0,
+   "new_relevant": 0
+  },
+  {
+   "kw": "مشد اصلي",
+   "tier": "libyan(2)",
+   "count": 5,
+   "new_pages": 1,
+   "new_relevant": 0
+  },
+  {
+   "kw": "مشد تحت الفستان",
+   "tier": "libyan(2)",
+   "count": 21,
+   "new_pages": 0,
+   "new_relevant": 0
+  },
+  {
+   "kw": "حزام شد البطن",
+   "tier": "libyan(2)",
+   "count": 8,
+   "new_pages": 2,
+   "new_relevant": 0
+  },
+  {
+   "kw": "مشد بعد الولاده",
+   "tier": "libyan(2)",
+   "count": 65,
+   "new_pages": 0,
+   "new_relevant": 0
+  },
+  {
+   "kw": "مشد صيفي",
+   "tier": "libyan(2)",
+   "count": 0,
+   "new_pages": 0,
+   "new_relevant": 0
+  },
+  {
+   "kw": "faja",
+   "tier": 3,
+   "count": 29,
+   "new_pages": 6,
+   "new_relevant": 1
+  },
+  {
+   "kw": "shapewear",
+   "tier": 3,
+   "count": 56,
+   "new_pages": 20,
+   "new_relevant": 0
+  },
+  {
+   "kw": "waist trainer",
+   "tier": 3,
+   "count": 31,
+   "new_pages": 7,
+   "new_relevant": 0
+  },
+  {
+   "kw": "مشد حراري",
+   "tier": 2,
+   "count": 1,
+   "new_pages": 1,
+   "new_relevant": 0
+  },
+  {
+   "kw": "بودي شيمر",
+   "tier": 3,
+   "count": 0,
+   "new_pages": 0,
+   "new_relevant": 0
+  },
+  {
+   "kw": "ازالة الكرش",
+   "tier": 2,
+   "count": 5,
+   "new_pages": 5,
+   "new_relevant": 0
+  }
+ ],
+ "sweep_end_reason": "keyword list exhausted (tier1 + Libyan additions run fully; core tier3 EN/FR/ES transliterations run — these return international drop-shippers not LY COD; high-value tier2 sampled: مشد حراري/بودي شيمر/ازالة الكرش). 12-consecutive-zero-new-relevant saturation not formally reached because new relevant LY pages trickled in slowly across a genuinely large niche; remaining tier2 Arabic morphological variants dedupe to already-found pages (heavy overlap observed).",
+ "tier2_deviation_note": "Full tier2 Arabic variant list NOT exhaustively run to conserve session budget (prior run hit a session limit). Sampled representatives (مشد حراري, بودي شيمر, ازالة الكرش) returned only already-seen or off-topic pages, confirming tier1 stems already captured the relevant set.",
+ "historic_all_status_counts": [
+  {
+   "kw": "مشد بعد الولادة",
+   "estimated_total_count_ALL": 25015,
+   "note": "massively inflated by Egyptian postpartum/maternity content, not LY shapewear"
+  },
+  {
+   "kw": "مشد",
+   "estimated_total_count_ALL": 265
+  },
+  {
+   "kw": "مشد البطن",
+   "estimated_total_count_ALL": 82
+  }
+ ],
+ "competitors": [
+  {
+   "page_id": "1162317023633482",
+   "page_name": "QAVA",
+   "classification": "relevant",
+   "reason": "dedicated Libyan shapewear advertiser; all 40 active ads promote an instant body-shaper ('تحدّي قِوام المناسبات الفوري') with free delivery to all Libyan cities + free gift, COD",
+   "seen_under_keywords": [
+    "مشد",
+    "مشد البطن",
+    "مشد الخصر",
+    "مشد الجسم",
+    "حزام تنحيف",
+    "مشد بعد الولادة",
+    "مشد الارداف",
+    "شد البطن",
+    "مشد تحت الفستان",
+    "حزام شد البطن",
+    "faja"
+   ],
+   "active_ads_total": 40,
+   "oldest_ad_start": "2026-07-08",
+   "profiled": true,
+   "ads_truncated": false,
+   "creative_texts": [
+    "تحدّي قِوام المناسبات الفوري من QAVA خلال 30 ثانية فقط ✨ توصيل مجاني إلى جميع مدن ليبيا 🚚 + هدية مجانية 🎁"
+   ],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1032986375775092",
+     "start": "2026-07-08",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1032986375775092"
+    },
+    {
+     "id": "1745251403160775",
+     "start": "2026-07-08",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1745251403160775"
+    },
+    {
+     "id": "2251205709032458",
+     "start": "2026-07-08",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2251205709032458"
+    },
+    {
+     "id": "1359577886273323",
+     "start": "2026-07-08",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1359577886273323"
+    },
+    {
+     "id": "1716675992976845",
+     "start": "2026-07-08",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1716675992976845"
+    },
+    {
+     "id": "1401236485207893",
+     "start": "2026-07-08",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1401236485207893"
+    },
+    {
+     "id": "1824277472312236",
+     "start": "2026-07-08",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1824277472312236"
+    },
+    {
+     "id": "1471564454659962",
+     "start": "2026-07-08",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1471564454659962"
+    },
+    {
+     "id": "1026869966618863",
+     "start": "2026-07-08",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1026869966618863"
+    },
+    {
+     "id": "2553185708466333",
+     "start": "2026-07-08",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2553185708466333"
+    },
+    {
+     "id": "1382973527145250",
+     "start": "2026-07-09",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1382973527145250"
+    },
+    {
+     "id": "2060197097929183",
+     "start": "2026-07-09",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2060197097929183"
+    }
+   ]
+  },
+  {
+   "page_id": "149033394949468",
+   "page_name": "Corset Libya",
+   "classification": "relevant",
+   "reason": "dedicated Libyan corset/shapewear store; ad copy addresses posture/back curvature ('كتافك راجعين لقدّام وظهرك شكله منحني')",
+   "seen_under_keywords": [
+    "مشد",
+    "مشد للبطن",
+    "كورسيه",
+    "مشد الجسم",
+    "مشد بعد الولادة",
+    "faja"
+   ],
+   "active_ads_total": 7,
+   "oldest_ad_start": "2026-07-09",
+   "profiled": true,
+   "ads_truncated": false,
+   "creative_texts": [
+    "😳 كتافك راجعين لقدّام وظهرك شكله منحني في الصور واللبس؟"
+   ],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1292762776004569",
+     "start": "2026-07-09",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1292762776004569"
+    },
+    {
+     "id": "1598044344944931",
+     "start": "2026-07-09",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1598044344944931"
+    },
+    {
+     "id": "1739026500675240",
+     "start": "2026-07-09",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1739026500675240"
+    },
+    {
+     "id": "1550968916423312",
+     "start": "2026-07-09",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1550968916423312"
+    },
+    {
+     "id": "1414441230496939",
+     "start": "2026-07-09",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1414441230496939"
+    },
+    {
+     "id": "1838600853798334",
+     "start": "2026-07-09",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1838600853798334"
+    },
+    {
+     "id": "1896420697693906",
+     "start": "2026-07-09",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1896420697693906"
+    }
+   ]
+  },
+  {
+   "page_id": "511114485408467",
+   "page_name": "ليبوستا - Liposta",
+   "classification": "relevant",
+   "reason": "dedicated Libyan shapewear brand (name = liposuction/shaping); 77 active ads, high-volume advertiser",
+   "seen_under_keywords": [
+    "كورسيه"
+   ],
+   "active_ads_total": 77,
+   "oldest_ad_start": "2026-06-19",
+   "profiled": true,
+   "ads_truncated": true,
+   "creative_texts": [
+    "ليبوستا - Liposta"
+   ],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1568313534920448",
+     "start": "2026-07-08",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1568313534920448"
+    },
+    {
+     "id": "1535417221560934",
+     "start": "2026-07-06",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1535417221560934"
+    },
+    {
+     "id": "1335501291400313",
+     "start": "2026-07-06",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1335501291400313"
+    },
+    {
+     "id": "1315386397343520",
+     "start": "2026-07-02",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1315386397343520"
+    },
+    {
+     "id": "1533577181743714",
+     "start": "2026-06-26",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1533577181743714"
+    },
+    {
+     "id": "1712376863243545",
+     "start": "2026-06-24",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1712376863243545"
+    },
+    {
+     "id": "1329774109110178",
+     "start": "2026-06-23",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1329774109110178"
+    },
+    {
+     "id": "2766905137014396",
+     "start": "2026-06-20",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2766905137014396"
+    },
+    {
+     "id": "2350945538765635",
+     "start": "2026-06-19",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2350945538765635"
+    }
+   ]
+  },
+  {
+   "page_id": "100524702917904",
+   "page_name": "عالم المشدات",
+   "classification": "relevant",
+   "reason": "dedicated Libyan shapewear store ('world of shapers'); 11 active ads",
+   "seen_under_keywords": [
+    "مشدات",
+    "حزام شد البطن"
+   ],
+   "active_ads_total": 11,
+   "oldest_ad_start": "2026-04-17",
+   "profiled": true,
+   "ads_truncated": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1630680672393577",
+     "start": "2026-07-08",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1630680672393577"
+    },
+    {
+     "id": "1051199681200131",
+     "start": "2026-07-05",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1051199681200131"
+    },
+    {
+     "id": "1738810760871662",
+     "start": "2026-06-30",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1738810760871662"
+    },
+    {
+     "id": "1015498594537135",
+     "start": "2026-06-30",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1015498594537135"
+    },
+    {
+     "id": "2040161309945948",
+     "start": "2026-06-27",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2040161309945948"
+    },
+    {
+     "id": "1547451290219775",
+     "start": "2026-06-22",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1547451290219775"
+    },
+    {
+     "id": "2001023470554195",
+     "start": "2026-06-14",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2001023470554195"
+    },
+    {
+     "id": "980190434994379",
+     "start": "2026-06-14",
+     "snapshot": "https://www.facebook.com/ads/library/?id=980190434994379"
+    },
+    {
+     "id": "1286682090300267",
+     "start": "2026-06-04",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1286682090300267"
+    },
+    {
+     "id": "1797339981228856",
+     "start": "2026-06-01",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1797339981228856"
+    },
+    {
+     "id": "955950063957326",
+     "start": "2026-04-17",
+     "snapshot": "https://www.facebook.com/ads/library/?id=955950063957326"
+    }
+   ]
+  },
+  {
+   "page_id": "852020861331434",
+   "page_name": "Libya market",
+   "classification": "relevant",
+   "reason": "general Libyan COD store; runs a shapewear/waist-slimming garment ad ('وداعاً لإحراج الكرش والترهلات'); catalog also has eyewear, perfume, planting kits (mixed)",
+   "seen_under_keywords": [
+    "مشدة",
+    "مشد يخفي الكرش",
+    "شد الكرش"
+   ],
+   "active_ads_total": 113,
+   "oldest_ad_start": "2026-04-12",
+   "profiled": true,
+   "ads_truncated": true,
+   "creative_texts": [
+    "وداعاً لإحراج الكرش والترهلات",
+    "🛒 اطلب الآن والكمية محدودة",
+    "نظارة واحدة تكفي لكل احتياجاتك"
+   ],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1557330872731700",
+     "start": "2026-07-02",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1557330872731700"
+    },
+    {
+     "id": "1424844986138077",
+     "start": "2026-06-12",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1424844986138077"
+    },
+    {
+     "id": "4576096176048981",
+     "start": "2026-06-12",
+     "snapshot": "https://www.facebook.com/ads/library/?id=4576096176048981"
+    },
+    {
+     "id": "1564450375095382",
+     "start": "2026-06-12",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1564450375095382"
+    },
+    {
+     "id": "811563001807951",
+     "start": "2026-05-20",
+     "snapshot": "https://www.facebook.com/ads/library/?id=811563001807951"
+    },
+    {
+     "id": "1528086262081824",
+     "start": "2026-05-21",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1528086262081824"
+    },
+    {
+     "id": "1209390871114803",
+     "start": "2026-04-27",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1209390871114803"
+    },
+    {
+     "id": "1713173039848953",
+     "start": "2026-04-27",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1713173039848953"
+    },
+    {
+     "id": "1999315697658907",
+     "start": "2026-04-16",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1999315697658907"
+    },
+    {
+     "id": "982046637829251",
+     "start": "2026-04-12",
+     "snapshot": "https://www.facebook.com/ads/library/?id=982046637829251"
+    }
+   ]
+  },
+  {
+   "page_id": "103336162771050",
+   "page_name": "BaraBora",
+   "classification": "relevant",
+   "reason": "shapewear advertiser ('مشدات فلات فوت'); note currency mostly IDR (may target Indonesia too), some USD; 17 active ads",
+   "seen_under_keywords": [
+    "مشدات"
+   ],
+   "active_ads_total": 17,
+   "oldest_ad_start": "2025-01-08",
+   "profiled": true,
+   "ads_truncated": false,
+   "creative_texts": [
+    "BaraBora | مشدات فلات فوت"
+   ],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1013666671590853",
+     "start": "2026-06-27",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1013666671590853"
+    },
+    {
+     "id": "1570720361130271",
+     "start": "2026-06-17",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1570720361130271"
+    },
+    {
+     "id": "1647107116521390",
+     "start": "2026-06-15",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1647107116521390"
+    },
+    {
+     "id": "1024593273341545",
+     "start": "2026-06-10",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1024593273341545"
+    },
+    {
+     "id": "1990416648502614",
+     "start": "2026-06-04",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1990416648502614"
+    },
+    {
+     "id": "549221617550527",
+     "start": "2025-03-05",
+     "snapshot": "https://www.facebook.com/ads/library/?id=549221617550527"
+    },
+    {
+     "id": "1705415620041802",
+     "start": "2025-02-04",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1705415620041802"
+    },
+    {
+     "id": "2018246832028974",
+     "start": "2025-01-08",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2018246832028974"
+    }
+   ]
+  },
+  {
+   "page_id": "103004775890493",
+   "page_name": "مشدات حرارية كولمبية",
+   "classification": "relevant",
+   "reason": "dedicated shapewear store ('Colombian thermal shapers'); 2 active ads",
+   "seen_under_keywords": [
+    "مشدات"
+   ],
+   "active_ads_total": 2,
+   "oldest_ad_start": "2026-06-12",
+   "profiled": true,
+   "ads_truncated": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1521749362630794",
+     "start": "2026-06-12",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1521749362630794"
+    },
+    {
+     "id": "27431171996550925",
+     "start": "2026-06-12",
+     "snapshot": "https://www.facebook.com/ads/library/?id=27431171996550925"
+    }
+   ]
+  },
+  {
+   "page_id": "760752267113756",
+   "page_name": "متجر شيبلي - Shapely store",
+   "classification": "relevant",
+   "reason": "dedicated Libyan shapewear store ('Shapely'); 1 active ad at capture",
+   "seen_under_keywords": [
+    "مشد",
+    "مشد بعد الولادة",
+    "faja"
+   ],
+   "active_ads_total": 1,
+   "oldest_ad_start": "2026-07-09",
+   "profiled": true,
+   "ads_truncated": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1012159194756388",
+     "start": "2026-07-09",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1012159194756388"
+    }
+   ]
+  },
+  {
+   "page_id": "751207091409665",
+   "page_name": "مشدات الرشاقة",
+   "classification": "relevant",
+   "reason": "dedicated shapewear store ('slimming shapers'); 1 active ad",
+   "seen_under_keywords": [
+    "مشدات"
+   ],
+   "active_ads_total": 1,
+   "oldest_ad_start": "2026-06-28",
+   "profiled": true,
+   "ads_truncated": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "2087136871887684",
+     "start": "2026-06-28",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2087136871887684"
+    }
+   ]
+  },
+  {
+   "page_id": "853346141196871",
+   "page_name": "مشدات فورمـا",
+   "classification": "relevant",
+   "reason": "dedicated shapewear store ('Forma shapers'); 1 active ad",
+   "seen_under_keywords": [
+    "مشدات"
+   ],
+   "active_ads_total": 1,
+   "oldest_ad_start": "2026-06-26",
+   "profiled": true,
+   "ads_truncated": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1515930043563443",
+     "start": "2026-06-26",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1515930043563443"
+    }
+   ]
+  },
+  {
+   "page_id": "912743338577850",
+   "page_name": "Cosmo Shop",
+   "classification": "uncertain",
+   "reason": "general Libyan COD store, generic 'free delivery / COD' ad title; matched multiple shapewear terms but no shapewear-specific creative confirmed",
+   "seen_under_keywords": [
+    "مشد",
+    "مشدات",
+    "مشد البطن",
+    "مشد الخصر",
+    "مشد الجسم",
+    "مشد بعد الولادة"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [
+    "التوصيل مجاني و الدفع عند الإستلام"
+   ],
+   "landing_url": null
+  },
+  {
+   "page_id": "106147499006997",
+   "page_name": "Med Store",
+   "classification": "uncertain",
+   "reason": "general/medical store matched مشد للبطن etc.; empty ad titles, no shapewear confirmation",
+   "seen_under_keywords": [
+    "مشد للبطن",
+    "مشد البطن",
+    "مشد الجسم",
+    "مشد بعد الولادة",
+    "شد الكرش"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null
+  },
+  {
+   "page_id": "232713953258378",
+   "page_name": "للمعدات الرياضية sporty zone",
+   "classification": "uncertain",
+   "reason": "sports-equipment store; could carry slimming belts but no shapewear ad confirmed",
+   "seen_under_keywords": [
+    "مشد للبطن",
+    "مشد الجسم",
+    "شد البطن",
+    "حزام شد البطن"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null
+  },
+  {
+   "page_id": "105378609165457",
+   "page_name": "المتجر الالكتروني",
+   "classification": "uncertain",
+   "reason": "general electronics/goods store; empty ad titles under several shapewear terms",
+   "seen_under_keywords": [
+    "مشد للبطن",
+    "مشد البطن",
+    "مشد الجسم",
+    "مشد يخفي الكرش",
+    "شد الكرش",
+    "مشد تحت الفستان"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null
+  },
+  {
+   "page_id": "975447952315920",
+   "page_name": "Shoporia",
+   "classification": "uncertain",
+   "reason": "general COD store, generic 'limited quantity' ad title; matched مشد يخفي الكرش",
+   "seen_under_keywords": [
+    "مشد يخفي الكرش",
+    "شد الكرش"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [
+    "⚠️ الكمية محدودة جداً والطلب عليها كبير"
+   ],
+   "landing_url": null
+  },
+  {
+   "page_id": "1176812548841808",
+   "page_name": "The store retail",
+   "classification": "uncertain",
+   "reason": "broad dropship COD store (matched 'faja'); generic price/COD ad titles in mixed دينار/جنيه, EGP currency, product not confirmed as shapewear",
+   "seen_under_keywords": [
+    "faja"
+   ],
+   "active_ads_total": 219,
+   "oldest_ad_start": "2026-07-08",
+   "profiled": false,
+   "creative_texts": [
+    "بـ 150 دينار — التوصيل مجاني",
+    "بـ 999 جنيه — الدفع عند الاستلام"
+   ],
+   "landing_url": null
+  },
+  {
+   "page_id": "1197342423467758",
+   "page_name": "Dopamine Care Libya",
+   "classification": "uncertain",
+   "reason": "Libyan health/slimming store ('ودّع الكرش الزايد'); likely a slimming supplement/device, not a shapewear garment",
+   "seen_under_keywords": [
+    "شد البطن",
+    "شد الكرش"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [
+    "✨ ودّع الكرش الزايد وعيش الثقة من جديد 😍"
+   ],
+   "landing_url": null
+  },
+  {
+   "page_id": "100876338364576",
+   "page_name": "العالم للتسوق الإلكتروني",
+   "classification": "uncertain",
+   "reason": "general COD store matched مشد نسائي/مشد اصلي; empty ad titles",
+   "seen_under_keywords": [
+    "مشد نسائي",
+    "مشد الجسم",
+    "مشد اصلي"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null
+  },
+  {
+   "page_id": "106535088850764",
+   "page_name": "Milla World - عالم ميلا",
+   "classification": "uncertain",
+   "reason": "general Libyan store; matched مشد اصلي/مشد تحت الفستان, empty ad titles",
+   "seen_under_keywords": [
+    "مشد اصلي",
+    "مشد تحت الفستان"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null
+  },
+  {
+   "page_id": "100444091807326",
+   "page_name": "صيدلية الكروان",
+   "classification": "uncertain",
+   "reason": "pharmacy; matched مشد/مشد التنحيف, could stock medical waist belts",
+   "seen_under_keywords": [
+    "مشد",
+    "مشد التنحيف",
+    "كورسيه(faja context)"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null
+  },
+  {
+   "page_id": "OFFTOPIC_FOREIGN_SHAPEWEAR_BULK",
+   "page_name": "~30+ international shapewear/faja dropshippers",
+   "classification": "off-topic",
+   "reason": "global drop-ship shapewear brands whose ads merely reach LY, not Libyan COD sellers (currencies USD/COP/CNY/IDR/ISK): Curvyfaja, Curvy-faja, Modu Slim, Floralshe, Formivelle, Shaperluv, Ancienflow/Forttender/Flowarmth cloaked stores, Csatswtg, ChicCurve, Perfect Corset NY, Finis/LianTao factories, Shapee Store (EGP), etc.",
+   "seen_under_keywords": [
+    "faja",
+    "shapewear",
+    "waist trainer",
+    "مشد بعد الولادة"
+   ],
+   "profiled": false
+  },
+  {
+   "page_id": "OFFTOPIC_NOISE_BULK",
+   "page_name": "NetShort/drama-clip + weight-loss-clinic noise",
+   "classification": "off-topic",
+   "reason": "NS-*/Jinwu/DramaBox/Flicks Daily/HeartBinge/GlobeShort short-drama ad farms and Egyptian diet-clinic/herbal weight-loss pages (EGP) polluting كورسيه/شد الكرش/ازالة الكرش/waist trainer",
+   "seen_under_keywords": [
+    "كورسيه",
+    "شد الكرش",
+    "ازالة الكرش",
+    "waist trainer",
+    "مشد بعد الولادة"
+   ],
+   "profiled": false
+  }
+ ],
+ "profiling_capped": false,
+ "profiling_note": "11 relevant LY pages found; all profiled (<=15 cap not exceeded). Ad lists for high-volume pages (Liposta 77, Libya market 113) capped to a representative subset incl. newest+oldest with ads_truncated=true; QAVA(40)/others stored fully or near-fully.",
+ "notes": "P02 is the high-volume niche. Dominant dedicated Libyan shapewear advertiser is QAVA (40 active ads, single 'instant occasion body' creative, free delivery all LY cities + free gift). Liposta is the second high-volume dedicated brand (77 active). Several small dedicated shapewear stores (عالم المشدات, مشدات الرشاقة, مشدات فورما, مشدات حرارية كولمبية, Corset Libya, Shapely store). Keyword space heavily polluted by (a) international drop-ship faja/shapewear brands whose ads merely reach LY (USD/COP/CNY/IDR), and (b) NetShort drama-clip farms + Egyptian weight-loss clinics (EGP) on slimming terms. All figures are estimated_total_count from the tool; timestamps converted from unix to ISO (UTC)."
+}

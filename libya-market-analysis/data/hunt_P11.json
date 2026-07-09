@@ -1,0 +1,160 @@
+{
+  "product": "P11",
+  "product_key": "P11_baby_bottle",
+  "product_name": "P11_baby_bottle (eco-friendly baby feeding bottle)",
+  "hunter": "G",
+  "date": "2026-07-09",
+  "searches": [
+    {"kw": "رضاعة", "tier": 1, "count": 4, "new_pages": 4, "new_relevant": 2},
+    {"kw": "رضاعات", "tier": 1, "count": 5, "new_pages": 2, "new_relevant": 2},
+    {"kw": "ببرونة", "tier": 1, "count": 1, "new_pages": 0, "new_relevant": 0},
+    {"kw": "زجاجة رضاعة", "tier": 1, "count": 0, "new_pages": 0, "new_relevant": 0},
+    {"kw": "رضاعة اطفال", "tier": 1, "count": 0, "new_pages": 0, "new_relevant": 0},
+    {"kw": "رضاعة بيبي", "tier": 1, "count": 1, "new_pages": 0, "new_relevant": 0},
+    {"kw": "مستلزمات الاطفال", "tier": 1, "count": 18, "new_pages": 15, "new_relevant": 3},
+    {"kw": "مستلزمات المواليد", "tier": 1, "count": 1, "new_pages": 0, "new_relevant": 0},
+    {"kw": "ببرونة حليب", "tier": "libyan(2)", "count": 0, "new_pages": 0, "new_relevant": 0},
+    {"kw": "ببرونة الرضيع", "tier": "libyan(2)", "count": 0, "new_pages": 0, "new_relevant": 0},
+    {"kw": "ببرونه حليب", "tier": "libyan(2)", "count": 0, "new_pages": 0, "new_relevant": 0},
+    {"kw": "رضاعة حق البيبي", "tier": "libyan(2)", "count": 0, "new_pages": 0, "new_relevant": 0},
+    {"kw": "اغراض المولود الجديد", "tier": "libyan(2)", "count": 0, "new_pages": 0, "new_relevant": 0},
+    {"kw": "حلمه رضاعه", "tier": "libyan(2)", "count": 0, "new_pages": 0, "new_relevant": 0},
+    {"kw": "زجاجة حليب للاطفال", "tier": "libyan(2)", "count": 0, "new_pages": 0, "new_relevant": 0},
+    {"kw": "مستلزمات المواليد الجدد", "tier": "libyan(2)", "count": 0, "new_pages": 0, "new_relevant": 0},
+    {"kw": "رضّاعة", "tier": 2, "count": 4, "new_pages": 0, "new_relevant": 0},
+    {"kw": "رضاعه", "tier": 2, "count": 0, "new_pages": 0, "new_relevant": 0},
+    {"kw": "ببرونه", "tier": 2, "count": 1, "new_pages": 1, "new_relevant": 0}
+  ],
+  "sweep_end_reason": "saturation (12 consecutive searches with zero new relevant pages: searches 8-19; remaining tier2 and tier3 not needed)",
+  "historic_all_status_counts": [
+    {"kw": "مستلزمات الاطفال", "estimated_total_count_ALL": 681},
+    {"kw": "رضاعة", "estimated_total_count_ALL": 60},
+    {"kw": "رضاعات", "estimated_total_count_ALL": 5}
+  ],
+  "competitors": [
+    {
+      "page_id": "517462498111081",
+      "page_name": "Solly بيبي بوتيك",
+      "classification": "relevant",
+      "reason": "baby boutique whose active ad matched multiple bottle keywords (رضاعة, رضاعات, رضاعة بيبي, رضّاعة)",
+      "seen_under_keywords": ["رضاعة", "رضاعات", "رضاعة بيبي", "رضّاعة"],
+      "active_ads_total": 1,
+      "oldest_ad_start": "2026-07-08",
+      "profiled": true,
+      "creative_texts": [],
+      "landing_url": null,
+      "ads": [
+        {"id": "1511265410745961", "start": "2026-07-08", "snapshot": "https://www.facebook.com/ads/library/?id=1511265410745961"}
+      ]
+    },
+    {
+      "page_id": "102440349081358",
+      "page_name": "شركة النور لمستلزمات الام والطفل",
+      "classification": "relevant",
+      "reason": "mother & child supplies company; its single active ad matched رضاعة/رضاعات/مستلزمات الاطفال",
+      "seen_under_keywords": ["رضاعة", "رضاعات", "مستلزمات الاطفال", "رضّاعة"],
+      "active_ads_total": 1,
+      "oldest_ad_start": "2026-07-06",
+      "profiled": true,
+      "creative_texts": [],
+      "landing_url": null,
+      "ads": [
+        {"id": "1396344232348221", "start": "2026-07-06", "snapshot": "https://www.facebook.com/ads/library/?id=1396344232348221"}
+      ]
+    },
+    {
+      "page_id": "1049915114882513",
+      "page_name": "خطوات صغيرة لملابس الأطفال والمواليد براك الشاطئ",
+      "classification": "relevant",
+      "reason": "children/newborn store (Brak al-Shati) whose active ad matched رضاعات, so it plausibly sells feeding bottles alongside clothes",
+      "seen_under_keywords": ["رضاعات"],
+      "active_ads_total": 1,
+      "oldest_ad_start": "2026-06-27",
+      "profiled": true,
+      "creative_texts": [],
+      "landing_url": null,
+      "ads": [
+        {"id": "3513074962199699", "start": "2026-06-27", "snapshot": "https://www.facebook.com/ads/library/?id=3513074962199699"}
+      ]
+    },
+    {
+      "page_id": "971788689346529",
+      "page_name": "Babycare",
+      "classification": "relevant",
+      "reason": "baby-care product page; both active ads matched رضاعات and ببرونة with mother/baby creative titles — longest-running P11 advertiser (ads created 2026-01-10)",
+      "seen_under_keywords": ["رضاعات", "ببرونة"],
+      "active_ads_total": 2,
+      "oldest_ad_start": "2026-03-04",
+      "profiled": true,
+      "creative_texts": ["نوم هادئ للأم والطفل 😴", "الحل الذكي لكل أم 👶"],
+      "landing_url": null,
+      "ads": [
+        {"id": "1426281579021347", "start": "2026-03-04", "snapshot": "https://www.facebook.com/ads/library/?id=1426281579021347", "note": "created 2026-01-10; title: نوم هادئ للأم والطفل 😴"},
+        {"id": "862499109831659", "start": "2026-03-04", "snapshot": "https://www.facebook.com/ads/library/?id=862499109831659", "note": "created 2026-01-10; title: الحل الذكي لكل أم 👶"}
+      ]
+    },
+    {
+      "page_id": "349444434918209",
+      "page_name": "تشيكو اجدابيا لمستلزمات الام والطفل",
+      "classification": "relevant",
+      "reason": "Chicco-branded mother & child supplies store (Ajdabiya) — Chicco is a major baby-feeding-bottle brand",
+      "seen_under_keywords": ["مستلزمات الاطفال"],
+      "active_ads_total": 1,
+      "oldest_ad_start": "2026-07-07",
+      "profiled": true,
+      "creative_texts": [],
+      "landing_url": null,
+      "ads": [
+        {"id": "2781184085590224", "start": "2026-07-07", "snapshot": "https://www.facebook.com/ads/library/?id=2781184085590224"}
+      ]
+    },
+    {
+      "page_id": "429935353543633",
+      "page_name": "بيبي ماما - مصراتة",
+      "classification": "relevant",
+      "reason": "baby supplies store (Misrata) advertising under مستلزمات الاطفال",
+      "seen_under_keywords": ["مستلزمات الاطفال"],
+      "active_ads_total": 2,
+      "oldest_ad_start": "2026-07-02",
+      "profiled": true,
+      "creative_texts": ["بيبي ماما - مصراتة"],
+      "landing_url": null,
+      "ads": [
+        {"id": "1683103759595532", "start": "2026-07-07", "snapshot": "https://www.facebook.com/ads/library/?id=1683103759595532"},
+        {"id": "3186572401732036", "start": "2026-07-02", "snapshot": "https://www.facebook.com/ads/library/?id=3186572401732036", "note": "title: بيبي ماما - مصراتة"}
+      ]
+    },
+    {
+      "page_id": "641958862672672",
+      "page_name": "عالم الأطفال",
+      "classification": "relevant",
+      "reason": "kids'-world baby store advertising under مستلزمات الاطفال (matches tier2 term عالم الطفل)",
+      "seen_under_keywords": ["مستلزمات الاطفال"],
+      "active_ads_total": 1,
+      "oldest_ad_start": "2026-07-01",
+      "profiled": true,
+      "creative_texts": [],
+      "landing_url": null,
+      "ads": [
+        {"id": "2019809919410417", "start": "2026-07-01", "snapshot": "https://www.facebook.com/ads/library/?id=2019809919410417"}
+      ]
+    },
+    {"page_id": "567468153106462", "page_name": "مركز التاج التخصصي Al Taj Specialized Center", "classification": "uncertain", "reason": "specialized (likely medical/services) center matched رضاعة; probably breastfeeding/medical context, not a bottle seller", "seen_under_keywords": ["رضاعة", "رضّاعة"], "active_ads_total": null, "oldest_ad_start": null, "profiled": false, "creative_texts": [], "landing_url": null, "ads": [{"id": "1690385165414389", "start": "2026-07-08", "snapshot": "https://www.facebook.com/ads/library/?id=1690385165414389"}]},
+    {"page_id": "738742665983691", "page_name": "لحظة-Momento", "classification": "uncertain", "reason": "unidentified page matched رضاعة, empty ad title, no bottle evidence", "seen_under_keywords": ["رضاعة", "رضّاعة"], "active_ads_total": null, "oldest_ad_start": null, "profiled": false, "creative_texts": [], "landing_url": null, "ads": [{"id": "1273915998192371", "start": "2026-04-23", "snapshot": "https://www.facebook.com/ads/library/?id=1273915998192371"}]},
+    {"page_id": "109653277383126", "page_name": "متجر البنت الليبية", "classification": "uncertain", "reason": "general Libyan women's store under مستلزمات الاطفال; could carry baby items, no bottle evidence", "seen_under_keywords": ["مستلزمات الاطفال"], "active_ads_total": null, "oldest_ad_start": null, "profiled": false, "creative_texts": [], "landing_url": null, "ads": [{"id": "3316661031829055", "start": "2026-07-09", "snapshot": "https://www.facebook.com/ads/library/?id=3316661031829055"}]},
+    {"page_id": "842719835596780", "page_name": "MAMO ZON", "classification": "uncertain", "reason": "mom/baby-sounding store under مستلزمات الاطفال, empty ad title", "seen_under_keywords": ["مستلزمات الاطفال"], "active_ads_total": null, "oldest_ad_start": null, "profiled": false, "creative_texts": [], "landing_url": null, "ads": [{"id": "1263386032391445", "start": "2026-07-08", "snapshot": "https://www.facebook.com/ads/library/?id=1263386032391445"}]},
+    {"page_id": "1506869602899914", "page_name": "سالي للألعاب", "classification": "uncertain", "reason": "toy store under مستلزمات الاطفال; baby-adjacent but toys, not feeding", "seen_under_keywords": ["مستلزمات الاطفال"], "active_ads_total": null, "oldest_ad_start": null, "profiled": false, "creative_texts": [], "landing_url": null, "ads": [{"id": "850352104585689", "start": "2026-07-08", "snapshot": "https://www.facebook.com/ads/library/?id=850352104585689"}]},
+    {"page_id": "351255038846269", "page_name": "صيدلية اطباء المدينة", "classification": "uncertain", "reason": "pharmacy under مستلزمات الاطفال; pharmacies sell bottles but no direct evidence", "seen_under_keywords": ["مستلزمات الاطفال"], "active_ads_total": null, "oldest_ad_start": null, "profiled": false, "creative_texts": [], "landing_url": null, "ads": [{"id": "1352788850142331", "start": "2026-07-08", "snapshot": "https://www.facebook.com/ads/library/?id=1352788850142331"}]},
+    {"page_id": "1254210937777281", "page_name": "طلبك من تركيا", "classification": "uncertain", "reason": "Turkey-import general store under مستلزمات الاطفال, empty ad title", "seen_under_keywords": ["مستلزمات الاطفال"], "active_ads_total": null, "oldest_ad_start": null, "profiled": false, "creative_texts": [], "landing_url": null, "ads": [{"id": "1534960864795928", "start": "2026-07-07", "snapshot": "https://www.facebook.com/ads/library/?id=1534960864795928"}]},
+    {"page_id": "100711356298329", "page_name": "متجر السهم - ALSAHiM STORE", "classification": "uncertain", "reason": "general store under مستلزمات الاطفال, empty ad title", "seen_under_keywords": ["مستلزمات الاطفال"], "active_ads_total": null, "oldest_ad_start": null, "profiled": false, "creative_texts": [], "landing_url": null, "ads": [{"id": "1021305437047747", "start": "2026-07-07", "snapshot": "https://www.facebook.com/ads/library/?id=1021305437047747"}]},
+    {"page_id": "307632975768735", "page_name": "متجر فكرتي", "classification": "uncertain", "reason": "general store under مستلزمات الاطفال, empty ad title", "seen_under_keywords": ["مستلزمات الاطفال"], "active_ads_total": null, "oldest_ad_start": null, "profiled": false, "creative_texts": [], "landing_url": null, "ads": [{"id": "4495310860754637", "start": "2026-07-04", "snapshot": "https://www.facebook.com/ads/library/?id=4495310860754637"}]},
+    {"page_id": "1799299286965817", "page_name": "المبــــروك لملابس الاطفال/El Mabruk for child clothes", "classification": "uncertain", "reason": "children's clothes store matched مستلزمات الاطفال + مستلزمات المواليد; clothes-focused, bottle sales unconfirmed", "seen_under_keywords": ["مستلزمات الاطفال", "مستلزمات المواليد"], "active_ads_total": null, "oldest_ad_start": null, "profiled": false, "creative_texts": [], "landing_url": null, "ads": [{"id": "4121628357980951", "start": "2026-07-04", "snapshot": "https://www.facebook.com/ads/library/?id=4121628357980951"}]},
+    {"page_id": "114459114900274", "page_name": "صيدلية الجود", "classification": "uncertain", "reason": "pharmacy under مستلزمات الاطفال, empty ad title", "seen_under_keywords": ["مستلزمات الاطفال"], "active_ads_total": null, "oldest_ad_start": null, "profiled": false, "creative_texts": [], "landing_url": null, "ads": [{"id": "2554873281618960", "start": "2026-05-25", "snapshot": "https://www.facebook.com/ads/library/?id=2554873281618960"}]},
+    {"page_id": "100714149602460", "page_name": "Boutique m&m", "classification": "uncertain", "reason": "boutique matched ببرونه (bottle term) — plausibly sells baby bottles but page identity unclear", "seen_under_keywords": ["ببرونه"], "active_ads_total": null, "oldest_ad_start": null, "profiled": false, "creative_texts": [], "landing_url": null, "ads": [{"id": "28123177890620459", "start": "2026-07-04", "snapshot": "https://www.facebook.com/ads/library/?id=28123177890620459"}]},
+    {"page_id": "725895567284852", "page_name": "Hub de Curtas Quentes", "classification": "off-topic", "reason": "drama-clip ad farm (3 ads under مستلزمات الاطفال, title 🔥تابع المشاهدة 👉)", "seen_under_keywords": ["مستلزمات الاطفال"], "profiled": false},
+    {"page_id": "534723883047347", "page_name": "Short tvs", "classification": "off-topic", "reason": "drama/short-video ad farm", "seen_under_keywords": ["مستلزمات الاطفال"], "profiled": false},
+    {"page_id": "866369629882963", "page_name": "Seguridad Privada Speal Mazatlan", "classification": "off-topic", "reason": "Mexican private-security company, keyword noise", "seen_under_keywords": ["مستلزمات الاطفال"], "profiled": false}
+  ],
+  "profiling_capped": false,
+  "notes": "Baby-bottle niche in Libya is real but shallow: 7 relevant pages, ALL of them brick-and-mortar-style baby/mother-supplies stores running 1-2 ads each — no dedicated COD single-product bottle advertiser found. Babycare is the most product-focused and longest-running (2 ads created 2026-01-10, delivering since 2026-03-04, matched both رضاعات and ببرونة). All explicit bottle terms (زجاجة رضاعة, ببرونة حليب etc.) returned 0; volume sits under the generic مستلزمات الاطفال (18 active / 681 ALL — historic count heavily inflated by drama-clip ad farms). API returned only ad_creative_link_title (mostly empty) — no body text or landing URLs exposed, hence sparse creative_texts and landing_url null everywhere. Dates are ad_delivery_start_time converted to ISO; creation dates noted where they differ materially."
+}

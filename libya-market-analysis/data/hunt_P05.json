@@ -1,0 +1,108 @@
+{
+  "product": "P05",
+  "product_key": "P5_mama_necklace",
+  "product_name": "Gold-plated stainless-steel 'Mama'-lettering necklace",
+  "hunter": "J",
+  "date": "2026-07-09",
+  "tool": "mcp__META_ADS__ads_library_search (countries=[LY], ad_active_status=ACTIVE, limit 30 sweep / 50 profiling)",
+  "searches": [
+    {"kw": "قلادة ماما", "tier": 1, "count": 1, "new_pages": 1, "new_relevant": 0},
+    {"kw": "سلسلة ماما", "tier": 1, "count": 4, "new_pages": 3, "new_relevant": 0},
+    {"kw": "قلادة الام", "tier": 1, "count": 133, "new_pages": 8, "new_relevant": 1},
+    {"kw": "هدية ماما", "tier": 1, "count": 13, "new_pages": 8, "new_relevant": 0},
+    {"kw": "سلسال الام", "tier": 1, "count": 0, "new_pages": 0, "new_relevant": 0},
+    {"kw": "قلادة MAMA", "tier": 1, "count": 0, "new_pages": 0, "new_relevant": 0},
+    {"kw": "عقد ماما", "tier": 1, "count": 2, "new_pages": 2, "new_relevant": 0},
+    {"kw": "قلاده ماما", "tier": "libyan(2)", "count": 0, "new_pages": 0, "new_relevant": 0},
+    {"kw": "سلسله ماما", "tier": "libyan(2)", "count": 0, "new_pages": 0, "new_relevant": 0},
+    {"kw": "قلادة حروف انجليزية", "tier": "libyan(2)", "count": 0, "new_pages": 0, "new_relevant": 0},
+    {"kw": "عقد ستانلس مطلي ذهب", "tier": "libyan(2)", "count": 0, "new_pages": 0, "new_relevant": 0},
+    {"kw": "قلادة حق ماما", "tier": "libyan(2)", "count": 1, "new_pages": 0, "new_relevant": 0},
+    {"kw": "عقد حق الام", "tier": "libyan(2)", "count": 96, "new_pages": 5, "new_relevant": 0},
+    {"kw": "هديه لماما", "tier": "libyan(2)", "count": 0, "new_pages": 0, "new_relevant": 0},
+    {"kw": "قلادة متاع الام", "tier": "libyan(2)", "count": 0, "new_pages": 0, "new_relevant": 0},
+    {"kw": "سلسال بحرف الاسم", "tier": "libyan(2)", "count": 0, "new_pages": 0, "new_relevant": 0}
+  ],
+  "sweep_end_reason": "saturation (12+ consecutive searches with zero NEW relevant pages — searches 4 through 16 all produced no new relevant page; the last new relevant page appeared at search 3 = قلادة الام. tier2 (ستانلس ستيل, قلادة قلب, قلادة حروف, هدية الام العظيمة, امي الغالية, هدية لامي, ستيل مطلي, اكسسوارات ستيل) and tier3 (mama necklace, collier mama, stainless steel necklace, mom necklace, ماما نكلس) were therefore NOT searched, per the protocol stop rule — same pattern as hunt_P08.",
+  "historic_all_status_counts": [
+    {"kw": "قلادة الام", "estimated_total_count_ALL": 10813},
+    {"kw": "عقد حق الام", "estimated_total_count_ALL": 7119},
+    {"kw": "هدية ماما", "estimated_total_count_ALL": null, "note": "ALL-status not separately fetched; ACTIVE count was only 13 and sweep hit saturation before tier2/tier3"}
+  ],
+  "key_finding": "NO page in the Libya Ad Library is currently advertising a 'Mama'-lettering / MAMA-pendant necklace specifically. Every Mama-specific term (قلادة ماما, سلسلة ماما, قلادة MAMA, عقد ماما, قلاده ماما, سلسله ماما, قلادة حق ماما, قلادة متاع الام) returned either 0 ads or only short-drama/novel noise. The P05 product therefore has no direct in-market competitor in LY; its nearest competitors are the general gold-plated gift-necklace / gift-set COD sellers shared with P04.",
+  "competitors": [
+    {
+      "page_id": "1045056362016605",
+      "page_name": "ليبيا إكسبريس - عنوان الفخامة والرقي",
+      "classification": "relevant",
+      "reason": "Nearest P05 competitor: COD dropshipper selling 18K gold-plated jewelry GIFT SETS as a gift for the mother, in a velvet box — same gold-plated-gift-jewelry category as a gold-plated 'Mama' necklace. Profiling reused from P04 sweep (not surfaced by P05's own Mama-specific keywords).",
+      "shared_with": "P04",
+      "seen_under_keywords": ["(reused from P04: مطلي ذهب, ذهب مطلي)"],
+      "active_ads_total": 187,
+      "oldest_ad_start": "2026-06-19",
+      "profiled": true,
+      "landing_url": null,
+      "creative_texts": [
+        "💎 Brillez comme jamais avec notre parure plaquée or 18K | هدية رائعة للأم و الزوجة و الأخت ✨",
+        "🎁 الهدية المثالية لمن تحب.. جاهز في علبة قطيفة فاخرة.",
+        "عرض محدود: طواقم مطلية بمية الذهب!"
+      ],
+      "ads": [
+        {"id": "1043618224686207", "start": "2026-06-20", "snapshot": "https://www.facebook.com/ads/library/?id=1043618224686207", "note": "parure plaquée or 18K / هدية للأم"},
+        {"id": "1551553426363417", "start": "2026-06-19", "snapshot": "https://www.facebook.com/ads/library/?id=1551553426363417"},
+        {"id": "1002955165770106", "start": "2026-06-21", "snapshot": "https://www.facebook.com/ads/library/?id=1002955165770106"}
+      ]
+    },
+    {
+      "page_id": "1155269067672156",
+      "page_name": "Libya Express - ليبيا إكسبريس",
+      "classification": "relevant",
+      "reason": "COD gold-plated jewelry gift sets (طاقم بلاكيور لا يتغير لونه, gift-in-a-box); nearest-category P05 competitor. Reused from P04.",
+      "shared_with": "P04",
+      "seen_under_keywords": ["(reused from P04: عقد ذهبي)"],
+      "active_ads_total": 72,
+      "oldest_ad_start": "2026-06-24",
+      "profiled": true,
+      "landing_url": null,
+      "creative_texts": [
+        "🌟 اهدِ الفخامة والضمان: طاقم بلاكيور لا يتغير لونه!",
+        "هدية تليق بجمالها",
+        "💝 الهدية المثالية (شامل علبة فاخرة)"
+      ],
+      "ads": [
+        {"id": "1342698967965940", "start": "2026-07-01", "snapshot": "https://www.facebook.com/ads/library/?id=1342698967965940"},
+        {"id": "762580306916745", "start": "2026-06-24", "snapshot": "https://www.facebook.com/ads/library/?id=762580306916745"}
+      ]
+    },
+    {
+      "page_id": "106031209158503",
+      "page_name": "4F Badia",
+      "classification": "relevant",
+      "reason": "COD store whose lead product is a gold necklace framed as a gift for a woman/mother ('حضنها بالذهب أسهل'); the only page that surfaced in P05's OWN sweep (under قلادة الام). Directly analogous gift-necklace angle.",
+      "shared_with": "P04",
+      "seen_under_keywords": ["قلادة الام"],
+      "active_ads_total": 58,
+      "oldest_ad_start": "2026-04-30",
+      "profiled": true,
+      "landing_url": null,
+      "creative_texts": [
+        "حضنها بالكلمات صعب… حضنها بالذهب أسهل! 💛"
+      ],
+      "ads": [
+        {"id": "2256195938526297", "start": "2026-07-09", "snapshot": "https://www.facebook.com/ads/library/?id=2256195938526297", "note": "gift gold necklace"},
+        {"id": "4296919143903607", "start": "2026-04-30", "snapshot": "https://www.facebook.com/ads/library/?id=4296919143903607", "note": "gift gold necklace (oldest)"}
+      ]
+    },
+    {"page_id": "579801462084377", "page_name": "Gaja jewelry/مجوهرات قاجة", "classification": "relevant", "shared_with": "P04", "reason": "COD fashion-jewelry store (general jewelry counts for P05 per triage); not surfaced by P05's Mama-specific terms — carried over from P04", "seen_under_keywords": ["(reused from P04: مجوهرات, طقم مجوهرات)"], "active_ads_total": null, "oldest_ad_start": null, "profiled": false, "landing_url": null, "creative_texts": []},
+    {"page_id": "146468628541815", "page_name": "Affariyet __أفاريات", "classification": "relevant", "shared_with": "P04", "reason": "COD accessories store; general jewelry/accessories counts for P05. Carried over from P04", "seen_under_keywords": ["(reused from P04: طقم مجوهرات)"], "active_ads_total": null, "oldest_ad_start": null, "profiled": false, "landing_url": null, "creative_texts": ["كوني دائماً مميزة"]},
+    {"page_id": "SHARED_JEWELRY_MARKET_P04", "page_name": "~40 general Libyan jewelry / COD-accessory pages (see hunt_P04.json)", "classification": "relevant", "shared_with": "P04", "reason": "Per triage 'a general jewelry page counts for both'. The full set of relevant Libyan jewelry / gold-plated-accessory pages catalogued in hunt_P04.json (مجوهرات سراج الرملي, Sultan Jewelry, PAIDO, LIORA, Madora, اللؤلؤ المكنون, Julia Jewels, Yusr, SKh-Jewelry, وتين, موناكو اكسسوار, Zoraa, Luvancia, cosmaroc, محل طرابلس للتجارة, متجر طرابلس الثقة, تخفيضات ليبيا, لونا, etc.) are equally relevant to P05 and are not re-listed here to avoid duplication. None of them advertise a Mama-lettering necklace specifically.", "seen_under_keywords": ["(reused from P04)"], "active_ads_total": null, "oldest_ad_start": null, "profiled": false, "landing_url": null, "creative_texts": []},
+    {"page_id": "901258433078998", "page_name": "Shoopfinity.libya", "classification": "uncertain", "reason": "General Libyan COD store (pay-on-delivery 149 LYD); matched هدية ماما via 'الحل السريع والذكي لكل أم' framing, but its 10 active ads are ALL a spray-mop cleaning product (ممسحة بخاخة), NOT jewelry. Not a P05 competitor.", "seen_under_keywords": ["هدية ماما"], "active_ads_total": 10, "oldest_ad_start": "2026-07-05", "profiled": true, "landing_url": null, "creative_texts": ["الحل السريع والذكي لكل أم! 🤱✨", "الدفع بعد المعاينة والاستلام 149 د.ل 🛍️", "أسرع ممسحة بخاخة في ليبيا 🚀🔥"]},
+    {"page_id": "109697195241883", "page_name": "GoVooo", "classification": "uncertain", "reason": "EGP-currency store, empty ad title under سلسلة ماما; no creative evidence it sells Mama necklaces", "seen_under_keywords": ["سلسلة ماما"], "active_ads_total": null, "oldest_ad_start": null, "profiled": false},
+    {"page_id": "728082133723468", "page_name": "سوق التكنولوجيا.", "classification": "uncertain", "reason": "general COD/tech store, empty title under قلادة الام", "seen_under_keywords": ["قلادة الام"], "active_ads_total": null, "oldest_ad_start": null, "profiled": false},
+    {"page_id": "103041042214636", "page_name": "Common artificial", "classification": "uncertain", "reason": "recurs across many jewelry/mother keywords with empty ad title; possible fashion dropshipper but unconfirmed", "seen_under_keywords": ["قلادة الام", "عقد حق الام"], "active_ads_total": null, "oldest_ad_start": null, "profiled": false},
+    {"page_id": "OTHER_OFFTOPIC_BULK", "page_name": "~60 additional unique pages", "classification": "off-topic", "reason": "bulk noise: NetShort/short-drama ad farms (NS-*, Ns-*, Stardusttv, Flicks Daily, DramaBox, 'باسم الأم' / 'الوريثة تعود في الأربعين' dubbed dramas), web-novel content farms (Free Novels, حلقات جديدة يومياً, دراما تأسر القلوب, Hello Reading Novels, LoveStory-EN, Cdreader), personal-name scam pages (Trace Stracke, Phim ngắn), plus one EGP spiritual/misc pages. All matched على أم/الام terms as text noise.", "seen_under_keywords": ["قلادة ماما", "سلسلة ماما", "قلادة الام", "عقد ماما", "عقد حق الام", "قلادة حق ماما"], "profiled": false}
+  ],
+  "profiling_capped": false,
+  "profiling_cap_note": "Cap not hit for P05's OWN sweep (only 1 net-new page, 4F Badia, worth profiling; also profiled Shoopfinity to confirm it is off-topic). The three prime relevant competitors (ليبيا إكسبريس x2, 4F Badia) reuse profiling captured during the P04 sweep, marked shared_with P04. The broader shared jewelry market is fully profiled/listed in hunt_P04.json.",
+  "notes": "P05 (gold-plated stainless 'Mama'-lettering necklace) has essentially NO direct competitor in the Libya Ad Library — no advertiser runs a Mama/MAMA-pendant necklace. P05 overlaps heavily with P04; per triage, the general gold-plated gift-jewelry COD sellers (ليبيا إكسبريس x2 = the strongest analogues, selling 18K gold-plated gift SETS; 4F Badia = gift gold necklace) and the whole Libyan jewelry market are relevant to P05 too and are catalogued once in hunt_P04.json to avoid duplication (shared_with tags applied). Sweep stopped at saturation (12+ consecutive zero-new-relevant) during the libyan(2) tier, so tier2 material terms (ستانلس ستيل, قلادة قلب, ستيل مطلي, اكسسوارات ستيل, قلادة حروف, هدية الام العظيمة, امي الغالية, هدية لامي) and tier3 (mama necklace, collier mama, stainless steel necklace, mom necklace, ماما نكلس) were not searched, matching the hunt_P08 precedent. Counts are estimated_total_count from the tool; historic ALL counts (قلادة الام=10813, عقد حق الام=7119) are massively inflated by short-drama and web-novel farms. landing_url null for all (tool returns only ad_snapshot_url, not advertiser destination URLs). Today 2026-07-09."
+}

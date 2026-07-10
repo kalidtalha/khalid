@@ -1,0 +1,92 @@
+{
+  "product": "P09",
+  "product_key": "P9_folding_bedside_table_lamp",
+  "product_name": "Vintage foldable portable bedside mini table / lamp",
+  "hunter": "J",
+  "date": "2026-07-09",
+  "tool": "mcp__META_ADS__ads_library_search (countries=[LY], ad_active_status=ACTIVE, limit 30 sweep / 50 profiling)",
+  "product_ambiguity_note": "products.json flags this SKU as AMBIGUOUS between a foldable mini bedside TABLE (furniture) and a bedside table LAMP (lighting). The sweep covered both table and lamp keyword families accordingly.",
+  "searches": [
+    {"kw": "طاولة قابلة للطي", "tier": 1, "count": 2, "new_pages": 2, "new_relevant": 1},
+    {"kw": "طاولة سرير", "tier": 1, "count": 11, "new_pages": 11, "new_relevant": 0},
+    {"kw": "طاولة جانبية", "tier": 1, "count": 6, "new_pages": 6, "new_relevant": 2},
+    {"kw": "اباجورة", "tier": 1, "count": 3, "new_pages": 3, "new_relevant": 2},
+    {"kw": "طاولة صغيرة", "tier": 1, "count": 176, "new_pages": 6, "new_relevant": 0},
+    {"kw": "مصباح سرير", "tier": 1, "count": 0, "new_pages": 0, "new_relevant": 0},
+    {"kw": "لمبة سرير", "tier": 1, "count": 0, "new_pages": 0, "new_relevant": 0},
+    {"kw": "طاولة متنقلة", "tier": 1, "count": 0, "new_pages": 0, "new_relevant": 0},
+    {"kw": "طرابيزه", "tier": "libyan(2)", "count": 0, "new_pages": 0, "new_relevant": 0},
+    {"kw": "طاوله قابله للطي", "tier": "libyan(2)", "count": 0, "new_pages": 0, "new_relevant": 0},
+    {"kw": "اباجوره", "tier": "libyan(2)", "count": 1, "new_pages": 1, "new_relevant": 0},
+    {"kw": "ترابيزة قابلة للطي", "tier": "libyan(2)", "count": 0, "new_pages": 0, "new_relevant": 0},
+    {"kw": "لمبة جنب السرير", "tier": "libyan(2)", "count": 0, "new_pages": 0, "new_relevant": 0},
+    {"kw": "طاولة جنب السرير", "tier": "libyan(2)", "count": 0, "new_pages": 0, "new_relevant": 0},
+    {"kw": "لمبه ليليه", "tier": "libyan(2)", "count": 0, "new_pages": 0, "new_relevant": 0},
+    {"kw": "طاولة تطوى", "tier": "libyan(2)", "count": 0, "new_pages": 0, "new_relevant": 0}
+  ],
+  "sweep_end_reason": "saturation (12 consecutive searches with zero NEW relevant pages — searches 5 through 16; the last new relevant page appeared at search 4 = اباجورة. tier2 (طاوله, ترابيزة, طاولة قهوة, طاولة خدمة, مصباح ليلي, اضاءة غرفة النوم, لمبة ليلية, ديكور غرفة النوم, طاولة ديكور, منضدة) and tier3 (table pliante, table de chevet, lampe de chevet, folding table, bedside table, bedside lamp, night lamp, portable table) were NOT searched, per the protocol stop rule — same pattern as hunt_P08. NOTE: tier1 already captured the core relevant competitor picture before saturation; the general tier2 furniture/decor terms would likely surface additional general home-goods stores but not change the finding that no LY advertiser runs this exact product.",
+  "historic_all_status_counts": [
+    {"kw": "طاولة جانبية", "estimated_total_count_ALL": 1749},
+    {"kw": "اباجورة", "estimated_total_count_ALL": 31},
+    {"kw": "طاولة قابلة للطي", "estimated_total_count_ALL": null, "note": "ALL not fetched; ACTIVE count was only 2 and sweep hit saturation before tier2/tier3. طاولة جانبية ALL inflated by a 'Divine Milking System' novel farm + AI-chatbot apps; اباجورة ALL dominated by AI photo/chatbot apps."}
+  ],
+  "key_finding": "No Libya advertiser is running the specific product — a vintage foldable/portable bedside mini table with lamp — as a dedicated COD item. The niche keyword space is thin and clean (little drama pollution vs the jewelry products). The nearest competitors are: (1) Diollo Store, a broad Libyan COD gadget/home store whose catalogue includes a foldable 'trips table' (طاولة الرحلات) matching the portable-folding-table aspect; (2) foreign (EGP, Egypt) lamp dropshippers reaching LY (Trendy Light, اباجورة الأحلام) covering the lamp aspect; and (3) local home-decor / antique-and-furniture-accent stores that could carry a vintage bedside table (بيت الضيافة, المجموعة للتحف).",
+  "competitors": [
+    {
+      "page_id": "120340389355287",
+      "page_name": "Diollo Store",
+      "classification": "relevant",
+      "reason": "Nearest P09 competitor: a Libyan COD gadget/home store running a foldable portable 'trips table' (طاولة الرحلات ⛱) — directly matches the foldable/portable-table aspect of P09. Broad catalogue (also TV shelf رف تلفزيون, 3-tier wooden rack, shoe cabinet, ceiling-fan light, kids trampoline, travel bag, mosquito curtain, etc.), so the folding table is one SKU among many.",
+      "seen_under_keywords": ["طاولة قابلة للطي"],
+      "active_ads_total": 34,
+      "oldest_ad_start": "2025-07-06",
+      "profiled": true,
+      "landing_url": null,
+      "creative_texts": [
+        "طاولة الرحلات ⛱",
+        "رف تلفزيون",
+        "كوستر خشبي ثلاثي"
+      ],
+      "ads_note": "34 active ads across a broad gadget/home catalogue; the P09-relevant folding table ('طاولة الرحلات') started 2026-06-29. Page's oldest active ad overall = 2025-07-06.",
+      "ads": [
+        {"id": "938147845902254", "start": "2026-06-29", "snapshot": "https://www.facebook.com/ads/library/?id=938147845902254", "note": "FOLDING TABLE: طاولة الرحلات"},
+        {"id": "2101445990427721", "start": "2026-03-13", "snapshot": "https://www.facebook.com/ads/library/?id=2101445990427721", "note": "رف تلفزيون (TV shelf, furniture-adjacent)"},
+        {"id": "1332851171759402", "start": "2026-07-08", "snapshot": "https://www.facebook.com/ads/library/?id=1332851171759402", "note": "كوستر خشبي ثلاثي (wooden 3-tier rack)"},
+        {"id": "745346061349329", "start": "2025-07-06", "snapshot": "https://www.facebook.com/ads/library/?id=745346061349329", "note": "oldest active ad on page"}
+      ]
+    },
+    {
+      "page_id": "499530816586307",
+      "page_name": "Trendy Light",
+      "classification": "relevant",
+      "reason": "Lamp/lighting dropshipper (covers P09's lamp aspect), COD-style '40% off + free delivery' creative, reaching Libya. EGP currency = Egypt-based, not a Libya-native seller.",
+      "seen_under_keywords": ["اباجورة"],
+      "active_ads_total": 1,
+      "oldest_ad_start": "2025-03-11",
+      "profiled": true,
+      "landing_url": null,
+      "creative_texts": ["عرض اليوم خصم 40% وتوصيل مجاني"],
+      "ads": [
+        {"id": "609178135443840", "start": "2025-03-11", "snapshot": "https://www.facebook.com/ads/library/?id=609178135443840"}
+      ]
+    },
+    {"page_id": "776827512176047", "page_name": "اباجورة الأحلام", "classification": "relevant", "reason": "Dedicated lamp/abajora store ('Dreams Lamp'), 'limited-time discount, order now' COD creative; covers the lamp aspect of P09. EGP currency (Egypt-based) reaching LY", "seen_under_keywords": ["اباجورة"], "active_ads_total": null, "oldest_ad_start": null, "profiled": false, "landing_url": null, "creative_texts": ["خصم خاص لفترة محدودة اطلب الان"]},
+    {"page_id": "103716605418904", "page_name": "بيت الضيافة للمواد المنزلية والتحف", "classification": "relevant", "reason": "Libyan home-goods & antiques (تحف) store — the kind of store that would carry a vintage decorative bedside table; matched طاولة جانبية", "seen_under_keywords": ["طاولة جانبية"], "active_ads_total": null, "oldest_ad_start": null, "profiled": false, "landing_url": null, "creative_texts": []},
+    {"page_id": "1514024172225234", "page_name": "المجموعة للتحف ومكملات الأثاث", "classification": "relevant", "reason": "Libyan antiques & furniture-accents store; vintage-decor aligned with P09; matched طاولة جانبية", "seen_under_keywords": ["طاولة جانبية"], "active_ads_total": null, "oldest_ad_start": null, "profiled": false, "landing_url": null, "creative_texts": []},
+    {"page_id": "112775761672538", "page_name": "Baity - بيتي", "classification": "uncertain", "reason": "home-goods store, empty ad title under طاولة قابلة للطي; plausibly sells folding tables but no creative evidence", "seen_under_keywords": ["طاولة قابلة للطي"], "active_ads_total": null, "oldest_ad_start": null, "profiled": false},
+    {"page_id": "110307685494021", "page_name": "مصنع MDF للأثاث", "classification": "uncertain", "reason": "MDF furniture manufacturer under طاولة سرير; makes furniture but B2B/local fabrication, not COD bedside-table retail", "seen_under_keywords": ["طاولة سرير"], "active_ads_total": null, "oldest_ad_start": null, "profiled": false},
+    {"page_id": "1951683665143049", "page_name": "شركة اليمامة للاثاث", "classification": "uncertain", "reason": "furniture company under طاولة سرير; empty title, not clearly COD bedside-table", "seen_under_keywords": ["طاولة سرير"], "active_ads_total": null, "oldest_ad_start": null, "profiled": false},
+    {"page_id": "108989251416807", "page_name": "متجر الثقة الإلكتروني", "classification": "uncertain", "reason": "general COD/electronics store, empty title under طاولة جانبية", "seen_under_keywords": ["طاولة جانبية"], "active_ads_total": null, "oldest_ad_start": null, "profiled": false},
+    {"page_id": "2158426667609867", "page_name": "قصر الثّريّا", "classification": "uncertain", "reason": "'chandelier palace' lighting/decor store, empty title under طاولة جانبية; lighting-adjacent", "seen_under_keywords": ["طاولة جانبية"], "active_ads_total": null, "oldest_ad_start": null, "profiled": false},
+    {"page_id": "477411962131770", "page_name": "متجر فارس", "classification": "uncertain", "reason": "general store, empty title under طاولة جانبية", "seen_under_keywords": ["طاولة جانبية"], "active_ads_total": null, "oldest_ad_start": null, "profiled": false},
+    {"page_id": "112485657287864", "page_name": "كرمان للمفروشات", "classification": "uncertain", "reason": "furnishings store under طاولة جانبية, empty title", "seen_under_keywords": ["طاولة جانبية"], "active_ads_total": null, "oldest_ad_start": null, "profiled": false},
+    {"page_id": "472327115972285", "page_name": "معرض بن يحيى للطلاء والديكور", "classification": "uncertain", "reason": "paint & decor showroom under اباجورة, empty title; decor-adjacent not lamp-COD", "seen_under_keywords": ["اباجورة"], "active_ads_total": null, "oldest_ad_start": null, "profiled": false},
+    {"page_id": "758303060710367", "page_name": "حور هوم HOOR HOME", "classification": "uncertain", "reason": "home store, empty title under طاولة صغيرة", "seen_under_keywords": ["طاولة صغيرة"], "active_ads_total": null, "oldest_ad_start": null, "profiled": false},
+    {"page_id": "105367915819399", "page_name": "تفاصيل - Tafaseel", "classification": "uncertain", "reason": "home-decor 'details' store under اباجوره; 'جديد التفاصيل' creative, no clear lamp/table evidence", "seen_under_keywords": ["اباجوره"], "active_ads_total": null, "oldest_ad_start": null, "profiled": false},
+    {"page_id": "110821996932917", "page_name": "شركة قولد", "classification": "uncertain", "reason": "unidentified company, empty title under طاولة صغيرة", "seen_under_keywords": ["طاولة صغيرة"], "active_ads_total": null, "oldest_ad_start": null, "profiled": false},
+    {"page_id": "OTHER_OFFTOPIC_BULK", "page_name": "~40 additional unique pages", "classification": "off-topic", "reason": "bulk noise: carpet/upholstery cleaning companies (ديار النظافة, شركة زين, شركة الماسة — matched طاولة سرير/صالونات), Istanbul real-estate & daily-rental listings (O9 Real Estate, استراحة فينشي, استراحة اليقين, استراحة اليمامة villas), medical-equipment firms (شركة الصفوة, شركة القامة — hospital over-bed tables), short-drama/novel farms (أحب قراءة الروايات, NS-* 'حين يعيدنا الطهي إلى الحب' / 'رمح التنين', Divine Milking System, Contos do Crepúsculo), and AI photo/chatbot apps (Chat AI, TeraBot, Nyraai, PhotoShow AI, HDC — matched اباجورة/طاولة as English/text noise), plus beauty-tool store (متجر اركان للتجميل)", "seen_under_keywords": ["طاولة سرير", "طاولة صغيرة", "اباجورة", "طاولة جانبية"], "profiled": false}
+  ],
+  "profiling_capped": false,
+  "profiling_cap_note": "Cap (15) not reached — only ~5 relevant pages exist in this thin niche. Profiled the 2 most on-target COD advertisers (Diollo Store = folding portable table; Trendy Light = lamp). اباجورة الأحلام (lamp) and the two home-decor/antique stores left profiled=false (low ad volume / no distinctive P09 creative). Fewer than 15 relevant pages exist, so the cap did not bind.",
+  "notes": "P09 (vintage foldable portable bedside mini table/lamp) is a thin, low-competition niche in Libya with essentially NO dedicated in-market competitor. The keyword space is much cleaner than the jewelry products (only طاولة صغيرة / طاولة جانبية pulled meaningful drama/AI-app noise; most dialect terms طرابيزه/ترابيزة/لمبه ليليه returned 0). Nearest competitors: Diollo Store (broad Libyan COD gadget store, sells a foldable 'trips table' + TV shelf + wooden rack — the closest analogue, 34 active ads since 2025-07-06); foreign EGP lamp dropshippers Trendy Light and اباجورة الأحلام (lamp aspect, Egypt-based reaching LY); and Libyan home-decor/antique stores بيت الضيافة and المجموعة للتحف (vintage-table aspect). No page advertises the exact vintage-foldable-bedside-table-with-lamp concept. Sweep stopped at saturation (12 consecutive zero-new-relevant during libyan(2)); tier2 general furniture/lighting terms (طاوله, ترابيزة, طاولة قهوة, مصباح ليلي, ديكور غرفة النوم, منضدة, لمبة ليلية) and tier3 (table pliante, table de chevet, lampe de chevet, folding/bedside table, bedside/night lamp, portable table) were not searched per the protocol stop rule (matching hunt_P08); tier1 had already surfaced the full relevant picture. Counts are estimated_total_count; historic ALL counts inflated by novel-farm + AI-app noise. landing_url null for all (tool returns only ad_snapshot_url). Today 2026-07-09."
+}

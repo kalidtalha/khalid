@@ -1,0 +1,73 @@
+{
+  "product": "P01",
+  "product_name": "AliExpress Item 1005011889868887 (unidentified)",
+  "hunter": "H",
+  "date": "2026-07-09",
+  "status": "unidentifiable",
+  "identified_as": null,
+  "identification_attempts": [
+    {
+      "method": "Playwright headless Chromium (executable /opt/pw-browsers/chromium, realistic Chrome 126 UA, en-US locale)",
+      "targets": [
+        "https://www.aliexpress.com/item/1005011889868887.html",
+        "https://ar.aliexpress.com/item/1005011889868887.html",
+        "https://fr.aliexpress.com/item/1005011889868887.html",
+        "https://m.aliexpress.com/item/1005011889868887.html"
+      ],
+      "result": "All four URLs failed with net::ERR_TUNNEL_CONNECTION_FAILED before any page load. Agent-proxy status log confirms the gateway answered 403 to the CONNECT request for www.aliexpress.com:443 ('policy denial or upstream failure') — the sandbox network policy blocks AliExpress at the proxy, not AliExpress anti-bot."
+    },
+    {
+      "method": "curl through the pre-configured agent proxy",
+      "targets": ["https://www.aliexpress.com/item/1005011889868887.html"],
+      "result": "curl: (56) CONNECT tunnel failed, response 403 — same gateway policy denial."
+    },
+    {
+      "method": "WebFetch tool",
+      "targets": [
+        "https://www.aliexpress.com/item/1005011889868887.html",
+        "https://m.aliexpress.com/item/1005011889868887.html",
+        "https://ar.aliexpress.com/item/1005011889868887.html",
+        "https://fr.aliexpress.com/item/1005011889868887.html",
+        "https://aliexpress.ru/item/1005011889868887.html",
+        "https://www.aliexpress.us/item/3256811889868887.html (US-domain ID mapping = CN ID + 2251800000000000)",
+        "https://aliexpress-com.translate.goog/item/1005011889868887.html (Google Translate proxy)",
+        "https://alitools.io/en/product/1005011889868887 (third-party price tracker)"
+      ],
+      "result": "Every fetch returned HTTP 403 Forbidden with no body. Control test against https://example.com/ also returned 403, proving WebFetch is blanket-blocked in this environment; the 403s carry no information about the AliExpress pages themselves."
+    },
+    {
+      "method": "Egress probe of alternative hosts via curl (gateway CONNECT test)",
+      "targets": [
+        "https://example.com",
+        "https://alitools.io/en/product/1005011889868887",
+        "https://www.pricearchive.org/",
+        "https://aliexpress.ru/item/1005011889868887.html",
+        "https://www.bing.com/search?q=1005011889868887",
+        "https://duckduckgo.com/html/?q=1005011889868887"
+      ],
+      "result": "All returned curl exit 56 / HTTP code 000 (CONNECT rejected). General web egress is blocked except allowlisted package registries — no mirror, cache, price tracker, or alternative search engine is reachable."
+    },
+    {
+      "method": "WebSearch (this session, new queries beyond the prior session's three)",
+      "targets": [
+        "\"3256811889868887\" OR \"1005011889868887\" aliexpress",
+        "\"1005011889868887.html\"",
+        "aliexpress item 3256811889868887"
+      ],
+      "result": "No result contained the listing, its title, a snapshot, or a cached copy — only generic AliExpress platform pages (homepage, tracking tools, shopping cart) and unrelated HTML-tutorial pages. The item ID is not indexed by the search engine, matching the prior session's finding."
+    },
+    {
+      "method": "Prior session (recorded in data/products.json, product num 1)",
+      "targets": [
+        "WebSearch: 'aliexpress item 1005011889868887'",
+        "WebSearch: '\"1005011889868887\" price aliexpress'",
+        "WebSearch: 'aliprice OR dsers OR cjdropshipping \"1005011889868887\"'"
+      ],
+      "result": "Only generic AliExpress platform pages and price-tracker homepages; never the actual listing title or category. Direct fetch of aliexpress.com blocked by network policy."
+    }
+  ],
+  "searches": [],
+  "competitors": [],
+  "profiling_capped": false,
+  "notes": "غير متوفر — المنتج غير محدد الهوية; بحث مكتبة الإعلانات غير ممكن بدون معرفة المنتج. All network paths to the listing (Playwright/Chromium, curl, WebFetch on 8 URL variants incl. .ru, .us mapped ID, Google-Translate proxy, and third-party trackers) are blocked by the sandbox gateway (403 policy denial on CONNECT), and the item ID is not indexed in web search. Per protocol integrity rules, no generic-keyword Ad Library hunt was run for an unknown product — that would fabricate competitor data. Recommend identifying P01 outside this environment (open the URL in a normal browser, AliExpress app share link, or image search) and then re-running the hunt."
+}

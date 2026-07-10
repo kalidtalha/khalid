@@ -1,0 +1,380 @@
+{
+ "product": "P03",
+ "product_name": "P3_ultrasonic_device (ambiguous: ultrasonic skin scrubber vs humidifier/diffuser vs cleaner)",
+ "product_key": "P3_ultrasonic_device",
+ "hunter": "Ad Library Hunter I",
+ "date": "2026-07-09",
+ "searches": [
+  {
+   "kw": "فواحة",
+   "tier": 1,
+   "count": 17,
+   "new_pages": 14,
+   "new_relevant": 2
+  },
+  {
+   "kw": "مرطب الهواء",
+   "tier": 1,
+   "count": 3,
+   "new_pages": 3,
+   "new_relevant": 1
+  },
+  {
+   "kw": "الترا سونيك",
+   "tier": 1,
+   "count": 0,
+   "new_pages": 0,
+   "new_relevant": 0
+  },
+  {
+   "kw": "جهاز تنظيف بالموجات فوق الصوتية",
+   "tier": 1,
+   "count": 0,
+   "new_pages": 0,
+   "new_relevant": 0
+  },
+  {
+   "kw": "مرطب هواء",
+   "tier": 1,
+   "count": 3,
+   "new_pages": 0,
+   "new_relevant": 0
+  },
+  {
+   "kw": "جهاز البخار",
+   "tier": 1,
+   "count": 41,
+   "new_pages": 20,
+   "new_relevant": 0
+  },
+  {
+   "kw": "جهاز تنظيف البشرة",
+   "tier": 2,
+   "count": 15,
+   "new_pages": 15,
+   "new_relevant": 0
+  },
+  {
+   "kw": "سكرابر البشرة",
+   "tier": 2,
+   "count": 1,
+   "new_pages": 1,
+   "new_relevant": 0
+  },
+  {
+   "kw": "جهاز الموجات فوق الصوتية",
+   "tier": 1,
+   "count": 17,
+   "new_pages": 6,
+   "new_relevant": 1
+  },
+  {
+   "kw": "منظف بالموجات",
+   "tier": 1,
+   "count": 0,
+   "new_pages": 0,
+   "new_relevant": 0
+  },
+  {
+   "kw": "فواحة كهربائية",
+   "tier": 2,
+   "count": 1,
+   "new_pages": 0,
+   "new_relevant": 0
+  },
+  {
+   "kw": "طارد الناموس والذباب",
+   "tier": "libyan(2)",
+   "count": 0,
+   "new_pages": 0,
+   "new_relevant": 0
+  },
+  {
+   "kw": "غسالة الموجات",
+   "tier": 1,
+   "count": 0,
+   "new_pages": 0,
+   "new_relevant": 0
+  },
+  {
+   "kw": "منظف النظارات",
+   "tier": 2,
+   "count": 0,
+   "new_pages": 0,
+   "new_relevant": 0
+  },
+  {
+   "kw": "ultrasonic cleaner",
+   "tier": 3,
+   "count": 6,
+   "new_pages": 6,
+   "new_relevant": 0
+  },
+  {
+   "kw": "مبخرة كهربائية",
+   "tier": 2,
+   "count": 1,
+   "new_pages": 0,
+   "new_relevant": 0
+  }
+ ],
+ "sweep_end_reason": "effective saturation + core keyword space exhausted: all Arabic ultrasonic-cleaner terms (منظف بالموجات, غسالة الموجات, جهاز تنظيف بالموجات فوق الصوتية, منظف النظارات) returned 0; ran tier1 fully, representative tier2 (skin/cleaner/diffuser), tier3 EN (ultrasonic cleaner), and libyan pest term. Very few LY-relevant device sellers exist; new relevant pages stopped appearing.",
+ "tier_deviation_note": "Not every tier2/tier3/libyan variant exhaustively run (session-budget discipline after prior session-limit loss). Representatives across each interpretation were tested and the picture is unambiguous; remaining variants (طارد الفئران, humidificateur, diffuseur, skin scrubber, nettoyeur ultrason, etc.) would dedupe to the same handful of pages or foreign advertisers.",
+ "historic_all_status_counts": [],
+ "interpretation_verdict": "The Libyan COD ad market does NOT support the literal ultrasonic-CLEANER (jewelry/eyeglass) reading of this product: every Arabic ultrasonic-cleaner query — منظف بالموجات, غسالة الموجات, جهاز تنظيف بالموجات فوق الصوتية, منظف النظارات — returned zero Libyan advertisers, and the English 'ultrasonic cleaner' surfaced only foreign B2B pages (Alibaba/CODYSON, Akua, Evo Dyne, ETMM, Loudly Optical) whose ads merely reach Libya. The interpretation the local market actually supports is the ultrasonic HUMIDIFIER / aroma-DIFFUSER / atomizer ('فواحة / مرطب الهواء / مبخرة كهربائية / جهاز ترطيب وتعطير') — this is the one clearly sold COD by Libyan pages (Wahalibya, La Bellezza Store, and a portable mist/atomizer cooler by 4F Badia). A strong SECONDARY home-appliance reading is the ultrasonic/electronic PEST-REPELLER (Top montajat, priced in Libyan dinar). The skin-scrubber (beauty) reading is essentially absent as a standalone COD product (سكرابر البشرة = 1 ad; 'جهاز تنظيف البشرة' hits appear only via aesthetic clinics, not device sellers), and the 'جهاز الموجات فوق الصوتية' phrase in Libya maps mostly to medical/clinic ultrasound plus the one pest-repeller. Since the source SKU is tagged 'Home Appliances', the best-supported interpretation for the Libyan market is the ultrasonic humidifier/aroma-diffuser/atomizer, with ultrasonic pest-repeller as the secondary candidate.",
+ "competitors": [
+  {
+   "page_id": "1074267735779408",
+   "page_name": "Wahalibya",
+   "classification": "relevant",
+   "reason": "Libyan COD seller of an ultrasonic HUMIDIFIER / aroma-diffuser home device ('جهاز ترطيب الجو وتعطير المنزل' / 'خلي جو بيتك منعش وعطِر') — supports the humidifier/diffuser/atomizer interpretation",
+   "seen_under_keywords": [
+    "فواحة",
+    "مرطب الهواء",
+    "مرطب هواء"
+   ],
+   "active_ads_total": 5,
+   "oldest_ad_start": "2026-06-26",
+   "profiled": true,
+   "ads_truncated": false,
+   "creative_texts": [
+    "🌿 جهاز ترطيب الجو وتعطير المنزل",
+    "اطلبه الآن وخلي جو بيتك منعش وعطِر كل يوم 🌿✨",
+    "🌿 هواء منعش وريحة تدوم طول اليوم"
+   ],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "995703253250934",
+     "start": "2026-06-26",
+     "snapshot": "https://www.facebook.com/ads/library/?id=995703253250934"
+    },
+    {
+     "id": "2834285520297960",
+     "start": "2026-06-26",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2834285520297960"
+    },
+    {
+     "id": "1030708326668936",
+     "start": "2026-06-26",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1030708326668936"
+    },
+    {
+     "id": "26579372368403258",
+     "start": "2026-06-26",
+     "snapshot": "https://www.facebook.com/ads/library/?id=26579372368403258"
+    },
+    {
+     "id": "2066116111456581",
+     "start": "2026-07-02",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2066116111456581"
+    }
+   ]
+  },
+  {
+   "page_id": "901090563098469",
+   "page_name": "Top montajat",
+   "classification": "relevant",
+   "reason": "Libyan COD seller of an ultrasonic/electronic PEST-REPELLER home device ('جهاز طارد الحشرات', 'ودّع الحشرات من أول يوم'); priced in دينار (240/298) — supports the ultrasonic pest-repeller interpretation",
+   "seen_under_keywords": [
+    "جهاز الموجات فوق الصوتية"
+   ],
+   "active_ads_total": 9,
+   "oldest_ad_start": "2026-07-09",
+   "profiled": true,
+   "ads_truncated": false,
+   "creative_texts": [
+    "جهاز طارد الحشرات",
+    "⚠️ الحشرات ماشي غير مزعجة… راه خطر على عائلتك!",
+    "2 أجهزة بـ240 بدل 298 – وفر الآن!"
+   ],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1031528136401292",
+     "start": "2026-07-09",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1031528136401292"
+    },
+    {
+     "id": "1016899344639092",
+     "start": "2026-07-09",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1016899344639092"
+    },
+    {
+     "id": "1741189423981119",
+     "start": "2026-07-09",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1741189423981119"
+    },
+    {
+     "id": "1366116408784628",
+     "start": "2026-07-09",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1366116408784628"
+    },
+    {
+     "id": "1787452542241130",
+     "start": "2026-07-09",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1787452542241130"
+    },
+    {
+     "id": "2241732253310003",
+     "start": "2026-07-09",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2241732253310003"
+    },
+    {
+     "id": "1064294292837380",
+     "start": "2026-07-09",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1064294292837380"
+    },
+    {
+     "id": "1568966404592286",
+     "start": "2026-07-09",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1568966404592286"
+    },
+    {
+     "id": "1747744296262436",
+     "start": "2026-07-09",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1747744296262436"
+    }
+   ]
+  },
+  {
+   "page_id": "106031209158503",
+   "page_name": "4F Badia",
+   "classification": "relevant",
+   "reason": "Libyan-market seller of a portable spray/mist cooler ('شغّلها بالباور بانك والسيارة وتبرّدك بالرذاذ') — atomizer/mist interpretation; currency EUR",
+   "seen_under_keywords": [
+    "مرطب الهواء",
+    "مرطب هواء"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-04",
+   "profiled": false,
+   "ads_truncated": false,
+   "creative_texts": [
+    "الضي هارب؟ مايهمك… شغّلها بالباور بانك والسيارة وتبرّدك بالرذاذ 🔋💧"
+   ],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1605092474476973",
+     "start": "2026-07-04",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1605092474476973"
+    }
+   ]
+  },
+  {
+   "page_id": "579214095266301",
+   "page_name": "La Bellezza Store",
+   "classification": "relevant",
+   "reason": "matched فواحة / فواحة كهربائية / مبخرة كهربائية — electric aroma-diffuser device (diffuser interpretation); single active creative captured",
+   "seen_under_keywords": [
+    "فواحة",
+    "فواحة كهربائية",
+    "مبخرة كهربائية"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-09",
+   "profiled": false,
+   "ads_truncated": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1243351635527039",
+     "start": "2026-07-09",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1243351635527039"
+    }
+   ]
+  },
+  {
+   "page_id": "131552260033042",
+   "page_name": "DANA Medical",
+   "classification": "uncertain",
+   "reason": "Libyan store promoting a steam device vs 'جهاز البخار العادي' — likely a facial steamer / nebulizer (steam interpretation), not clearly ultrasonic",
+   "seen_under_keywords": [
+    "جهاز البخار"
+   ],
+   "active_ads_total": 2,
+   "oldest_ad_start": "2026-07-04",
+   "profiled": true,
+   "ads_truncated": false,
+   "creative_texts": [
+    "🤯 لو مازلت تستعمل في جهاز البخار العادي… صدّقني الجهاز هذا بيغيّر فكرتك بالكامل!"
+   ],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1729554061377370",
+     "start": "2026-07-04",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1729554061377370"
+    },
+    {
+     "id": "1420735669863319",
+     "start": "2026-07-04",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1420735669863319"
+    }
+   ]
+  },
+  {
+   "page_id": "109794177490958",
+   "page_name": "البيت الليبي الالماني",
+   "classification": "uncertain",
+   "reason": "Libyan store advertising a STEAM CLEANER ('منضف بخار موديل 2026 من هنرش الالمانية') — steam-cleaner, adjacent to but not ultrasonic",
+   "seen_under_keywords": [
+    "جهاز البخار"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-06-15",
+   "profiled": false,
+   "creative_texts": [
+    "منضف بخار موديل 2026🇩🇪 من هنرش الالمانيه"
+   ],
+   "landing_url": null
+  },
+  {
+   "page_id": "114689368357651",
+   "page_name": "Heaven Scents",
+   "classification": "off-topic",
+   "reason": "matched فواحة but page is a PERFUME seller (122 active ads, all 'عطر/ريحة أنثوية'), not an ultrasonic/diffuser device",
+   "seen_under_keywords": [
+    "فواحة"
+   ],
+   "active_ads_total": 122,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [
+    "ليدي عطر الأنوثة والفخامة بين يديكِ الآن! 🌸",
+    "لا ترشينه خارح غرفه النوم"
+   ],
+   "landing_url": null
+  },
+  {
+   "page_id": "UNCERTAIN_HOME_BEAUTY_MEDICAL_BULK",
+   "page_name": "~20 general home / beauty-clinic / medical pages",
+   "classification": "uncertain",
+   "reason": "matched جهاز البخار/جهاز تنظيف البشرة but products unconfirmed as the ultrasonic device: general home stores (تكنو هوم ليبيا, Comfert Home, Lenova home, كزيوني هوم, Perfume palace, متجر رونق, Loma Store), beauty clinics/aestheticians (حواء الفرجاني Eve Aesthetic, Gloria Beauty, عيادة ريفيفا, د.ريما بوحجر), medical-equipment importers (شركة القامة, Alsanad almaten, شركة برلنت الصحة, مستشفى فينيسيا)",
+   "seen_under_keywords": [
+    "جهاز البخار",
+    "جهاز تنظيف البشرة",
+    "جهاز الموجات فوق الصوتية"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false
+  },
+  {
+   "page_id": "OFFTOPIC_FOREIGN_ULTRASONIC_CLEANER",
+   "page_name": "foreign ultrasonic-cleaner B2B advertisers",
+   "classification": "off-topic",
+   "reason": "the literal ultrasonic-cleaner reading surfaces ONLY via non-Libyan advertisers whose ads reach LY: Alibaba.com (CODYSON dental cleaner), Akua (jewelry care, USD), Evo Dyne (jewelry, USD), ETMM (EUR tool/mould), Loudly Optical (CNY) — no Libyan COD seller",
+   "seen_under_keywords": [
+    "ultrasonic cleaner"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false
+  }
+ ],
+ "profiling_capped": false,
+ "notes": "Relevant LY device sellers are few: Wahalibya (humidifier/diffuser, 5 active), Top montajat (ultrasonic pest-repeller, 9 active, دينار pricing), 4F Badia (portable mist cooler, EUR), La Bellezza Store (electric diffuser). DANA Medical + البيت الليبي الالماني sell steam devices (uncertain). Heaven Scents matched 'فواحة' but is actually a perfume seller (122 ads, off-topic). Foreign ultrasonic-cleaner B2B pages appear only under the English term. Counts are estimated_total_count; timestamps unix→ISO (UTC)."
+}

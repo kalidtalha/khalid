@@ -1,0 +1,105 @@
+{
+  "niche": "summer",
+  "hunter": "Decouverte-ETE",
+  "date": "2026-07-11",
+  "api_calls_used": 21,
+  "searches": [
+    {"kw": "portable neck fan", "country": "US", "count": 1447, "relevant_pages_found": ["Dailyanest", "Hardpointing", "Hardpointing K", "Ugene", "Fitity", "ZUKI CO", "Emboadlie.mz11", "Civilizek.IV07", "Consecutivte-T", "Alpa Skin (EUR=annonceur etranger)"]},
+    {"kw": "cooling towel", "country": "US", "count": 1348, "relevant_pages_found": ["Bassdash (UPF apparel)", "The 2AM Rescue Mask (masque rafraichissant, angle menopause)"], "note": "tres pollue par fermes de romans (World001, Novel Dreams7...)"},
+    {"kw": "cooling mat dog", "country": "US", "count": 3364, "relevant_pages_found": ["Martinez Kym Gweneth", "PawQ AU (AUD)", "Cycleap", "slashop", "Wooddlife", "Everossa"]},
+    {"kw": "beach tent", "country": "US", "count": 808, "relevant_pages_found": ["SOLI (tente gonflable)", "Kimberly Mejia (Pop N Go tent)", "Costway.Deals"], "note": "pollue par contenu voyage/novel"},
+    {"kw": "portable misting fan", "country": "US", "count": 127, "relevant_pages_found": ["Corrado-yq", "Nice Things (Shark FlexBreeze)", "Homeshoppingoutlet", "Zefra", "Ventivh", "Alisonmall", "MisterHub", "Shark Home (marque)"]},
+    {"kw": "inflatable pool", "country": "US", "count": 2009, "relevant_pages_found": ["Viktoriia Shewchuk (Little Tikes slide)", "Northtowards-Store", "Evan Lopes (location, local)"], "note": "tres pollue par DramaBox"},
+    {"kw": "anti-chafing shorts", "country": "US", "count": 768, "relevant_pages_found": ["ChubRub", "Cellumove USA", "Scheduleprogramme-l", "Modlily Swimsuits (tangent)"]},
+    {"kw": "portable neck fan", "country": "CA", "count": 944, "relevant_pages_found": ["Ugene (aussi US)", "Fitity (aussi US)", "Civilizek.IZ10", "Consecutivte-T (aussi US)", "Masterpiecei"]},
+    {"kw": "ventilateur portable", "country": "FR", "count": 661, "relevant_pages_found": ["Canicule.store", "Chez Assia (ventilateur de cou)", "Zylore", "Practical Space", "Hoolyy", "Thymeglade", "Midea (marque clim)"]},
+    {"kw": "tapis rafraîchissant chien", "country": "FR", "count": 532, "relevant_pages_found": ["Bébé Filou", "Louise Bouchard", "Croqpattefr", "Ovora", "Savemorer.net"]},
+    {"kw": "piscine gonflable", "country": "FR", "count": 406, "relevant_pages_found": ["NordFit + Trevika (matelas gonflable outdoor, même créa)", "Gi-Fi Liquidation", "AYLOO", "Gloovi (fauteuil flottant)", "Promo Flash Plus"], "note": "les produits dominants sont des matelas/fauteuils gonflables, pas la piscine elle-même"},
+    {"kw": "brumisateur", "country": "FR", "count": 181, "relevant_pages_found": ["BrumeFresh", "Alignis (AirCool 3-en-1)", "Maison Baugmann", "Joyeloo", "Olypiana", "Virelyia"]},
+    {"kw": "glacière portable", "country": "FR", "count": 158, "relevant_pages_found": ["Mivanashop.com (CAD=annonceur canadien)", "Discount Flash (9 pubs glacière)", "FOSSiBOT", "VEVOR"]},
+    {"kw": "serviette rafraîchissante", "country": "FR", "count": 41, "relevant_pages_found": ["Dailynestbarn (réseau ~7 pages sœurs, même créa)", "Gofiveus shop", "Eclire Shop", "Hilda Walker (créa DE)", "G-Heat (t-shirt rafraîchissant, marque FR)", "Starminti"]},
+    {"kw": "ventilateur portable", "country": "CA", "count": 235, "relevant_pages_found": ["Santé Actuelle (15 pubs advertorial rafraîchisseur bureau, EUR)", "Dr. Stefan Keller (même angle, EUR)", "Masterpiecei (neck fan)", "The Elmwood Group (CAD)"]},
+    {"kw": "dog cooling mat", "country": "CA", "count": 468, "relevant_pages_found": ["Martinez Kym Gweneth", "Cycleap", "Wooddlife", "PawQ AU", "Povlya-B", "Cirevo (GBP)", "Fresca Cooling Dog Mat"]}
+  ],
+  "profiling": [
+    {"page": "Cycleap", "page_id": "112642917318727", "active_ads_total": 665, "oldest_visible": "2026-07-11", "note": "gros annonceur dog cooling mat, lance 40+ pubs/jour, tri desc empêche de voir les anciennes"},
+    {"page": "ChubRub", "page_id": "1168466929679969", "active_ads_total": 117, "oldest_visible": "2026-07-07", "note": "marque dédiée anti-chafing, page tronquée à 50 — pubs plus anciennes existent mais non visibles"},
+    {"page": "Zefra", "page_id": "419747211218389", "active_ads_total": 13, "oldest_ad_creation": "2026-04-29", "oldest_delivery_start": "2026-06-18", "note": "PREUVE D'ANCIENNETÉ: misting fan vendu depuis fin avril, Gen 1 sold out, Gen 2 en backorder"},
+    {"page": "Alignis", "page_id": "1238242312699185", "active_ads_total": 4, "oldest_delivery_start": "2026-07-08"},
+    {"page": "Fresca Cooling Dog Mat", "page_id": "1204287739435989", "active_ads_total": 7, "oldest_delivery_start": "2026-07-11"}
+  ],
+  "candidates": [
+    {
+      "product": "Dog cooling mat (pet cooling pad)",
+      "why": "9 annonceurs distincts sur 3 marchés (Martinez Kym Gweneth, Cycleap 665 pubs actives, Wooddlife, slashop, Fresca, Povlya-B + FR: Bébé Filou 9 pubs, Louise Bouchard, Ovora, Croqpattefr). Counts: US 3364, CA 468, FR 532. Ancienneté ≥30j non prouvable via l'API (tri desc) mais l'intensité multi-annonceurs/multi-pays est la plus forte de la niche.",
+      "markets_evidence": {"US": 3364, "FR": 532, "CA": 468},
+      "example_ads": [
+        {"page_name": "Martinez Kym Gweneth", "page_id": "1131287400068514", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=1333826875007435"},
+        {"page_name": "Bébé Filou (FR)", "page_id": "100618721861745", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=36905588665755778", "creative": "Fini le chien qui halète. ❄️"},
+        {"page_name": "Fresca Cooling Dog Mat (CA)", "page_id": "1204287739435989", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=28553377037583743", "creative": "The Complete Solution for Dog Overheating"}
+      ],
+      "suggested_keywords_en": ["dog cooling mat", "pet cooling pad", "cooling bed dog", "dog summer mat", "keep pet cool", "dog overheating", "cooling gel mat pet"],
+      "suggested_keywords_fr": ["tapis rafraîchissant chien", "tapis refroidissant animaux", "chien qui halète", "tapis fraîcheur chien", "coussin rafraîchissant chien", "canicule chien"]
+    },
+    {
+      "product": "Portable neck fan (bladeless wearable fan)",
+      "why": "8+ annonceurs distincts dont 3 vus simultanément US+CA (Ugene 8 pubs, Consecutivte-T 17+ pubs, Fitity) + Dailyanest, Hardpointing x2, Civilizek x2, Masterpiecei (CA), Chez Assia (FR, ventilateur de cou USB). Counts: US 1447, CA 944, FR 661 (kw générique). Toutes pubs vues démarrées 2026-07-10/11 (tri API).",
+      "markets_evidence": {"US": 1447, "FR": 661, "CA": 944},
+      "example_ads": [
+        {"page_name": "Dailyanest", "page_id": "1126761467193329", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=4454204871517521", "creative": "7-in-1 Portable Cooling Fan with Power Bank"},
+        {"page_name": "Consecutivte-T", "page_id": "121299427731825", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=1017136181177893", "creative": "Small Whirlwind Clip Waist Neck Fan"},
+        {"page_name": "Masterpiecei (CA)", "page_id": "104780195874984", "start": "2026-07-10", "snapshot": "https://www.facebook.com/ads/library/?id=1336919508579217", "creative": "All-New Portable Neck Fan"}
+      ],
+      "suggested_keywords_en": ["portable neck fan", "wearable fan", "bladeless neck fan", "hands free fan", "rechargeable neck fan", "clip waist fan", "personal cooling fan"],
+      "suggested_keywords_fr": ["ventilateur de cou", "ventilateur portable rechargeable", "ventilateur mains libres", "ventilateur nuque", "mini ventilateur USB", "ventilateur tour de cou"]
+    },
+    {
+      "product": "Portable air cooler / mini AC 3-in-1 (desk evaporative cooler)",
+      "why": "7 annonceurs distincts, fort en francophonie: Canicule.store (FR), Alignis AirCool 3-en-1 (FR, 1ère pub 2026-07-08), Maison Baugmann (FR), BrumeFresh (FR), Santé Actuelle (15 pubs advertorial ciblant CA), Dr. Stefan Keller (CA), Mivanashop (CAD, 9 pubs 'Oasis de Fraîcheur'), ZUKI CO (US 'Your Portable Air Conditioner'). Counts kw: FR 661+181, CA 235.",
+      "markets_evidence": {"US": 1447, "FR": 181, "CA": 235},
+      "example_ads": [
+        {"page_name": "Alignis", "page_id": "1238242312699185", "start": "2026-07-08", "snapshot": "https://www.facebook.com/ads/library/?id=1019866423965570", "creative": "Marre de subir la chaleur / AirCool™ Ventilateur Rafraîchissant 3-en-1 Portable"},
+        {"page_name": "Santé Actuelle (cible CA)", "page_id": "949320101600102", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=1565229461926427", "creative": "La climatisation traditionnelle fait du bruit, consomme de l'énergie et refroidit toute la maison..."},
+        {"page_name": "Mivanashop.com (CAD)", "page_id": "974231615772259", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=1008099112130745", "creative": "Oasis de Fraîcheur Instantanée"}
+      ],
+      "suggested_keywords_en": ["portable air conditioner", "mini air cooler", "desk air cooler", "evaporative cooler portable", "personal ac unit", "3 in 1 air cooler", "room cooling fan"],
+      "suggested_keywords_fr": ["rafraîchisseur d'air", "climatiseur portable", "mini climatiseur", "ventilateur brumisateur", "rafraîchisseur d'air 3 en 1", "climatiseur mobile", "canicule solution"]
+    },
+    {
+      "product": "Portable misting fan (handheld/outdoor mist fan)",
+      "why": "SEUL candidat avec ancienneté PROUVÉE: Zefra (13 pubs actives, pub créée 2026-04-29 en diffusion depuis 2026-06-18/25, 'Gen 1 Sold Out') + Corrado-yq, Nice Things (9 pubs Shark FlexBreeze), Homeshoppingoutlet, MisterHub, Shark Home. Count US 127 (niche peu polluée).",
+      "markets_evidence": {"US": 127, "FR": 181, "CA": null},
+      "example_ads": [
+        {"page_name": "Zefra", "page_id": "419747211218389", "start": "2026-06-18 (création 2026-05-19)", "snapshot": "https://www.facebook.com/ads/library/?id=1313682094293487", "creative": "Fast Shipping Available 🚚"},
+        {"page_name": "Zefra", "page_id": "419747211218389", "start": "2026-06-25 (création 2026-04-29)", "snapshot": "https://www.facebook.com/ads/library/?id=1898934060781160", "creative": "🏌️Order yours today - Fast shipping available!"},
+        {"page_name": "Corrado-yq", "page_id": "1101205016413641", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=896535046215610", "creative": "❄️ Stay Cool Anywhere – Portable Misting Fan Sale"}
+      ],
+      "suggested_keywords_en": ["portable misting fan", "mist fan handheld", "water spray fan", "outdoor misting fan", "misting fan rechargeable", "cooling mist fan"],
+      "suggested_keywords_fr": ["ventilateur brumisateur", "brumisateur portable", "ventilateur à eau", "brumisateur rechargeable", "ventilateur brume fraîche"]
+    },
+    {
+      "product": "Anti-chafing shorts / thigh bands",
+      "why": "2 marques dédiées à gros volume: ChubRub (117 pubs actives, plus ancienne visible 2026-07-07, page tronquée à 50) et Cellumove USA (10+ pubs 'Show Your Legs with Confidence') + Scheduleprogramme-l (culotte anti-irritation). Count US 768. Marché principalement US pour l'instant — angle été/cuisses qui frottent.",
+      "markets_evidence": {"US": 768, "FR": null, "CA": null},
+      "example_ads": [
+        {"page_name": "ChubRub", "page_id": "1168466929679969", "start": "2026-07-07", "snapshot": "https://www.facebook.com/ads/library/?id=1034051932408877", "creative": "Buy 2, Get 1 FREE Ends Tonight!"},
+        {"page_name": "Cellumove USA", "page_id": "685654814634554", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=1571671024574519", "creative": "Show Your Legs with Confidence!"}
+      ],
+      "suggested_keywords_en": ["anti-chafing shorts", "thigh bands", "chub rub", "anti chafe thigh", "slip shorts", "inner thigh chafing", "chafing solution summer"],
+      "suggested_keywords_fr": ["short anti-frottement", "bandes anti-frottement cuisses", "frottement cuisses", "cuissard anti-irritation", "short sous robe été"]
+    },
+    {
+      "product": "Cooling towel (instant cooling sports towel)",
+      "why": "Candidat secondaire: sur FR, réseau Dailynestbarn (~7 pages sœurs, même créa 'Serviette Rafraîchissante Absorbante', 1ère pub visible 2026-07-09) + Gofiveus (1 acheté=1 offert), Eclire Shop (2026-07-08), Hilda Walker, Starminti. US count 1348 mais ultra-pollué par fermes de romans. FR count 41, propre. Signal multi-annonceurs réel mais faible qualité (pages jetables).",
+      "markets_evidence": {"US": 1348, "FR": 41, "CA": null},
+      "example_ads": [
+        {"page_name": "Dailynestbarn", "page_id": "1138279119374317", "start": "2026-07-09", "snapshot": "https://www.facebook.com/ads/library/?id=1341532634816546", "creative": "Serviette Rafraîchissante Absorbante"},
+        {"page_name": "Eclire Shop", "page_id": "792220517297880", "start": "2026-07-08", "snapshot": "https://www.facebook.com/ads/library/?id=1579404187176448", "creative": "❄️Serviette rafraîchissante anti-transpiration"},
+        {"page_name": "Gofiveus shop", "page_id": "103015551978105", "start": "2026-07-09", "snapshot": "https://www.facebook.com/ads/library/?id=2015554015991066", "creative": "1 acheté = 1 offert !⚡"}
+      ],
+      "suggested_keywords_en": ["cooling towel", "instant cooling towel", "ice towel sports", "neck cooling wrap", "chill towel gym", "cooling towel workout"],
+      "suggested_keywords_fr": ["serviette rafraîchissante", "serviette froide sport", "serviette anti-transpiration", "serviette fraîcheur instantanée", "écharpe rafraîchissante"]
+    }
+  ],
+  "notes": "LIMITE API IMPORTANTE: les résultats sont triés par date de diffusion décroissante — presque toutes les pubs visibles ont démarré les 2026-07-10/11, ce qui empêche de prouver ≥30 jours de diffusion sauf pour les petites pages profilées (<50 pubs). Zefra est la seule preuve directe d'ancienneté (création 2026-04-29, diffusion 2026-06-18). Pollution récurrente: fermes de romans/drama (cooling towel US, inflatable pool US via DramaBox), SHEIN/Temu. Indice currency utilisé: Alpa Skin (EUR sur US), PawQ (AUD), Cirevo (GBP), Mivanashop (CAD sur FR), Santé Actuelle/Dr Stefan Keller (EUR ciblant CA) = dropshippers internationaux, confirme un produit mondialisé. Découverte bonus non retenue faute de budget: matelas gonflable outdoor FR (NordFit + Trevika, même créa 'LE MATELAS QUI VA CHANGER TOUTES TES SORTIES CET ÉTÉ') — à creuser en phase chasse. Écarté: beach tent (pollution, demande locale/rental), inflatable pool (pollution DramaBox, produits lourds)."
+}

@@ -1,0 +1,98 @@
+{
+  "niche": "beauty",
+  "date": "2026-07-11",
+  "mode": "DISCOVERY",
+  "budget_calls_used": 22,
+  "searches": [
+    {"kw": "posture corrector", "country": "US", "count": 1852, "relevant_pages_found": ["Peadic (EUR/CAD, réseau multi-pages)", "ChicCurve Mexico", "Curvyfajaes"]},
+    {"kw": "red light therapy", "country": "US", "count": 29416, "relevant_pages_found": ["échantillon dominé par spas/cliniques locales (services, pas e-com) ; H2 Biohacker (concurrent indirect)"]},
+    {"kw": "scalp massager", "country": "US", "count": 608, "relevant_pages_found": ["Serene Labs (Deep Scalp Therapy Massager + microcourant)", "Korean hair tips (sérum)", "pollution Temu/drama"]},
+    {"kw": "heatless curls", "country": "US", "count": 409, "relevant_pages_found": ["Propostion.PR01 (25/25 résultats = 1 seul annonceur)"]},
+    {"kw": "correcteur de posture", "country": "FR", "count": 130, "relevant_pages_found": ["Celyssia (USD)", "ApprochU shop (incertain)", "pollution Sueñovela Amor (ferme de romans)"]},
+    {"kw": "blanchiment dentaire", "country": "FR", "count": 339, "relevant_pages_found": ["Dr. Benjamin Lewis (sérum gencives, advertorial)", "Dailynestbarn x5 pages clones (dentifrice/sérum éclaircissant)", "pollution: cliniques Turquie (TRY), formations B2B, fermes de romans"]},
+    {"kw": "boucles sans chaleur", "country": "FR", "count": 176, "relevant_pages_found": ["Ma Couronne Curly (crème cheveux, produit différent)", "pollution majoritaire fermes romans/drama"]},
+    {"kw": "masseur cuir chevelu", "country": "FR", "count": 32, "relevant_pages_found": ["Les Astuces Cheveux Longs (EUR)", "Kavira (EUR)", "COCOSOLIS (EUR, marque établie)", "tous poussent des sérums capillaires, pas le masseur"]},
+    {"kw": "posture corrector", "country": "CA", "count": 348, "relevant_pages_found": ["Emboadlie.bi05 (sangles posture)", "Urbanvelle-1 (soutien-gorge posture)", "pollution: Dr. Kevin Tracey (appareil nerf vague, advertorial)"]},
+    {"kw": "teeth whitening kit", "country": "US", "count": 1611, "relevant_pages_found": ["Gosibconp (bain de bouche)", "Tryourplus-A", "pollution: dentistes locaux (Hila Dental, Diamond Care Dental)"]},
+    {"kw": "hair growth serum", "country": "US", "count": 8264, "relevant_pages_found": ["Korean Hair Tips", "Haley Davis", "Dr. Katherine Hayes", "Rennora Beauty", "Crownix Hair (ES)", "James Kilgour MD (advertorial)", "AllieElliott (CAD)"]},
+    {"kw": "heatless curls", "country": "CA", "count": 127, "relevant_pages_found": ["Propostion.PR01 uniquement (même annonceur qu'US)"]},
+    {"kw": "gua sha", "country": "US", "count": 3844, "relevant_pages_found": ["Desta (EMS gua sha, AUD)", "Beautyspop WEI5", "Kirei Co.", "Christina Anderson", "Serene Labs (vu aussi sous scalp massager)"]},
+    {"kw": "neck firming", "country": "US", "count": 4116, "relevant_pages_found": ["Vibeourplus.shop", "KahunaSpa", "Kuner-D-03 (Korean NAD+ EGF Firming Serum)", "Beauty Muse", "Mackenzielu (stick anti-rides 'Forget Botox')"]},
+    {"kw": "legging gainant", "country": "FR", "count": 241, "relevant_pages_found": ["Leonie & Co", "FitSlim (EUR)", "Luveon", "Cellumove France + Cellumove WorldWide", "Arlaya (EUR)"]},
+    {"kw": "hair growth serum", "country": "CA", "count": 3044, "relevant_pages_found": ["AllieElliott (CAD)", "Korean Hair Tips", "Haley Davis", "Dr. Katherine Hayes", "Crownix Hair", "Growy (EUR)"]}
+  ],
+  "page_profiles": [
+    {"page_id": "1426526310953886", "page_name": "Celyssia", "country_target": "FR", "active_ads_total": 782, "oldest_ad_start_observed": "2026-07-03", "note": "marque FR multi-produits (correcteur posture SilkLift, bandeaux, soutiens-gorge), currency USD = opérateur étranger"},
+    {"page_id": "1192949410564305", "page_name": "Korean Hair Tips", "country_target": "US/CA", "active_ads_total": 101, "oldest_ad_start_observed": "2026-07-03", "note": "sérum capillaire coréen, réseau avec Haley Davis / Dr. Katherine Hayes (mêmes créas)"},
+    {"page_id": "516773251528508", "page_name": "Leonie & Co", "country_target": "FR + international", "active_ads_total": 608, "oldest_ad_start_observed": "2026-07-08", "note": "legging compression, créas FR+EN, claims cellulite/lipœdème"},
+    {"page_id": "1120700374454721", "page_name": "Desta", "country_target": "US (AUD)", "active_ads_total": 5, "oldest_ad_start_observed": "2026-07-11", "note": "EMS gua sha — petit annonceur"},
+    {"page_id": "100529622970410", "page_name": "Curvyfajaes", "country_target": "US", "active_ads_total": 513, "oldest_ad_start_observed": "2026-07-09", "note": "shapewear/soutiens-gorge + posture, gros budget"},
+    {"page_id": "1229899710200908", "page_name": "Peadic", "country_target": "US", "active_ads_total": 1, "oldest_ad_start_observed": "2026-06-29", "note": "réseau de pages clones Peadic (≥3 page_ids vus), 1 pub/page, devises EUR/CAD = dropshipper international"}
+  ],
+  "candidates": [
+    {
+      "product": "correcteur de posture (ceinture / soutien-gorge posture)",
+      "why": "Demande massive et multi-marchés confirmée par mes appels : 1 852 pubs actives US, 348 CA, 130 FR. Annonceurs distincts multiples (réseau Peadic, Curvyfajaes 513 pubs actives, ChicCurve, Urbanvelle-1, Emboadlie, Celyssia 782 pubs actives en FR). Produit wellness sans claim médical fort si angle 'confort/allure' — risque pub modéré ; éviter les promesses thérapeutiques (dos, scoliose).",
+      "markets_evidence": {"US": "1852 pubs actives (kw posture corrector)", "FR": "130 pubs actives + Celyssia (782 pubs actives page)", "CA": "348 pubs actives + clone Peadic en devise CAD"},
+      "example_ads": [
+        {"page_name": "Peadic", "page_id": "1229899710200908", "start": "2026-06-29", "snapshot": "https://www.facebook.com/ads/library/?id=880760101159693", "creative": "Instant Posture Corrector | 50% Off"},
+        {"page_name": "Curvyfajaes", "page_id": "100529622970410", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=1040007931870529", "creative": "Your SLOUCH is running your LOOK"},
+        {"page_name": "Celyssia", "page_id": "1426526310953886", "start": "2026-07-03", "snapshot": "https://www.facebook.com/ads/library/?id=2148237196114967", "creative": "Offre 2+1 Gratuit"},
+        {"page_name": "Urbanvelle-1", "page_id": "1120129574507452", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=2641755169999711", "creative": "Slouch? This Bra Says \"Stand Tall.\""}
+      ],
+      "suggested_keywords_en": ["posture corrector", "posture bra", "back straightener", "posture support", "shoulder brace", "stand tall", "slouch fix"],
+      "suggested_keywords_fr": ["correcteur de posture", "redresse dos", "soutien-gorge posture", "ceinture posture", "dos droit", "se redresser", "maintien du dos"]
+    },
+    {
+      "product": "sérum capillaire coréen anti-chute / pousse (scalp serum)",
+      "why": "Le signal le plus chaud du balayage : 8 264 pubs actives US et 3 044 CA sur 'hair growth serum' ; le MÊME produit ('Korea's Secret To Fuller, Thicker Hair' / 'Sérum Capillaire Coréen N°1') est poussé par un réseau de pages US/CA (Korean Hair Tips 101 pubs, Haley Davis, Dr. Katherine Hayes) ET par des annonceurs FR distincts (Kavira, Les Astuces Cheveux Longs). RISQUE META ÉLEVÉ : claims repousse/anti-chute + pages fausses personas 'Dr.' = catégorie santé, rejets pub et bans fréquents.",
+      "markets_evidence": {"US": "8264 pubs actives (kw hair growth serum)", "FR": "Kavira + Les Astuces Cheveux Longs (même produit, EUR, kw masseur cuir chevelu)", "CA": "3044 pubs actives + AllieElliott en CAD"},
+      "example_ads": [
+        {"page_name": "Korean Hair Tips", "page_id": "1192949410564305", "start": "2026-07-03", "snapshot": "https://www.facebook.com/ads/library/?id=2180822272760714", "creative": "Buy 1 Get 1 Free"},
+        {"page_name": "Kavira", "page_id": "1039503639248945", "start": "2026-07-06", "snapshot": "https://www.facebook.com/ads/library/?id=1618934503093138", "creative": "Sérum Capillaire Coréen N°1"},
+        {"page_name": "AllieElliott", "page_id": "105466914194800", "start": "2026-07-01", "snapshot": "https://www.facebook.com/ads/library/?id=2598689750526190", "creative": "15% Off Sitewide — Use Code VIP15 Today"},
+        {"page_name": "Les Astuces Cheveux Longs", "page_id": "1114400011750579", "start": "2026-07-08", "snapshot": "https://www.facebook.com/ads/library/?id=1671567784102514", "creative": "Sérum Capillaire Coréen N°1"}
+      ],
+      "suggested_keywords_en": ["hair growth serum", "korean hair serum", "scalp serum", "hair loss women", "thicker fuller hair", "hair regrowth", "scalp ritual", "hair thinning"],
+      "suggested_keywords_fr": ["sérum capillaire", "sérum coréen cheveux", "pousse des cheveux", "chute de cheveux", "cheveux plus épais", "sérum cuir chevelu", "repousse cheveux"]
+    },
+    {
+      "product": "legging gainant / compression sculptant",
+      "why": "241 pubs actives FR avec ≥5 annonceurs e-com DISTINCTS et dédiés au produit (Leonie & Co 608 pubs actives, FitSlim, Luveon, Cellumove x2 pages, Arlaya) — la recherche FR la plus propre du balayage (zéro ferme de romans dans les pages pertinentes). Leonie & Co tourne en FR + EN = déjà multi-marchés. RISQUE : les angles gagnants observés sont minceur/cellulite/lipœdème ('No sport. No diet. 6 weeks.') = claims avant/après à risque de rejet Meta ; l'angle 'jambes légères/confort' est plus sûr.",
+      "markets_evidence": {"US": "non testé directement (budget) — Leonie & Co diffuse des créas EN, à confirmer avec kw 'compression leggings'", "FR": "241 pubs actives, 6 pages e-com pertinentes", "CA": "non testé directement (budget)"},
+      "example_ads": [
+        {"page_name": "Leonie & Co", "page_id": "516773251528508", "start": "2026-07-09", "snapshot": "https://www.facebook.com/ads/library/?id=2089315104995230", "creative": "Son secret contre les jambes lourdes"},
+        {"page_name": "FitSlim", "page_id": "731735576697382", "start": "2026-07-08", "snapshot": "https://www.facebook.com/ads/library/?id=2297995477670416", "creative": "Offrez FitSlim™"},
+        {"page_name": "Luveon", "page_id": "572439252627918", "start": "2026-07-08", "snapshot": "https://www.facebook.com/ads/library/?id=1547059743809608", "creative": "Legging 3D Luveon"},
+        {"page_name": "Arlaya", "page_id": "374607312406759", "start": "2026-07-07", "snapshot": "https://www.facebook.com/ads/library/?id=1071597715543768", "creative": "OFFRE SPÉCIALE : 2 POUR LE PRIX DE 1 !"}
+      ],
+      "suggested_keywords_en": ["compression leggings", "shaping leggings", "sculpting leggings", "heavy legs", "anti cellulite leggings", "shapewear leggings", "tummy control leggings"],
+      "suggested_keywords_fr": ["legging gainant", "legging sculptant", "jambes lourdes", "legging anti-cellulite", "legging compression", "legging minceur", "gaine ventre plat"]
+    },
+    {
+      "product": "outil visage EMS / gua sha électrique / microcourant",
+      "why": "3 844 pubs actives US sur 'gua sha' et 4 116 sur 'neck firming' avec plusieurs annonceurs e-com distincts vendant des devices (Desta 'EMS and Gua Sha In One', Serene Labs 'LuxeLift Microcurrent Device', Beautyspop, Kirei Co., Mackenzielu wrinkle stick). Panier moyen élevé pour un device beauté. RISQUE : angles anti-âge avant/après ('Forget Botox! deletes deep wrinkles') = risque de rejet Meta élevé ; l'angle 'rituel spa à la maison' est plus sûr. Couverture FR/CA non vérifiée dans le budget.",
+      "markets_evidence": {"US": "3844 (gua sha) + 4116 (neck firming) pubs actives, ≥5 annonceurs e-com", "FR": "non testé directement (budget)", "CA": "non testé directement (budget)"},
+      "example_ads": [
+        {"page_name": "Desta", "page_id": "1120700374454721", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=1585435956282571", "creative": "EMS and Gua Sha In One"},
+        {"page_name": "Serene Labs", "page_id": "1057320437475761", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=4102823689967172", "creative": "The Aura Mask | LuxeLift Microcurrent Device | Deep Scalp Therapy Massager"},
+        {"page_name": "Beautyspop WEI5", "page_id": "135770352945750", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=1732912814514865", "creative": "BUY 1 GET 1 FREE"}
+      ],
+      "suggested_keywords_en": ["ems face device", "microcurrent device", "gua sha tool", "face sculpting device", "face lift device", "facial massager", "neck firming device", "red light face mask"],
+      "suggested_keywords_fr": ["appareil microcourant", "gua sha électrique", "appareil lifting visage", "masseur visage", "raffermissement cou", "appareil EMS visage", "rouleau de jade"]
+    },
+    {
+      "product": "blanchiment dentaire / dentifrice-sérum éclaircissant",
+      "why": "Volume élevé : 1 611 pubs actives US ('teeth whitening kit'), 339 FR ('blanchiment dentaire'). Annonceurs e-com : réseau Dailynestbarn (5 pages clones FR, dentifrice + 'Sérum Éclaircissant Teeth Armour'), Dr. Benjamin Lewis (sérum gencives advertorial), Gosibconp, Tryourplus-A. ATTENTION : catégorie à RISQUE META MAXIMAL (claims santé dentaire + avant/après, personas 'Dr.' fictives) + forte pollution dentistes locaux dans les compteurs — demande e-com réelle plus faible que le compte brut. Candidat de réserve uniquement.",
+      "markets_evidence": {"US": "1611 pubs actives (majorité dentistes locaux)", "FR": "339 pubs actives, réseau Dailynestbarn + Dr. Benjamin Lewis", "CA": "non testé directement (budget)"},
+      "example_ads": [
+        {"page_name": "Dr. Benjamin Lewis", "page_id": "1051511418047815", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=1579507883745773", "creative": "Favorise la cicatrisation des gencives — Reconnu par l'Association dentaire française"},
+        {"page_name": "Dailynestbarn.ND06", "page_id": "1188418561017511", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=1405522994730150", "creative": "Sérum Éclaircissant Teeth Armour"},
+        {"page_name": "Gosibconp", "page_id": "111362658648573", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=1728720775218447", "creative": "Fresh Mouthwash"}
+      ],
+      "suggested_keywords_en": ["teeth whitening kit", "whitening toothpaste", "purple toothpaste", "teeth whitening pen", "gum serum", "white smile", "enamel repair"],
+      "suggested_keywords_fr": ["blanchiment dentaire", "dentifrice blanchissant", "kit blanchiment", "dents blanches", "sérum dentaire", "sourire éclatant", "gouttière blanchiment"]
+    }
+  ],
+  "notes": "LIMITE MÉTHODO : l'API trie les pubs de la plus récente à la plus ancienne ; avec limit 25-50 sur des pages à 100-800 pubs actives, la plus ancienne date de début OBSERVÉE est 2026-06-29 (Peadic, 12 jours) / création 2026-06-22 — aucune pub ≥30 jours n'a pu être observée directement dans le budget de 22 appels. La preuve de durabilité repose sur les volumes ACTIVE massifs et les réseaux multi-pages, pas sur une date ≥30j vérifiée : à confirmer en phase profilage avec pagination ou ad_active_status=ALL. AUTRES OBSERVATIONS : (1) 'red light therapy' US = 29 416 mais l'échantillon est dominé par des spas/cliniques LOCAUX (services) — les masques/panneaux e-com existent sûrement mais non isolés ici ; (2) 'heatless curls' US 409 / CA 127 = un SEUL annonceur observé (Propostion.PR01, 50/50 résultats) → échoue le critère ≥2 annonceurs, écarté des candidats ; (3) fermes de romans/drama confirmées sur FR : Sueñovela Amor, Rêve en Pages, Super livre, Best novels, FlareFlow — polluent tous les mots-clés FR à faible volume ; (4) indice devise : Peadic (EUR/CAD sur US), Desta (AUD sur US), Celyssia/Leonie (USD sur FR) = opérateurs dropship internationaux, confirme que ces produits sont des produits 'de campagne' répliqués, pas des marques locales."
+}

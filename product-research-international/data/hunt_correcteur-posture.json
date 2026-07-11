@@ -1,0 +1,390 @@
+{
+  "product": "correcteur-posture",
+  "niche": "beauty",
+  "hunter": "Chasseur-C",
+  "date": "2026-07-11",
+  "tool": "mcp__META_ADS__ads_library_search (ACTIVE, 1 pays/appel, limit 30 balayage / 50 profilage)",
+  "api_calls_used": 14,
+  "keywords_total": 7,
+  "searches": [
+    {"kw": "posture corrector", "country": "US", "count": 1793, "new_pages": 6, "tier": 1, "note": "Peadic (EUR+CAD clones), Urbanvelle-1, ChicCurve Mexico, Curvyfajaes pertinents; Dr. Kevin Tracey (nerf vague) = pollution advertorial"},
+    {"kw": "posture bra", "country": "US", "count": 2656, "new_pages": 3, "tier": 1, "note": "Mirana, Shop Kovira (CAD), Body & Bra nouveaux; kw le plus riche en bras posture"},
+    {"kw": "back straightener", "country": "US", "count": 448, "new_pages": 0, "tier": 3, "note": "POLLUE: outils fils/redresse-cheveux (TYMO, Cocoony), fermes de romans — 0 page posture"},
+    {"kw": "posture corrector", "country": "CA", "count": 324, "new_pages": 6, "tier": 1, "note": "Emboadlie x2 (sangles), Her Loving, Vibeourplus.cc, Shapecurve US, Simplydwelly; pollution Dr. Kevin Tracey + The Relief Journal (advertorials)"},
+    {"kw": "correcteur de posture", "country": "FR", "count": 131, "new_pages": 1, "tier": 1, "note": "Celyssia domine; pollution Sueñovela Amor (ferme romans), Bureauhybride (chaise ergo), ApprochU"},
+    {"kw": "soutien-gorge posture", "country": "FR", "count": 258, "new_pages": 4, "tier": 2, "note": "Celyssia domine; Arlaya, Jolie, Siléor, Octipa, Playtex = lingerie/soutien-gorge (surtout incertains); Parisook, BoutiqueFortune sans titre"},
+    {"kw": "correcteur de posture", "country": "CA", "count": 91, "new_pages": 1, "tier": 2, "note": "Sueñovela Amor (ferme romans) + Celyssia; Naevyo.co (USD, sans titre) incertain"}
+  ],
+  "sweep_end_reason": "saturation — après 7 recherches (US/CA/FR), les pages pertinentes se répètent (Celyssia, Mirana, Curvyfajaes, réseau posture-bra US); FR/CA saturés de fermes de romans et lingerie générique. Budget discipliné respecté (14 appels).",
+  "historic_all_counts": {"posture corrector | US | ALL": 192665},
+  "competitors": [
+    {
+      "page_id": "1426526310953886",
+      "page_name": "Celyssia",
+      "countries_seen": ["FR", "CA"],
+      "classification": "pertinente",
+      "reason": "Marque FR de correcteurs/soutiens-gorge posture (gamme SilkLift, ShapeLift, LaceLift), 783 pubs actives — annonceur dominant du marché francophone.",
+      "seen_under_keywords": ["correcteur de posture (FR)", "soutien-gorge posture (FR)", "correcteur de posture (CA)"],
+      "currency_seen": ["USD"],
+      "active_ads_total": 783,
+      "oldest_ad_start": "2026-06-24",
+      "profiled": true,
+      "creative_texts": ["Fatiguée de vous redresser sans arrêt ?", "Se redresser n'a jamais voulu dire serrer.", "Le SilkLift est à -40% ! / Offre 2+1 Gratuit"],
+      "landing_url": null,
+      "ads": [
+        {"id": "2095860754617912", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=2095860754617912"},
+        {"id": "1599822248442775", "start": "2026-07-10", "snapshot": "https://www.facebook.com/ads/library/?id=1599822248442775"},
+        {"id": "862642133271763", "start": "2026-07-10", "snapshot": "https://www.facebook.com/ads/library/?id=862642133271763"},
+        {"id": "27617920707865751", "start": "2026-07-06", "snapshot": "https://www.facebook.com/ads/library/?id=27617920707865751"},
+        {"id": "2148237196114967", "start": "2026-06-27", "snapshot": "https://www.facebook.com/ads/library/?id=2148237196114967"},
+        {"id": "1009889831750771", "start": "2026-06-24", "snapshot": "https://www.facebook.com/ads/library/?id=1009889831750771"},
+        {"id": "1277331267568210", "start": "2026-06-24", "snapshot": "https://www.facebook.com/ads/library/?id=1277331267568210"}
+      ],
+      "ads_note": "783 pubs actives; API triée desc, échantillon de 50 vu. Dates de début observées s'étalent du 2026-06-24 au 2026-07-11 = durabilité >30j confirmée pour cette page."
+    },
+    {
+      "page_id": "700683056466064",
+      "page_name": "Mirana",
+      "countries_seen": ["US"],
+      "classification": "pertinente",
+      "reason": "Page mono-produit 100% dédiée: 64 pubs actives toutes intitulées 'Bra That Fixes Posture' — soutien-gorge correcteur de posture pur.",
+      "seen_under_keywords": ["posture bra (US)"],
+      "currency_seen": ["USD"],
+      "active_ads_total": 64,
+      "oldest_ad_start": "2026-07-07",
+      "profiled": true,
+      "creative_texts": ["Bra That Fixes Posture"],
+      "landing_url": null,
+      "ads": [
+        {"id": "2004959506830267", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=2004959506830267"},
+        {"id": "1554851846047329", "start": "2026-07-08", "snapshot": "https://www.facebook.com/ads/library/?id=1554851846047329"},
+        {"id": "1607003361026564", "start": "2026-07-07", "snapshot": "https://www.facebook.com/ads/library/?id=1607003361026564"},
+        {"id": "1858024375157486", "start": "2026-07-07", "snapshot": "https://www.facebook.com/ads/library/?id=1858024375157486"},
+        {"id": "2106824856544947", "start": "2026-07-07", "snapshot": "https://www.facebook.com/ads/library/?id=2106824856544947"}
+      ],
+      "ads_note": "64 pubs actives, créa unique dupliquée; plus ancienne début 2026-07-07 (~4 jours)."
+    },
+    {
+      "page_id": "100529622970410",
+      "page_name": "Curvyfajaes",
+      "countries_seen": ["US"],
+      "classification": "pertinente",
+      "reason": "Gros annonceur shapewear/soutiens-gorge (521 pubs actives) utilisant l'angle posture 'Your SLOUCH is running your LOOK' — niche adjacente forte.",
+      "seen_under_keywords": ["posture corrector (US)", "posture bra (US)"],
+      "currency_seen": ["USD"],
+      "active_ads_total": 521,
+      "oldest_ad_start": "2026-07-10",
+      "profiled": true,
+      "creative_texts": ["Your SLOUCH is running your LOOK", "So Comfortable I Forget I'm Wearing It", "No underwires – comfortable all day"],
+      "landing_url": null,
+      "ads": [
+        {"id": "1040007931870529", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=1040007931870529"},
+        {"id": "1017227317794843", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=1017227317794843"},
+        {"id": "27411349848531061", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=27411349848531061"},
+        {"id": "883384421489954", "start": "2026-07-10", "snapshot": "https://www.facebook.com/ads/library/?id=883384421489954"},
+        {"id": "1011214498311450", "start": "2026-07-10", "snapshot": "https://www.facebook.com/ads/library/?id=1011214498311450"}
+      ],
+      "ads_note": "521 pubs actives (shapewear multi-produits + angle posture); échantillon desc, début observé max 2026-07-10 (tri API masque les plus anciennes)."
+    },
+    {
+      "page_id": "1120129574507452",
+      "page_name": "Urbanvelle-1",
+      "countries_seen": ["US"],
+      "classification": "pertinente",
+      "reason": "Soutien-gorge posture 'Stand Tall' avec advertorial témoignage ('My Posture Has Improved... 12,000+ Women'); 20 pubs actives. Aussi une créa autobronzant = dropshipper multi-produits.",
+      "seen_under_keywords": ["posture corrector (US)", "posture bra (US)"],
+      "currency_seen": ["USD"],
+      "active_ads_total": 20,
+      "oldest_ad_start": "2026-07-11",
+      "profiled": true,
+      "creative_texts": ["Slouch? This Bra Says \"Stand Tall.\"", "\"My Posture Has Improved So Much!\" – 12,000+ Women Agree.", "\"I Thought It Would Turn Me Orange. It Didn't.\" – 5,000+ Women Agree."],
+      "landing_url": null,
+      "ads": [
+        {"id": "1034877465697571", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=1034877465697571"},
+        {"id": "1527494212451419", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=1527494212451419"},
+        {"id": "922733727536940", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=922733727536940"}
+      ],
+      "ads_note": "20 pubs actives, toutes démarrées ~2026-07-11 = lancement tout récent."
+    },
+    {
+      "page_id": "881625215042734",
+      "page_name": "Shapecurve US",
+      "countries_seen": ["CA"],
+      "classification": "pertinente",
+      "reason": "Boutique shapewear (583 pubs actives) au catalogue incluant 'Front Closure Cross-Back Wireless Posture Bra' — vend explicitement un soutien-gorge posture.",
+      "seen_under_keywords": ["correcteur de posture (CA)"],
+      "currency_seen": ["USD"],
+      "active_ads_total": 583,
+      "oldest_ad_start": "2026-07-10",
+      "profiled": true,
+      "creative_texts": ["Front Closure Cross-Back Wireless Posture Bra", "Still fighting with back hooks every morning?", "Comfortable Wireless Full Coverage Jelly Smoothing Bra"],
+      "landing_url": null,
+      "ads": [
+        {"id": "2280492836026506", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=2280492836026506"},
+        {"id": "4733345630270762", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=4733345630270762"},
+        {"id": "1717601639371337", "start": "2026-07-10", "snapshot": "https://www.facebook.com/ads/library/?id=1717601639371337"},
+        {"id": "4319170085013659", "start": "2026-07-10", "snapshot": "https://www.facebook.com/ads/library/?id=4319170085013659"}
+      ],
+      "ads_note": "583 pubs actives multi-produits (shapewear, maillots, bodysuits) dont plusieurs posture bra; tri desc, début observé max 2026-07-10."
+    },
+    {
+      "page_id": "1229899710200908",
+      "page_name": "Peadic",
+      "countries_seen": ["US"],
+      "classification": "pertinente",
+      "reason": "'Instant Posture Corrector | 50% Off' — page du réseau de clones Peadic (1 pub/page, devise EUR = dropshipper international).",
+      "seen_under_keywords": ["posture corrector (US)"],
+      "currency_seen": ["EUR"],
+      "active_ads_total": 1,
+      "oldest_ad_start": "2026-06-29",
+      "profiled": true,
+      "creative_texts": ["Instant Posture Corrector | 50% Off"],
+      "landing_url": null,
+      "ads": [
+        {"id": "880760101159693", "start": "2026-06-29", "snapshot": "https://www.facebook.com/ads/library/?id=880760101159693"}
+      ],
+      "ads_note": "1 seule pub active; réseau de pages clones (voir page_id 1137530799452099 en CAD)."
+    },
+    {
+      "page_id": "1137530799452099",
+      "page_name": "Peadic",
+      "countries_seen": ["US"],
+      "classification": "pertinente",
+      "reason": "Page clone Peadic (même créa 'Instant Posture Corrector | 50% Off'), devise CAD — confirme réseau multi-pages/multi-devises.",
+      "seen_under_keywords": ["posture corrector (US)"],
+      "currency_seen": ["CAD"],
+      "active_ads_total": null,
+      "oldest_ad_start": "2026-06-29",
+      "profiled": false,
+      "creative_texts": ["Instant Posture Corrector | 50% Off"],
+      "landing_url": null,
+      "ads": [
+        {"id": "1303609288549913", "start": "2026-06-29", "snapshot": "https://www.facebook.com/ads/library/?id=1303609288549913"}
+      ]
+    },
+    {
+      "page_id": "128782720319494",
+      "page_name": "Emboadlie.bi05",
+      "countries_seen": ["CA"],
+      "classification": "pertinente",
+      "reason": "'Fitness Posture Corrector Training Straps' — sangles correcteur de posture (produit exact).",
+      "seen_under_keywords": ["correcteur de posture (CA)"],
+      "currency_seen": ["USD"],
+      "active_ads_total": null,
+      "oldest_ad_start": "2026-07-11",
+      "profiled": false,
+      "creative_texts": ["Fitness Posture Corrector Training Straps"],
+      "landing_url": null,
+      "ads": [
+        {"id": "1553386146320912", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=1553386146320912"},
+        {"id": "1018478581033675", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=1018478581033675"},
+        {"id": "1418845670150277", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=1418845670150277"}
+      ]
+    },
+    {
+      "page_id": "122094420326018689",
+      "page_name": "Emboadlie",
+      "countries_seen": ["CA"],
+      "classification": "pertinente",
+      "reason": "Page sœur d'Emboadlie.bi05, même créa 'Fitness Posture Corrector Training Straps'.",
+      "seen_under_keywords": ["correcteur de posture (CA)"],
+      "currency_seen": ["USD"],
+      "active_ads_total": null,
+      "oldest_ad_start": "2026-07-11",
+      "profiled": false,
+      "creative_texts": ["Fitness Posture Corrector Training Straps"],
+      "landing_url": null,
+      "ads": [
+        {"id": "1048296644337932", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=1048296644337932"}
+      ]
+    },
+    {
+      "page_id": "1006686089204487",
+      "page_name": "Vibeourplus.cc",
+      "countries_seen": ["CA"],
+      "classification": "pertinente",
+      "reason": "'Fix Slouch Instantly – Cross-Back Front Closure Wireless Bra' — soutien-gorge posture explicite.",
+      "seen_under_keywords": ["correcteur de posture (CA)"],
+      "currency_seen": ["USD"],
+      "active_ads_total": null,
+      "oldest_ad_start": "2026-07-11",
+      "profiled": false,
+      "creative_texts": ["Fix Slouch Instantly – Cross-Back Front Closure Wireless Bra"],
+      "landing_url": null,
+      "ads": [
+        {"id": "1040541525166401", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=1040541525166401"}
+      ]
+    },
+    {
+      "page_id": "1168698636325527",
+      "page_name": "Her Loving",
+      "countries_seen": ["CA"],
+      "classification": "pertinente",
+      "reason": "'X straps fix slouch, smooth back' — soutien-gorge/sangle correction posture.",
+      "seen_under_keywords": ["correcteur de posture (CA)"],
+      "currency_seen": ["USD"],
+      "active_ads_total": null,
+      "oldest_ad_start": "2026-07-11",
+      "profiled": false,
+      "creative_texts": ["X straps fix slouch, smooth back"],
+      "landing_url": null,
+      "ads": [
+        {"id": "1339380187738702", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=1339380187738702"}
+      ]
+    },
+    {
+      "page_id": "123379520854054",
+      "page_name": "Simplydwelly.USA-Shop",
+      "countries_seen": ["CA"],
+      "classification": "pertinente",
+      "reason": "'Instant Lift & Posture Support' — soutien-gorge à effet posture.",
+      "seen_under_keywords": ["correcteur de posture (CA)"],
+      "currency_seen": ["USD"],
+      "active_ads_total": null,
+      "oldest_ad_start": "2026-07-11",
+      "profiled": false,
+      "creative_texts": ["Instant Lift & Posture Support ✨"],
+      "landing_url": null,
+      "ads": [
+        {"id": "1342714481345704", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=1342714481345704"},
+        {"id": "1950690738911464", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=1950690738911464"}
+      ]
+    },
+    {
+      "page_id": "458448054021056",
+      "page_name": "Shop Kovira",
+      "countries_seen": ["US"],
+      "classification": "pertinente",
+      "reason": "'Bra That Fixes Posture.' — soutien-gorge posture (devise CAD = opérateur canadien ciblant US).",
+      "seen_under_keywords": ["posture bra (US)"],
+      "currency_seen": ["CAD"],
+      "active_ads_total": null,
+      "oldest_ad_start": "2026-07-11",
+      "profiled": false,
+      "creative_texts": ["Bra That Fixes Posture."],
+      "landing_url": null,
+      "ads": [
+        {"id": "1523745362562989", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=1523745362562989"}
+      ]
+    },
+    {
+      "page_id": "1450522805065774",
+      "page_name": "Body & Bra",
+      "countries_seen": ["US"],
+      "classification": "incertaine",
+      "reason": "'Wireless Bra for Better Support' — soutien-gorge de maintien, angle posture implicite mais non explicite.",
+      "seen_under_keywords": ["posture bra (US)"],
+      "currency_seen": ["USD"],
+      "active_ads_total": null,
+      "oldest_ad_start": "2026-07-11",
+      "profiled": false,
+      "creative_texts": ["Wireless Bra for Better Support 🥰"],
+      "landing_url": null,
+      "ads": [
+        {"id": "3601956613284841", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=3601956613284841"},
+        {"id": "1601099484947793", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=1601099484947793"}
+      ]
+    },
+    {
+      "page_id": "122848267585853",
+      "page_name": "ChicCurve Mexico",
+      "countries_seen": ["US"],
+      "classification": "incertaine",
+      "reason": "Shapewear hispanophone ('10/10 recomendado') vu sous posture corrector — niche adjacente, produit posture non confirmé dans la créa.",
+      "seen_under_keywords": ["posture corrector (US)", "posture bra (US)"],
+      "currency_seen": ["USD"],
+      "active_ads_total": null,
+      "oldest_ad_start": "2026-07-11",
+      "profiled": false,
+      "creative_texts": ["10/10 recomendado"],
+      "landing_url": null,
+      "ads": [
+        {"id": "2054859538401249", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=2054859538401249"},
+        {"id": "1813329270077886", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=1813329270077886"}
+      ]
+    },
+    {
+      "page_id": "374607312406759",
+      "page_name": "Arlaya",
+      "countries_seen": ["FR"],
+      "classification": "incertaine",
+      "reason": "Vu sous 'soutien-gorge posture' FR ('4 pour le prix de 2', EUR) mais identifié comme legging gainant dans la découverte — produit posture non confirmé.",
+      "seen_under_keywords": ["soutien-gorge posture (FR)"],
+      "currency_seen": ["EUR"],
+      "active_ads_total": null,
+      "oldest_ad_start": "2026-07-08",
+      "profiled": false,
+      "creative_texts": ["OFFRE SPÉCIALE : 4 POUR LE PRIX DE 2 !"],
+      "landing_url": null,
+      "ads": [
+        {"id": "2295885401175601", "start": "2026-07-08", "snapshot": "https://www.facebook.com/ads/library/?id=2295885401175601"}
+      ]
+    },
+    {
+      "page_id": "1189131550949847",
+      "page_name": "Siléor Boutique",
+      "countries_seen": ["FR"],
+      "classification": "incertaine",
+      "reason": "'Le soutien-gorge qui tient toute la journée' — soutien-gorge de confort, angle posture non explicite (EUR).",
+      "seen_under_keywords": ["soutien-gorge posture (FR)"],
+      "currency_seen": ["EUR"],
+      "active_ads_total": null,
+      "oldest_ad_start": "2026-07-05",
+      "profiled": false,
+      "creative_texts": ["Le soutien-gorge qui tient toute la journée"],
+      "landing_url": null,
+      "ads": [
+        {"id": "1496722208868506", "start": "2026-07-05", "snapshot": "https://www.facebook.com/ads/library/?id=1496722208868506"}
+      ]
+    },
+    {
+      "page_id": "542507739148600",
+      "page_name": "Playtex",
+      "countries_seen": ["FR"],
+      "classification": "incertaine",
+      "reason": "Marque lingerie établie proposant un soutien-gorge 'Ideal Posture' — concurrent de marque (pas dropship), pertinence produit réelle mais hors modèle e-com de campagne.",
+      "seen_under_keywords": ["soutien-gorge posture (FR)"],
+      "currency_seen": ["EUR"],
+      "active_ads_total": null,
+      "oldest_ad_start": "2026-07-04",
+      "profiled": false,
+      "creative_texts": ["Soutien-gorge ouverture devant ivoire Ideal Posture (catalogue multi-produits)"],
+      "landing_url": null,
+      "ads": [
+        {"id": "927447113699850", "start": "2026-07-04", "snapshot": "https://www.facebook.com/ads/library/?id=927447113699850"}
+      ]
+    },
+    {
+      "page_id": "898251323376125",
+      "page_name": "Dr. Kevin Tracey",
+      "countries_seen": ["US", "CA"],
+      "classification": "hors-sujet",
+      "reason": "Advertorial 'Vagus Nerve Reset' (appareil nerf vague/bien-être) — pollue massivement 'posture corrector' US et CA, aucun rapport avec le produit posture.",
+      "seen_under_keywords": ["posture corrector (US)", "posture corrector (CA)"],
+      "currency_seen": ["USD"],
+      "active_ads_total": null,
+      "oldest_ad_start": null,
+      "profiled": false,
+      "creative_texts": ["Vagus Nerve Reset Changed Life"],
+      "landing_url": null,
+      "ads": []
+    },
+    {
+      "page_id": "108164801052169",
+      "page_name": "Sueñovela Amor",
+      "countries_seen": ["FR", "CA"],
+      "classification": "hors-sujet",
+      "reason": "Ferme de romans/drama ('Cliquez pour continuer la lecture <La Stagiaire du Milliardaire>') — pollution récurrente des mots-clés FR/CA à faible volume.",
+      "seen_under_keywords": ["correcteur de posture (FR)", "correcteur de posture (CA)"],
+      "currency_seen": ["USD"],
+      "active_ads_total": null,
+      "oldest_ad_start": null,
+      "profiled": false,
+      "creative_texts": ["😍Cliquez pour continuer la lecture <La Stagiaire du Milliardaire>"],
+      "landing_url": null,
+      "ads": []
+    }
+  ],
+  "profiling_capped": false,
+  "notes": "RISQUE POLITIQUE META (À NOTER): le correcteur-posture est à cheval sur le wellness. Les annonceurs qui tiennent (Celyssia, Mirana, Urbanvelle) évitent les claims thérapeutiques et jouent l'angle CONFORT/ALLURE ('se redresser', 'stand tall', 'slouch fix') plutôt que médical (dos/scoliose/douleur) — c'est ce qui limite le risque de rejet. Les créas advertorial à claim santé ('My Posture Has Improved... 12,000+ Women', Urbanvelle) et surtout les pages advertorial nerf vague/douleur (Dr. Kevin Tracey, The Relief Journal, Kiné Conseils Cervicales) sont les plus exposées au rejet publicitaire Meta. Risque global JUGÉ MODÉRÉ si angle confort/esthétique, ÉLEVÉ si angle avant-après/douleur. AUTRES: (1) le produit se décline en 2 formes — sangle/correcteur classique (Peadic, Emboadlie) et soutien-gorge posture (Mirana, Celyssia SilkLift, Curvyfajaes, Shapecurve) qui est la variante montante US/FR; (2) FR dominé par UN annonceur sérieux (Celyssia, USD=opérateur étranger) + pollution lingerie/romans, marché FR moins profond que US; (3) LIMITE API: tri desc empêche de voir les pubs les plus anciennes des grosses pages (Celyssia 783, Shapecurve 583, Curvyfajaes 521); seule Celyssia montre une trace >30j (2026-06-24). Historic ALL 'posture corrector' US = 192 665 (toutes pubs historiques, preuve d'evergreen)."
+}

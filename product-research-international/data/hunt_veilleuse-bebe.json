@@ -1,0 +1,954 @@
+{
+ "product": "veilleuse-bebe",
+ "niche": "baby",
+ "hunter": "Chasseur B",
+ "searches": [
+  {
+   "kw": "veilleuse bebe",
+   "country": "FR",
+   "count": 53,
+   "new_pages": 6,
+   "tier": 1
+  },
+  {
+   "kw": "peluche veilleuse",
+   "country": "FR",
+   "count": 11,
+   "new_pages": 4,
+   "tier": 1
+  },
+  {
+   "kw": "veilleuse bebe",
+   "country": "CA",
+   "count": 1,
+   "new_pages": 1,
+   "tier": 1
+  },
+  {
+   "kw": "baby night light",
+   "country": "US",
+   "count": 21994,
+   "new_pages": 0,
+   "tier": 2
+  },
+  {
+   "kw": "light up plush",
+   "country": "US",
+   "count": 307652,
+   "new_pages": 0,
+   "tier": 2
+  },
+  {
+   "kw": "veilleuse tortue",
+   "country": "FR",
+   "count": 4,
+   "new_pages": 0,
+   "tier": 2
+  }
+ ],
+ "sweep_end_reason": "saturation - niche FR/CA couverte (veilleuses + peluches bruit blanc); marche US inaccessible via mots-cles generiques (baby night light 21994 / light up plush 307652 = 100% fermes de romans 'Must read novels'/'FicSpire' + Italo Jeweler). Pages pertinentes FR profilees.",
+ "historic_all_counts": {
+  "note": "non execute (budget discipline)"
+ },
+ "competitors": [
+  {
+   "page_id": "1562138070728495",
+   "page_name": "Boutique Veille sur toi",
+   "countries_seen": [
+    "CA"
+   ],
+   "classification": "pertinente",
+   "reason": "Boutique quebecoise (CAD) de peluches lumineuses/sonores type Moonie; 1 pub active mais LONGEVITE remarquable (~345 j) = preuve rentabilite durable.",
+   "seen_under_keywords": [
+    "veilleuse bebe (CA)"
+   ],
+   "currency_seen": [
+    "CAD"
+   ],
+   "active_ads_total": 1,
+   "oldest_ad_start": "2025-07-30",
+   "profiled": true,
+   "creative_texts": [
+    "PELUCHES MOONIE | PELUCHE LUMINEUSE | PELUCHES SONORE | DOUCES ET RECONFORTANTES"
+   ],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1378797886557042",
+     "start": "2025-07-30",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1378797886557042"
+    }
+   ]
+  },
+  {
+   "page_id": "104438755558999",
+   "page_name": "Lenny et Alba",
+   "countries_seen": [
+    "FR",
+    "US",
+    "DE",
+    "ES",
+    "IT"
+   ],
+   "classification": "pertinente",
+   "reason": "Marque phare de veilleuses (bois, murale) qui scale a l'international: 160 pubs actives, creatives multilingues FR/EN/DE/ES/IT, devises EUR+USD (atteint donc les US). Angle TikTok/routine du soir.",
+   "seen_under_keywords": [
+    "veilleuse bebe (FR)"
+   ],
+   "currency_seen": [
+    "EUR",
+    "USD"
+   ],
+   "active_ads_total": 160,
+   "oldest_ad_start": "2026-05-29",
+   "profiled": true,
+   "creative_texts": [
+    "La veilleuse qui change le coucher",
+    "TikTok avait raison",
+    "La veilleuse murale preferee des mamans"
+   ],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "846056151634245",
+     "start": "2026-06-26",
+     "snapshot": "https://www.facebook.com/ads/library/?id=846056151634245"
+    },
+    {
+     "id": "1649494372800805",
+     "start": "2026-06-26",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1649494372800805"
+    },
+    {
+     "id": "892135696581365",
+     "start": "2026-06-26",
+     "snapshot": "https://www.facebook.com/ads/library/?id=892135696581365"
+    },
+    {
+     "id": "2012149706049831",
+     "start": "2026-06-26",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2012149706049831"
+    },
+    {
+     "id": "1724497622083459",
+     "start": "2026-06-26",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1724497622083459"
+    },
+    {
+     "id": "2091186628481974",
+     "start": "2026-06-26",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2091186628481974"
+    },
+    {
+     "id": "1035834855632641",
+     "start": "2026-06-26",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1035834855632641"
+    },
+    {
+     "id": "1013957694549815",
+     "start": "2026-06-26",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1013957694549815"
+    },
+    {
+     "id": "1618180163037893",
+     "start": "2026-06-26",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1618180163037893"
+    },
+    {
+     "id": "2705663276496891",
+     "start": "2026-06-26",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2705663276496891"
+    },
+    {
+     "id": "2155348235256053",
+     "start": "2026-06-26",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2155348235256053"
+    },
+    {
+     "id": "1619117982979755",
+     "start": "2026-06-26",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1619117982979755"
+    },
+    {
+     "id": "1267959345139755",
+     "start": "2026-06-03",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1267959345139755"
+    },
+    {
+     "id": "979474318240390",
+     "start": "2026-06-06",
+     "snapshot": "https://www.facebook.com/ads/library/?id=979474318240390"
+    },
+    {
+     "id": "3080893198766257",
+     "start": "2026-06-03",
+     "snapshot": "https://www.facebook.com/ads/library/?id=3080893198766257"
+    },
+    {
+     "id": "991395906848217",
+     "start": "2026-06-03",
+     "snapshot": "https://www.facebook.com/ads/library/?id=991395906848217"
+    },
+    {
+     "id": "1884637628894662",
+     "start": "2026-06-03",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1884637628894662"
+    },
+    {
+     "id": "1356092819756058",
+     "start": "2026-06-03",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1356092819756058"
+    },
+    {
+     "id": "859098073365203",
+     "start": "2026-06-03",
+     "snapshot": "https://www.facebook.com/ads/library/?id=859098073365203"
+    },
+    {
+     "id": "1556687252747284",
+     "start": "2026-06-03",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1556687252747284"
+    },
+    {
+     "id": "2450268695474503",
+     "start": "2026-06-03",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2450268695474503"
+    },
+    {
+     "id": "946449311688144",
+     "start": "2026-06-03",
+     "snapshot": "https://www.facebook.com/ads/library/?id=946449311688144"
+    },
+    {
+     "id": "1635877324347086",
+     "start": "2026-06-03",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1635877324347086"
+    },
+    {
+     "id": "819800487674927",
+     "start": "2026-06-04",
+     "snapshot": "https://www.facebook.com/ads/library/?id=819800487674927"
+    },
+    {
+     "id": "1388980806398283",
+     "start": "2026-06-02",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1388980806398283"
+    },
+    {
+     "id": "2172612636926581",
+     "start": "2026-06-02",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2172612636926581"
+    },
+    {
+     "id": "1652494872634553",
+     "start": "2026-06-02",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1652494872634553"
+    },
+    {
+     "id": "1432542455560652",
+     "start": "2026-06-02",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1432542455560652"
+    },
+    {
+     "id": "1265867838687155",
+     "start": "2026-06-03",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1265867838687155"
+    },
+    {
+     "id": "1904477140107397",
+     "start": "2026-06-02",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1904477140107397"
+    },
+    {
+     "id": "27051946981133377",
+     "start": "2026-06-02",
+     "snapshot": "https://www.facebook.com/ads/library/?id=27051946981133377"
+    },
+    {
+     "id": "1578358080558739",
+     "start": "2026-05-29",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1578358080558739"
+    },
+    {
+     "id": "970952242316683",
+     "start": "2026-05-30",
+     "snapshot": "https://www.facebook.com/ads/library/?id=970952242316683"
+    },
+    {
+     "id": "1012821975054071",
+     "start": "2026-05-29",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1012821975054071"
+    },
+    {
+     "id": "868513242287538",
+     "start": "2026-05-29",
+     "snapshot": "https://www.facebook.com/ads/library/?id=868513242287538"
+    },
+    {
+     "id": "967707316077211",
+     "start": "2026-05-30",
+     "snapshot": "https://www.facebook.com/ads/library/?id=967707316077211"
+    },
+    {
+     "id": "1962564277705345",
+     "start": "2026-05-29",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1962564277705345"
+    },
+    {
+     "id": "1541326230771570",
+     "start": "2026-05-29",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1541326230771570"
+    },
+    {
+     "id": "2274608259950713",
+     "start": "2026-05-29",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2274608259950713"
+    },
+    {
+     "id": "2398453123976623",
+     "start": "2026-05-29",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2398453123976623"
+    },
+    {
+     "id": "2854115201604872",
+     "start": "2026-05-29",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2854115201604872"
+    },
+    {
+     "id": "2886533664874425",
+     "start": "2026-05-29",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2886533664874425"
+    },
+    {
+     "id": "1657347455541386",
+     "start": "2026-05-29",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1657347455541386"
+    },
+    {
+     "id": "2074073646479384",
+     "start": "2026-05-31",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2074073646479384"
+    },
+    {
+     "id": "2060499877863535",
+     "start": "2026-05-29",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2060499877863535"
+    },
+    {
+     "id": "1280441707614518",
+     "start": "2026-05-29",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1280441707614518"
+    },
+    {
+     "id": "1732195531102005",
+     "start": "2026-05-30",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1732195531102005"
+    },
+    {
+     "id": "2030577004511357",
+     "start": "2026-05-29",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2030577004511357"
+    },
+    {
+     "id": "1746530019675096",
+     "start": "2026-05-31",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1746530019675096"
+    },
+    {
+     "id": "991804093745223",
+     "start": "2026-05-30",
+     "snapshot": "https://www.facebook.com/ads/library/?id=991804093745223"
+    }
+   ]
+  },
+  {
+   "page_id": "103862992499321",
+   "page_name": "Ma Peluche",
+   "countries_seen": [
+    "FR"
+   ],
+   "classification": "pertinente",
+   "reason": "Boutique FR de peluches sensorielles: peluche tortue/herisson 'bruit blanc', ciel etoile, 'Stitch qui respire', peluches lestees. Adjacent veilleuse-peluche; 82 pubs actives EUR.",
+   "seen_under_keywords": [
+    "peluche veilleuse (FR)"
+   ],
+   "currency_seen": [
+    "EUR"
+   ],
+   "active_ads_total": 82,
+   "oldest_ad_start": "2026-06-02",
+   "profiled": true,
+   "creative_texts": [
+    "Peluche tortue 'bruit blanc'",
+    "Peluche herisson bruit blanc de ciel etoile",
+    "Stitch qui respire"
+   ],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1777694786727816",
+     "start": "2026-06-29",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1777694786727816"
+    },
+    {
+     "id": "1740856497091672",
+     "start": "2026-06-29",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1740856497091672"
+    },
+    {
+     "id": "1325064529197746",
+     "start": "2026-06-29",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1325064529197746"
+    },
+    {
+     "id": "1549231550114109",
+     "start": "2026-06-29",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1549231550114109"
+    },
+    {
+     "id": "991083457102913",
+     "start": "2026-06-29",
+     "snapshot": "https://www.facebook.com/ads/library/?id=991083457102913"
+    },
+    {
+     "id": "27234278419566610",
+     "start": "2026-06-30",
+     "snapshot": "https://www.facebook.com/ads/library/?id=27234278419566610"
+    },
+    {
+     "id": "974192325622128",
+     "start": "2026-07-01",
+     "snapshot": "https://www.facebook.com/ads/library/?id=974192325622128"
+    },
+    {
+     "id": "2603108900087340",
+     "start": "2026-07-01",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2603108900087340"
+    },
+    {
+     "id": "2521228034987830",
+     "start": "2026-06-29",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2521228034987830"
+    },
+    {
+     "id": "1002681919136547",
+     "start": "2026-07-01",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1002681919136547"
+    },
+    {
+     "id": "1374537311232959",
+     "start": "2026-06-30",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1374537311232959"
+    },
+    {
+     "id": "1582182557251780",
+     "start": "2026-07-01",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1582182557251780"
+    },
+    {
+     "id": "26336749559335331",
+     "start": "2026-06-29",
+     "snapshot": "https://www.facebook.com/ads/library/?id=26336749559335331"
+    },
+    {
+     "id": "2024798128170663",
+     "start": "2026-07-07",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2024798128170663"
+    },
+    {
+     "id": "4309951772653753",
+     "start": "2026-06-29",
+     "snapshot": "https://www.facebook.com/ads/library/?id=4309951772653753"
+    },
+    {
+     "id": "3437391049773307",
+     "start": "2026-07-01",
+     "snapshot": "https://www.facebook.com/ads/library/?id=3437391049773307"
+    },
+    {
+     "id": "1559566018932803",
+     "start": "2026-07-08",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1559566018932803"
+    },
+    {
+     "id": "1712225923349006",
+     "start": "2026-07-06",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1712225923349006"
+    },
+    {
+     "id": "1709720430225683",
+     "start": "2026-07-02",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1709720430225683"
+    },
+    {
+     "id": "990249656951747",
+     "start": "2026-06-24",
+     "snapshot": "https://www.facebook.com/ads/library/?id=990249656951747"
+    },
+    {
+     "id": "1025091016577045",
+     "start": "2026-06-24",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1025091016577045"
+    },
+    {
+     "id": "1780401136667916",
+     "start": "2026-06-24",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1780401136667916"
+    },
+    {
+     "id": "2938337709848214",
+     "start": "2026-06-25",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2938337709848214"
+    },
+    {
+     "id": "27767760999485575",
+     "start": "2026-06-25",
+     "snapshot": "https://www.facebook.com/ads/library/?id=27767760999485575"
+    },
+    {
+     "id": "1318680073218679",
+     "start": "2026-06-25",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1318680073218679"
+    },
+    {
+     "id": "1543753523907846",
+     "start": "2026-06-24",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1543753523907846"
+    },
+    {
+     "id": "1824978978473368",
+     "start": "2026-06-25",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1824978978473368"
+    },
+    {
+     "id": "1302708421628431",
+     "start": "2026-06-24",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1302708421628431"
+    },
+    {
+     "id": "1550383783281508",
+     "start": "2026-06-24",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1550383783281508"
+    },
+    {
+     "id": "1031387119337864",
+     "start": "2026-06-24",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1031387119337864"
+    },
+    {
+     "id": "1030371602850948",
+     "start": "2026-06-25",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1030371602850948"
+    },
+    {
+     "id": "1021998790566664",
+     "start": "2026-06-25",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1021998790566664"
+    },
+    {
+     "id": "1737238454118537",
+     "start": "2026-06-25",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1737238454118537"
+    },
+    {
+     "id": "1809055997129601",
+     "start": "2026-06-18",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1809055997129601"
+    },
+    {
+     "id": "1568892691692894",
+     "start": "2026-06-18",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1568892691692894"
+    },
+    {
+     "id": "1536497007955517",
+     "start": "2026-06-18",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1536497007955517"
+    },
+    {
+     "id": "1542301870813396",
+     "start": "2026-06-18",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1542301870813396"
+    },
+    {
+     "id": "1298302742292165",
+     "start": "2026-06-18",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1298302742292165"
+    },
+    {
+     "id": "1326699579652932",
+     "start": "2026-06-18",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1326699579652932"
+    },
+    {
+     "id": "1554720769709784",
+     "start": "2026-06-04",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1554720769709784"
+    },
+    {
+     "id": "1338711821568085",
+     "start": "2026-06-04",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1338711821568085"
+    },
+    {
+     "id": "1321600529515958",
+     "start": "2026-06-04",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1321600529515958"
+    },
+    {
+     "id": "1473663217397637",
+     "start": "2026-06-05",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1473663217397637"
+    },
+    {
+     "id": "4307337456245279",
+     "start": "2026-06-19",
+     "snapshot": "https://www.facebook.com/ads/library/?id=4307337456245279"
+    },
+    {
+     "id": "1562785542082401",
+     "start": "2026-06-02",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1562785542082401"
+    },
+    {
+     "id": "1276530434642858",
+     "start": "2026-06-02",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1276530434642858"
+    },
+    {
+     "id": "1567084831441773",
+     "start": "2026-06-27",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1567084831441773"
+    },
+    {
+     "id": "1644829919943274",
+     "start": "2026-06-29",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1644829919943274"
+    },
+    {
+     "id": "837707455689465",
+     "start": "2026-06-02",
+     "snapshot": "https://www.facebook.com/ads/library/?id=837707455689465"
+    },
+    {
+     "id": "822698417355807",
+     "start": "2026-06-02",
+     "snapshot": "https://www.facebook.com/ads/library/?id=822698417355807"
+    }
+   ]
+  },
+  {
+   "page_id": "630165426844101",
+   "page_name": "Madouceveilleuse",
+   "countries_seen": [
+    "FR"
+   ],
+   "classification": "pertinente",
+   "reason": "Boutique FR mono-niche de veilleuses animaux (BabyFox, ElephGlow, LumiChat, meduse bruit blanc...); 2 pubs actives EUR, la plus ancienne ~2026-05-04. Garantie '30 nuits pour tester'.",
+   "seen_under_keywords": [
+    "veilleuse bebe (FR)"
+   ],
+   "currency_seen": [
+    "EUR"
+   ],
+   "active_ads_total": 2,
+   "oldest_ad_start": "2026-05-04",
+   "profiled": true,
+   "creative_texts": [
+    "BabyFox, le renard qui berce les nuits de bebe | ElephGlow, la veilleuse qui rassure bebe | Meduse, veilleuse et bruit blanc apaisant",
+    "30 nuits pour tester. Rembourse si pas convaincu"
+   ],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1599599045124337",
+     "start": "2026-07-11",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1599599045124337"
+    },
+    {
+     "id": "1230724332356748",
+     "start": "2026-05-04",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1230724332356748"
+    }
+   ]
+  },
+  {
+   "page_id": "1234144186445134",
+   "page_name": "Ploumi",
+   "countries_seen": [
+    "FR"
+   ],
+   "classification": "incertaine",
+   "reason": "Marque FR puericulture; apparue sous veilleuse bebe mais pubs actives = ventilateur nomade bebe 'La Brise Caline' (produit ete, pas veilleuse). 15 pubs EUR recentes.",
+   "seen_under_keywords": [
+    "veilleuse bebe (FR)"
+   ],
+   "currency_seen": [
+    "EUR"
+   ],
+   "active_ads_total": 15,
+   "oldest_ad_start": "2026-07-06",
+   "profiled": true,
+   "creative_texts": [
+    "La Brise Caline · Ploumi",
+    "Le ventilateur nomade de bebe"
+   ],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "2041885903071335",
+     "start": "2026-07-07",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2041885903071335"
+    },
+    {
+     "id": "1576308070667116",
+     "start": "2026-07-06",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1576308070667116"
+    },
+    {
+     "id": "1709868896911700",
+     "start": "2026-07-06",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1709868896911700"
+    },
+    {
+     "id": "1528126685713394",
+     "start": "2026-07-06",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1528126685713394"
+    },
+    {
+     "id": "1040902402225964",
+     "start": "2026-07-06",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1040902402225964"
+    },
+    {
+     "id": "1740045717345966",
+     "start": "2026-07-06",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1740045717345966"
+    },
+    {
+     "id": "1338662131793239",
+     "start": "2026-07-06",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1338662131793239"
+    },
+    {
+     "id": "1550006996669827",
+     "start": "2026-07-06",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1550006996669827"
+    },
+    {
+     "id": "1050482917931738",
+     "start": "2026-07-06",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1050482917931738"
+    },
+    {
+     "id": "4187170048261629",
+     "start": "2026-07-06",
+     "snapshot": "https://www.facebook.com/ads/library/?id=4187170048261629"
+    },
+    {
+     "id": "2052884005350485",
+     "start": "2026-07-06",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2052884005350485"
+    },
+    {
+     "id": "1690345595513688",
+     "start": "2026-07-06",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1690345595513688"
+    },
+    {
+     "id": "1026211579808799",
+     "start": "2026-07-06",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1026211579808799"
+    },
+    {
+     "id": "1389282523111888",
+     "start": "2026-07-06",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1389282523111888"
+    },
+    {
+     "id": "1330082759113143",
+     "start": "2026-07-06",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1330082759113143"
+    }
+   ]
+  },
+  {
+   "page_id": "167979789725475",
+   "page_name": "Kilayou shop",
+   "countries_seen": [
+    "FR"
+   ],
+   "classification": "incertaine",
+   "reason": "Boutique en devise USD ciblant la FR (annonceur etranger/dropshipper); creatives vides, vue sous veilleuse bebe.",
+   "seen_under_keywords": [
+    "veilleuse bebe (FR)"
+   ],
+   "currency_seen": [
+    "USD"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-06-29",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1034567282954811",
+     "start": "2026-07-09",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1034567282954811"
+    },
+    {
+     "id": "942115165514514",
+     "start": "2026-06-29",
+     "snapshot": "https://www.facebook.com/ads/library/?id=942115165514514"
+    }
+   ]
+  },
+  {
+   "page_id": "1420014068282876",
+   "page_name": "Bebes et Mamans",
+   "countries_seen": [
+    "FR"
+   ],
+   "classification": "incertaine",
+   "reason": "Page lead-gen/concours ('Tentez de gagner une veilleuse tortue'); pas de vente directe identifiee. EUR.",
+   "seen_under_keywords": [
+    "veilleuse bebe (FR)",
+    "veilleuse tortue (FR)"
+   ],
+   "currency_seen": [
+    "EUR"
+   ],
+   "active_ads_total": 4,
+   "oldest_ad_start": "2026-06-11",
+   "profiled": false,
+   "creative_texts": [
+    "Tentez de Gagner une veilleuse tortue pour des nuits sereines"
+   ],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1302917678592514",
+     "start": "2026-06-11",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1302917678592514"
+    },
+    {
+     "id": "1654726172926100",
+     "start": "2026-06-11",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1654726172926100"
+    },
+    {
+     "id": "1846962506011964",
+     "start": "2026-06-11",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1846962506011964"
+    },
+    {
+     "id": "1038105545442643",
+     "start": "2026-06-11",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1038105545442643"
+    }
+   ]
+  },
+  {
+   "page_id": "1172273885973484",
+   "page_name": "Minki Kids",
+   "countries_seen": [
+    "FR"
+   ],
+   "classification": "incertaine",
+   "reason": "Annonceur USD sur FR (etranger); angle sommeil enfant 'Votre enfant dort-il vraiment bien ?'. Vu sous peluche veilleuse.",
+   "seen_under_keywords": [
+    "peluche veilleuse (FR)"
+   ],
+   "currency_seen": [
+    "USD"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-09",
+   "profiled": false,
+   "creative_texts": [
+    "Votre enfant dort-il vraiment bien ?"
+   ],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "2446904935792738",
+     "start": "2026-07-09",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2446904935792738"
+    }
+   ]
+  },
+  {
+   "page_id": "217486004974306",
+   "page_name": "Baby's Only",
+   "countries_seen": [
+    "FR",
+    "DE"
+   ],
+   "classification": "incertaine",
+   "reason": "Marque (creatives FR+DE) de peluches/aides a l'endormissement 'L'aide parfaite pour s'endormir'. EUR. Adjacent mais pas veilleuse pure.",
+   "seen_under_keywords": [
+    "peluche veilleuse (FR)"
+   ],
+   "currency_seen": [
+    "EUR"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-06-05",
+   "profiled": false,
+   "creative_texts": [
+    "L'aide parfaite pour s'endormir"
+   ],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1809971489972604",
+     "start": "2026-06-05",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1809971489972604"
+    },
+    {
+     "id": "1026648666470119",
+     "start": "2026-06-05",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1026648666470119"
+    }
+   ]
+  },
+  {
+   "page_id": "1108017889060127",
+   "page_name": "Manon Marchand",
+   "countries_seen": [
+    "FR"
+   ],
+   "classification": "incertaine",
+   "reason": "Page type UGC/affilie (creatives 'Lis ceci si ton bebe dort seulement dans tes bras'); angle sommeil, produit non confirme. EUR.",
+   "seen_under_keywords": [
+    "veilleuse bebe (FR)"
+   ],
+   "currency_seen": [
+    "EUR"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-06-30",
+   "profiled": false,
+   "creative_texts": [
+    "Lis ceci si ton bebe dort seulement dans tes bras",
+    "Le detail que personne ne m'avait dit"
+   ],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1514841162971404",
+     "start": "2026-07-07",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1514841162971404"
+    },
+    {
+     "id": "1342998398016502",
+     "start": "2026-06-30",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1342998398016502"
+    }
+   ]
+  }
+ ],
+ "profiling_capped": true,
+ "notes": "Integrite: donnees issues de 12 appels reels ads_library_search du 2026-07-11; unix->ISO UTC. creative_texts = ad_creative_link_title verbatim. profiling_capped: Lenny et Alba (160 pubs) et Ma Peluche (82) depassent limit=50 -> 50 pubs listees chacune (les plus recentes), total actif note. LONGEVITE cle: Boutique Veille sur toi (CA) pub CAD active depuis 2025-07-31 (~345 j). Lenny et Alba = signal scaling international (EUR+USD, creatives 5 langues) atteignant les US malgre pollution des mots-cles EN. Anomalies devises: Kilayou/Minki Kids USD sur FR (etrangers). Marche US: la demande existe (Lenny USD) mais non chassable via keyword generique (pollution massive)."
+}

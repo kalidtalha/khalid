@@ -1,0 +1,1522 @@
+{
+ "product": "busy-board-montessori",
+ "niche": "baby",
+ "hunter": "Chasseur B",
+ "searches": [
+  {
+   "kw": "busy board",
+   "country": "US",
+   "count": 11009,
+   "new_pages": 1,
+   "tier": 1
+  },
+  {
+   "kw": "busy board",
+   "country": "FR",
+   "count": 1706,
+   "new_pages": 0,
+   "tier": 1
+  },
+  {
+   "kw": "jouets montessori",
+   "country": "FR",
+   "count": 68,
+   "new_pages": 8,
+   "tier": 1
+  },
+  {
+   "kw": "montessori toys",
+   "country": "CA",
+   "count": 225,
+   "new_pages": 14,
+   "tier": 1
+  }
+ ],
+ "sweep_end_reason": "saturation - 3 marches couverts. 'busy board' EN/FR sature par fermes de romans (DramaBox, Alpha's Shadow) + affilies supplements; 'jouets montessori' FR et 'montessori toys' CA tres productifs et cartographies (marques FR + reseau CAD arbitrage + marques US). Pages cles profilees.",
+ "historic_all_counts": {
+  "note": "non execute (budget discipline)"
+ },
+ "competitors": [
+  {
+   "page_id": "109325167170236",
+   "page_name": "LUDI, marque francaise de jouets et de puericulture",
+   "countries_seen": [
+    "FR"
+   ],
+   "classification": "pertinente",
+   "reason": "Marque FR etablie de jouets/puericulture; 4 pubs actives EUR, la plus ancienne ~2026-06-09 (~32 j). Cible eveil/montessori.",
+   "seen_under_keywords": [
+    "jouets montessori (FR)"
+   ],
+   "currency_seen": [
+    "EUR"
+   ],
+   "active_ads_total": 4,
+   "oldest_ad_start": "2026-06-09",
+   "profiled": true,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1374010444791628",
+     "start": "2026-07-10",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1374010444791628"
+    },
+    {
+     "id": "1718417535867915",
+     "start": "2026-06-29",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1718417535867915"
+    },
+    {
+     "id": "1431662782328667",
+     "start": "2026-06-17",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1431662782328667"
+    },
+    {
+     "id": "4293234060989871",
+     "start": "2026-06-09",
+     "snapshot": "https://www.facebook.com/ads/library/?id=4293234060989871"
+    }
+   ]
+  },
+  {
+   "page_id": "105578828694338",
+   "page_name": "Woodemon",
+   "countries_seen": [
+    "US",
+    "CA"
+   ],
+   "classification": "pertinente",
+   "reason": "Marque US de jouets en bois personnalises + busy board 'Give Your Baby Their Own Little World'. 52 pubs actives USD, LONGEVITE ~6 mois (depuis ~2026-01). Vu sous montessori toys CA.",
+   "seen_under_keywords": [
+    "montessori toys (CA)"
+   ],
+   "currency_seen": [
+    "USD"
+   ],
+   "active_ads_total": 52,
+   "oldest_ad_start": "2026-01-13",
+   "profiled": true,
+   "creative_texts": [
+    "Give Your Baby Their Own Little World",
+    "A puzzle, a toy, and a keepsake in one.",
+    "Every name deserves its own little train!"
+   ],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1015770934408838",
+     "start": "2026-07-11",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1015770934408838"
+    },
+    {
+     "id": "1024547633653826",
+     "start": "2026-07-11",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1024547633653826"
+    },
+    {
+     "id": "3974941502802408",
+     "start": "2026-07-11",
+     "snapshot": "https://www.facebook.com/ads/library/?id=3974941502802408"
+    },
+    {
+     "id": "4011400249156528",
+     "start": "2026-07-11",
+     "snapshot": "https://www.facebook.com/ads/library/?id=4011400249156528"
+    },
+    {
+     "id": "1447874657152046",
+     "start": "2026-07-11",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1447874657152046"
+    },
+    {
+     "id": "2331393164362799",
+     "start": "2026-07-11",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2331393164362799"
+    },
+    {
+     "id": "1576702684004623",
+     "start": "2026-07-10",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1576702684004623"
+    },
+    {
+     "id": "1596977695156232",
+     "start": "2026-07-10",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1596977695156232"
+    },
+    {
+     "id": "962937753468512",
+     "start": "2026-07-10",
+     "snapshot": "https://www.facebook.com/ads/library/?id=962937753468512"
+    },
+    {
+     "id": "1968093377170266",
+     "start": "2026-07-10",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1968093377170266"
+    },
+    {
+     "id": "1763185571795506",
+     "start": "2026-07-10",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1763185571795506"
+    },
+    {
+     "id": "2224182041757337",
+     "start": "2026-07-10",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2224182041757337"
+    },
+    {
+     "id": "1538202974415849",
+     "start": "2026-07-09",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1538202974415849"
+    },
+    {
+     "id": "2049345735954882",
+     "start": "2026-07-09",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2049345735954882"
+    },
+    {
+     "id": "2095141758048565",
+     "start": "2026-07-08",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2095141758048565"
+    },
+    {
+     "id": "998638603164894",
+     "start": "2026-07-08",
+     "snapshot": "https://www.facebook.com/ads/library/?id=998638603164894"
+    },
+    {
+     "id": "26556280844045628",
+     "start": "2026-07-05",
+     "snapshot": "https://www.facebook.com/ads/library/?id=26556280844045628"
+    },
+    {
+     "id": "943204985443731",
+     "start": "2026-07-03",
+     "snapshot": "https://www.facebook.com/ads/library/?id=943204985443731"
+    },
+    {
+     "id": "2240432840092499",
+     "start": "2026-07-03",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2240432840092499"
+    },
+    {
+     "id": "996324380067800",
+     "start": "2026-07-01",
+     "snapshot": "https://www.facebook.com/ads/library/?id=996324380067800"
+    },
+    {
+     "id": "1038822635166185",
+     "start": "2026-06-30",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1038822635166185"
+    },
+    {
+     "id": "3395595983944770",
+     "start": "2026-06-15",
+     "snapshot": "https://www.facebook.com/ads/library/?id=3395595983944770"
+    },
+    {
+     "id": "1780615639769897",
+     "start": "2026-06-15",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1780615639769897"
+    },
+    {
+     "id": "3420259791468289",
+     "start": "2026-06-13",
+     "snapshot": "https://www.facebook.com/ads/library/?id=3420259791468289"
+    },
+    {
+     "id": "4462875560591606",
+     "start": "2026-06-08",
+     "snapshot": "https://www.facebook.com/ads/library/?id=4462875560591606"
+    },
+    {
+     "id": "2074621143263744",
+     "start": "2026-06-25",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2074621143263744"
+    },
+    {
+     "id": "1661229198544973",
+     "start": "2026-05-15",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1661229198544973"
+    },
+    {
+     "id": "999909202629143",
+     "start": "2026-06-23",
+     "snapshot": "https://www.facebook.com/ads/library/?id=999909202629143"
+    },
+    {
+     "id": "1745130956900837",
+     "start": "2026-05-12",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1745130956900837"
+    },
+    {
+     "id": "843962084794604",
+     "start": "2026-05-06",
+     "snapshot": "https://www.facebook.com/ads/library/?id=843962084794604"
+    },
+    {
+     "id": "1596969741596003",
+     "start": "2026-04-24",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1596969741596003"
+    },
+    {
+     "id": "1695781435038678",
+     "start": "2026-06-16",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1695781435038678"
+    },
+    {
+     "id": "1769061797737311",
+     "start": "2026-07-09",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1769061797737311"
+    },
+    {
+     "id": "1144177007849464",
+     "start": "2026-04-25",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1144177007849464"
+    },
+    {
+     "id": "1470053707933936",
+     "start": "2026-04-25",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1470053707933936"
+    },
+    {
+     "id": "980205824691108",
+     "start": "2026-04-28",
+     "snapshot": "https://www.facebook.com/ads/library/?id=980205824691108"
+    },
+    {
+     "id": "4425265664373247",
+     "start": "2026-04-21",
+     "snapshot": "https://www.facebook.com/ads/library/?id=4425265664373247"
+    },
+    {
+     "id": "1657040622172775",
+     "start": "2026-06-03",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1657040622172775"
+    },
+    {
+     "id": "1483620926498861",
+     "start": "2026-04-14",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1483620926498861"
+    },
+    {
+     "id": "1714625316375459",
+     "start": "2026-05-16",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1714625316375459"
+    },
+    {
+     "id": "4055796741221268",
+     "start": "2026-04-01",
+     "snapshot": "https://www.facebook.com/ads/library/?id=4055796741221268"
+    },
+    {
+     "id": "817355614705791",
+     "start": "2026-03-02",
+     "snapshot": "https://www.facebook.com/ads/library/?id=817355614705791"
+    },
+    {
+     "id": "1858479331317889",
+     "start": "2026-03-02",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1858479331317889"
+    },
+    {
+     "id": "1196505995890670",
+     "start": "2026-03-02",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1196505995890670"
+    },
+    {
+     "id": "2316235855784043",
+     "start": "2026-03-02",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2316235855784043"
+    },
+    {
+     "id": "902734882546985",
+     "start": "2026-03-02",
+     "snapshot": "https://www.facebook.com/ads/library/?id=902734882546985"
+    },
+    {
+     "id": "1471675504671133",
+     "start": "2026-02-06",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1471675504671133"
+    },
+    {
+     "id": "962514709663179",
+     "start": "2026-04-13",
+     "snapshot": "https://www.facebook.com/ads/library/?id=962514709663179"
+    },
+    {
+     "id": "956790583355065",
+     "start": "2026-01-13",
+     "snapshot": "https://www.facebook.com/ads/library/?id=956790583355065"
+    },
+    {
+     "id": "1898496570806750",
+     "start": "2026-04-21",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1898496570806750"
+    }
+   ]
+  },
+  {
+   "page_id": "111213967342179",
+   "page_name": "Pour Les Petits",
+   "countries_seen": [
+    "FR"
+   ],
+   "classification": "pertinente",
+   "reason": "Boutique de jouets d'eveil/montessori en francais MAIS devise USD (annonceur etranger qui scale sur la FR); 39 pubs actives, longevite ~4 mois (depuis ~2026-03-05). Cube d'eveil Montessori, Puzzle Magnetique Montessori.",
+   "seen_under_keywords": [
+    "jouets montessori (FR)"
+   ],
+   "currency_seen": [
+    "USD"
+   ],
+   "active_ads_total": 39,
+   "oldest_ad_start": "2026-03-05",
+   "profiled": true,
+   "creative_texts": [
+    "Cube d'eveil Montessori Bebe",
+    "Puzzle Magnetique Montessori",
+    "Puzzle Tetris Montessori en Bois"
+   ],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "844536398524458",
+     "start": "2026-07-02",
+     "snapshot": "https://www.facebook.com/ads/library/?id=844536398524458"
+    },
+    {
+     "id": "2079912555907323",
+     "start": "2026-06-08",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2079912555907323"
+    },
+    {
+     "id": "1654986985555847",
+     "start": "2026-06-08",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1654986985555847"
+    },
+    {
+     "id": "1550512946520830",
+     "start": "2026-06-08",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1550512946520830"
+    },
+    {
+     "id": "1567392324993186",
+     "start": "2026-06-08",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1567392324993186"
+    },
+    {
+     "id": "1579811223117436",
+     "start": "2026-05-01",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1579811223117436"
+    },
+    {
+     "id": "1705494597195244",
+     "start": "2026-05-01",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1705494597195244"
+    },
+    {
+     "id": "2685763128464339",
+     "start": "2026-05-01",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2685763128464339"
+    },
+    {
+     "id": "3559752370839570",
+     "start": "2026-05-01",
+     "snapshot": "https://www.facebook.com/ads/library/?id=3559752370839570"
+    },
+    {
+     "id": "1398289605672455",
+     "start": "2026-05-02",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1398289605672455"
+    },
+    {
+     "id": "974894031664309",
+     "start": "2026-05-01",
+     "snapshot": "https://www.facebook.com/ads/library/?id=974894031664309"
+    },
+    {
+     "id": "1236347958305970",
+     "start": "2026-05-01",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1236347958305970"
+    },
+    {
+     "id": "851712311306639",
+     "start": "2026-05-01",
+     "snapshot": "https://www.facebook.com/ads/library/?id=851712311306639"
+    },
+    {
+     "id": "851912874613243",
+     "start": "2026-05-02",
+     "snapshot": "https://www.facebook.com/ads/library/?id=851912874613243"
+    },
+    {
+     "id": "26451741307858624",
+     "start": "2026-05-01",
+     "snapshot": "https://www.facebook.com/ads/library/?id=26451741307858624"
+    },
+    {
+     "id": "1471637131410403",
+     "start": "2026-05-01",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1471637131410403"
+    },
+    {
+     "id": "2132243930963147",
+     "start": "2026-05-01",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2132243930963147"
+    },
+    {
+     "id": "2181225415750188",
+     "start": "2026-04-29",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2181225415750188"
+    },
+    {
+     "id": "2053433655234943",
+     "start": "2026-04-28",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2053433655234943"
+    },
+    {
+     "id": "2044061469511634",
+     "start": "2026-04-28",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2044061469511634"
+    },
+    {
+     "id": "939604872288974",
+     "start": "2026-04-28",
+     "snapshot": "https://www.facebook.com/ads/library/?id=939604872288974"
+    },
+    {
+     "id": "929171933348526",
+     "start": "2026-04-28",
+     "snapshot": "https://www.facebook.com/ads/library/?id=929171933348526"
+    },
+    {
+     "id": "1656800468901927",
+     "start": "2026-04-28",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1656800468901927"
+    },
+    {
+     "id": "1889355701766483",
+     "start": "2026-04-27",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1889355701766483"
+    },
+    {
+     "id": "1754802832622335",
+     "start": "2026-04-26",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1754802832622335"
+    },
+    {
+     "id": "1533904414833421",
+     "start": "2026-04-26",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1533904414833421"
+    },
+    {
+     "id": "1867316021339493",
+     "start": "2026-04-26",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1867316021339493"
+    },
+    {
+     "id": "1444732336928505",
+     "start": "2026-04-26",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1444732336928505"
+    },
+    {
+     "id": "1301773905479326",
+     "start": "2026-04-26",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1301773905479326"
+    },
+    {
+     "id": "25985230201157002",
+     "start": "2026-04-26",
+     "snapshot": "https://www.facebook.com/ads/library/?id=25985230201157002"
+    },
+    {
+     "id": "937430622488214",
+     "start": "2026-04-26",
+     "snapshot": "https://www.facebook.com/ads/library/?id=937430622488214"
+    },
+    {
+     "id": "942345661741006",
+     "start": "2026-04-26",
+     "snapshot": "https://www.facebook.com/ads/library/?id=942345661741006"
+    },
+    {
+     "id": "2381640548980770",
+     "start": "2026-04-27",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2381640548980770"
+    },
+    {
+     "id": "1247199707602326",
+     "start": "2026-04-26",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1247199707602326"
+    },
+    {
+     "id": "1285420210327823",
+     "start": "2026-04-26",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1285420210327823"
+    },
+    {
+     "id": "1746225273011371",
+     "start": "2026-03-26",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1746225273011371"
+    },
+    {
+     "id": "967005402426093",
+     "start": "2026-03-25",
+     "snapshot": "https://www.facebook.com/ads/library/?id=967005402426093"
+    },
+    {
+     "id": "1460403345739534",
+     "start": "2026-03-24",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1460403345739534"
+    },
+    {
+     "id": "1993962321198175",
+     "start": "2026-03-05",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1993962321198175"
+    }
+   ]
+  },
+  {
+   "page_id": "857201634626127",
+   "page_name": "Nuveofly / Minoxia",
+   "countries_seen": [
+    "FR"
+   ],
+   "classification": "pertinente",
+   "reason": "Marque FR busy board / jouet anti-ecrans, angle unique 'L'alternative preferee aux ecrans'. 35 pubs actives EUR depuis ~2026-06-27. ANOMALIE: la page (meme page_id) a change de nom Nuveofly -> Minoxia.",
+   "seen_under_keywords": [
+    "jouets montessori (FR)"
+   ],
+   "currency_seen": [
+    "EUR"
+   ],
+   "active_ads_total": 35,
+   "oldest_ad_start": "2026-06-27",
+   "profiled": true,
+   "creative_texts": [
+    "L'alternative preferee aux ecrans"
+   ],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "2462848500861662",
+     "start": "2026-07-11",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2462848500861662"
+    },
+    {
+     "id": "1021254040517401",
+     "start": "2026-07-11",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1021254040517401"
+    },
+    {
+     "id": "1637200721158855",
+     "start": "2026-07-11",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1637200721158855"
+    },
+    {
+     "id": "1108651248717654",
+     "start": "2026-07-11",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1108651248717654"
+    },
+    {
+     "id": "906290425845505",
+     "start": "2026-07-07",
+     "snapshot": "https://www.facebook.com/ads/library/?id=906290425845505"
+    },
+    {
+     "id": "1055272790267701",
+     "start": "2026-07-07",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1055272790267701"
+    },
+    {
+     "id": "1815943356235371",
+     "start": "2026-06-30",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1815943356235371"
+    },
+    {
+     "id": "4045083619125079",
+     "start": "2026-06-29",
+     "snapshot": "https://www.facebook.com/ads/library/?id=4045083619125079"
+    },
+    {
+     "id": "27892922026967614",
+     "start": "2026-06-30",
+     "snapshot": "https://www.facebook.com/ads/library/?id=27892922026967614"
+    },
+    {
+     "id": "1523826616188454",
+     "start": "2026-06-30",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1523826616188454"
+    },
+    {
+     "id": "2053486508889123",
+     "start": "2026-07-01",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2053486508889123"
+    },
+    {
+     "id": "1224240124095961",
+     "start": "2026-07-02",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1224240124095961"
+    },
+    {
+     "id": "847080118190945",
+     "start": "2026-06-30",
+     "snapshot": "https://www.facebook.com/ads/library/?id=847080118190945"
+    },
+    {
+     "id": "1401984591952416",
+     "start": "2026-06-30",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1401984591952416"
+    },
+    {
+     "id": "2260447721368335",
+     "start": "2026-06-30",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2260447721368335"
+    },
+    {
+     "id": "924972580630474",
+     "start": "2026-06-30",
+     "snapshot": "https://www.facebook.com/ads/library/?id=924972580630474"
+    },
+    {
+     "id": "1037149425435205",
+     "start": "2026-06-30",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1037149425435205"
+    },
+    {
+     "id": "1376135624409019",
+     "start": "2026-06-30",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1376135624409019"
+    },
+    {
+     "id": "1036091475533962",
+     "start": "2026-06-30",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1036091475533962"
+    },
+    {
+     "id": "1316540787296177",
+     "start": "2026-06-30",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1316540787296177"
+    },
+    {
+     "id": "1786853689425446",
+     "start": "2026-06-30",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1786853689425446"
+    },
+    {
+     "id": "857137670801356",
+     "start": "2026-06-30",
+     "snapshot": "https://www.facebook.com/ads/library/?id=857137670801356"
+    },
+    {
+     "id": "1333610451577404",
+     "start": "2026-06-30",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1333610451577404"
+    },
+    {
+     "id": "1348529277226578",
+     "start": "2026-07-01",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1348529277226578"
+    },
+    {
+     "id": "1360938432587686",
+     "start": "2026-06-30",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1360938432587686"
+    },
+    {
+     "id": "1905919803430740",
+     "start": "2026-06-30",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1905919803430740"
+    },
+    {
+     "id": "1380108380917004",
+     "start": "2026-06-30",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1380108380917004"
+    },
+    {
+     "id": "996276756631205",
+     "start": "2026-06-30",
+     "snapshot": "https://www.facebook.com/ads/library/?id=996276756631205"
+    },
+    {
+     "id": "1559697992336456",
+     "start": "2026-06-30",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1559697992336456"
+    },
+    {
+     "id": "1273193984674804",
+     "start": "2026-06-27",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1273193984674804"
+    },
+    {
+     "id": "1572084947602836",
+     "start": "2026-06-27",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1572084947602836"
+    },
+    {
+     "id": "1690833658626621",
+     "start": "2026-06-30",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1690833658626621"
+    },
+    {
+     "id": "3297547127114425",
+     "start": "2026-06-27",
+     "snapshot": "https://www.facebook.com/ads/library/?id=3297547127114425"
+    },
+    {
+     "id": "857066824144682",
+     "start": "2026-06-27",
+     "snapshot": "https://www.facebook.com/ads/library/?id=857066824144682"
+    },
+    {
+     "id": "891181474027291",
+     "start": "2026-06-27",
+     "snapshot": "https://www.facebook.com/ads/library/?id=891181474027291"
+    }
+   ]
+  },
+  {
+   "page_id": "106947531552817",
+   "page_name": "Montessori Generation",
+   "countries_seen": [
+    "US",
+    "CA"
+   ],
+   "classification": "pertinente",
+   "reason": "Marque montessori US en scaling agressif: 342 pubs actives USD (angles cadeaux/grands-parents 'Baby Gifts Parents Actually Use', 'EXTRA 20% OFF'). Mais lancee recemment (~2026-07-08/09), pas de longevite. Vue sous montessori toys CA + US.",
+   "seen_under_keywords": [
+    "montessori toys (CA)"
+   ],
+   "currency_seen": [
+    "USD"
+   ],
+   "active_ads_total": 342,
+   "oldest_ad_start": "2026-07-08",
+   "profiled": true,
+   "creative_texts": [
+    "Baby Gifts Parents Actually Use",
+    "What Grandparents Should Buy in 2026",
+    "10 Coolest Gifts for Grandchildren in 2026"
+   ],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1414121953883506",
+     "start": "2026-07-10",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1414121953883506"
+    },
+    {
+     "id": "1016353644315938",
+     "start": "2026-07-10",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1016353644315938"
+    },
+    {
+     "id": "1769433947381760",
+     "start": "2026-07-10",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1769433947381760"
+    },
+    {
+     "id": "1377385864291750",
+     "start": "2026-07-10",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1377385864291750"
+    },
+    {
+     "id": "1554683319504050",
+     "start": "2026-07-10",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1554683319504050"
+    },
+    {
+     "id": "1349909280580434",
+     "start": "2026-07-10",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1349909280580434"
+    },
+    {
+     "id": "1008597958749469",
+     "start": "2026-07-10",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1008597958749469"
+    },
+    {
+     "id": "1001911149308166",
+     "start": "2026-07-10",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1001911149308166"
+    },
+    {
+     "id": "1009456438609175",
+     "start": "2026-07-10",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1009456438609175"
+    },
+    {
+     "id": "997974139820213",
+     "start": "2026-07-10",
+     "snapshot": "https://www.facebook.com/ads/library/?id=997974139820213"
+    },
+    {
+     "id": "1052276290480275",
+     "start": "2026-07-10",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1052276290480275"
+    },
+    {
+     "id": "1686598845963463",
+     "start": "2026-07-10",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1686598845963463"
+    },
+    {
+     "id": "705108869364557",
+     "start": "2026-07-10",
+     "snapshot": "https://www.facebook.com/ads/library/?id=705108869364557"
+    },
+    {
+     "id": "1388292893221381",
+     "start": "2026-07-10",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1388292893221381"
+    },
+    {
+     "id": "1805972904410779",
+     "start": "2026-07-10",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1805972904410779"
+    },
+    {
+     "id": "1033510865843835",
+     "start": "2026-07-10",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1033510865843835"
+    },
+    {
+     "id": "999167999763279",
+     "start": "2026-07-10",
+     "snapshot": "https://www.facebook.com/ads/library/?id=999167999763279"
+    },
+    {
+     "id": "2089539868576467",
+     "start": "2026-07-10",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2089539868576467"
+    },
+    {
+     "id": "2537175740057843",
+     "start": "2026-07-10",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2537175740057843"
+    },
+    {
+     "id": "1734930020988223",
+     "start": "2026-07-10",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1734930020988223"
+    },
+    {
+     "id": "1348707010570351",
+     "start": "2026-07-10",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1348707010570351"
+    },
+    {
+     "id": "896700496171463",
+     "start": "2026-07-10",
+     "snapshot": "https://www.facebook.com/ads/library/?id=896700496171463"
+    },
+    {
+     "id": "1555048282920078",
+     "start": "2026-07-10",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1555048282920078"
+    },
+    {
+     "id": "898710975956454",
+     "start": "2026-07-10",
+     "snapshot": "https://www.facebook.com/ads/library/?id=898710975956454"
+    },
+    {
+     "id": "2434457090365298",
+     "start": "2026-07-10",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2434457090365298"
+    },
+    {
+     "id": "1028775499611884",
+     "start": "2026-07-10",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1028775499611884"
+    },
+    {
+     "id": "1521311366360443",
+     "start": "2026-07-10",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1521311366360443"
+    },
+    {
+     "id": "1568928551418374",
+     "start": "2026-07-10",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1568928551418374"
+    },
+    {
+     "id": "995351496631028",
+     "start": "2026-07-10",
+     "snapshot": "https://www.facebook.com/ads/library/?id=995351496631028"
+    },
+    {
+     "id": "1000881489240634",
+     "start": "2026-07-10",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1000881489240634"
+    },
+    {
+     "id": "27540657402251176",
+     "start": "2026-07-10",
+     "snapshot": "https://www.facebook.com/ads/library/?id=27540657402251176"
+    },
+    {
+     "id": "2410177972842029",
+     "start": "2026-07-09",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2410177972842029"
+    },
+    {
+     "id": "2092564008343613",
+     "start": "2026-07-10",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2092564008343613"
+    },
+    {
+     "id": "27070079246021098",
+     "start": "2026-07-10",
+     "snapshot": "https://www.facebook.com/ads/library/?id=27070079246021098"
+    },
+    {
+     "id": "2719239755126635",
+     "start": "2026-07-08",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2719239755126635"
+    },
+    {
+     "id": "1703227467579387",
+     "start": "2026-07-08",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1703227467579387"
+    },
+    {
+     "id": "1426157252654455",
+     "start": "2026-07-08",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1426157252654455"
+    },
+    {
+     "id": "1671316190787403",
+     "start": "2026-07-08",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1671316190787403"
+    },
+    {
+     "id": "1356131909815377",
+     "start": "2026-07-08",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1356131909815377"
+    },
+    {
+     "id": "1359523596271273",
+     "start": "2026-07-08",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1359523596271273"
+    },
+    {
+     "id": "1933672384000498",
+     "start": "2026-07-08",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1933672384000498"
+    },
+    {
+     "id": "1595161098613444",
+     "start": "2026-07-08",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1595161098613444"
+    },
+    {
+     "id": "2274919139913780",
+     "start": "2026-07-08",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2274919139913780"
+    },
+    {
+     "id": "1320833579761661",
+     "start": "2026-07-09",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1320833579761661"
+    },
+    {
+     "id": "1574430090700273",
+     "start": "2026-07-11",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1574430090700273"
+    },
+    {
+     "id": "1428948845710343",
+     "start": "2026-07-08",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1428948845710343"
+    },
+    {
+     "id": "1031780116462047",
+     "start": "2026-07-09",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1031780116462047"
+    },
+    {
+     "id": "2783353865382206",
+     "start": "2026-07-08",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2783353865382206"
+    },
+    {
+     "id": "1713523333123947",
+     "start": "2026-07-08",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1713523333123947"
+    },
+    {
+     "id": "1021386200859977",
+     "start": "2026-07-08",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1021386200859977"
+    }
+   ]
+  },
+  {
+   "page_id": "879292191934280",
+   "page_name": "Neta Recommends",
+   "countries_seen": [
+    "CA",
+    "US"
+   ],
+   "classification": "incertaine",
+   "reason": "ANOMALIE MAJEURE: page d'affiliation/arbitrage multi-produits (652 pubs actives USD+CAD couvrant souris gaming, gaze, lampes plantes, UNO, intimes...). Le jouet montessori/busy board n'est qu'UNE creative testee ('Lifesaver Toy For Baby Travel','The Montessori Toy for Lasting Curiosity'). PAS un vendeur mono-produit. Vue sous montessori toys CA.",
+   "seen_under_keywords": [
+    "montessori toys (CA)"
+   ],
+   "currency_seen": [
+    "USD",
+    "CAD"
+   ],
+   "active_ads_total": 652,
+   "oldest_ad_start": "2026-07-10",
+   "profiled": true,
+   "creative_texts": [
+    "Lifesaver Toy For Baby Travel",
+    "The Montessori Toy for Lasting Curiosity",
+    "Montessori Hack For Screen-Free Play"
+   ],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "897400546752276",
+     "start": "2026-07-10",
+     "snapshot": "https://www.facebook.com/ads/library/?id=897400546752276"
+    },
+    {
+     "id": "1025238850476280",
+     "start": "2026-07-10",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1025238850476280"
+    }
+   ]
+  },
+  {
+   "page_id": "112284674585",
+   "page_name": "Blossom",
+   "countries_seen": [
+    "CA"
+   ],
+   "classification": "incertaine",
+   "reason": "Page du reseau CAD 'Recommends/arbitrage' (meme jouet busy board voyage); creatives 'A Toy That Grows With Your Child','Road Trip Lifesaver for Toddlers'. Lancee ~2026-07-11.",
+   "seen_under_keywords": [
+    "montessori toys (CA)"
+   ],
+   "currency_seen": [
+    "CAD"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-10",
+   "profiled": false,
+   "creative_texts": [
+    "A Toy That Grows With Your Child",
+    "Road Trip Lifesaver for Toddlers"
+   ],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1370339931659212",
+     "start": "2026-07-10",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1370339931659212"
+    },
+    {
+     "id": "2246370339273191",
+     "start": "2026-07-10",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2246370339273191"
+    }
+   ]
+  },
+  {
+   "page_id": "900828566437494",
+   "page_name": "Rachel's Finds",
+   "countries_seen": [
+    "CA"
+   ],
+   "classification": "incertaine",
+   "reason": "Reseau CAD arbitrage; 'Finally A Toy That Keeps Them Busy','Five Minutes of Peace, Guaranteed'. Lancee ~2026-07-11.",
+   "seen_under_keywords": [
+    "montessori toys (CA)"
+   ],
+   "currency_seen": [
+    "CAD"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-10",
+   "profiled": false,
+   "creative_texts": [
+    "Finally A Toy That Keeps Them Busy",
+    "Five Minutes of Peace, Guaranteed"
+   ],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "2556509928147813",
+     "start": "2026-07-10",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2556509928147813"
+    },
+    {
+     "id": "27733943476218044",
+     "start": "2026-07-10",
+     "snapshot": "https://www.facebook.com/ads/library/?id=27733943476218044"
+    }
+   ]
+  },
+  {
+   "page_id": "786153981240150",
+   "page_name": "Tess Recommends",
+   "countries_seen": [
+    "CA"
+   ],
+   "classification": "incertaine",
+   "reason": "Reseau CAD arbitrage; 'Montessori Hack For Screen-Free Play'. ~2026-07-11.",
+   "seen_under_keywords": [
+    "montessori toys (CA)"
+   ],
+   "currency_seen": [
+    "CAD"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-10",
+   "profiled": false,
+   "creative_texts": [
+    "Montessori Hack For Screen-Free Play"
+   ],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1614304760257352",
+     "start": "2026-07-10",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1614304760257352"
+    }
+   ]
+  },
+  {
+   "page_id": "897121970141458",
+   "page_name": "Sharon Recommends",
+   "countries_seen": [
+    "CA"
+   ],
+   "classification": "incertaine",
+   "reason": "Reseau CAD arbitrage; 'The Toy That Keeps Giving'. ~2026-07-11.",
+   "seen_under_keywords": [
+    "montessori toys (CA)"
+   ],
+   "currency_seen": [
+    "CAD"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-10",
+   "profiled": false,
+   "creative_texts": [
+    "The Toy That Keeps Giving"
+   ],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1038976978690630",
+     "start": "2026-07-10",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1038976978690630"
+    }
+   ]
+  },
+  {
+   "page_id": "824632674068942",
+   "page_name": "Josh Recommends",
+   "countries_seen": [
+    "CA"
+   ],
+   "classification": "incertaine",
+   "reason": "Reseau CAD arbitrage; 'Playtime That Feels As Good As It Looks'. ~2026-07-11.",
+   "seen_under_keywords": [
+    "montessori toys (CA)"
+   ],
+   "currency_seen": [
+    "CAD"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-10",
+   "profiled": false,
+   "creative_texts": [
+    "Playtime That Feels As Good As It Looks"
+   ],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1668754004202033",
+     "start": "2026-07-10",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1668754004202033"
+    }
+   ]
+  },
+  {
+   "page_id": "1658649031115908",
+   "page_name": "So Yummy",
+   "countries_seen": [
+    "CA"
+   ],
+   "classification": "incertaine",
+   "reason": "Reseau CAD arbitrage; 'From Messy Bag To Organized Travel'. ~2026-07-11.",
+   "seen_under_keywords": [
+    "montessori toys (CA)"
+   ],
+   "currency_seen": [
+    "CAD"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-10",
+   "profiled": false,
+   "creative_texts": [
+    "From Messy Bag To Organized Travel"
+   ],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "993058383732057",
+     "start": "2026-07-10",
+     "snapshot": "https://www.facebook.com/ads/library/?id=993058383732057"
+    }
+   ]
+  },
+  {
+   "page_id": "743347115529245",
+   "page_name": "Maria's Finds",
+   "countries_seen": [
+    "CA"
+   ],
+   "classification": "incertaine",
+   "reason": "Reseau CAD arbitrage; 'Baby Bored With Toys In Minutes?'. ~2026-07-11.",
+   "seen_under_keywords": [
+    "montessori toys (CA)"
+   ],
+   "currency_seen": [
+    "CAD"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-11",
+   "profiled": false,
+   "creative_texts": [
+    "Baby Bored With Toys In Minutes?"
+   ],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1972367763420489",
+     "start": "2026-07-11",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1972367763420489"
+    }
+   ]
+  },
+  {
+   "page_id": "102663781201560",
+   "page_name": "Leyadoll",
+   "countries_seen": [
+    "CA",
+    "US"
+   ],
+   "classification": "pertinente",
+   "reason": "Marque de busy book/livre d'activites; 'This Book Will Keep Them Entertained for Hours'. USD, vue sous montessori toys CA.",
+   "seen_under_keywords": [
+    "montessori toys (CA)"
+   ],
+   "currency_seen": [
+    "USD"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-11",
+   "profiled": false,
+   "creative_texts": [
+    "This Book Will Keep Them Entertained for Hours"
+   ],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "834208129645987",
+     "start": "2026-07-11",
+     "snapshot": "https://www.facebook.com/ads/library/?id=834208129645987"
+    },
+    {
+     "id": "1532792568582637",
+     "start": "2026-07-11",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1532792568582637"
+    }
+   ]
+  },
+  {
+   "page_id": "106995240998407",
+   "page_name": "La Cabane Familiale - Nayliss",
+   "countries_seen": [
+    "FR"
+   ],
+   "classification": "pertinente",
+   "reason": "Boutique FR de jouets montessori/eveil; EUR; angle rarete 'Derniere chance - bientot en rupture de stock'. Vue sous jouets montessori FR.",
+   "seen_under_keywords": [
+    "jouets montessori (FR)"
+   ],
+   "currency_seen": [
+    "EUR"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-11",
+   "profiled": false,
+   "creative_texts": [
+    "Derniere chance - bientot en rupture de stock !"
+   ],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1622860009270120",
+     "start": "2026-07-11",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1622860009270120"
+    }
+   ]
+  },
+  {
+   "page_id": "1175186729005867",
+   "page_name": "Montessori Playhouse",
+   "countries_seen": [
+    "FR"
+   ],
+   "classification": "pertinente",
+   "reason": "Boutique FR jouet en bois montessori 'Le jouet en bois dont tous les enfants raffolent'. EUR.",
+   "seen_under_keywords": [
+    "jouets montessori (FR)"
+   ],
+   "currency_seen": [
+    "EUR"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-06-06",
+   "profiled": false,
+   "creative_texts": [
+    "Le jouet en bois dont tous les enfants raffolent !"
+   ],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "2102067013691689",
+     "start": "2026-06-06",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2102067013691689"
+    }
+   ]
+  },
+  {
+   "page_id": "846246845232083",
+   "page_name": "Petite Echappee",
+   "countries_seen": [
+    "FR"
+   ],
+   "classification": "incertaine",
+   "reason": "Jouet de voyage enfant 'Le Hack Voyage des Parents Sereins' MAIS devise USD sur la FR (annonceur etranger). ~6 pubs, depuis ~2026-06-07.",
+   "seen_under_keywords": [
+    "jouets montessori (FR)"
+   ],
+   "currency_seen": [
+    "USD"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-06-06",
+   "profiled": false,
+   "creative_texts": [
+    "Le Hack Voyage des Parents Sereins"
+   ],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1382187647145529",
+     "start": "2026-07-06",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1382187647145529"
+    },
+    {
+     "id": "1818469742837619",
+     "start": "2026-07-06",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1818469742837619"
+    },
+    {
+     "id": "2004904983448702",
+     "start": "2026-06-25",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2004904983448702"
+    },
+    {
+     "id": "2244713279715590",
+     "start": "2026-06-19",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2244713279715590"
+    },
+    {
+     "id": "1473227587325255",
+     "start": "2026-06-07",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1473227587325255"
+    },
+    {
+     "id": "1546895786830636",
+     "start": "2026-06-06",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1546895786830636"
+    }
+   ]
+  },
+  {
+   "page_id": "108186581072469",
+   "page_name": "GOODEVAS",
+   "countries_seen": [
+    "FR"
+   ],
+   "classification": "incertaine",
+   "reason": "Marque de jouets montessori 'Soldes Jouets Montessori - Meilleures Offres' en francais mais devise USD (annonceur etranger).",
+   "seen_under_keywords": [
+    "jouets montessori (FR)"
+   ],
+   "currency_seen": [
+    "USD"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-06",
+   "profiled": false,
+   "creative_texts": [
+    "Soldes Jouets Montessori - Meilleures Offres | Goodevas"
+   ],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "2257277881671753",
+     "start": "2026-07-06",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2257277881671753"
+    },
+    {
+     "id": "2141576576629478",
+     "start": "2026-07-06",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2141576576629478"
+    }
+   ]
+  },
+  {
+   "page_id": "236237362916316",
+   "page_name": "Tix&Mix",
+   "countries_seen": [
+    "US"
+   ],
+   "classification": "incertaine",
+   "reason": "Annonceur US busy board angle 'No More Screen Battles'; 1 pub reperee sous busy board US (reste = pollution fermes de romans).",
+   "seen_under_keywords": [
+    "busy board (US)"
+   ],
+   "currency_seen": [
+    "USD"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-11",
+   "profiled": false,
+   "creative_texts": [
+    "No More Screen Battles"
+   ],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1029743099702688",
+     "start": "2026-07-11",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1029743099702688"
+    }
+   ]
+  }
+ ],
+ "profiling_capped": true,
+ "notes": "Integrite: donnees issues de 10 appels reels ads_library_search du 2026-07-11; unix(ad_delivery_start_time)->ISO UTC. creative_texts = ad_creative_link_title verbatim. profiling_capped: Woodemon(52), Pour Les Petits(39), Montessori Generation(342), Neta Recommends(652) depassent limit=50 -> pubs les plus recentes listees (pour Neta, seules les 2 pubs montessori sont conservees car page arbitrage multi-produits). LONGEVITE: Woodemon ~6 mois (depuis 2026-01-13) = seule vraie preuve durable; Pour Les Petits ~4 mois; LUDI ~32 j. SIGNAL SCALING: Montessori Generation (342 pubs US) + reseau CAD arbitrage (Neta/Blossom/Rachel's/Tess/Sharon/Josh/So Yummy/Maria's Finds) tous lances ~2026-07-08/11 = meme operateur teste le busy board voyage 'Road Trip Lifesaver/Screen-Free'. ANOMALIES: (1) Neta Recommends = arbitrage 652 pubs multi-produits, montessori=1 test; (2) Nuveofly renomme Minoxia (meme page_id); (3) devises etrangeres: Pour Les Petits/GOODEVAS/Petite Echappee USD sur FR."
+}

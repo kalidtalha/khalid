@@ -1,0 +1,342 @@
+{
+  "product": "anti-chafing-shorts",
+  "niche": "summer",
+  "hunter": "Chasseur-C",
+  "date": "2026-07-11",
+  "tool": "mcp__META_ADS__ads_library_search (ACTIVE, 1 pays/appel, limit 30 balayage / 50 profilage)",
+  "api_calls_used": 8,
+  "keywords_total": 4,
+  "searches": [
+    {"kw": "anti-chafing shorts", "country": "US", "count": 763, "new_pages": 5, "tier": 1, "note": "ChubRub (dédiée), Cellumove USA, Scheduleprogramme-l, Floralshe, Civilizek.CL03; Modlily Swimsuits = tangent maillots"},
+    {"kw": "chub rub", "country": "US", "count": 276, "new_pages": 3, "tier": 2, "note": "Plondry ('Thighs Never Rub'), Easelyn (shapewear), Halara (marque activewear); ChubRub domine; Temu = pollution"},
+    {"kw": "anti-chafing shorts", "country": "CA", "count": 205, "new_pages": 4, "tier": 1, "note": "Thigh Society, SloMra (slip shorts under dresses), Boody (AUD), Diary of An Honest Mom (CAD advertorial); ChubRub actif aussi en CA"},
+    {"kw": "short anti-frottement", "country": "FR", "count": 87, "new_pages": 8, "tier": 1, "note": "MARCHÉ FR RÉEL: Sisters Republic, Cuissoh, FitSlim, Bodycross, Heldenn, Rugaso short, Linda Carter, Nexara — ~8 pages e-com dédiées (contredit l'hypothèse 'peu de FR')"}
+  ],
+  "sweep_end_reason": "saturation/couverture — 4 recherches suffisent à cartographier les 3 marchés: US dominant en VOLUME (763) mais FR (87, ~8 pages dédiées) et CA (205, plusieurs pages dédiées) sont VIABLES, pas vides. Arrêt discipliné (8 appels) pour préserver le budget produit 4.",
+  "historic_all_counts": {"anti-chafing shorts | US | ALL": 58525},
+  "competitors": [
+    {
+      "page_id": "1168466929679969",
+      "page_name": "ChubRub",
+      "countries_seen": ["US", "CA"],
+      "classification": "pertinente",
+      "reason": "Marque dédiée 100% short anti-frottement, 117 pubs actives, créa unique 'Buy 2, Get 1 FREE Ends Tonight!'. Annonceur principal du produit (US + CA).",
+      "seen_under_keywords": ["anti-chafing shorts (US)", "chub rub (US)", "anti-chafing shorts (CA)"],
+      "currency_seen": ["USD"],
+      "active_ads_total": 117,
+      "oldest_ad_start": "2026-07-07",
+      "profiled": true,
+      "creative_texts": ["Buy 2, Get 1 FREE Ends Tonight!"],
+      "landing_url": null,
+      "ads": [
+        {"id": "27081214024907536", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=27081214024907536"},
+        {"id": "1755030772521427", "start": "2026-07-08", "snapshot": "https://www.facebook.com/ads/library/?id=1755030772521427"},
+        {"id": "1356292993232912", "start": "2026-07-07", "snapshot": "https://www.facebook.com/ads/library/?id=1356292993232912"},
+        {"id": "1034051932408877", "start": "2026-07-07", "snapshot": "https://www.facebook.com/ads/library/?id=1034051932408877"}
+      ],
+      "ads_note": "117 pubs actives, créa unique; début observé du 2026-07-07 au 2026-07-11."
+    },
+    {
+      "page_id": "685654814634554",
+      "page_name": "Cellumove USA",
+      "countries_seen": ["US"],
+      "classification": "pertinente",
+      "reason": "Short/gaine compression jambes, 621 pubs actives. ATTENTION angles à claim MÉDICAL ('Start your Lipedema Relief Today!', 'Support your Weight-Loss Journey') + confort/anti-frottement ('Show Your Legs with Confidence!', 'Heavy Legs?').",
+      "seen_under_keywords": ["anti-chafing shorts (US)"],
+      "currency_seen": ["USD"],
+      "active_ads_total": 621,
+      "oldest_ad_start": "2026-07-11",
+      "profiled": true,
+      "creative_texts": ["Show Your Legs with Confidence!", "Start your Lipedema Relief Today!", "Sculpt, Smooth and Lift Effortlessly!"],
+      "landing_url": null,
+      "ads": [
+        {"id": "2853403678372377", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=2853403678372377"},
+        {"id": "2214872982696303", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=2214872982696303"},
+        {"id": "1718262689395618", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=1718262689395618"}
+      ],
+      "ads_note": "621 pubs actives, tri desc masque l'ancienneté; toutes les pubs vues démarrées ~2026-07-11. Claim lipœdème/minceur = RISQUE Meta plus élevé que l'angle 'anti-frottement confort' pur."
+    },
+    {
+      "page_id": "444771789588332",
+      "page_name": "Sisters Republic - FR",
+      "countries_seen": ["FR"],
+      "classification": "pertinente",
+      "reason": "Marque FR établie (culottes menstruelles + maillots) proposant un 'Cycliste Anti-Frottements' dédié; 192 pubs actives. Ancienneté FR la plus solide (diffusion depuis 2026-07-02).",
+      "seen_under_keywords": ["short anti-frottement (FR)"],
+      "currency_seen": ["EUR"],
+      "active_ads_total": 192,
+      "oldest_ad_start": "2026-07-02",
+      "profiled": true,
+      "creative_texts": ["Cycliste Anti-Frottements", "SOLDES : Cycliste Anti-Frottements", "Soldes : jusqu'à -60%"],
+      "landing_url": null,
+      "ads": [
+        {"id": "2270931930316435", "start": "2026-07-09", "snapshot": "https://www.facebook.com/ads/library/?id=2270931930316435"},
+        {"id": "1684691746076294", "start": "2026-07-02", "snapshot": "https://www.facebook.com/ads/library/?id=1684691746076294"},
+        {"id": "2314721142632825", "start": "2026-07-02", "snapshot": "https://www.facebook.com/ads/library/?id=2314721142632825"}
+      ],
+      "ads_note": "192 pubs actives multi-produits (le cycliste anti-frottement est une ligne); plus ancienne diffusion 2026-07-02, créa créée 2026-06-29."
+    },
+    {
+      "page_id": "1225531557299877",
+      "page_name": "Rugaso short",
+      "countries_seen": ["FR"],
+      "classification": "pertinente",
+      "reason": "Short anti-frottement dédié FR, angle 'Fini les cuisses qui brûlent cet été'. Diffusion depuis 2026-07-01 = la plus ancienne trace vérifiée du produit (~11 j).",
+      "seen_under_keywords": ["short anti-frottement (FR)"],
+      "currency_seen": ["EUR"],
+      "active_ads_total": null,
+      "oldest_ad_start": "2026-07-01",
+      "profiled": false,
+      "creative_texts": ["Fini les cuisses qui brûlent cet été"],
+      "landing_url": null,
+      "ads": [
+        {"id": "1558739125901060", "start": "2026-07-01", "snapshot": "https://www.facebook.com/ads/library/?id=1558739125901060"},
+        {"id": "2273439936731321", "start": "2026-07-01", "snapshot": "https://www.facebook.com/ads/library/?id=2273439936731321"},
+        {"id": "1763300408000007", "start": "2026-07-01", "snapshot": "https://www.facebook.com/ads/library/?id=1763300408000007"}
+      ]
+    },
+    {
+      "page_id": "1052775241256852",
+      "page_name": "Linda Carter",
+      "countries_seen": ["FR"],
+      "classification": "pertinente",
+      "reason": "Advertorial FR persona short anti-frottement, 'Fini les cuisses qui frottent l'été'. Diffusion depuis 2026-07-02.",
+      "seen_under_keywords": ["short anti-frottement (FR)"],
+      "currency_seen": ["EUR"],
+      "active_ads_total": null,
+      "oldest_ad_start": "2026-07-02",
+      "profiled": false,
+      "creative_texts": ["Fini les cuisses qui frottent l'été"],
+      "landing_url": null,
+      "ads": [
+        {"id": "2836064660066334", "start": "2026-07-02", "snapshot": "https://www.facebook.com/ads/library/?id=2836064660066334"},
+        {"id": "1450729717051797", "start": "2026-07-02", "snapshot": "https://www.facebook.com/ads/library/?id=1450729717051797"}
+      ]
+    },
+    {
+      "page_id": "1140791195788115",
+      "page_name": "Heldenn",
+      "countries_seen": ["FR"],
+      "classification": "pertinente",
+      "reason": "Short anti-frottement FR, angle 'Offre canicule'. Diffusion depuis 2026-07-04 (créa créée 2026-07-03).",
+      "seen_under_keywords": ["short anti-frottement (FR)"],
+      "currency_seen": ["EUR"],
+      "active_ads_total": null,
+      "oldest_ad_start": "2026-07-04",
+      "profiled": false,
+      "creative_texts": ["Offre canicule ☀️"],
+      "landing_url": null,
+      "ads": [
+        {"id": "1691233725477862", "start": "2026-07-04", "snapshot": "https://www.facebook.com/ads/library/?id=1691233725477862"},
+        {"id": "984802850996515", "start": "2026-07-04", "snapshot": "https://www.facebook.com/ads/library/?id=984802850996515"}
+      ]
+    },
+    {
+      "page_id": "104051527720173",
+      "page_name": "Cuissoh",
+      "countries_seen": ["FR"],
+      "classification": "pertinente",
+      "reason": "'Shorty anti-frottement' — short anti-frottement dédié FR (EUR).",
+      "seen_under_keywords": ["short anti-frottement (FR)"],
+      "currency_seen": ["EUR"],
+      "active_ads_total": null,
+      "oldest_ad_start": "2026-07-08",
+      "profiled": false,
+      "creative_texts": ["Shorty anti-frottement"],
+      "landing_url": null,
+      "ads": [
+        {"id": "1038284425616919", "start": "2026-07-08", "snapshot": "https://www.facebook.com/ads/library/?id=1038284425616919"}
+      ]
+    },
+    {
+      "page_id": "731735576697382",
+      "page_name": "FitSlim",
+      "countries_seen": ["FR"],
+      "classification": "pertinente",
+      "reason": "Short d'été anti-frottement/gainant FR ('Je commande mon short de l'été'), EUR. (Vu aussi en legging dans la découverte = gamme jambes.)",
+      "seen_under_keywords": ["short anti-frottement (FR)"],
+      "currency_seen": ["EUR"],
+      "active_ads_total": null,
+      "oldest_ad_start": "2026-07-08",
+      "profiled": false,
+      "creative_texts": ["☀️ Je commande mon short de l'été"],
+      "landing_url": null,
+      "ads": [
+        {"id": "1003659759041730", "start": "2026-07-08", "snapshot": "https://www.facebook.com/ads/library/?id=1003659759041730"}
+      ]
+    },
+    {
+      "page_id": "510082475788466",
+      "page_name": "Bodycross",
+      "countries_seen": ["FR"],
+      "classification": "pertinente",
+      "reason": "'Performance Short 2-en-1' — short sport anti-frottement FR (EUR). Diffusion depuis 2026-07-04.",
+      "seen_under_keywords": ["short anti-frottement (FR)"],
+      "currency_seen": ["EUR"],
+      "active_ads_total": null,
+      "oldest_ad_start": "2026-07-04",
+      "profiled": false,
+      "creative_texts": ["Performance Short 2-en-1", "Nouveauté Bodycross 🔥"],
+      "landing_url": null,
+      "ads": [
+        {"id": "907679332362666", "start": "2026-07-04", "snapshot": "https://www.facebook.com/ads/library/?id=907679332362666"},
+        {"id": "1056081943756543", "start": "2026-07-06", "snapshot": "https://www.facebook.com/ads/library/?id=1056081943756543"}
+      ]
+    },
+    {
+      "page_id": "1118647794666653",
+      "page_name": "Nexara",
+      "countries_seen": ["FR"],
+      "classification": "pertinente",
+      "reason": "Short sous-robe anti-frottement FR ('Ta robe préférée t'attend. Porte-la enfin.'), devise USD = opérateur étranger.",
+      "seen_under_keywords": ["short anti-frottement (FR)"],
+      "currency_seen": ["USD"],
+      "active_ads_total": null,
+      "oldest_ad_start": "2026-07-08",
+      "profiled": false,
+      "creative_texts": ["Ta robe préférée t'attend. Porte-la enfin."],
+      "landing_url": null,
+      "ads": [
+        {"id": "871752352224593", "start": "2026-07-08", "snapshot": "https://www.facebook.com/ads/library/?id=871752352224593"}
+      ]
+    },
+    {
+      "page_id": "121173123840",
+      "page_name": "Thigh Society",
+      "countries_seen": ["CA"],
+      "classification": "pertinente",
+      "reason": "Marque anti-frottement établie ('No chafe. No distractions.' / 'Hot days, handled'), active en CA.",
+      "seen_under_keywords": ["anti-chafing shorts (CA)"],
+      "currency_seen": ["USD"],
+      "active_ads_total": null,
+      "oldest_ad_start": "2026-07-10",
+      "profiled": false,
+      "creative_texts": ["Hot days, handled", "No chafe. No distractions."],
+      "landing_url": null,
+      "ads": [
+        {"id": "2625453044573452", "start": "2026-07-10", "snapshot": "https://www.facebook.com/ads/library/?id=2625453044573452"},
+        {"id": "1586574476205038", "start": "2026-07-10", "snapshot": "https://www.facebook.com/ads/library/?id=1586574476205038"}
+      ]
+    },
+    {
+      "page_id": "542381975622682",
+      "page_name": "SloMra",
+      "countries_seen": ["CA"],
+      "classification": "pertinente",
+      "reason": "'Cooling Anti-Chafing Slip Shorts Under Dresses' — short anti-frottement sous robe (angle été/cooling), actif CA.",
+      "seen_under_keywords": ["anti-chafing shorts (CA)"],
+      "currency_seen": ["USD"],
+      "active_ads_total": null,
+      "oldest_ad_start": "2026-07-10",
+      "profiled": false,
+      "creative_texts": ["Cooling Anti-Chafing Slip Shorts Under Dresses", "Cooling Anti-Chafing Tummy Control Shorts Under Dresses"],
+      "landing_url": null,
+      "ads": [
+        {"id": "1593669565654662", "start": "2026-07-10", "snapshot": "https://www.facebook.com/ads/library/?id=1593669565654662"},
+        {"id": "1804855600503936", "start": "2026-07-10", "snapshot": "https://www.facebook.com/ads/library/?id=1804855600503936"}
+      ]
+    },
+    {
+      "page_id": "216079371797001",
+      "page_name": "Boody",
+      "countries_seen": ["CA"],
+      "classification": "pertinente",
+      "reason": "'Wear The Dress. Skip The Chafe.' — short anti-frottement, devise AUD = opérateur australien ciblant CA.",
+      "seen_under_keywords": ["anti-chafing shorts (CA)"],
+      "currency_seen": ["AUD"],
+      "active_ads_total": null,
+      "oldest_ad_start": "2026-07-10",
+      "profiled": false,
+      "creative_texts": ["Wear The Dress. Skip The Chafe."],
+      "landing_url": null,
+      "ads": [
+        {"id": "1287818486528137", "start": "2026-07-10", "snapshot": "https://www.facebook.com/ads/library/?id=1287818486528137"}
+      ]
+    },
+    {
+      "page_id": "1104065582788621",
+      "page_name": "Plondry",
+      "countries_seen": ["US"],
+      "classification": "pertinente",
+      "reason": "'Thighs Never Rub' — short anti-frottement dédié US.",
+      "seen_under_keywords": ["chub rub (US)"],
+      "currency_seen": ["USD"],
+      "active_ads_total": null,
+      "oldest_ad_start": "2026-07-10",
+      "profiled": false,
+      "creative_texts": ["Thighs Never Rub"],
+      "landing_url": null,
+      "ads": [
+        {"id": "1345629357777546", "start": "2026-07-10", "snapshot": "https://www.facebook.com/ads/library/?id=1345629357777546"}
+      ]
+    },
+    {
+      "page_id": "433462129854731",
+      "page_name": "Scheduleprogramme-l",
+      "countries_seen": ["US"],
+      "classification": "pertinente",
+      "reason": "'Soft High Waist Full Coverage Panties Anti-irritation' — culotte/short anti-irritation (produit adjacent au short anti-frottement).",
+      "seen_under_keywords": ["anti-chafing shorts (US)"],
+      "currency_seen": ["USD"],
+      "active_ads_total": null,
+      "oldest_ad_start": "2026-07-11",
+      "profiled": false,
+      "creative_texts": ["Soft High Waist Full Coverage Panties Anti-irritation Women Underwear"],
+      "landing_url": null,
+      "ads": [
+        {"id": "1574435634248076", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=1574435634248076"}
+      ]
+    },
+    {
+      "page_id": "1037450702779898",
+      "page_name": "Floralshe",
+      "countries_seen": ["US", "CA"],
+      "classification": "incertaine",
+      "reason": "Vu sous anti-chafing shorts US+CA ('Best gift for all women') mais créa générique (probable shapewear/lingerie); produit anti-frottement non confirmé.",
+      "seen_under_keywords": ["anti-chafing shorts (US)", "anti-chafing shorts (CA)"],
+      "currency_seen": ["USD"],
+      "active_ads_total": null,
+      "oldest_ad_start": "2026-07-09",
+      "profiled": false,
+      "creative_texts": ["Best gift for all women"],
+      "landing_url": null,
+      "ads": [
+        {"id": "1390325893081615", "start": "2026-07-09", "snapshot": "https://www.facebook.com/ads/library/?id=1390325893081615"}
+      ]
+    },
+    {
+      "page_id": "101973412798953",
+      "page_name": "Easelyn",
+      "countries_seen": ["US"],
+      "classification": "incertaine",
+      "reason": "'Shapewear That Survives The Whole Wedding' — shapewear vu sous 'chub rub'; anti-frottement possible mais non explicite.",
+      "seen_under_keywords": ["chub rub (US)"],
+      "currency_seen": ["USD"],
+      "active_ads_total": null,
+      "oldest_ad_start": "2026-07-11",
+      "profiled": false,
+      "creative_texts": ["Shapewear That Survives The Whole Wedding"],
+      "landing_url": null,
+      "ads": [
+        {"id": "1554814352759316", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=1554814352759316"}
+      ]
+    },
+    {
+      "page_id": "375574012310547",
+      "page_name": "Modlily Swimsuits",
+      "countries_seen": ["US", "CA"],
+      "classification": "hors-sujet",
+      "reason": "Maillots de bain (BUY 3 GET 1 FREE) — tangent, pollue le mot-clé mais ne vend pas de short anti-frottement.",
+      "seen_under_keywords": ["anti-chafing shorts (US)", "anti-chafing shorts (CA)"],
+      "currency_seen": ["USD"],
+      "active_ads_total": null,
+      "oldest_ad_start": null,
+      "profiled": false,
+      "creative_texts": ["Mesh Low Waisted Polka Dot Top and Panty BUY 3 GET 1 FREE (catalogue maillots)"],
+      "landing_url": null,
+      "ads": []
+    }
+  ],
+  "profiling_capped": false,
+  "notes": "HYPOTHÈSE 'US-DOMINANT' PARTIELLEMENT CONFIRMÉE, À NUANCER: les US ont le VOLUME le plus élevé (763 pubs actives + ChubRub 117 dédiée + Cellumove 621) MAIS la France n'est PAS pauvre — 'short anti-frottement' FR = 87 pubs avec ~8 pages e-com DÉDIÉES (Sisters Republic, Cuissoh, FitSlim, Bodycross, Heldenn, Rugaso short, Linda Carter, Nexara), et le CA a aussi plusieurs annonceurs propres (Thigh Society, SloMra, Boody AUD, Diary of An Honest Mom). Donc marché tri-national viable, US en tête. DURABILITÉ: les traces les plus anciennes vérifiées sont en FRANCE (Rugaso short diffusion 2026-07-01, Linda Carter 2026-07-02, Sisters Republic 2026-07-02/créa 2026-06-29), devant ChubRub US (2026-07-07). RISQUE META: produit vêtement à FAIBLE risque en soi (angle confort/été/'cuisses qui frottent'), SAUF Cellumove USA qui empile des claims médicaux/minceur ('Lipedema Relief', 'Weight-Loss Journey') = exposition rejet plus forte pour cet angle précis. Pas de fausses personas 'Dr.' ici (contrairement au sérum). Historic ALL 'anti-chafing shorts' US = 58 525. Devises étrangères notées: Boody (AUD sur CA), Nexara (USD sur FR), Beshap (CAD sur FR) = opérateurs internationaux."
+}

@@ -1,0 +1,230 @@
+{
+  "product": "tour-apprentissage",
+  "niche": "baby",
+  "hunter": "Chasseur-C",
+  "date": "2026-07-11",
+  "tool": "mcp__META_ADS__ads_library_search (ACTIVE, 1 pays/appel, limit 30 balayage / 50 profilage)",
+  "api_calls_used": 8,
+  "keywords_total": 4,
+  "searches": [
+    {"kw": "learning tower", "country": "US", "count": 1046, "new_pages": 0, "tier": 3, "note": "100% POLLUÉ: fermes drama/romans (AnyReel réseau, ReadingOnline6, World001, DramaShort, Edwin Chris Julia) — 'learning/read' matche le contenu. Mot-clé inutilisable."},
+    {"kw": "montessori tower", "country": "US", "count": 32, "new_pages": 5, "tier": 1, "note": "PROPRE: harppababy (principale), Екатерина Корниенко, Project Montessori, Piccalio (marque durable), Opale Tots; pollution résiduelle écoles Montessori locales"},
+    {"kw": "learning tower", "country": "CA", "count": 360, "new_pages": 0, "tier": 3, "note": "100% POLLUÉ fermes drama (mêmes réseaux qu'US). Inutilisable."},
+    {"kw": "tour montessori", "country": "FR", "count": 9, "new_pages": 0, "tier": 3, "note": "MARCHÉ FR QUASI-ABSENT: 9 résultats, AUCUN e-com dédié à la tour; seul Lib&Lou (location de jouets, tangent). Confirme FR non exploitable pour ce produit."},
+    {"kw": "montessori tower", "country": "CA", "count": 6, "new_pages": 4, "tier": 1, "note": "PROPRE mais PETIT: True Little North, MLH Co., Little Treasures, The Montessori Room (marques CAD dédiées, certaines durables); pollution écoles/immobilier"}
+  ],
+  "sweep_end_reason": "saturation/matrice épuisée — 'learning tower' (EN) et 'tour montessori' (FR) sont soit pollués (drama farms) soit vides; 'montessori tower' est le SEUL mot-clé propre mais à faible volume (US 32, CA 6). Marché mince et surtout US/CA anglophone, FR absent. Arrêt discipliné (8 appels).",
+  "historic_all_counts": {"montessori tower | US | ALL": 3700},
+  "competitors": [
+    {
+      "page_id": "105455611466316",
+      "page_name": "Piccalio",
+      "countries_seen": ["US"],
+      "classification": "pertinente",
+      "reason": "Marque US établie de mobilier enfant Montessori (Helper Tower, Kid Forward Furniture, lit/étagère Montessori), 81 pubs actives. ANCRE DE DURABILITÉ: pubs en diffusion depuis 2026-02-09 (créa créée 2026-01-30) = ~5 mois, de loin la plus ancienne des 4 produits.",
+      "seen_under_keywords": ["montessori tower (US)"],
+      "currency_seen": ["USD"],
+      "active_ads_total": 81,
+      "oldest_ad_start": "2026-02-09",
+      "profiled": true,
+      "creative_texts": ["The best selling Helper Tower™", "Beautiful. Functional. Safe. Sustainable.", "Parents are calling it a game changer."],
+      "landing_url": null,
+      "ads": [
+        {"id": "1365919425469773", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=1365919425469773"},
+        {"id": "2610947159307938", "start": "2026-07-01", "snapshot": "https://www.facebook.com/ads/library/?id=2610947159307938"},
+        {"id": "1320418906212187", "start": "2026-06-04", "snapshot": "https://www.facebook.com/ads/library/?id=1320418906212187"},
+        {"id": "1346742774009608", "start": "2026-05-14", "snapshot": "https://www.facebook.com/ads/library/?id=1346742774009608"},
+        {"id": "1942219676717166", "start": "2026-02-09", "snapshot": "https://www.facebook.com/ads/library/?id=1942219676717166"}
+      ],
+      "ads_note": "81 pubs actives; ancienneté réelle >5 mois (diffusion depuis 2026-02-09). Marque, pas produit-de-campagne dropship."
+    },
+    {
+      "page_id": "104538042712505",
+      "page_name": "harppababy",
+      "countries_seen": ["US"],
+      "classification": "pertinente",
+      "reason": "Gros annonceur baby (324 pubs actives) poussant la 'Harppa Nordo Montessori Toddler Kitchen Wooden Tower' MAIS aussi berceaux/parcs/matelas — GÉNÉRALISTE en train de pivoter vers crib/playpen. La tour est diffusée depuis 2026-06-24.",
+      "seen_under_keywords": ["montessori tower (US)"],
+      "currency_seen": ["USD"],
+      "active_ads_total": 324,
+      "oldest_ad_start": "2026-06-24",
+      "profiled": true,
+      "creative_texts": ["Harppa Nordo FSC MIX Safe & Stable Montessori Toddler Kitchen Wooden Tower | Counter Helper for Cooking & Learning", "The perfect gift for Montessori-inspired playful learning", "3 Height Adjustable for Baby's Growth | Encourage Independence"],
+      "landing_url": null,
+      "ads": [
+        {"id": "26903788252634405", "start": "2026-07-08", "snapshot": "https://www.facebook.com/ads/library/?id=26903788252634405"},
+        {"id": "1668282384224627", "start": "2026-06-25", "snapshot": "https://www.facebook.com/ads/library/?id=1668282384224627"},
+        {"id": "1351039846966693", "start": "2026-06-24", "snapshot": "https://www.facebook.com/ads/library/?id=1351039846966693"}
+      ],
+      "ads_note": "324 pubs actives mais catalogue mixte (tour Montessori + berceaux/parcs/matelas 'HARPPA Playpen', 'Dream Baby Shower Gift'). La tour est UN produit parmi d'autres; profilage montre un pivot vers crib/playpen."
+    },
+    {
+      "page_id": "394556987082227",
+      "page_name": "Екатерина Корниенко",
+      "countries_seen": ["US"],
+      "classification": "pertinente",
+      "reason": "'Montessori 2in1 Convertible Step Stool, Wooden Activity Helper, Ages 8 Months-6 Years' — tour d'apprentissage convertible (nom cyrillique = opérateur étranger).",
+      "seen_under_keywords": ["montessori tower (US)"],
+      "currency_seen": ["USD"],
+      "active_ads_total": null,
+      "oldest_ad_start": "2026-07-11",
+      "profiled": false,
+      "creative_texts": ["Montessori 2in1 Convertible Step Stool, Wooden Activity Helper, Ages 8 Months-6 Years"],
+      "landing_url": null,
+      "ads": [
+        {"id": "1819536952741577", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=1819536952741577"}
+      ]
+    },
+    {
+      "page_id": "255657635109889",
+      "page_name": "Project Montessori",
+      "countries_seen": ["US"],
+      "classification": "pertinente",
+      "reason": "Boutique Montessori US, offre 'Last Days 50% OFF' — vend la tour d'apprentissage parmi sa gamme.",
+      "seen_under_keywords": ["montessori tower (US)"],
+      "currency_seen": ["USD"],
+      "active_ads_total": null,
+      "oldest_ad_start": "2026-07-09",
+      "profiled": false,
+      "creative_texts": ["⏰ Last Days 50% OFF! ⏰"],
+      "landing_url": null,
+      "ads": [
+        {"id": "1025161243904610", "start": "2026-07-09", "snapshot": "https://www.facebook.com/ads/library/?id=1025161243904610"}
+      ]
+    },
+    {
+      "page_id": "113885808353401",
+      "page_name": "Little Treasures",
+      "countries_seen": ["CA"],
+      "classification": "pertinente",
+      "reason": "Marque CAD dédiée 'Learning Tower - Kitchen Helper Stool' (plusieurs coloris). Durable: diffusion depuis 2026-05-29 (~6 semaines).",
+      "seen_under_keywords": ["montessori tower (CA)"],
+      "currency_seen": ["CAD"],
+      "active_ads_total": null,
+      "oldest_ad_start": "2026-05-29",
+      "profiled": false,
+      "creative_texts": ["Learning Tower - Kitchen Helper Stool - White / All Natural / Black / Dark Grey"],
+      "landing_url": null,
+      "ads": [
+        {"id": "1012518678094960", "start": "2026-05-29", "snapshot": "https://www.facebook.com/ads/library/?id=1012518678094960"}
+      ]
+    },
+    {
+      "page_id": "326747857851084",
+      "page_name": "The Montessori Room",
+      "countries_seen": ["CA"],
+      "classification": "pertinente",
+      "reason": "Boutique Montessori CAD multi-produits ('Learning Tower + FREE Toddler Knife'). Durable: diffusion depuis 2026-05-26.",
+      "seen_under_keywords": ["montessori tower (CA)"],
+      "currency_seen": ["CAD"],
+      "active_ads_total": null,
+      "oldest_ad_start": "2026-05-26",
+      "profiled": false,
+      "creative_texts": ["Learning Tower + FREE Toddler Knife (catalogue multi-produits Montessori)"],
+      "landing_url": null,
+      "ads": [
+        {"id": "1306427034971978", "start": "2026-05-26", "snapshot": "https://www.facebook.com/ads/library/?id=1306427034971978"}
+      ]
+    },
+    {
+      "page_id": "100781498935119",
+      "page_name": "True Little North",
+      "countries_seen": ["CA"],
+      "classification": "pertinente",
+      "reason": "Marque CAD mobilier enfant proposant 'Learning Tower - Little Chef' + rampe/bureau/banc Montessori.",
+      "seen_under_keywords": ["montessori tower (CA)"],
+      "currency_seen": ["CAD"],
+      "active_ads_total": null,
+      "oldest_ad_start": "2026-07-11",
+      "profiled": false,
+      "creative_texts": ["Learning Tower - \"Little Chef\"", "Kids Montessori Bench"],
+      "landing_url": null,
+      "ads": [
+        {"id": "1714354889828492", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=1714354889828492"}
+      ]
+    },
+    {
+      "page_id": "1251082025038935",
+      "page_name": "MLH Co. - Mommy's Little Helper Co.",
+      "countries_seen": ["CA"],
+      "classification": "pertinente",
+      "reason": "Marque CAD 'Mommy's Little Helper' (tour d'aide de cuisine), offre 'Ultimate Playroom Bundle (Save $500)'. Diffusion depuis 2026-07-02.",
+      "seen_under_keywords": ["montessori tower (CA)"],
+      "currency_seen": ["CAD"],
+      "active_ads_total": null,
+      "oldest_ad_start": "2026-07-02",
+      "profiled": false,
+      "creative_texts": ["The Ultimate Playroom Bundle (Save $500)"],
+      "landing_url": null,
+      "ads": [
+        {"id": "1016106864335332", "start": "2026-07-02", "snapshot": "https://www.facebook.com/ads/library/?id=1016106864335332"}
+      ]
+    },
+    {
+      "page_id": "1214058598453503",
+      "page_name": "Opale Tots",
+      "countries_seen": ["US"],
+      "classification": "incertaine",
+      "reason": "'Villetta - Montessori Sorting Houses' — jouet de tri Montessori, produit DIFFÉRENT de la tour d'apprentissage (même niche, pas le même produit).",
+      "seen_under_keywords": ["montessori tower (US)"],
+      "currency_seen": ["USD"],
+      "active_ads_total": null,
+      "oldest_ad_start": "2026-07-09",
+      "profiled": false,
+      "creative_texts": ["Villetta - Montessori Sorting Houses"],
+      "landing_url": null,
+      "ads": [
+        {"id": "1531908664465192", "start": "2026-07-09", "snapshot": "https://www.facebook.com/ads/library/?id=1531908664465192"}
+      ]
+    },
+    {
+      "page_id": "1856878481232451",
+      "page_name": "Lib&Lou - Location de jouets et jeux éducatifs",
+      "countries_seen": ["FR"],
+      "classification": "incertaine",
+      "reason": "Service FR de LOCATION de jouets éducatifs ('L'astuce des nouveaux parents') — modèle abonnement, pas vente d'une tour; seule présence FR quasi-pertinente du mot-clé (EUR).",
+      "seen_under_keywords": ["tour montessori (FR)"],
+      "currency_seen": ["EUR"],
+      "active_ads_total": null,
+      "oldest_ad_start": "2026-06-28",
+      "profiled": false,
+      "creative_texts": ["L'astuce des nouveaux parents"],
+      "landing_url": null,
+      "ads": [
+        {"id": "1562674552119012", "start": "2026-06-28", "snapshot": "https://www.facebook.com/ads/library/?id=1562674552119012"}
+      ]
+    },
+    {
+      "page_id": "1044631395395901",
+      "page_name": "ReadingOnline6",
+      "countries_seen": ["US", "CA"],
+      "classification": "hors-sujet",
+      "reason": "Ferme de romans/lecture ('4.9/5 RATING | read now') — matche 'learning'/read, pollue massivement 'learning tower' US et CA. Représentatif d'un réseau (AnyReel, World001, DramaShort, Edwin Chris Julia, Anyreel-test...).",
+      "seen_under_keywords": ["learning tower (US)", "learning tower (CA)"],
+      "currency_seen": ["USD"],
+      "active_ads_total": null,
+      "oldest_ad_start": null,
+      "profiled": false,
+      "creative_texts": ["⭐⭐⭐⭐⭐4.9/5 RATING | read now"],
+      "landing_url": null,
+      "ads": []
+    },
+    {
+      "page_id": "221101517745713",
+      "page_name": "ZENE Bricks",
+      "countries_seen": ["US"],
+      "classification": "hors-sujet",
+      "reason": "Kits d'éclairage LEGO (Minas Tirith) — hobby adulte, pollue 'learning tower' via le mot 'tower'.",
+      "seen_under_keywords": ["learning tower (US)"],
+      "currency_seen": ["USD"],
+      "active_ads_total": null,
+      "oldest_ad_start": null,
+      "profiled": false,
+      "creative_texts": ["Light Kit for LEGO Minas Tirith The Lord of the Rings #11377"],
+      "landing_url": null,
+      "ads": []
+    }
+  ],
+  "profiling_capped": false,
+  "notes": "RISQUE POLITIQUE META: FAIBLE (mobilier enfant en bois, aucun claim santé/avant-après, pas de fausse persona). Le seul enjeu Meta ici est la QUALITÉ DU CIBLAGE (produit de niche à faible volume), pas le rejet publicitaire. CONSTATS CLÉS: (1) 'learning tower' EN et 'tour montessori' FR sont INUTILISABLES comme mots-clés — le 1er est noyé sous les fermes de romans/drama (AnyReel, ReadingOnline6, World001, DramaShort) qui matchent 'learning/read', le 2nd ne renvoie que 9 résultats sans e-com dédié. Le SEUL mot-clé propre est 'montessori tower' (US 32, CA 6) = volume faible. (2) FR CONFIRMÉ NON EXPLOITABLE (9 résultats, aucune boutique de tour; seul Lib&Lou en LOCATION) — cohérent avec la découverte 'US-dominant, FR pollué/absent'. (3) US/CA = marché surtout de MARQUES établies (Piccalio, Little Treasures, The Montessori Room, True Little North) + un généraliste (harppababy) plutôt que de dropshippers de campagne jetables. (4) DURABILITÉ: c'est le produit avec la meilleure preuve d'ancienneté vérifiée — Piccalio diffuse depuis 2026-02-09 (~5 mois), Little Treasures depuis 2026-05-29, The Montessori Room depuis 2026-05-26 — signe d'un produit evergreen rentable, mais à faible intensité concurrentielle dropship. Historic ALL 'montessori tower' US = 3 700. Devises: majorité USD (US) / CAD (CA), un seul EUR côté FR (Lib&Lou). CONCLUSION produit: demande réelle mais ÉTROITE, anglophone (US/CA), portée par des marques durables — profil 'niche stable' plutôt que 'produit gagnant viral' comme les 3 autres."
+}

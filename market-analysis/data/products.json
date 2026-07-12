@@ -1,0 +1,20 @@
+{"products": [
+  {"num": 1, "ref": "ALI1", "name_from_list": "Wholesale Fajas Reductor Shapewear for Women",
+   "identified_name": "Fajas Reductor Shapewear for Women (waist/body compression shapewear — likely bodysuit/girdle style, sold in the generic 'fajas reductoras' wholesale category)",
+   "what_it_is": "Women's compression shapewear garment ('faja reductora') — waist trainer / body shaper worn as an undergarment to visually slim the waist and shape the torso/hips. Product page itself was not directly fetchable (Alibaba blocks direct fetch, HTTP 403), so exact SKU-level specs (exact fabric blend, exact size run, exact seller name) could not be confirmed; identity is based on the listing title and the well-documented 'fajas reductoras / shapewear' category on Alibaba.",
+   "verified_price_usd": null,
+   "category_price_estimate_usd": "≈ $2 – $17 / piece FOB, tiered by order volume (category-wide range observed across comparable Alibaba fajas/shapewear listings — e.g. $1.56–$2.41, $4.63–$9.15, $5.30–$5.88, $10.28–$17.99, or fixed-tier pricing like $16/pc for 3-19pcs → $13/pc for 100-9999pcs). Not the verified price of this exact SKU.",
+   "moq": "Category-typical: 2–100 pieces (varies by supplier; exact MOQ for this listing not confirmed — direct fetch blocked)",
+   "weight_size": "Textile garment, lightweight (~150-400g per piece typical for shapewear); sizes typically S–6XL across the category",
+   "battery_or_liquid": false,
+   "supplier": "Unconfirmed — Alibaba supplier profile not directly accessible (403 on direct fetch); listing is hosted under a standard Alibaba manufacturer/trading-company storefront typical of the Guangdong/Fujian shapewear cluster",
+   "identification_confidence": "medium",
+   "sources": [
+    "https://www.alibaba.com/product-detail/Wholesale-Fajas-Reductor-Shapewear-for-Women_1600602289350.html (title only — page body blocked, HTTP 403)",
+    "https://www.alibaba.com/showroom/fajas-reductoras.html",
+    "https://www.alibaba.com/showroom/wholesale-faja.html",
+    "https://seller.alibaba.com/blogs/2026/southeast-asia/apparel/shapewear-sourcing-certifications-guide-alibaba-b2b"
+   ],
+   "notes": "Direct fetch of the exact product page returns HTTP 403 (Alibaba blocks automated fetch in this environment). Identification and pricing are therefore based on the listing TITLE plus category-wide comparables via WebSearch, not on the verified individual listing page. Category is unambiguous: women's compression shapewear/fajas — a well-established, evergreen COD niche.",
+   "status": "ok"}
+]}

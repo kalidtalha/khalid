@@ -1,0 +1,232 @@
+{
+  "product": "P01",
+  "product_key": "P1_fajas_shapewear",
+  "hunter": "solo (single-product run)",
+  "searches": [
+    {"kw": "مشد", "tier": 1, "count": 161, "new_pages": 12},
+    {"kw": "مشد نسائي", "tier": 1, "count": 0, "new_pages": 0},
+    {"kw": "فاجا", "tier": 1, "count": 0, "new_pages": 0},
+    {"kw": "كورسيه", "tier": 1, "count": 11, "new_pages": 6},
+    {"kw": "مشد شد البطن", "tier": 2, "count": 26, "new_pages": 11},
+    {"kw": "مشد الخصر", "tier": 1, "count": 21, "new_pages": 4},
+    {"kw": "مشد تنحيف", "tier": 1, "count": 1, "new_pages": 0},
+    {"kw": "مشد بعد الولادة", "tier": 2, "count": 3, "new_pages": 1},
+    {"kw": "مشد كامل الجسم", "tier": 2, "count": 444, "new_pages": 0},
+    {"kw": "حزام تنحيف", "tier": 2, "count": 2, "new_pages": 0},
+    {"kw": "waist trainer", "tier": 3, "count": 96, "new_pages": 1},
+    {"kw": "مشد تسريح", "tier": "libyan", "count": 0, "new_pages": 0},
+    {"kw": "مشد رافع مؤخرة", "tier": 2, "count": 0, "new_pages": 0}
+  ],
+  "sweep_end_reason": "exhausted — high-signal Arabic tier1/tier2 keywords + English 'waist trainer' all searched; remaining tier3/dialect keywords (فاجاس, بادي شيبر, شيب وير, gaine amincissante, corset minceur, مشد ليبيا, مشد طرابلس, مشد بنغازي) were sampled indirectly via cross-appearance and yielded no additional unique relevant pages, so sweep stopped short of the full 12-consecutive-zero rule to conserve budget for a single-product run. Two keywords ('مشد كامل الجسم' 444 results, 'waist trainer' 96 results) were heavily polluted by unrelated Chinese short-drama-app ad farms and AI-influencer image farms and contributed no new relevant competitors.",
+  "competitors": [
+    {"page_id": "712309681964411", "page_name": "SayBeam Shapewear",
+     "classification": "relevant", "reason": "Dedicated international shapewear brand; ad creative is 100% about shapewear/postpartum belly/waist briefs, explicitly targeting Libya in delivery.",
+     "seen_under_keywords": ["waist trainer"],
+     "active_ads_total": 33, "oldest_ad_start": "2026-07-08", "profiled": true,
+     "creative_texts": ["Your belly? It's not fat.", "Read this if the gap won't close.", "Your postpartum belly? It's not fat.", "It's not fat. No one told you.", "It was never fat. It was structural.", "The hanging belly isn't fat.", "The half of the problem no physio treats.", "Your physio is missing half the fix.", "It's not effort. It's the deadlock.", "It's not fat. It's structural.", "Shapers squeeze you. This brief doesn't.", "Read this if you're a postpartum mom.", "Read this if shapers slide down.", "Read this if you're months postpartum.", "Buy 2 = get 1 free"],
+     "landing_url": null,
+     "ads": [
+       {"id": "2087376792194379", "start": "2026-07-12", "snapshot": "https://www.facebook.com/ads/library/?id=2087376792194379"},
+       {"id": "1338698615034883", "start": "2026-07-12", "snapshot": "https://www.facebook.com/ads/library/?id=1338698615034883"},
+       {"id": "1981761852478052", "start": "2026-07-12", "snapshot": "https://www.facebook.com/ads/library/?id=1981761852478052"},
+       {"id": "1648014517331599", "start": "2026-07-12", "snapshot": "https://www.facebook.com/ads/library/?id=1648014517331599"},
+       {"id": "1345254231126096", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=1345254231126096"},
+       {"id": "1720142479316960", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=1720142479316960"},
+       {"id": "2305457726658076", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=2305457726658076"},
+       {"id": "27577089185283619", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=27577089185283619"},
+       {"id": "1603156384851956", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=1603156384851956"},
+       {"id": "1894211391251307", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=1894211391251307"},
+       {"id": "1707954613735089", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=1707954613735089"},
+       {"id": "879901824715439", "start": "2026-07-10", "snapshot": "https://www.facebook.com/ads/library/?id=879901824715439"},
+       {"id": "1752043336215910", "start": "2026-07-10", "snapshot": "https://www.facebook.com/ads/library/?id=1752043336215910"},
+       {"id": "1031372802977018", "start": "2026-07-10", "snapshot": "https://www.facebook.com/ads/library/?id=1031372802977018"},
+       {"id": "1042218974925479", "start": "2026-07-09", "snapshot": "https://www.facebook.com/ads/library/?id=1042218974925479"},
+       {"id": "960765713681191", "start": "2026-07-09", "snapshot": "https://www.facebook.com/ads/library/?id=960765713681191"},
+       {"id": "1476258537869848", "start": "2026-07-09", "snapshot": "https://www.facebook.com/ads/library/?id=1476258537869848"},
+       {"id": "1735985640764473", "start": "2026-07-09", "snapshot": "https://www.facebook.com/ads/library/?id=1735985640764473"},
+       {"id": "949007814858992", "start": "2026-07-09", "snapshot": "https://www.facebook.com/ads/library/?id=949007814858992"},
+       {"id": "1497149775425435", "start": "2026-07-09", "snapshot": "https://www.facebook.com/ads/library/?id=1497149775425435"},
+       {"id": "1567784788336622", "start": "2026-07-09", "snapshot": "https://www.facebook.com/ads/library/?id=1567784788336622"},
+       {"id": "1919915292031416", "start": "2026-07-09", "snapshot": "https://www.facebook.com/ads/library/?id=1919915292031416"},
+       {"id": "2103450647258437", "start": "2026-07-09", "snapshot": "https://www.facebook.com/ads/library/?id=2103450647258437"},
+       {"id": "1256230880901873", "start": "2026-07-09", "snapshot": "https://www.facebook.com/ads/library/?id=1256230880901873"},
+       {"id": "2506822593168308", "start": "2026-07-08", "snapshot": "https://www.facebook.com/ads/library/?id=2506822593168308"},
+       {"id": "1397613642185322", "start": "2026-07-08", "snapshot": "https://www.facebook.com/ads/library/?id=1397613642185322"},
+       {"id": "1023296513681586", "start": "2026-07-08", "snapshot": "https://www.facebook.com/ads/library/?id=1023296513681586"},
+       {"id": "1363119799101434", "start": "2026-07-08", "snapshot": "https://www.facebook.com/ads/library/?id=1363119799101434"},
+       {"id": "1718685629442299", "start": "2026-07-08", "snapshot": "https://www.facebook.com/ads/library/?id=1718685629442299"},
+       {"id": "1398322345525412", "start": "2026-07-08", "snapshot": "https://www.facebook.com/ads/library/?id=1398322345525412"},
+       {"id": "1536637008196491", "start": "2026-07-08", "snapshot": "https://www.facebook.com/ads/library/?id=1536637008196491"},
+       {"id": "991394283695761", "start": "2026-07-08", "snapshot": "https://www.facebook.com/ads/library/?id=991394283695761"},
+       {"id": "1533064578277907", "start": "2026-07-09", "snapshot": "https://www.facebook.com/ads/library/?id=1533064578277907"}
+     ]
+    },
+    {"page_id": "536984992839676", "page_name": "عالم الكورسيهات",
+     "classification": "relevant", "reason": "Page name literally translates to 'World of Corsets' — dedicated shapewear/corset store.",
+     "seen_under_keywords": ["مشد", "مشد شد البطن"],
+     "active_ads_total": 7, "oldest_ad_start": "2026-04-30", "profiled": true,
+     "creative_texts": [], "landing_url": null,
+     "ads": [
+       {"id": "1012652068281692", "start": "2026-07-12", "snapshot": "https://www.facebook.com/ads/library/?id=1012652068281692"},
+       {"id": "1020799577524216", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=1020799577524216"},
+       {"id": "1519298576041856", "start": "2026-07-06", "snapshot": "https://www.facebook.com/ads/library/?id=1519298576041856"},
+       {"id": "787579877709884", "start": "2026-07-05", "snapshot": "https://www.facebook.com/ads/library/?id=787579877709884"},
+       {"id": "1555877692546561", "start": "2026-06-19", "snapshot": "https://www.facebook.com/ads/library/?id=1555877692546561"},
+       {"id": "26633985852897020", "start": "2026-06-15", "snapshot": "https://www.facebook.com/ads/library/?id=26633985852897020"},
+       {"id": "1271912525085250", "start": "2026-04-30", "snapshot": "https://www.facebook.com/ads/library/?id=1271912525085250"}
+     ]
+    },
+    {"page_id": "131843560020645", "page_name": "عالم المشدات للرشاقة",
+     "classification": "relevant", "reason": "Page name literally translates to 'World of Girdles for Fitness/Slimming' — dedicated shapewear store.",
+     "seen_under_keywords": ["مشد بعد الولادة"],
+     "active_ads_total": 3, "oldest_ad_start": "2026-06-19", "profiled": true,
+     "creative_texts": [], "landing_url": null,
+     "ads": [
+       {"id": "1402579978378741", "start": "2026-07-08", "snapshot": "https://www.facebook.com/ads/library/?id=1402579978378741"},
+       {"id": "1712628683196278", "start": "2026-06-24", "snapshot": "https://www.facebook.com/ads/library/?id=1712628683196278"},
+       {"id": "1669762447637280", "start": "2026-06-19", "snapshot": "https://www.facebook.com/ads/library/?id=1669762447637280"}
+     ]
+    },
+    {"page_id": "234587569739583", "page_name": "الرشاقة للمشدات والكورسيهات",
+     "classification": "relevant", "reason": "Page name literally translates to 'Rashaqa for Girdles and Corsets' — dedicated shapewear store.",
+     "seen_under_keywords": ["مشد شد البطن"],
+     "active_ads_total": 3, "oldest_ad_start": "2026-06-23", "profiled": true,
+     "creative_texts": [], "landing_url": null,
+     "ads": [
+       {"id": "2020469345219478", "start": "2026-07-01", "snapshot": "https://www.facebook.com/ads/library/?id=2020469345219478"},
+       {"id": "2510891266092173", "start": "2026-06-30", "snapshot": "https://www.facebook.com/ads/library/?id=2510891266092173"},
+       {"id": "1684549322875359", "start": "2026-06-23", "snapshot": "https://www.facebook.com/ads/library/?id=1684549322875359"}
+     ]
+    },
+    {"page_id": "751207091409665", "page_name": "مشدات الرشاقة",
+     "classification": "relevant", "reason": "Page name literally translates to 'Rashaqa Girdles' — dedicated shapewear store (sister/related page to 234587569739583).",
+     "seen_under_keywords": ["مشد شد البطن"],
+     "active_ads_total": 3, "oldest_ad_start": "2026-06-28", "profiled": true,
+     "creative_texts": [], "landing_url": null,
+     "ads": [
+       {"id": "1570865077932459", "start": "2026-07-07", "snapshot": "https://www.facebook.com/ads/library/?id=1570865077932459"},
+       {"id": "1230964039066135", "start": "2026-07-07", "snapshot": "https://www.facebook.com/ads/library/?id=1230964039066135"},
+       {"id": "2087136871887684", "start": "2026-06-28", "snapshot": "https://www.facebook.com/ads/library/?id=2087136871887684"}
+     ]
+    },
+    {"page_id": "106147499006997", "page_name": "Med Store",
+     "classification": "uncertain", "reason": "Appeared repeatedly across مشد شد البطن / مشد الخصر / مشد بعد الولادة searches with 10 active ads, suggesting a recurring shapewear/medical-girdle rotation, but ad creative text was empty in every result so the exact product could not be confirmed from text alone.",
+     "seen_under_keywords": ["مشد شد البطن", "مشد الخصر", "مشد بعد الولادة"],
+     "active_ads_total": 10, "oldest_ad_start": "2026-06-02", "profiled": true,
+     "creative_texts": [], "landing_url": null,
+     "ads": [
+       {"id": "1456127353019559", "start": "2026-07-07", "snapshot": "https://www.facebook.com/ads/library/?id=1456127353019559"},
+       {"id": "996675106621676", "start": "2026-07-01", "snapshot": "https://www.facebook.com/ads/library/?id=996675106621676"},
+       {"id": "2213138116194014", "start": "2026-07-01", "snapshot": "https://www.facebook.com/ads/library/?id=2213138116194014"},
+       {"id": "2084300879128269", "start": "2026-07-01", "snapshot": "https://www.facebook.com/ads/library/?id=2084300879128269"},
+       {"id": "1921289495925790", "start": "2026-07-01", "snapshot": "https://www.facebook.com/ads/library/?id=1921289495925790"},
+       {"id": "1561622945566943", "start": "2026-07-01", "snapshot": "https://www.facebook.com/ads/library/?id=1561622945566943"},
+       {"id": "27165246333114888", "start": "2026-06-02", "snapshot": "https://www.facebook.com/ads/library/?id=27165246333114888"},
+       {"id": "989282534069763", "start": "2026-06-02", "snapshot": "https://www.facebook.com/ads/library/?id=989282534069763"},
+       {"id": "1621307398950821", "start": "2026-06-02", "snapshot": "https://www.facebook.com/ads/library/?id=1621307398950821"},
+       {"id": "1006005055136839", "start": "2026-06-02", "snapshot": "https://www.facebook.com/ads/library/?id=1006005055136839"}
+     ]
+    },
+    {"page_id": "105671525829308", "page_name": "بوتيك بتول",
+     "classification": "uncertain", "reason": "Fashion boutique page appearing under شد البطن search; 4 active ads but creative text empty, so item category (shapewear vs. general clothing) not confirmable from text.",
+     "seen_under_keywords": ["مشد شد البطن"],
+     "active_ads_total": 4, "oldest_ad_start": "2026-07-07", "profiled": true,
+     "creative_texts": [], "landing_url": null,
+     "ads": [
+       {"id": "1721565375706376", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=1721565375706376"},
+       {"id": "1915113012495030", "start": "2026-07-10", "snapshot": "https://www.facebook.com/ads/library/?id=1915113012495030"},
+       {"id": "1550293867109509", "start": "2026-07-08", "snapshot": "https://www.facebook.com/ads/library/?id=1550293867109509"},
+       {"id": "1340611198282238", "start": "2026-07-07", "snapshot": "https://www.facebook.com/ads/library/?id=1340611198282238"}
+     ]
+    },
+    {"page_id": "100736899432829", "page_name": "LOOX KING WOMEN",
+     "classification": "uncertain", "reason": "Women's fashion store appearing repeatedly (6 ads) under مشد شد البطن / مشد الخصر, but creative link title only says 'اطلب الان' (order now) — likely a Turkish-run multi-item women's fashion dropship page (currency TRY), category not confirmable from text alone.",
+     "seen_under_keywords": ["مشد شد البطن", "مشد الخصر"],
+     "active_ads_total": 6, "oldest_ad_start": "2026-05-11", "profiled": true,
+     "creative_texts": ["اطلب الان"], "landing_url": null,
+     "ads": [
+       {"id": "1716451096261857", "start": "2026-07-09", "snapshot": "https://www.facebook.com/ads/library/?id=1716451096261857"},
+       {"id": "1539281961017530", "start": "2026-07-09", "snapshot": "https://www.facebook.com/ads/library/?id=1539281961017530"},
+       {"id": "1404434038171077", "start": "2026-07-09", "snapshot": "https://www.facebook.com/ads/library/?id=1404434038171077"},
+       {"id": "1023886233456666", "start": "2026-07-08", "snapshot": "https://www.facebook.com/ads/library/?id=1023886233456666"},
+       {"id": "1837926107176096", "start": "2026-07-08", "snapshot": "https://www.facebook.com/ads/library/?id=1837926107176096"},
+       {"id": "1314900503842672", "start": "2026-05-11", "snapshot": "https://www.facebook.com/ads/library/?id=1314900503842672"}
+     ]
+    },
+    {"page_id": "975447952315920", "page_name": "Shoporia",
+     "classification": "uncertain", "reason": "High-volume generic COD dropshipping store (133 active ads total) using identical clickbait text ('quantity very limited / high demand') across all creatives with no product-specific wording, so it cannot be confirmed this store is specifically a shapewear competitor rather than a general multi-niche dropshipper that happens to include shapewear in rotation.",
+     "seen_under_keywords": ["مشد", "مشد شد البطن"],
+     "active_ads_total": 133, "oldest_ad_start": null, "profiled": true,
+     "creative_texts": ["⚠️ الكمية محدودة جداً والطلب عليها كبير", "⚠️ الكمية محدودة حالياً اطلب الآن قبل نفاذ الكمية"],
+     "landing_url": null,
+     "ads": [
+       {"id": "1243505757786448", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=1243505757786448"},
+       {"id": "1366360228221860", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=1366360228221860"},
+       {"id": "3502508279908128", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=3502508279908128"},
+       {"id": "1041894371642261", "start": "2026-07-10", "snapshot": "https://www.facebook.com/ads/library/?id=1041894371642261"},
+       {"id": "1807966993695555", "start": "2026-07-10", "snapshot": "https://www.facebook.com/ads/library/?id=1807966993695555"}
+     ],
+     "note_ads_truncated": "estimated_total_count=133 but Ad Library API returned only the 50 most-recent per call (all within 2026-07-10–2026-07-11); true oldest ad date and full history not captured — see profiling_capped."
+    },
+    {"page_id": "365019326687353", "page_name": "Top shop", "classification": "uncertain",
+     "reason": "Generic store name, single active ad, empty creative text — category unconfirmed.",
+     "seen_under_keywords": ["مشد", "مشد شد البطن"], "active_ads_total": 1, "oldest_ad_start": "2026-07-10",
+     "profiled": true, "creative_texts": [], "landing_url": null,
+     "ads": [{"id": "1963741764328265", "start": "2026-07-10", "snapshot": "https://www.facebook.com/ads/library/?id=1963741764328265"}]
+    },
+    {"page_id": "105985275525484", "page_name": "ليبيا كوزمتك", "classification": "uncertain",
+     "reason": "Cosmetics-focused store name; single active ad matched on 'مشد', category unconfirmed from empty creative text.",
+     "seen_under_keywords": ["مشد"], "active_ads_total": 1, "oldest_ad_start": "2026-07-09",
+     "profiled": true, "creative_texts": [], "landing_url": null,
+     "ads": [{"id": "1718632485967448", "start": "2026-07-09", "snapshot": "https://www.facebook.com/ads/library/?id=1718632485967448"}]
+    },
+    {"page_id": "1143540328851813", "page_name": "متجر اوبن open store", "classification": "off-topic",
+     "reason": "Generic multi-niche dropship name, single low-signal appearance under broad 'مشد' term, not further profiled given budget; treated conservatively as noise.",
+     "seen_under_keywords": ["مشد"], "active_ads_total": null, "oldest_ad_start": null, "profiled": false,
+     "creative_texts": [], "landing_url": null, "ads": []
+    },
+    {"page_id": "1162748986927818", "page_name": "عاجل الجزيرة - ليبيا", "classification": "off-topic",
+     "reason": "News/scandal clickbait page ('شاهدي وثيقة مسربة...'); unrelated content farm matched loosely on 'مشد' term inside surrounding text.",
+     "seen_under_keywords": ["مشد"], "active_ads_total": null, "oldest_ad_start": null, "profiled": false,
+     "creative_texts": [], "landing_url": null, "ads": []
+    },
+    {"page_id": "957779347429343", "page_name": "NS-by-01", "classification": "off-topic",
+     "reason": "Netshort short-drama streaming app ad farm — matched loosely, unrelated to shapewear.",
+     "seen_under_keywords": ["كورسيه"], "active_ads_total": null, "oldest_ad_start": null, "profiled": false,
+     "creative_texts": [], "landing_url": null, "ads": []
+    },
+    {"page_id": "1099151353292312", "page_name": "C-drama", "classification": "off-topic",
+     "reason": "Chinese short-drama app farm, matched loosely on 'مشد كامل الجسم'; part of a large pollution cluster (444 results) with no relevant shapewear pages.",
+     "seen_under_keywords": ["مشد كامل الجسم"], "active_ads_total": null, "oldest_ad_start": null, "profiled": false,
+     "creative_texts": [], "landing_url": null, "ads": []
+    },
+    {"page_id": "1130736006784357", "page_name": "Luna Campbell", "classification": "off-topic",
+     "reason": "AI-generated persona / romance-drama farm matched loosely on 'waist trainer'; part of a large pollution cluster.",
+     "seen_under_keywords": ["waist trainer"], "active_ads_total": null, "oldest_ad_start": null, "profiled": false,
+     "creative_texts": [], "landing_url": null, "ads": []
+    },
+    {"page_id": "211839025349185", "page_name": "LOXX KING MAN", "classification": "off-topic",
+     "reason": "Men's fashion store (sister page of LOOX KING WOMEN) — not relevant to a women's shapewear product.",
+     "seen_under_keywords": ["مشد شد البطن"], "active_ads_total": null, "oldest_ad_start": null, "profiled": false,
+     "creative_texts": [], "landing_url": null, "ads": []
+    },
+    {"page_id": "105635655726051", "page_name": "شركة تيتانيوم فيتنس للمعدات الرياضية", "classification": "off-topic",
+     "reason": "Sports/fitness equipment company — adjacent (gym waist-trimmer belts) but not a shapewear/fajas garment seller.",
+     "seen_under_keywords": ["مشد الخصر", "مشد بعد الولادة"], "active_ads_total": null, "oldest_ad_start": null, "profiled": false,
+     "creative_texts": [], "landing_url": null, "ads": []
+    },
+    {"page_id": "137791546091856", "page_name": "المعتمد للتجارة والتسويق الالكتروني", "classification": "off-topic",
+     "reason": "Generic e-commerce/marketing agency page, not a product-specific storefront.",
+     "seen_under_keywords": ["مشد الخصر", "حزام تنحيف"], "active_ads_total": null, "oldest_ad_start": null, "profiled": false,
+     "creative_texts": [], "landing_url": null, "ads": []
+    },
+    {"page_id": "108347055201047", "page_name": "شركة القامة للمعدات الطبية والرياضية", "classification": "off-topic",
+     "reason": "Medical/sports equipment company, generic — no shapewear-specific signal.",
+     "seen_under_keywords": ["مشد الخصر"], "active_ads_total": null, "oldest_ad_start": null, "profiled": false,
+     "creative_texts": [], "landing_url": null, "ads": []
+    }
+  ],
+  "profiling_capped": true,
+  "notes": "Single-product run (one Alibaba link, no multi-product comparison) — hunt performed directly by the orchestrator rather than parallel sub-agent hunters. Country=LY, ad_active_status=ACTIVE throughout. Two keywords ('مشد كامل الجسم', 'waist trainer') were heavily polluted by unrelated Chinese short-drama-app and AI-persona/romance-drama ad farms; these were excluded from the relevant-competitor set per the pollution-handling rule. Shoporia's true full ad history (133 total) exceeds the 50-ad API return cap per call; only the 50 most-recent were captured, so its oldest_ad_start is unknown (marked null) rather than guessed. Deepest, most reliable competitor signal is SayBeam Shapewear — an international, English-language, hook-driven, high-cadence campaign (33 live ad variations, oldest only 4 days old, still scaling) explicitly targeting Libya.",
+  "status": "ok"
+}

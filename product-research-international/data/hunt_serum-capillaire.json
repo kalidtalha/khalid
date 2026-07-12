@@ -1,0 +1,438 @@
+{
+  "product": "serum-capillaire",
+  "niche": "beauty",
+  "hunter": "Chasseur-C",
+  "date": "2026-07-11",
+  "tool": "mcp__META_ADS__ads_library_search (ACTIVE, 1 pays/appel, limit 30 balayage / 50 profilage)",
+  "api_calls_used": 11,
+  "keywords_total": 5,
+  "searches": [
+    {"kw": "korean hair serum", "country": "US", "count": 1231, "new_pages": 6, "tier": 1, "note": "réseau Korean Hair Tips + Dr. Katherine Hayes + Haley Davis (mêmes créas BOGO); My Hair Density Diary, Anuae, Zonnaz nouveaux"},
+    {"kw": "scalp serum", "country": "US", "count": 8239, "new_pages": 6, "tier": 1, "note": "AllieElliott (CAD); advertorials persona 'Dr./MD': James Kilgour MD + Jessica Soares (Stop GLP-1 hair loss), Susan-Hairloss Matters; Wellness Haven; Hair Prayer (marque)"},
+    {"kw": "hair growth serum", "country": "CA", "count": 3061, "new_pages": 6, "tier": 1, "note": "Auraic, Crownix Hair, Vitaliaina Shop, Growy (EUR) nouveaux; réseau KHT présent en CA; pollution hair-removal (WellNature, Steven Clark)"},
+    {"kw": "sérum capillaire", "country": "FR", "count": 745, "new_pages": 8, "tier": 1, "note": "réseau clone Dailynestbarn (IL02/YN03/ND06/ES04 + principale); Marie Epitau, Madilene Harris, La Revue Beauté (trichologie), Novelya, Mylia, Fauve; Yvoxx-furniture = pollution"},
+    {"kw": "sérum capillaire", "country": "CA", "count": 220, "new_pages": 5, "tier": 2, "note": "Celestine (CAD, Québec), Jerome K, Vitalis, Laser Silk, La Revue Beauté; pollution salons locaux (Evz Beauty, Atelier du corps) + Pantene/Nutricap marques"}
+  ],
+  "sweep_end_reason": "saturation — le même réseau produit ('Korea's Secret / scalp serum') réapparaît sous tous les mots-clés EN US/CA; FR/CA dominés par advertorials chute-de-cheveux + réseau clone Dailynestbarn. Marché confirmé profond sur 3 pays, arrêt discipliné (11 appels).",
+  "historic_all_counts": {"hair growth serum | US | ALL": 320654},
+  "competitors": [
+    {
+      "page_id": "1192949410564305",
+      "page_name": "Korean Hair Tips",
+      "countries_seen": ["US", "CA"],
+      "classification": "pertinente",
+      "reason": "Hub d'un réseau US/CA (créas identiques à Dr. Katherine Hayes + Haley Davis): sérum capillaire coréen, 101 pubs actives, angle 'Korea's Secret To Fuller, Thicker Hair' + BOGO.",
+      "seen_under_keywords": ["korean hair serum (US)", "hair growth serum (CA)"],
+      "currency_seen": ["USD"],
+      "active_ads_total": 101,
+      "oldest_ad_start": "2026-07-03",
+      "profiled": true,
+      "creative_texts": ["Korea's Secret To Fuller, Thicker Hair", "Buy 1 Get 1 Free ❤️", "I Wish I Had Known About This \"2-minute scalp ritual\" Sooner..."],
+      "landing_url": null,
+      "ads": [
+        {"id": "4032063550264565", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=4032063550264565"},
+        {"id": "1226732519516501", "start": "2026-07-09", "snapshot": "https://www.facebook.com/ads/library/?id=1226732519516501"},
+        {"id": "4195522093924707", "start": "2026-07-06", "snapshot": "https://www.facebook.com/ads/library/?id=4195522093924707"},
+        {"id": "3258859584315261", "start": "2026-07-04", "snapshot": "https://www.facebook.com/ads/library/?id=3258859584315261"},
+        {"id": "2180822272760714", "start": "2026-07-03", "snapshot": "https://www.facebook.com/ads/library/?id=2180822272760714"}
+      ],
+      "ads_note": "101 pubs actives; échantillon 50 vu, début observé s'étale du 2026-07-03 au 2026-07-11."
+    },
+    {
+      "page_id": "1138579096007218",
+      "page_name": "Dr. Katherine Hayes",
+      "countries_seen": ["US", "CA"],
+      "classification": "pertinente",
+      "reason": "Page clone du réseau Korean Hair Tips (créas 'Korea's Secret To Fuller, Thicker Hair' + BOGO identiques). Persona 'Dr.' fictive = RISQUE META santé.",
+      "seen_under_keywords": ["korean hair serum (US)", "hair growth serum (CA)"],
+      "currency_seen": ["USD"],
+      "active_ads_total": null,
+      "oldest_ad_start": "2026-07-11",
+      "profiled": false,
+      "creative_texts": ["Korea's Secret To Fuller, Thicker Hair", "Buy 1 Get 1 Free"],
+      "landing_url": null,
+      "ads": [
+        {"id": "1068985555790556", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=1068985555790556"},
+        {"id": "1035154772539293", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=1035154772539293"}
+      ]
+    },
+    {
+      "page_id": "851385828049285",
+      "page_name": "Haley Davis",
+      "countries_seen": ["US", "CA"],
+      "classification": "pertinente",
+      "reason": "Page clone du réseau Korean Hair Tips (mêmes créas + advertorial '2-minute scalp ritual').",
+      "seen_under_keywords": ["korean hair serum (US)", "hair growth serum (CA)"],
+      "currency_seen": ["USD"],
+      "active_ads_total": null,
+      "oldest_ad_start": "2026-07-11",
+      "profiled": false,
+      "creative_texts": ["Korea's Secret To Fuller, Thicker Hair", "I Wish I Had Known About This \"2-minute scalp ritual\" Sooner..."],
+      "landing_url": null,
+      "ads": [
+        {"id": "1699958974459793", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=1699958974459793"},
+        {"id": "912875514479953", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=912875514479953"}
+      ]
+    },
+    {
+      "page_id": "1121225447751286",
+      "page_name": "My Hair Density Diary",
+      "countries_seen": ["US"],
+      "classification": "pertinente",
+      "reason": "Advertorial 'diary' pour sérum cuir chevelu coréen ('Korea's #1 Pharmacy Scalp Serum'); 6 pubs actives, angles perte-densité/raie qui s'élargit.",
+      "seen_under_keywords": ["korean hair serum (US)", "scalp serum (US)"],
+      "currency_seen": ["USD"],
+      "active_ads_total": 6,
+      "oldest_ad_start": "2026-07-11",
+      "profiled": true,
+      "creative_texts": ["Korea's #1 Pharmacy Scalp Serum", "My part stopped getting wider", "Less hair in the drain"],
+      "landing_url": null,
+      "ads": [
+        {"id": "2202084267246142", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=2202084267246142"},
+        {"id": "1650168279417932", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=1650168279417932"},
+        {"id": "1364600945771814", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=1364600945771814"}
+      ],
+      "ads_note": "6 pubs actives, lancement récent (~2026-07-11)."
+    },
+    {
+      "page_id": "1126679963871910",
+      "page_name": "Marie Epitau",
+      "countries_seen": ["FR"],
+      "classification": "pertinente",
+      "reason": "Advertorial FR anti-chute (persona), 6 pubs actives, angle 'la vraie cause de votre chute de cheveux' + Vente Flash -50%. Devise USD = opérateur étranger.",
+      "seen_under_keywords": ["sérum capillaire (FR)"],
+      "currency_seen": ["USD"],
+      "active_ads_total": 6,
+      "oldest_ad_start": "2026-07-10",
+      "profiled": true,
+      "creative_texts": ["la vraie cause de votre chute de cheveux.", "Vente Flash 14 Juillet -50% : La fin de la perte de cheveux commence ici", "Retrouvez des cheveux plus denses"],
+      "landing_url": null,
+      "ads": [
+        {"id": "1315232464002162", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=1315232464002162"},
+        {"id": "1054127033706523", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=1054127033706523"},
+        {"id": "1020228200788008", "start": "2026-07-10", "snapshot": "https://www.facebook.com/ads/library/?id=1020228200788008"}
+      ],
+      "ads_note": "6 pubs actives; plus ancienne début 2026-07-10."
+    },
+    {
+      "page_id": "105466914194800",
+      "page_name": "AllieElliott",
+      "countries_seen": ["CA", "US"],
+      "classification": "pertinente",
+      "reason": "Boutique sérum capillaire (CAD), 5 pubs actives 'VIP15'. Créa créée le 2026-06-24 = trace de durabilité >2 semaines (la plus ancienne de tout le produit).",
+      "seen_under_keywords": ["scalp serum (US)", "hair growth serum (CA)"],
+      "currency_seen": ["CAD"],
+      "active_ads_total": 5,
+      "oldest_ad_start": "2026-07-01",
+      "profiled": true,
+      "creative_texts": ["15% Off Sitewide — Use Code VIP15 Today"],
+      "landing_url": null,
+      "ads": [
+        {"id": "1716239436386921", "start": "2026-07-01", "snapshot": "https://www.facebook.com/ads/library/?id=1716239436386921"},
+        {"id": "2598689750526190", "start": "2026-07-01", "snapshot": "https://www.facebook.com/ads/library/?id=2598689750526190"},
+        {"id": "1717017792953838", "start": "2026-07-04", "snapshot": "https://www.facebook.com/ads/library/?id=1717017792953838"}
+      ],
+      "ads_note": "5 pubs actives; créa la plus ancienne créée 2026-06-24, diffusion depuis 2026-07-01."
+    },
+    {
+      "page_id": "1138279119374317",
+      "page_name": "Dailynestbarn",
+      "countries_seen": ["FR"],
+      "classification": "incertaine",
+      "reason": "Dropshipper GÉNÉRALISTE (420 pubs actives couvrant outils/ménage/auto/cuisine); ne vend le 'Sérum de Croissance Capillaire avec Brosse de Massage' que comme 1 produit parmi des centaines. Réseau de clones (IL02/YN03/ND06/ES04).",
+      "seen_under_keywords": ["sérum capillaire (FR)"],
+      "currency_seen": ["USD"],
+      "active_ads_total": 420,
+      "oldest_ad_start": "2026-07-10",
+      "profiled": true,
+      "creative_texts": ["Sérum de Croissance Capillaire avec Brosse de Massage"],
+      "landing_url": null,
+      "ads": [
+        {"id": "2014351149446703", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=2014351149446703"},
+        {"id": "1376705067894262", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=1376705067894262"}
+      ],
+      "ads_note": "420 pubs actives mais généralistes; sérum capillaire = 1 SKU. Pages sœurs (page_id 1154252824442265, 1191454654045517, 1188418561017511, 1212548135267614) poussent la même créa sérum."
+    },
+    {
+      "page_id": "683696291488630",
+      "page_name": "James Kilgour, MD",
+      "countries_seen": ["US"],
+      "classification": "pertinente",
+      "reason": "Advertorial persona 'MD' vendant un sérum anti-chute avec claim médical fort 'Stop GLP-1 hair loss in 6 weeks' (réseau avec Jessica Soares). RISQUE META MAXIMAL.",
+      "seen_under_keywords": ["scalp serum (US)"],
+      "currency_seen": ["USD"],
+      "active_ads_total": null,
+      "oldest_ad_start": "2026-07-11",
+      "profiled": false,
+      "creative_texts": ["Stop GLP-1 hair loss in 6 weeks"],
+      "landing_url": null,
+      "ads": [
+        {"id": "1336404741407763", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=1336404741407763"},
+        {"id": "1322836093389481", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=1322836093389481"}
+      ]
+    },
+    {
+      "page_id": "637288846139525",
+      "page_name": "Jessica Soares",
+      "countries_seen": ["US"],
+      "classification": "pertinente",
+      "reason": "Page clone (créa 'Stop GLP-1 hair loss in 6 weeks' identique à James Kilgour MD). Claim médical = RISQUE META élevé.",
+      "seen_under_keywords": ["scalp serum (US)"],
+      "currency_seen": ["USD"],
+      "active_ads_total": null,
+      "oldest_ad_start": "2026-07-11",
+      "profiled": false,
+      "creative_texts": ["Stop GLP-1 hair loss in 6 weeks"],
+      "landing_url": null,
+      "ads": [
+        {"id": "1682771953007435", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=1682771953007435"},
+        {"id": "3300164090188445", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=3300164090188445"}
+      ]
+    },
+    {
+      "page_id": "1091052834101342",
+      "page_name": "Susan - Hairloss Matters",
+      "countries_seen": ["US"],
+      "classification": "pertinente",
+      "reason": "Advertorial persona chute de cheveux ('I wish I knew this before I wasted 2 years hiding my hair'), gros volume de variantes. RISQUE META (persona santé).",
+      "seen_under_keywords": ["scalp serum (US)"],
+      "currency_seen": ["USD"],
+      "active_ads_total": null,
+      "oldest_ad_start": "2026-07-11",
+      "profiled": false,
+      "creative_texts": ["I wish I knew this before I wasted 2 years hiding my hair"],
+      "landing_url": null,
+      "ads": [
+        {"id": "918704814603297", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=918704814603297"},
+        {"id": "1826484882059865", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=1826484882059865"}
+      ]
+    },
+    {
+      "page_id": "880703355135730",
+      "page_name": "Anuae",
+      "countries_seen": ["US"],
+      "classification": "pertinente",
+      "reason": "Sérum capillaire, angle 'This isn't hair care. It's biology!' (claim biologique de repousse).",
+      "seen_under_keywords": ["korean hair serum (US)"],
+      "currency_seen": ["USD"],
+      "active_ads_total": null,
+      "oldest_ad_start": "2026-07-11",
+      "profiled": false,
+      "creative_texts": ["This isn't hair care. It's biology!"],
+      "landing_url": null,
+      "ads": [
+        {"id": "4447303202209291", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=4447303202209291"}
+      ]
+    },
+    {
+      "page_id": "1140223422513363",
+      "page_name": "Auraic",
+      "countries_seen": ["CA"],
+      "classification": "pertinente",
+      "reason": "Sérum quotidien anti-chute: 'revives tired hair follicles and triggers new growth' (claim repousse). Devise USD.",
+      "seen_under_keywords": ["hair growth serum (CA)"],
+      "currency_seen": ["USD"],
+      "active_ads_total": null,
+      "oldest_ad_start": "2026-07-11",
+      "profiled": false,
+      "creative_texts": ["The non-greasy shortcut to fuller hair... revives tired hair follicles and triggers new growth—completely risk-free."],
+      "landing_url": null,
+      "ads": [
+        {"id": "1020588487565115", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=1020588487565115"}
+      ]
+    },
+    {
+      "page_id": "1091006300754993",
+      "page_name": "Vitaliaina Shop",
+      "countries_seen": ["CA"],
+      "classification": "pertinente",
+      "reason": "'Korea's #1 Hair Growth Serum — now available outside Korea. Buy One Get One Free' — même positionnement produit que le réseau Korean Hair Tips.",
+      "seen_under_keywords": ["hair growth serum (CA)"],
+      "currency_seen": ["USD"],
+      "active_ads_total": null,
+      "oldest_ad_start": "2026-07-11",
+      "profiled": false,
+      "creative_texts": ["Korea's #1 Hair Growth Serum — now available outside Korea. Buy One Get One Free!"],
+      "landing_url": null,
+      "ads": [
+        {"id": "2248679425909153", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=2248679425909153"}
+      ]
+    },
+    {
+      "page_id": "1190652594135664",
+      "page_name": "Growy",
+      "countries_seen": ["CA"],
+      "classification": "pertinente",
+      "reason": "Sérum pousse cheveux, 'Buy 1 Get 1 Free Today Only'. Devise EUR = opérateur européen ciblant le CA.",
+      "seen_under_keywords": ["hair growth serum (CA)"],
+      "currency_seen": ["EUR"],
+      "active_ads_total": null,
+      "oldest_ad_start": "2026-07-11",
+      "profiled": false,
+      "creative_texts": ["Buy 1 Get 1 Free Today Only!"],
+      "landing_url": null,
+      "ads": [
+        {"id": "1724739795484459", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=1724739795484459"}
+      ]
+    },
+    {
+      "page_id": "821839321003184",
+      "page_name": "Crownix Hair",
+      "countries_seen": ["CA"],
+      "classification": "pertinente",
+      "reason": "Sérum pousse cheveux hispanophone ('No es magia, es constancia. Deja la gorra hoy.').",
+      "seen_under_keywords": ["hair growth serum (CA)"],
+      "currency_seen": ["USD"],
+      "active_ads_total": null,
+      "oldest_ad_start": "2026-07-11",
+      "profiled": false,
+      "creative_texts": ["No es magia, es constancia. Deja la gorra hoy."],
+      "landing_url": null,
+      "ads": [
+        {"id": "1558865942571368", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=1558865942571368"}
+      ]
+    },
+    {
+      "page_id": "231287160078039",
+      "page_name": "La Revue Beauté",
+      "countries_seen": ["FR", "CA"],
+      "classification": "pertinente",
+      "reason": "Advertorial FR type 'presse/institut' ('Institut de trichologie avancée : 5 formules... relancer la pousse en 6 semaines'). Claim santé fort = RISQUE META. Devise EUR.",
+      "seen_under_keywords": ["sérum capillaire (FR)", "sérum capillaire (CA)"],
+      "currency_seen": ["EUR"],
+      "active_ads_total": null,
+      "oldest_ad_start": "2026-07-10",
+      "profiled": false,
+      "creative_texts": ["Institut de trichologie avancée : 5 formules de sérum capillaire prouvées pour \"réancrer\" le cheveu", "Centre de recherche sur la santé féminine : 5 formules pour relancer la pousse en seulement 6 semaines"],
+      "landing_url": null,
+      "ads": [
+        {"id": "1537975514652302", "start": "2026-07-10", "snapshot": "https://www.facebook.com/ads/library/?id=1537975514652302"},
+        {"id": "869085199183546", "start": "2026-07-10", "snapshot": "https://www.facebook.com/ads/library/?id=869085199183546"}
+      ]
+    },
+    {
+      "page_id": "452972147896369",
+      "page_name": "Celestine",
+      "countries_seen": ["CA"],
+      "classification": "pertinente",
+      "reason": "Sérum capillaire Québec (CAD), claims 'Ciblez les zones clairsemées en 30 secondes' / '214% plus fourni en 10 jours'. RISQUE META (avant-après chiffré).",
+      "seen_under_keywords": ["sérum capillaire (CA)"],
+      "currency_seen": ["CAD"],
+      "active_ads_total": null,
+      "oldest_ad_start": "2026-07-07",
+      "profiled": false,
+      "creative_texts": ["Ciblez les zones clairsemées en 30 secondes.", "214% plus fourni en 10 jours", "Quantités limitées - Nouveau sérum"],
+      "landing_url": null,
+      "ads": [
+        {"id": "2000179940703530", "start": "2026-07-07", "snapshot": "https://www.facebook.com/ads/library/?id=2000179940703530"},
+        {"id": "1003367515731257", "start": "2026-07-09", "snapshot": "https://www.facebook.com/ads/library/?id=1003367515731257"}
+      ]
+    },
+    {
+      "page_id": "1111706308697869",
+      "page_name": "Madilene Harris",
+      "countries_seen": ["FR"],
+      "classification": "pertinente",
+      "reason": "Advertorial FR 'skin care pour ton cuir chevelu' / 'ma queue de cheval a retrouvé du volume'. Devise USD.",
+      "seen_under_keywords": ["sérum capillaire (FR)"],
+      "currency_seen": ["USD"],
+      "active_ads_total": null,
+      "oldest_ad_start": "2026-07-11",
+      "profiled": false,
+      "creative_texts": ["Le skin care pour ton cuir chevelu existe enfin", "Ma queue de cheval a enfin retrouvé du volume"],
+      "landing_url": null,
+      "ads": [
+        {"id": "1364465862304028", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=1364465862304028"},
+        {"id": "1512429723420151", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=1512429723420151"}
+      ]
+    },
+    {
+      "page_id": "1175793232278154",
+      "page_name": "Novelya Cosmétique",
+      "countries_seen": ["FR"],
+      "classification": "pertinente",
+      "reason": "Sérum capillaire FR (EUR), offre '1 acheté = 1 offert · Remboursé 6 mois si aucun résultat' (garantie résultat = claim implicite).",
+      "seen_under_keywords": ["sérum capillaire (FR)"],
+      "currency_seen": ["EUR"],
+      "active_ads_total": null,
+      "oldest_ad_start": "2026-07-10",
+      "profiled": false,
+      "creative_texts": ["1 acheté = 1 offert · Remboursé 6 mois si aucun résultat"],
+      "landing_url": null,
+      "ads": [
+        {"id": "989313437247382", "start": "2026-07-10", "snapshot": "https://www.facebook.com/ads/library/?id=989313437247382"}
+      ]
+    },
+    {
+      "page_id": "1057440864128065",
+      "page_name": "Jerome K",
+      "countries_seen": ["FR", "CA"],
+      "classification": "pertinente",
+      "reason": "Marque sérum capillaire FR (EUR), code promo '-10% JEROME10', présent FR + CA.",
+      "seen_under_keywords": ["sérum capillaire (FR)", "sérum capillaire (CA)"],
+      "currency_seen": ["EUR"],
+      "active_ads_total": null,
+      "oldest_ad_start": "2026-07-06",
+      "profiled": false,
+      "creative_texts": ["-10% avec le code JEROME10"],
+      "landing_url": null,
+      "ads": [
+        {"id": "1529803707975472", "start": "2026-07-07", "snapshot": "https://www.facebook.com/ads/library/?id=1529803707975472"},
+        {"id": "2268651997002472", "start": "2026-07-09", "snapshot": "https://www.facebook.com/ads/library/?id=2268651997002472"}
+      ]
+    },
+    {
+      "page_id": "937361966134831",
+      "page_name": "Laser Silk",
+      "countries_seen": ["CA"],
+      "classification": "pertinente",
+      "reason": "Anti-chute FR/CA 'Reprend le contrôle de ta chute' (devise USD).",
+      "seen_under_keywords": ["sérum capillaire (CA)"],
+      "currency_seen": ["USD"],
+      "active_ads_total": null,
+      "oldest_ad_start": "2026-07-06",
+      "profiled": false,
+      "creative_texts": ["Reprend le contrôle de ta chute"],
+      "landing_url": null,
+      "ads": [
+        {"id": "1038990505162114", "start": "2026-07-06", "snapshot": "https://www.facebook.com/ads/library/?id=1038990505162114"}
+      ]
+    },
+    {
+      "page_id": "725630780627002",
+      "page_name": "Hair Prayer",
+      "countries_seen": ["US"],
+      "classification": "incertaine",
+      "reason": "Marque capillaire multi-produits établie (shampoing, scrub, root tonic, serum biotin) — concurrent de marque plutôt que produit-de-campagne dropship.",
+      "seen_under_keywords": ["scalp serum (US)"],
+      "currency_seen": ["USD"],
+      "active_ads_total": null,
+      "oldest_ad_start": "2026-07-11",
+      "profiled": false,
+      "creative_texts": ["Hair Prayer Pure Hair Boost Serum W/Biotin (catalogue multi-produits)"],
+      "landing_url": null,
+      "ads": [
+        {"id": "1737196754134819", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=1737196754134819"}
+      ]
+    },
+    {
+      "page_id": "177326562138443",
+      "page_name": "WellNature",
+      "countries_seen": ["CA"],
+      "classification": "hors-sujet",
+      "reason": "'Stop shaving. Start this instead.' = produit d'épilation, pas sérum capillaire (pollution du mot-clé hair growth).",
+      "seen_under_keywords": ["hair growth serum (CA)"],
+      "currency_seen": ["USD"],
+      "active_ads_total": null,
+      "oldest_ad_start": "2026-07-11",
+      "profiled": false,
+      "creative_texts": ["Stop shaving. Start this instead."],
+      "landing_url": null,
+      "ads": [
+        {"id": "1029454826644883", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=1029454826644883"}
+      ]
+    }
+  ],
+  "profiling_capped": false,
+  "notes": "RISQUE POLITIQUE META (À NOTER — ÉLEVÉ, le plus risqué des 4 produits): le sérum capillaire est en pleine catégorie SANTÉ. Le marché est structuré autour de (a) claims repousse/anti-chute explicites ('triggers new growth', 'relancer la pousse en 6 semaines', '214% plus fourni en 10 jours', 'Stop GLP-1 hair loss') et (b) FAUSSES PERSONAS médicales/journalistiques ('Dr. Katherine Hayes', 'James Kilgour MD', 'Susan-Hairloss Matters', 'Institut de trichologie' de La Revue Beauté, 'Marie Epitau'). C'est EXACTEMENT le profil que Meta rejette/bannit (claims santé + before/after + personas trompeuses): rejets publicitaires et bans de comptes fréquents à anticiper. Un angle 'soin/rituel cuir chevelu' esthétique (type My Hair Density Diary 'scalp ritual') est moins exposé que l'angle médical anti-chute. AUTRES: (1) demande CONFIRMÉE et profonde sur les 3 marchés (US korean hair serum 1231 / scalp serum 8239, CA 3061, FR 745) — plus profonde que le correcteur-posture surtout côté FR; (2) réseaux de clones nets: Korean Hair Tips / Dr. Katherine Hayes / Haley Davis (US-CA, mêmes créas) et Dailynestbarn (FR, mais dropshipper GÉNÉRALISTE — le sérum n'est qu'un SKU); (3) durabilité: la plus ancienne trace fiable = AllieElliott (créa créée 2026-06-24) et Korean Hair Tips (diffusion depuis 2026-07-03); le tri desc API masque l'ancienneté des grosses pages; (4) devises étrangères fréquentes (USD sur FR: Marie Epitau, Madilene Harris, Dailynestbarn; EUR sur CA: Growy; CAD: AllieElliott, Celestine) = produit mondialisé répliqué. Historic ALL 'hair growth serum' US = 320 654 (evergreen massif)."
+}

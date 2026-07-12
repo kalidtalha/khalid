@@ -1,0 +1,904 @@
+{
+ "product": "mouche-bebe-electrique",
+ "niche": "baby",
+ "hunter": "Chasseur B",
+ "searches": [
+  {
+   "kw": "baby nasal aspirator",
+   "country": "US",
+   "count": 50,
+   "new_pages": 6,
+   "tier": 1
+  },
+  {
+   "kw": "electric nasal aspirator",
+   "country": "US",
+   "count": 20,
+   "new_pages": 1,
+   "tier": 1
+  },
+  {
+   "kw": "nose sucker baby",
+   "country": "US",
+   "count": 10,
+   "new_pages": 2,
+   "tier": 2
+  },
+  {
+   "kw": "baby nasal aspirator",
+   "country": "CA",
+   "count": 4,
+   "new_pages": 0,
+   "tier": 1
+  },
+  {
+   "kw": "mouche bebe electrique",
+   "country": "FR",
+   "count": 0,
+   "new_pages": 0,
+   "tier": 1
+  },
+  {
+   "kw": "aspirateur nasal bebe",
+   "country": "FR",
+   "count": 2,
+   "new_pages": 1,
+   "tier": 1
+  },
+  {
+   "kw": "mouche bebe",
+   "country": "FR",
+   "count": 35,
+   "new_pages": 1,
+   "tier": 1
+  },
+  {
+   "kw": "nez bouche bebe",
+   "country": "FR",
+   "count": 275,
+   "new_pages": 0,
+   "tier": 2
+  },
+  {
+   "kw": "snot sucker",
+   "country": "US",
+   "count": 1,
+   "new_pages": 0,
+   "tier": 2
+  },
+  {
+   "kw": "aspirateur nasal bebe",
+   "country": "CA",
+   "count": 0,
+   "new_pages": 0,
+   "tier": 1
+  }
+ ],
+ "sweep_end_reason": "saturation - marche 3 pays couvert; termes generiques EN/FR satures par fermes de romans (Enemies to Lovers, Pocket FM, Echos d'Amour) et hors-sujet; nouvelles pages pertinentes epuisees.",
+ "historic_all_counts": {
+  "note": "non execute (budget discipline ~55 appels/3 produits); comptes ACTIVE conserves"
+ },
+ "competitors": [
+  {
+   "page_id": "113664780046165",
+   "page_name": "Dr. Noze Best",
+   "countries_seen": [
+    "US",
+    "CA"
+   ],
+   "classification": "pertinente",
+   "reason": "Marque US du NozeBot (aspirateur nasal electrique) - coeur de niche; 30 pubs actives, longevite ~10 mois.",
+   "seen_under_keywords": [
+    "electric nasal aspirator",
+    "baby nasal aspirator (CA)"
+   ],
+   "currency_seen": [
+    "USD"
+   ],
+   "active_ads_total": 30,
+   "oldest_ad_start": "2025-09-09",
+   "profiled": true,
+   "creative_texts": [
+    "NozeBot Electric Nasal Aspirator",
+    "Awarded \"Best Nasal Aspirator of 2023!\"",
+    "New Mom Must-Have"
+   ],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "24785261631171902",
+     "start": "2026-04-14",
+     "snapshot": "https://www.facebook.com/ads/library/?id=24785261631171902"
+    },
+    {
+     "id": "3098750770325145",
+     "start": "2026-04-14",
+     "snapshot": "https://www.facebook.com/ads/library/?id=3098750770325145"
+    },
+    {
+     "id": "26598811266471950",
+     "start": "2026-04-06",
+     "snapshot": "https://www.facebook.com/ads/library/?id=26598811266471950"
+    },
+    {
+     "id": "2103024987211497",
+     "start": "2026-04-13",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2103024987211497"
+    },
+    {
+     "id": "924650583520120",
+     "start": "2026-04-11",
+     "snapshot": "https://www.facebook.com/ads/library/?id=924650583520120"
+    },
+    {
+     "id": "2178208079380281",
+     "start": "2026-04-09",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2178208079380281"
+    },
+    {
+     "id": "1603355164324019",
+     "start": "2026-02-11",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1603355164324019"
+    },
+    {
+     "id": "1471490097878809",
+     "start": "2026-02-26",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1471490097878809"
+    },
+    {
+     "id": "2011143269457761",
+     "start": "2025-12-17",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2011143269457761"
+    },
+    {
+     "id": "1687154846003547",
+     "start": "2025-12-17",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1687154846003547"
+    },
+    {
+     "id": "1303185084647063",
+     "start": "2026-05-22",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1303185084647063"
+    },
+    {
+     "id": "926301353440176",
+     "start": "2025-12-16",
+     "snapshot": "https://www.facebook.com/ads/library/?id=926301353440176"
+    },
+    {
+     "id": "1196735749103269",
+     "start": "2026-02-10",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1196735749103269"
+    },
+    {
+     "id": "3273556316133085",
+     "start": "2025-11-07",
+     "snapshot": "https://www.facebook.com/ads/library/?id=3273556316133085"
+    },
+    {
+     "id": "1162505965351000",
+     "start": "2026-04-13",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1162505965351000"
+    },
+    {
+     "id": "1497521558125542",
+     "start": "2026-02-25",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1497521558125542"
+    },
+    {
+     "id": "1559468312169447",
+     "start": "2026-04-13",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1559468312169447"
+    },
+    {
+     "id": "595522380290021",
+     "start": "2026-04-13",
+     "snapshot": "https://www.facebook.com/ads/library/?id=595522380290021"
+    },
+    {
+     "id": "1583465129311060",
+     "start": "2025-11-07",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1583465129311060"
+    },
+    {
+     "id": "2091704494699308",
+     "start": "2026-04-13",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2091704494699308"
+    },
+    {
+     "id": "994916496163964",
+     "start": "2026-04-13",
+     "snapshot": "https://www.facebook.com/ads/library/?id=994916496163964"
+    },
+    {
+     "id": "1536901814023603",
+     "start": "2026-04-14",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1536901814023603"
+    },
+    {
+     "id": "2002146933690355",
+     "start": "2025-11-07",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2002146933690355"
+    },
+    {
+     "id": "2046838616056562",
+     "start": "2025-11-07",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2046838616056562"
+    },
+    {
+     "id": "1891131811761133",
+     "start": "2025-12-16",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1891131811761133"
+    },
+    {
+     "id": "1381568607022075",
+     "start": "2025-11-07",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1381568607022075"
+    },
+    {
+     "id": "1334533671640030",
+     "start": "2025-11-07",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1334533671640030"
+    },
+    {
+     "id": "1486052046032387",
+     "start": "2025-10-21",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1486052046032387"
+    },
+    {
+     "id": "4391862911091800",
+     "start": "2025-10-07",
+     "snapshot": "https://www.facebook.com/ads/library/?id=4391862911091800"
+    },
+    {
+     "id": "1709003803021691",
+     "start": "2025-09-09",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1709003803021691"
+    }
+   ]
+  },
+  {
+   "page_id": "917266301460335",
+   "page_name": "Nubio",
+   "countries_seen": [
+    "FR"
+   ],
+   "classification": "pertinente",
+   "reason": "Dropshipper/marque FR d'aspirateur nasal (angles 'sans pleurs','anti-pollens','sans la bagarre'); 23 pubs actives EUR.",
+   "seen_under_keywords": [
+    "mouche bebe (FR)"
+   ],
+   "currency_seen": [
+    "EUR"
+   ],
+   "active_ads_total": 23,
+   "oldest_ad_start": "2026-05-29",
+   "profiled": true,
+   "creative_texts": [
+    "Son nez degage en 5 min, sans pleurs",
+    "Le rituel anti-pollens qu'il accepte enfin.",
+    "Fini le lavage de nez a la bagarre"
+   ],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "2050334398924240",
+     "start": "2026-07-09",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2050334398924240"
+    },
+    {
+     "id": "1645369299858978",
+     "start": "2026-07-09",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1645369299858978"
+    },
+    {
+     "id": "2002347224501403",
+     "start": "2026-07-09",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2002347224501403"
+    },
+    {
+     "id": "1005623212227193",
+     "start": "2026-07-10",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1005623212227193"
+    },
+    {
+     "id": "1390472622947235",
+     "start": "2026-07-09",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1390472622947235"
+    },
+    {
+     "id": "1739522043755830",
+     "start": "2026-07-09",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1739522043755830"
+    },
+    {
+     "id": "2053584275249559",
+     "start": "2026-07-09",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2053584275249559"
+    },
+    {
+     "id": "1489275832884974",
+     "start": "2026-07-09",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1489275832884974"
+    },
+    {
+     "id": "3246770105525759",
+     "start": "2026-07-09",
+     "snapshot": "https://www.facebook.com/ads/library/?id=3246770105525759"
+    },
+    {
+     "id": "27241941465501815",
+     "start": "2026-07-09",
+     "snapshot": "https://www.facebook.com/ads/library/?id=27241941465501815"
+    },
+    {
+     "id": "26727091190297947",
+     "start": "2026-07-09",
+     "snapshot": "https://www.facebook.com/ads/library/?id=26727091190297947"
+    },
+    {
+     "id": "4143936045897831",
+     "start": "2026-07-09",
+     "snapshot": "https://www.facebook.com/ads/library/?id=4143936045897831"
+    },
+    {
+     "id": "1512996616962753",
+     "start": "2026-07-09",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1512996616962753"
+    },
+    {
+     "id": "1026123906812903",
+     "start": "2026-07-09",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1026123906812903"
+    },
+    {
+     "id": "1568741291609589",
+     "start": "2026-07-09",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1568741291609589"
+    },
+    {
+     "id": "1704890044053182",
+     "start": "2026-07-06",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1704890044053182"
+    },
+    {
+     "id": "2237623030371344",
+     "start": "2026-07-09",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2237623030371344"
+    },
+    {
+     "id": "1683494699558059",
+     "start": "2026-07-05",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1683494699558059"
+    },
+    {
+     "id": "896154609523450",
+     "start": "2026-07-02",
+     "snapshot": "https://www.facebook.com/ads/library/?id=896154609523450"
+    },
+    {
+     "id": "881205768366972",
+     "start": "2026-06-29",
+     "snapshot": "https://www.facebook.com/ads/library/?id=881205768366972"
+    },
+    {
+     "id": "3061767227345162",
+     "start": "2026-06-29",
+     "snapshot": "https://www.facebook.com/ads/library/?id=3061767227345162"
+    },
+    {
+     "id": "4579510812335559",
+     "start": "2026-06-12",
+     "snapshot": "https://www.facebook.com/ads/library/?id=4579510812335559"
+    },
+    {
+     "id": "2448412115585655",
+     "start": "2026-05-29",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2448412115585655"
+    }
+   ]
+  },
+  {
+   "page_id": "106142692500549",
+   "page_name": "Grownsy",
+   "countries_seen": [
+    "US"
+   ],
+   "classification": "pertinente",
+   "reason": "Marque US de puericulture (chauffe-biberon, aspirateur nasal); 34 pubs actives, plusieurs mois.",
+   "seen_under_keywords": [
+    "baby nasal aspirator (US)"
+   ],
+   "currency_seen": [
+    "USD"
+   ],
+   "active_ads_total": 34,
+   "oldest_ad_start": "2026-05-08",
+   "profiled": true,
+   "creative_texts": [
+    "Grownsy"
+   ],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1003825369296383",
+     "start": "2026-07-11",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1003825369296383"
+    },
+    {
+     "id": "1530963738514769",
+     "start": "2026-07-11",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1530963738514769"
+    },
+    {
+     "id": "2284328978976302",
+     "start": "2026-07-10",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2284328978976302"
+    },
+    {
+     "id": "1358836012846410",
+     "start": "2026-07-10",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1358836012846410"
+    },
+    {
+     "id": "4471009586550425",
+     "start": "2026-07-10",
+     "snapshot": "https://www.facebook.com/ads/library/?id=4471009586550425"
+    },
+    {
+     "id": "2645246999320072",
+     "start": "2026-07-10",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2645246999320072"
+    },
+    {
+     "id": "27046161821722745",
+     "start": "2026-07-10",
+     "snapshot": "https://www.facebook.com/ads/library/?id=27046161821722745"
+    },
+    {
+     "id": "2082498125997533",
+     "start": "2026-07-09",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2082498125997533"
+    },
+    {
+     "id": "1565314708324680",
+     "start": "2026-07-08",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1565314708324680"
+    },
+    {
+     "id": "1400755908779086",
+     "start": "2026-07-08",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1400755908779086"
+    },
+    {
+     "id": "959661360460697",
+     "start": "2026-07-08",
+     "snapshot": "https://www.facebook.com/ads/library/?id=959661360460697"
+    },
+    {
+     "id": "1375261517786736",
+     "start": "2026-07-08",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1375261517786736"
+    },
+    {
+     "id": "27164290929939102",
+     "start": "2026-07-08",
+     "snapshot": "https://www.facebook.com/ads/library/?id=27164290929939102"
+    },
+    {
+     "id": "1520673116049062",
+     "start": "2026-07-08",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1520673116049062"
+    },
+    {
+     "id": "1546494657152454",
+     "start": "2026-07-07",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1546494657152454"
+    },
+    {
+     "id": "1063560052694703",
+     "start": "2026-07-08",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1063560052694703"
+    },
+    {
+     "id": "1024338957241202",
+     "start": "2026-07-08",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1024338957241202"
+    },
+    {
+     "id": "1474625144704232",
+     "start": "2026-07-06",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1474625144704232"
+    },
+    {
+     "id": "1068806438806551",
+     "start": "2026-07-06",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1068806438806551"
+    },
+    {
+     "id": "27349309291398230",
+     "start": "2026-07-06",
+     "snapshot": "https://www.facebook.com/ads/library/?id=27349309291398230"
+    },
+    {
+     "id": "1034893472563178",
+     "start": "2026-06-29",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1034893472563178"
+    },
+    {
+     "id": "2257939081613657",
+     "start": "2026-06-25",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2257939081613657"
+    },
+    {
+     "id": "1524739749282641",
+     "start": "2026-06-25",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1524739749282641"
+    },
+    {
+     "id": "4419087225030667",
+     "start": "2026-06-19",
+     "snapshot": "https://www.facebook.com/ads/library/?id=4419087225030667"
+    },
+    {
+     "id": "1318368983172409",
+     "start": "2026-06-18",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1318368983172409"
+    },
+    {
+     "id": "963498933359429",
+     "start": "2026-06-17",
+     "snapshot": "https://www.facebook.com/ads/library/?id=963498933359429"
+    },
+    {
+     "id": "995799606234918",
+     "start": "2026-05-08",
+     "snapshot": "https://www.facebook.com/ads/library/?id=995799606234918"
+    },
+    {
+     "id": "971776155229572",
+     "start": "2026-05-08",
+     "snapshot": "https://www.facebook.com/ads/library/?id=971776155229572"
+    },
+    {
+     "id": "2388773191620949",
+     "start": "2026-05-08",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2388773191620949"
+    },
+    {
+     "id": "1019025160447738",
+     "start": "2026-05-08",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1019025160447738"
+    },
+    {
+     "id": "1535250728022497",
+     "start": "2026-05-08",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1535250728022497"
+    },
+    {
+     "id": "1967257827492535",
+     "start": "2026-05-08",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1967257827492535"
+    },
+    {
+     "id": "1629541668337217",
+     "start": "2026-05-08",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1629541668337217"
+    },
+    {
+     "id": "1326593292741187",
+     "start": "2026-05-08",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1326593292741187"
+    }
+   ]
+  },
+  {
+   "page_id": "1633779800049051",
+   "page_name": "Momcozy",
+   "countries_seen": [
+    "US",
+    "CA"
+   ],
+   "classification": "incertaine",
+   "reason": "Grande marque generaliste puericulture (664 pubs: tire-lait, moniteurs...); aspirateur nasal = 1 SKU ('Clear Noses, Calmer Nights'). Confirme la demande mais pas concurrent pur.",
+   "seen_under_keywords": [
+    "baby nasal aspirator (CA)"
+   ],
+   "currency_seen": [
+    "USD"
+   ],
+   "active_ads_total": 664,
+   "oldest_ad_start": "2026-05-26",
+   "profiled": true,
+   "creative_texts": [
+    "Clear Noses, Calmer Nights",
+    "Real tools for calmer nights. For baby and you."
+   ],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1301281954854538",
+     "start": "2026-05-26",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1301281954854538"
+    },
+    {
+     "id": "1624398106357317",
+     "start": "2026-07-11",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1624398106357317"
+    },
+    {
+     "id": "1013740837913637",
+     "start": "2026-07-10",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1013740837913637"
+    },
+    {
+     "id": "1031404722619084",
+     "start": "2026-07-10",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1031404722619084"
+    }
+   ]
+  },
+  {
+   "page_id": "102315669472978",
+   "page_name": "Momcozy_fr",
+   "countries_seen": [
+    "FR"
+   ],
+   "classification": "incertaine",
+   "reason": "Antenne FR de Momcozy, devise USD (annonceur etranger); 95 pubs surtout tire-lait, mais 1 pub 'Aspirateur nasal electrique Momcozy 2-en-1'.",
+   "seen_under_keywords": [
+    "aspirateur nasal bebe (FR)"
+   ],
+   "currency_seen": [
+    "USD"
+   ],
+   "active_ads_total": 95,
+   "oldest_ad_start": "2026-06-30",
+   "profiled": true,
+   "creative_texts": [
+    "Aspirateur nasal electrique Momcozy 2-en-1 avec spray et aspiration"
+   ],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "997423993176189",
+     "start": "2026-07-07",
+     "snapshot": "https://www.facebook.com/ads/library/?id=997423993176189"
+    },
+    {
+     "id": "1688667719060243",
+     "start": "2026-06-30",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1688667719060243"
+    },
+    {
+     "id": "1758580495137559",
+     "start": "2026-07-10",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1758580495137559"
+    },
+    {
+     "id": "3155398897981165",
+     "start": "2026-07-11",
+     "snapshot": "https://www.facebook.com/ads/library/?id=3155398897981165"
+    }
+   ]
+  },
+  {
+   "page_id": "100121694677186",
+   "page_name": "Dr. Talbot's USA",
+   "countries_seen": [
+    "US"
+   ],
+   "classification": "pertinente",
+   "reason": "Marque US puericulture; bundle '7 New Baby Essentials' incluant aspirateur nasal. Vu sous baby nasal aspirator.",
+   "seen_under_keywords": [
+    "baby nasal aspirator (US)",
+    "electric nasal aspirator (US)"
+   ],
+   "currency_seen": [
+    "USD"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2025-10-15",
+   "profiled": false,
+   "creative_texts": [
+    "7 New Baby Essentials For $86",
+    "The Ultimate New Baby Bundle: everything you need for your little one!"
+   ],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1488058219221067",
+     "start": "2026-06-17",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1488058219221067"
+    },
+    {
+     "id": "1179776231883387",
+     "start": "2026-06-17",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1179776231883387"
+    },
+    {
+     "id": "951556334553816",
+     "start": "2026-06-17",
+     "snapshot": "https://www.facebook.com/ads/library/?id=951556334553816"
+    },
+    {
+     "id": "1016868097951037",
+     "start": "2026-06-24",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1016868097951037"
+    },
+    {
+     "id": "2228321121089371",
+     "start": "2026-06-25",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2228321121089371"
+    },
+    {
+     "id": "827735652958927",
+     "start": "2025-10-15",
+     "snapshot": "https://www.facebook.com/ads/library/?id=827735652958927"
+    }
+   ]
+  },
+  {
+   "page_id": "694696804063473",
+   "page_name": "Papablic",
+   "countries_seen": [
+    "US"
+   ],
+   "classification": "incertaine",
+   "reason": "Marque US puericulture; 183 pubs actives mais surtout 'SafeguardPlus Baby Bottle Washer' - apparue sous nose sucker mais pas d'aspirateur en pub active.",
+   "seen_under_keywords": [
+    "nose sucker baby (US)"
+   ],
+   "currency_seen": [
+    "USD"
+   ],
+   "active_ads_total": 183,
+   "oldest_ad_start": "2026-06-29",
+   "profiled": false,
+   "creative_texts": [
+    "Papablic SafeguardPlus Baby Bottle Washer System",
+    "Summer Sale! Enjoy $100 OFF + 3-Year Warranty!"
+   ],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "4423674021206588",
+     "start": "2026-07-10",
+     "snapshot": "https://www.facebook.com/ads/library/?id=4423674021206588"
+    },
+    {
+     "id": "1555812442994125",
+     "start": "2026-07-08",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1555812442994125"
+    },
+    {
+     "id": "1964563800881017",
+     "start": "2026-06-29",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1964563800881017"
+    }
+   ]
+  },
+  {
+   "page_id": "677917812605283",
+   "page_name": "Nroome",
+   "countries_seen": [
+    "US"
+   ],
+   "classification": "incertaine",
+   "reason": "Dropshipper devise AUD sur US (annonceur etranger); angle 'Cold Season Relief for Your Little Ones -55%' (aspirateur/soin rhume). Vu sous nose sucker.",
+   "seen_under_keywords": [
+    "nose sucker baby (US)"
+   ],
+   "currency_seen": [
+    "AUD"
+   ],
+   "active_ads_total": 10,
+   "oldest_ad_start": "2026-02-25",
+   "profiled": false,
+   "creative_texts": [
+    "Cold Season Relief for Your Little Ones | Save 55%"
+   ],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1421372545770504",
+     "start": "2026-03-21",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1421372545770504"
+    },
+    {
+     "id": "1295844209098214",
+     "start": "2026-03-21",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1295844209098214"
+    },
+    {
+     "id": "1379190150630972",
+     "start": "2026-03-21",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1379190150630972"
+    },
+    {
+     "id": "1283502880389088",
+     "start": "2026-02-25",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1283502880389088"
+    },
+    {
+     "id": "913504054736750",
+     "start": "2026-02-25",
+     "snapshot": "https://www.facebook.com/ads/library/?id=913504054736750"
+    }
+   ]
+  },
+  {
+   "page_id": "1017377134803485",
+   "page_name": "Parent Nest",
+   "countries_seen": [
+    "US"
+   ],
+   "classification": "incertaine",
+   "reason": "Dropshipper devise INR sur US (annonceur etranger); angle nez degage temoignages parents. Vu sous baby nasal aspirator.",
+   "seen_under_keywords": [
+    "baby nasal aspirator (US)",
+    "electric nasal aspirator (US)"
+   ],
+   "currency_seen": [
+    "INR"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-11",
+   "profiled": false,
+   "creative_texts": [
+    "First-time dad: it worked",
+    "Exhausted mum: one step nose clear"
+   ],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1285168166835685",
+     "start": "2026-07-11",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1285168166835685"
+    },
+    {
+     "id": "2101257637469726",
+     "start": "2026-07-11",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2101257637469726"
+    },
+    {
+     "id": "2017844519091236",
+     "start": "2026-07-11",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2017844519091236"
+    }
+   ]
+  },
+  {
+   "page_id": "180939308435137",
+   "page_name": "ShoppingwithShanee",
+   "countries_seen": [
+    "US"
+   ],
+   "classification": "incertaine",
+   "reason": "Affilie/revendeur poussant le kit Momcozy Elite (dont Nasal Aspirator). Vu sous baby nasal aspirator.",
+   "seen_under_keywords": [
+    "baby nasal aspirator (US)",
+    "electric nasal aspirator (US)"
+   ],
+   "currency_seen": [
+    "USD"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-10",
+   "profiled": false,
+   "creative_texts": [
+    "Deal: Momcozy Elite Baby Kit ... Electric Nail File & Nasal Aspirator"
+   ],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1004789699046705",
+     "start": "2026-07-10",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1004789699046705"
+    }
+   ]
+  }
+ ],
+ "profiling_capped": false,
+ "notes": "Integrite: toutes pubs/pages/dates issues de 16 appels reels ads_library_search du 2026-07-11; timestamps unix (ad_delivery_start_time) convertis en ISO UTC. creative_texts = ad_creative_link_title verbatim (l'API ne renvoie pas le corps du texte separement). Pour Momcozy/Momcozy_fr/Papablic (incertaines generalistes a fort volume) seul un sous-ensemble representatif de pubs est liste + total actif note. Anomalies devises: Nubio EUR (FR, coherent), Momcozy_fr USD sur FR (etranger), Nroome AUD sur US (etranger), Parent Nest INR sur US (etranger). Longevite confirmee: Dr. Noze Best pub active depuis 2025-09-11 (~304 j)."
+}

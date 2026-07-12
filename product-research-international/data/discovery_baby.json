@@ -1,0 +1,139 @@
+{
+  "niche": "baby",
+  "mode": "DISCOVERY",
+  "date": "2026-07-11",
+  "tool": "mcp__META_ADS__ads_library_search (ACTIVE, limit=25, 1 pays/appel)",
+  "calls_used": 20,
+  "searches": [
+    {"kw": "baby carrier", "country": "US", "count": 2345, "relevant_pages_found": 2},
+    {"kw": "montessori toys", "country": "US", "count": 474, "relevant_pages_found": 9},
+    {"kw": "toddler learning tower", "country": "US", "count": 60, "relevant_pages_found": 5},
+    {"kw": "baby nasal aspirator", "country": "US", "count": 49, "relevant_pages_found": 5},
+    {"kw": "silicone baby feeding set", "country": "US", "count": 107, "relevant_pages_found": 5},
+    {"kw": "baby sleep sack", "country": "US", "count": 650, "relevant_pages_found": 2},
+    {"kw": "car seat organizer", "country": "US", "count": 534, "relevant_pages_found": 1},
+    {"kw": "porte bébé", "country": "FR", "count": 2742, "relevant_pages_found": 0},
+    {"kw": "jouets montessori", "country": "FR", "count": 68, "relevant_pages_found": 8},
+    {"kw": "veilleuse bébé", "country": "FR", "count": 53, "relevant_pages_found": 6},
+    {"kw": "mouche bébé", "country": "FR", "count": 35, "relevant_pages_found": 1},
+    {"kw": "tour d'observation", "country": "FR", "count": 13933, "relevant_pages_found": 0},
+    {"kw": "gigoteuse", "country": "FR", "count": 63, "relevant_pages_found": 9},
+    {"kw": "coffret repas bébé silicone", "country": "FR", "count": 0, "relevant_pages_found": 0},
+    {"kw": "montessori toys", "country": "CA", "count": 225, "relevant_pages_found": 10},
+    {"kw": "learning tower", "country": "CA", "count": 306, "relevant_pages_found": 0},
+    {"kw": "baby sleep sack", "country": "CA", "count": 160, "relevant_pages_found": 2},
+    {"kw": "baby nasal aspirator", "country": "CA", "count": 4, "relevant_pages_found": 3},
+    {"kw": "veilleuse bébé", "country": "CA", "count": 1, "relevant_pages_found": 1},
+    {"kw": "gigoteuse", "country": "CA", "count": 7, "relevant_pages_found": 2}
+  ],
+  "candidates": [
+    {
+      "product": "mouche-bebe-electrique (electric baby nasal aspirator)",
+      "rank": 1,
+      "why": "Demande prouvée sur les 3 marchés. Pubs TRÈS longue durée : Dr. Noze Best actif depuis 2025-10-07 (277 jours, CA/US), Momcozy depuis 2026-05-26 (46 jours, CA). FR : Nubio pousse 10+ pubs actives (angles 'sans pleurs', 'anti-pollens'). US : Grownsy, Dr. Talbot's, affiliés Momcozy. Problème douloureux + récurrent (rhumes), AOV correct, fort angle émotionnel parent.",
+      "markets_evidence": {
+        "US": "Grownsy (2026-07-10), Dr. Talbot's USA (bundle avec aspirateur nasal, depuis 2026-06-17), affiliés Momcozy/ShoppingwithShanee",
+        "FR": "Nubio (page 917266301460335) : 10+ pubs actives, plus ancienne 2026-06-29",
+        "CA": "Dr. Noze Best actif depuis 2025-10-07 (277 j) ; Momcozy depuis 2026-05-26 (46 j)"
+      },
+      "example_ads": [
+        {"page_name": "Dr. Noze Best", "page_id": "113664780046165", "start": "2025-10-07", "snapshot": "https://www.facebook.com/ads/library/?id=4391862911091800", "creative": "Nozebot Nasal Aspirator (autre pub id=1486052046032387, start 2025-10-21)"},
+        {"page_name": "Momcozy", "page_id": "1633779800049051", "start": "2026-05-26", "snapshot": "https://www.facebook.com/ads/library/?id=1301281954854538", "creative": "Clear Noses, Calmer Nights 🌙"},
+        {"page_name": "Nubio", "page_id": "917266301460335", "start": "2026-06-29", "snapshot": "https://www.facebook.com/ads/library/?id=3061767227345162", "creative": "Son nez dégagé, sans la bagarre 🌙"},
+        {"page_name": "Grownsy", "page_id": "106142692500549", "start": "2026-07-10", "snapshot": "https://www.facebook.com/ads/library/?id=1358836012846410", "creative": null}
+      ],
+      "suggested_keywords_en": ["baby nasal aspirator", "electric nasal aspirator", "nose sucker baby", "baby congestion relief", "snot sucker", "nasal aspirator newborn", "baby cold relief"],
+      "suggested_keywords_fr": ["mouche bébé", "mouche bébé électrique", "aspirateur nasal bébé", "nez bouché bébé", "lavage de nez bébé", "rhume bébé", "sérum physiologique bébé"]
+    },
+    {
+      "product": "veilleuse-bebe / peluche-veilleuse (baby night light & light-up plush)",
+      "rank": 2,
+      "why": "FR très actif : Lenny et Alba (12+ pubs, angles TikTok/routine du soir), Madouceveilleuse (boutique entière de veilleuses animaux), Ploumi, Kilayou (USD=annonceur étranger). CA : Boutique Veille sur toi (Québec) actif depuis 2025-07-30 = 346 jours, preuve de rentabilité longue durée. Marché douleur sommeil bébé = evergreen.",
+      "markets_evidence": {
+        "US": "non testé directement (budget) — à couvrir en phase chasse avec 'baby night light'",
+        "FR": "Lenny et Alba (12+ pubs, 2026-06-26), Madouceveilleuse (2026-07-11), Ploumi (2026-07-06), Kilayou shop (2026-06-29), concours Bebes et Mamans veilleuse tortue (2026-06-11, ~30 j)",
+        "CA": "Boutique Veille sur toi : pub active depuis 2025-07-30 (346 jours)"
+      },
+      "example_ads": [
+        {"page_name": "Boutique Veille sur toi", "page_id": "1562138070728495", "start": "2025-07-30", "snapshot": "https://www.facebook.com/ads/library/?id=1378797886557042", "creative": "PELUCHES MOONIE 🌙 | PELUCHE LUMINEUSE 🌟 | PELUCHES SONORE 🎵"},
+        {"page_name": "Lenny et Alba", "page_id": "104438755558999", "start": "2026-06-26", "snapshot": "https://www.facebook.com/ads/library/?id=2155348235256053", "creative": "La veilleuse qui change le coucher 🌙 / TikTok avait raison 🌙"},
+        {"page_name": "Madouceveilleuse", "page_id": "630165426844101", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=1599599045124337", "creative": "🦊 BabyFox, le renard qui berce les nuits de bébé | 🐘 ElephGlow..."}
+      ],
+      "suggested_keywords_en": ["baby night light", "kids night light", "light up plush", "toddler sleep light", "sunset lamp kids", "white noise night light", "nursery night light"],
+      "suggested_keywords_fr": ["veilleuse bébé", "veilleuse enfant", "peluche veilleuse", "veilleuse tortue", "veilleuse coucher", "peluche lumineuse", "bruit blanc bébé"]
+    },
+    {
+      "product": "busy-board / jouet-montessori-voyage (Montessori busy board & travel toy)",
+      "rank": 3,
+      "why": "3 marchés couverts. US : Woodemon, Joyreal, Project Montessori, Montessori Generation, Leyadoll (busy book). CA : réseau coordonné de pages CAD (Rachel's Finds, Blossom, Neta/Tess/Sharon Recommends) poussant le même jouet 'Road Trip Lifesaver / Screen-Free Play' = signal de scaling agressif. FR : Nuveofly ('alternative aux écrans'), LUDI actif ≥31 j, Pour Les Petits ≥32 j. Angle universel anti-écrans + voyage.",
+      "markets_evidence": {
+        "US": "Woodemon (2026-07-11), Joyreal (2026-07-10), Project Montessori (2026-07-10), Montessori Generation (2026-07-10), Sarah's Silks (2026-07-10)",
+        "FR": "LUDI depuis 2026-06-09 (32 j), Pour Les Petits depuis 2026-06-08 (33 j), Nuveofly (2026-06-30), GOODEVAS (2026-07-07), Nayliss (2026-07-11)",
+        "CA": "Réseau CAD multi-pages lancé 2026-07-10 (Rachel's Finds, Blossom, Neta Recommends, Tess Recommends...) + Montessori Generation, Leyadoll, Woodemon"
+      },
+      "example_ads": [
+        {"page_name": "LUDI, marque française de jouets et de puériculture", "page_id": "109325167170236", "start": "2026-06-09", "snapshot": "https://www.facebook.com/ads/library/?id=4293234060989871", "creative": null},
+        {"page_name": "Pour Les Petits", "page_id": "111213967342179", "start": "2026-06-08", "snapshot": "https://www.facebook.com/ads/library/?id=1654986985555847", "creative": "Cube d'éveil Montessori Bébé | Balle sensorielle d'éveil avec Hochet..."},
+        {"page_name": "Nuveofly", "page_id": "857201634626127", "start": "2026-06-30", "snapshot": "https://www.facebook.com/ads/library/?id=857137670801356", "creative": "📵 L'alternative préférée aux écrans"},
+        {"page_name": "Neta Recommends", "page_id": "879292191934280", "start": "2026-07-10", "snapshot": "https://www.facebook.com/ads/library/?id=1025238850476280", "creative": "The Montessori Toy for Lasting Curiosity / Lifesaver Toy For Baby Travel"},
+        {"page_name": "Woodemon", "page_id": "105578828694338", "start": "2026-07-11", "snapshot": "https://www.facebook.com/ads/library/?id=3974941502802408", "creative": "Give Your Baby Their Own Little World 💫"}
+      ],
+      "suggested_keywords_en": ["busy board", "montessori toys", "travel toy toddler", "screen free toys", "busy book toddler", "sensory toys baby", "wooden toys toddler", "quiet book"],
+      "suggested_keywords_fr": ["busy board", "jouets montessori", "planche d'activités", "jouet d'éveil bébé", "jouet voyage enfant", "livre d'activités enfant", "jouet sensoriel bébé", "alternative aux écrans"]
+    },
+    {
+      "product": "gigoteuse-evolutive / sleep-sack (incl. bambou & emmaillotage)",
+      "rank": 4,
+      "why": "Le plus grand nombre d'annonceurs distincts (11+) sur les 3 marchés : US Nested Bean (gigoteuse lestée) + Bubble panda ; CA Perlimpinpin (Québec), Belan.J (bambou), MiniLambert (actif FR+CA = annonceur qui scale à l'international) ; FR Les Petites Billes, Bunny box, Manufacture des bébés français, ORSO PARIS. Réserve : aucune pub ≥30 j capturée dans l'échantillon (max ~16 j), mais densité concurrentielle très forte.",
+      "markets_evidence": {
+        "US": "Nested Bean Inc. (2026-07-10), Bubble panda '2nd Sleep Sack Only $20' (2026-07-10)",
+        "FR": "Les Petites Billes (2026-06-30, 6 variantes), Bunny box (2026-06-26, USD=étranger), Manufacture des bébés français (2026-07-03), ORSO PARIS, Mazarine et Moi, MiniLambert (CAD, 2026-06-25)",
+        "CA": "Perlimpinpin (2026-07-01), MiniLambert (2026-06-26), Belan.J (5 pubs, 2026-07-10), ZZZyBaby"
+      },
+      "example_ads": [
+        {"page_name": "Nested Bean Inc.", "page_id": "424816577534387", "start": "2026-07-10", "snapshot": "https://www.facebook.com/ads/library/?id=1533404064915050", "creative": "Best sleep sack for my baby 😴 / Gently weighted for better & longer sleep"},
+        {"page_name": "Perlimpinpin", "page_id": "122182937808231", "start": "2026-07-01", "snapshot": "https://www.facebook.com/ads/library/?id=27275015165523221", "creative": "Quilted bamboo sleep sack - Ivory (1.0 tog)..."},
+        {"page_name": "Les Petites Billes", "page_id": "1049056515225148", "start": "2026-06-30", "snapshot": "https://www.facebook.com/ads/library/?id=990154820478985", "creative": "Bébé toujours à la bonne température 🫶"},
+        {"page_name": "MiniLambert", "page_id": "734686576391029", "start": "2026-06-25", "snapshot": "https://www.facebook.com/ads/library/?id=1517736436507698", "creative": "Fini le réveil au moment de le poser 😴"}
+      ],
+      "suggested_keywords_en": ["baby sleep sack", "weighted sleep sack", "bamboo sleep sack", "swaddle transition", "wearable blanket baby", "newborn swaddle", "toddler sleep sack"],
+      "suggested_keywords_fr": ["gigoteuse", "gigoteuse évolutive", "gigoteuse bambou", "emmaillotage bébé", "turbulette", "gigoteuse été", "sommeil bébé"]
+    },
+    {
+      "product": "tour-apprentissage-montessori (toddler learning tower)",
+      "rank": 5,
+      "why": "US : 5 annonceurs distincts dont harppababy (15+ pubs actives sur une seule journée = gros budget test), Hicooo (~39$ clearance), revendeur Little Partners, et Jemina Toppins en devise CAD (annonceur canadien ciblant les US). Réserve : pas de pub ≥30 j dans l'échantillon (max ~5 j) ; mots-clés CA ('learning tower') et FR ('tour d'observation') pollués — preuve limitée au marché US pour l'instant.",
+      "markets_evidence": {
+        "US": "harppababy (15+ pubs, 2026-07-10), Hicooo (2026-07-10), Georg Cortolezis-Supp/Little Partners (2026-07-11), Chala Toprak Attia (2026-07-07), Jemina Toppins (CAD, 2026-07-09)",
+        "FR": "non prouvé — 'tour d'observation' générique (13 933 résultats, 0 pertinent) ; retester avec 'tour montessori'",
+        "CA": "indirect : Jemina Toppins annonce en CAD ; 'learning tower' CA pollué (0 pertinent)"
+      },
+      "example_ads": [
+        {"page_name": "harppababy", "page_id": "104538042712505", "start": "2026-07-10", "snapshot": "https://www.facebook.com/ads/library/?id=2056474098410756", "creative": "Harppa Nordo FSC MIX Safe & Stable Montessori Toddler Kitchen Wooden Tower"},
+        {"page_name": "Hicooo", "page_id": "695134477008322", "start": "2026-07-10", "snapshot": "https://www.facebook.com/ads/library/?id=1022725140478885", "creative": "Warehouse Clearance: Around $39"},
+        {"page_name": "Jemina Toppins", "page_id": "993634637162629", "start": "2026-07-09", "snapshot": "https://www.facebook.com/ads/library/?id=1282310053765773", "creative": "❤️LABOUR DAY SALE 50% OFF TODAY ONLY (currency CAD)"},
+        {"page_name": "Chala Toprak Attia", "page_id": "101955079491185", "start": "2026-07-07", "snapshot": "https://www.facebook.com/ads/library/?id=1392768762668650", "creative": "Toddler Learning Tower"}
+      ],
+      "suggested_keywords_en": ["learning tower", "toddler kitchen helper", "montessori tower", "kitchen helper stool", "toddler step stool tower", "helper tower foldable"],
+      "suggested_keywords_fr": ["tour montessori", "tour d'apprentissage", "tour d'observation montessori", "aide de cuisine enfant", "marchepied enfant", "tour évolutive enfant"]
+    },
+    {
+      "product": "coffret-repas-silicone-bebe (silicone baby feeding set / DME)",
+      "rank": 6,
+      "why": "US : 5 annonceurs (Moonkie 4+ pubs 'Mess-Free Mealtime' depuis 2026-07-03, Mason Bottle, Sharon Herman 10 pièces, Bebestep, affilié Walmart). Réserve : 0 résultat FR sur 'coffret repas bébé silicone' (retester 'DME bébé' / 'assiette ventouse bébé'), CA non testé (budget). Pollution B2B chinoise notée (Pissen&babycare, CNY).",
+      "markets_evidence": {
+        "US": "Moonkie (2026-07-03), Mason Bottle (2026-07-10), Sharon Herman (2026-07-06), Bebestep (2026-07-10), BuyersReport/Walmart (2026-07-09)",
+        "FR": "0 résultat sur le mot-clé testé — à revalider avec d'autres formulations",
+        "CA": "non testé (budget épuisé)"
+      },
+      "example_ads": [
+        {"page_name": "Moonkie", "page_id": "106637518792538", "start": "2026-07-03", "snapshot": "https://www.facebook.com/ads/library/?id=1565586201968732", "creative": "Mess-Free Mealtime"},
+        {"page_name": "Mason Bottle", "page_id": "740069302771107", "start": "2026-07-10", "snapshot": "https://www.facebook.com/ads/library/?id=882503954419931", "creative": "Simplify Your Feeding Journey"},
+        {"page_name": "Sharon Herman", "page_id": "930678193459493", "start": "2026-07-06", "snapshot": "https://www.facebook.com/ads/library/?id=1550468433419425", "creative": "10-Piece Silicone Baby Feeding Set – BPA-Free | Baby Led Weaning"}
+      ],
+      "suggested_keywords_en": ["silicone baby feeding set", "baby led weaning", "suction plate baby", "silicone bib", "toddler plate set", "baby feeding essentials"],
+      "suggested_keywords_fr": ["DME bébé", "assiette ventouse bébé", "vaisselle silicone bébé", "bavoir silicone", "repas bébé silicone", "diversification alimentaire"]
+    }
+  ],
+  "notes": "Intégrité : toutes les pubs/pages/dates proviennent des 20 appels réels ads_library_search du 2026-07-11 ; timestamps unix convertis en ISO. L'API trie par récence → les pubs longue durée sont sous-représentées dans les échantillons ; les durées ≥30 j confirmées : Dr. Noze Best (277 j), Boutique Veille sur toi (346 j), Momcozy CA (46 j), LUDI FR (32 j), Pour Les Petits FR (33 j), Babylist US (31 j). Pollution majeure constatée (fermes de romans/drama : DramaBox, ReadTime, GoodNovel) sur les mots-clés génériques 'baby carrier', 'porte bébé', 'baby sleep sack' US, 'tour d'observation', 'learning tower' CA — préférer des mots-clés produit spécifiques en phase chasse. Currencies étrangères notées : Bunny box/Kilayou (USD sur FR), Jemina Toppins (CAD sur US), Pissen&babycare (CNY, B2B). Réseau multi-pages CAD coordonné détecté sur montessori CA (Rachel's Finds/Blossom/Neta Recommends etc., lancé 2026-07-10) = un même opérateur qui scale."
+}

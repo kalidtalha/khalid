@@ -1,0 +1,192 @@
+{
+ "busy-board-montessori": {
+  "num": 1,
+  "nom": "Busy board / jouet Montessori de voyage",
+  "niche": "bébé",
+  "verdict": 8.1,
+  "sub": [
+   9,
+   9,
+   6,
+   7,
+   6
+  ],
+  "march": "US + FR + CA",
+  "marge": "≈ 18-38 $/commande (marge brute avant pub) — bonne",
+  "risk_top": "Concurrence en scaling actif (réseau CAD coordonné) — 4/25",
+  "n_comp": 19,
+  "n_rel": 8,
+  "verdict_note": "GAGNANT. Meilleur équilibre : demande evergreen forte (Montessori Generation scale 342 pubs, Woodemon actif 180 j = 6 mois de rentabilité prouvée), présent sur les 3 marchés, marge correcte, AUCUN claim santé (contrairement à posture/sérum), et non saisonnier (contrairement aux produits d'été). La niche chauffe = fenêtre encore ouverte mais à saisir vite."
+ },
+ "veilleuse-bebe": {
+  "num": 2,
+  "nom": "Veilleuse / peluche veilleuse bébé",
+  "niche": "bébé",
+  "verdict": 7.9,
+  "sub": [
+   7,
+   10,
+   6,
+   9,
+   8
+  ],
+  "march": "FR + CA + international (Lenny et Alba scale déjà DE/ES/IT)",
+  "marge": "≈ 18-33 $/commande — excellente (produit léger, premium émotionnel)",
+  "risk_top": "Peu d'annonceurs distincts (4 pertinents) — dépendance à Lenny et Alba — 6/25",
+  "n_comp": 10,
+  "n_rel": 4,
+  "verdict_note": "Runner-up très proche, et MEILLEUR choix si tu veux le risque le plus bas : longévité record (Boutique Veille sur toi 347 j), produit léger/mignon = faible retour, marge émotionnelle élevée, aucun claim santé, et déjà prouvé scalable à l'international. Moins d'annonceurs actifs que le busy board (demande un peu plus étroite)."
+ },
+ "mouche-bebe-electrique": {
+  "num": 3,
+  "nom": "Mouche-bébé électrique",
+  "niche": "bébé",
+  "verdict": 7.0,
+  "sub": [
+   7,
+   10,
+   4,
+   6,
+   5
+  ],
+  "march": "US + CA + FR",
+  "marge": "≈ 15-35 $/commande — correcte",
+  "risk_top": "Niche dominée par marques établies (Dr. Noze Best, Momcozy) + produit santé bébé — 5/25",
+  "n_comp": 10,
+  "n_rel": 4,
+  "verdict_note": "Longévité exceptionnelle (Dr. Noze Best 306 j, Dr. Talbot's 270 j) = rentabilité ultra-prouvée, MAIS niche étroite dominée par des marques fortes établies : dur pour un nouvel entrant sans budget/marque. Produit électronique + santé bébé = SAV et sensibilité. Bon signal, exécution difficile."
+ },
+ "correcteur-posture": {
+  "num": 4,
+  "nom": "Correcteur de posture",
+  "niche": "beauté",
+  "verdict": 7.0,
+  "sub": [
+   10,
+   6,
+   3,
+   7,
+   3
+  ],
+  "march": "US (+ FR/CA en second)",
+  "marge": "≈ 20-40 $/commande — bonne",
+  "risk_top": "Claim santé (douleur/posture) = risque rejet Meta ÉLEVÉ + saturation extrême — 3/25 fenêtre",
+  "n_comp": 20,
+  "n_rel": 13,
+  "verdict_note": "Demande MASSIVE (Celyssia 783 pubs actives, 1852 US) mais deux gros freins : saturation extrême (fenêtre concurrentielle quasi fermée) et surtout CLAIM SANTÉ → risque de rejet publicitaire Meta élevé. Réservé à quelqu'un qui maîtrise le contournement policy et l'angle non-médical."
+ },
+ "serum-capillaire": {
+  "num": 5,
+  "nom": "Sérum capillaire pousse / anti-chute",
+  "niche": "beauté",
+  "verdict": 6.6,
+  "sub": [
+   10,
+   5,
+   3,
+   7,
+   2
+  ],
+  "march": "US + CA",
+  "marge": "≈ 17-38 $/commande — bonne",
+  "risk_top": "Claim santé (pousse/anti-chute) + cosmétique ingéré/topique = rejet Meta TRÈS élevé + réglementaire — 2/25",
+  "n_comp": 23,
+  "n_rel": 20,
+  "verdict_note": "Demande la plus forte de toutes (8264 US) mais le risque le plus élevé : claims cheveux = rejets Meta massifs + contraintes réglementaires cosmétiques (FDA/UE). Très rentable pour les pros du policy, piège pour un débutant."
+ },
+ "anti-chafing-shorts": {
+  "num": 6,
+  "nom": "Short anti-frottement (cuisses)",
+  "niche": "été",
+  "verdict": 6.1,
+  "sub": [
+   7,
+   5,
+   5,
+   7,
+   6
+  ],
+  "march": "US + FR",
+  "marge": "≈ 17-37 $/commande — bonne (léger)",
+  "risk_top": "Produit à taille = retours + concurrence de marques dédiées (ChubRub, Sisters Republic) — 6/25",
+  "n_comp": 18,
+  "n_rel": 15,
+  "verdict_note": "Solide milieu de tableau : marques dédiées prouvent la demande (Sisters Republic 192 pubs), textile léger = marge et logistique faciles, pas de claim santé. Freins : produit à taille (retours) et marché plus US/FR que CA. Bon 'safe pick' saisonnier."
+ },
+ "tour-apprentissage": {
+  "num": 7,
+  "nom": "Tour d'apprentissage Montessori",
+  "niche": "bébé",
+  "verdict": 5.9,
+  "sub": [
+   6,
+   8,
+   5,
+   4,
+   3
+  ],
+  "march": "US + CA (FR absent)",
+  "marge": "≈ 10-30 $/commande — érodée par le port",
+  "risk_top": "Meuble lourd/volumineux = coût et casse de transport = risque logistique majeur — 3/25",
+  "n_comp": 12,
+  "n_rel": 8,
+  "verdict_note": "Longévité prouvée (Piccalio 153 j) et demande US réelle, mais c'est un MEUBLE : lourd, volumineux, cher à expédier et à retourner → mauvais candidat dropshipping. Réservé à un modèle stock local / marque, pas au test rapide."
+ },
+ "dog-cooling-mat": {
+  "num": 8,
+  "nom": "Tapis rafraîchissant pour chien",
+  "niche": "été",
+  "verdict": 5.7,
+  "sub": [
+   9,
+   4,
+   2,
+   5,
+   3
+  ],
+  "march": "US + FR + CA",
+  "marge": "≈ 10-28 $/commande — correcte mais port lourd",
+  "risk_top": "Ultra-saturation (31 concurrents dont dropshippers étrangers) + saisonnalité + volume — 3/25 fenêtre",
+  "n_comp": 39,
+  "n_rel": 31,
+  "verdict_note": "Demande énorme (US 3364) mais la niche est ultra-saturée (31 concurrents, dont beaucoup de dropshippers étrangers en devises mélangées), la longévité prouvée est faible (12 j) et le produit est saisonnier + volumineux. Fenêtre concurrentielle trop fermée pour entrer maintenant."
+ },
+ "portable-neck-fan": {
+  "num": 9,
+  "nom": "Ventilateur de cou sans pales",
+  "niche": "été",
+  "verdict": 5.6,
+  "sub": [
+   8,
+   4,
+   3,
+   5,
+   4
+  ],
+  "march": "US + FR + CA",
+  "marge": "≈ 15-33 $/commande — correcte",
+  "risk_top": "Batterie = restrictions transport aérien + saisonnalité + pages jetables (marché volatil) — 4/25",
+  "n_comp": 35,
+  "n_rel": 29,
+  "verdict_note": "Demande forte (US 1447) mais marché très volatil : les gros annonceurs de la découverte étaient des pages jetables qui ont déjà pivoté, longévité prouvée faible (17 j). Batterie = contraintes de transport. Saisonnier. Difficile à sécuriser."
+ },
+ "portable-air-cooler": {
+  "num": 10,
+  "nom": "Mini climatiseur portable 3-en-1",
+  "niche": "été",
+  "verdict": 4.4,
+  "sub": [
+   6,
+   3,
+   3,
+   5,
+   3
+  ],
+  "march": "FR + CA (signal francophone)",
+  "marge": "≈ 15-35 $/commande — correcte",
+  "risk_top": "Réputation 'produit déceptif' (ne refroidit pas vraiment) = retours et litiges élevés + advertorials — 3/25",
+  "n_comp": 22,
+  "n_rel": 17,
+  "verdict_note": "Le plus faible : signal surtout porté par des advertorials (Santé Actuelle) et des devises mélangées suspectes, longévité prouvée très faible (8 j), et le produit traîne une réputation de 'mini-clim qui ne refroidit pas' → taux de retour et litiges élevés. À éviter."
+ }
+}

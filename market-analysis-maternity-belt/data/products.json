@@ -1,0 +1,24 @@
+{
+  "products": [
+    {
+      "num": 1,
+      "ref": "ALI1",
+      "name_from_list": "Pregnancy Postpartum Maternity Support Belt Adjustable (Alibaba 1600248661344)",
+      "identified_name": "Ceinture de maintien grossesse & post-partum réglable (maternity support belt / حزام داعم للحامل وما بعد الولادة)",
+      "what_it_is": "حزام قماشي/مرن قابل للتعديل يُلبس تحت البطن أثناء الحمل لدعم البطن وتخفيف آلام الظهر والحوض، وبعض الموديلات تُستعمل بعد الولادة لربط البطن (بما فيها بعد القيصرية). فيلكرو، مقاسات قابلة للتعديل، قماش قابل للتنفس.",
+      "verified_price_usd": null,
+      "category_price_estimate_usd": "1.5–3.5 USD/unité en gros (MOQ 20–100) — fourchette catégorie maternity support belt Alibaba",
+      "moq": "20–100 pièces selon fournisseur (catégorie) — MOQ exact du listing non vérifiable (Alibaba 403)",
+      "weight_size": "≈ 150–300 g ; plat, compressible, sans batterie/liquide — idéal fret aérien",
+      "battery_or_liquid": false,
+      "supplier": "Non vérifiable (Alibaba 403). Catégorie dominée par les fabricants textile médical de Shijiazhuang/Yiwu",
+      "identification_confidence": "high",
+      "sources": [
+        "https://www.alibaba.com/showroom/maternity-support-belt.html",
+        "https://www.alibaba.com/showroom/pregnancy-belt.html"
+      ],
+      "notes": "Listing exact inaccessible (403) mais le slug «Pregnancy Postpartum Maternity Support Belt Adjustable» ne désigne qu'un seul type de produit — identification haute confiance. ATTENTION contexte concurrentiel: la niche مشد féminine est saturée (étude 2026-07-08: QAVA 40 ads, Liposta 77, Libya market 113) et «مشد بعد الولادة» comptait 285 résultats — à vérifier si ce count est pollué ou représente une vraie muraille concurrentielle sur le segment post-partum.",
+      "status": "ok"
+    }
+  ]
+}

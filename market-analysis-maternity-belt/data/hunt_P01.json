@@ -1,0 +1,1121 @@
+{
+ "product": "P01",
+ "product_key": "P1_maternity_support_belt",
+ "hunter": "orchestrator-inline",
+ "searches": [
+  {
+   "kw": "حزام الحمل",
+   "tier": 1,
+   "count": 10,
+   "new_pages": 7
+  },
+  {
+   "kw": "حزام للحامل",
+   "tier": 1,
+   "count": 3,
+   "new_pages": 0,
+   "note": "100% Mzyan"
+  },
+  {
+   "kw": "مشد بعد الولادة",
+   "tier": 1,
+   "count": 343,
+   "new_pages": 2,
+   "note": "count massivement pollué (fermes streaming 6movies/SonderReel); réels: Birth & Beyond, متجر الثقة"
+  },
+  {
+   "kw": "مشد بعد القيصرية",
+   "tier": 1,
+   "count": 53,
+   "new_pages": 6,
+   "note": "segment post-césarienne réel: Corset Libya, Med Store, القامة, صيدلية الكروان"
+  },
+  {
+   "kw": "مستلزمات الحامل",
+   "tier": 2,
+   "count": 7,
+   "new_pages": 0,
+   "note": "pollution"
+  },
+  {
+   "kw": "دعم الظهر للحامل",
+   "tier": 2,
+   "count": 3,
+   "new_pages": 0,
+   "note": "100% Mzyan — il possède l'angle support"
+  },
+  {
+   "kw": "النفاس",
+   "tier": 2,
+   "count": 6,
+   "new_pages": 0,
+   "note": "pharmacies/généralistes uncertain"
+  },
+  {
+   "kw": "حزام بعد الولادة",
+   "tier": 1,
+   "count": 333,
+   "new_pages": 0,
+   "note": "même pollution streaming que مشد بعد الولادة"
+  },
+  {
+   "kw": "maternity belt",
+   "tier": 2,
+   "count": 3,
+   "new_pages": 0,
+   "note": "100% pollution"
+  },
+  {
+   "kw": "للحوامل (audit spot-check)",
+   "tier": 2,
+   "count": 16,
+   "new_pages": 0,
+   "note": "pharmacies/care — aucun vendeur ceinture dédié nouveau"
+  }
+ ],
+ "sweep_end_reason": "exhausted",
+ "sweep_end_note": "KW cœur épuisés: 10 recherches, les 6 dernières = 0 nouvelle page pertinente. Baselines réutilisées (2026-07-08): مشد=176, QAVA 40 / Liposta 77 / Libya market 113 (niche gaine femme saturée, adjacente).",
+ "profiling_capped": false,
+ "profiling_note": "6 pages profilées par page_ids (totaux exacts API; listes limitées aux 10 plus récentes).",
+ "competitors": [
+  {
+   "page_id": "240737372462116",
+   "page_name": "Mzyan",
+   "classification": "relevant",
+   "reason": "LE concurrent direct: vendeur dédié ceinture support grossesse (EGP), ad active depuis 2026-03-18 (≈117 j), garantie remboursement — hits sous 4 kw produit",
+   "seen_under_keywords": [
+    "حزام الحمل",
+    "حزام للحامل",
+    "دعم الظهر للحامل",
+    "حزام البطن"
+   ],
+   "active_ads_total": 3,
+   "oldest_ad_start": "2026-03-19",
+   "profiled": true,
+   "creative_texts": [
+    "استمتعي براحة ودعم طول الوقت او استردي اموالك!!"
+   ],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "4423931924506353",
+     "start": "2026-06-02",
+     "snapshot": "https://www.facebook.com/ads/library/?id=4423931924506353"
+    },
+    {
+     "id": "1624717102078395",
+     "start": "2026-04-22",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1624717102078395"
+    },
+    {
+     "id": "4261144337473638",
+     "start": "2026-03-19",
+     "snapshot": "https://www.facebook.com/ads/library/?id=4261144337473638"
+    }
+   ]
+  },
+  {
+   "page_id": "106147499006997",
+   "page_name": "Med Store",
+   "classification": "relevant",
+   "reason": "Store médical LY — 9 ads actives, vend gaines/ceintures post-césarienne",
+   "seen_under_keywords": [
+    "مشد بعد القيصرية",
+    "مشد رياضي"
+   ],
+   "active_ads_total": 9,
+   "oldest_ad_start": "2026-06-02",
+   "profiled": true,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "996675106621676",
+     "start": "2026-07-06",
+     "snapshot": "https://www.facebook.com/ads/library/?id=996675106621676"
+    },
+    {
+     "id": "2213138116194014",
+     "start": "2026-07-06",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2213138116194014"
+    },
+    {
+     "id": "2084300879128269",
+     "start": "2026-07-06",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2084300879128269"
+    },
+    {
+     "id": "1921289495925790",
+     "start": "2026-07-06",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1921289495925790"
+    },
+    {
+     "id": "1561622945566943",
+     "start": "2026-07-06",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1561622945566943"
+    },
+    {
+     "id": "27165246333114888",
+     "start": "2026-06-03",
+     "snapshot": "https://www.facebook.com/ads/library/?id=27165246333114888"
+    },
+    {
+     "id": "989282534069763",
+     "start": "2026-06-02",
+     "snapshot": "https://www.facebook.com/ads/library/?id=989282534069763"
+    },
+    {
+     "id": "1621307398950821",
+     "start": "2026-06-02",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1621307398950821"
+    },
+    {
+     "id": "1006005055136839",
+     "start": "2026-06-02",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1006005055136839"
+    }
+   ]
+  },
+  {
+   "page_id": "149033394949468",
+   "page_name": "Corset Libya",
+   "classification": "relevant",
+   "reason": "Boutique corsets/gaines dédiée — 11 ads actives (7 au 2026-07-08, étude précédente), couvre l'angle post-césarienne + posture",
+   "seen_under_keywords": [
+    "مشد بعد القيصرية"
+   ],
+   "active_ads_total": 11,
+   "oldest_ad_start": "2026-07-09",
+   "profiled": true,
+   "creative_texts": [
+    "😳 كتافك راجعين لقدّام وظهرك شكله منحني في الصور واللبس؟"
+   ],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "874402908667629",
+     "start": "2026-07-12",
+     "snapshot": "https://www.facebook.com/ads/library/?id=874402908667629"
+    },
+    {
+     "id": "1253840313389105",
+     "start": "2026-07-12",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1253840313389105"
+    },
+    {
+     "id": "1743572003564349",
+     "start": "2026-07-12",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1743572003564349"
+    },
+    {
+     "id": "27248964751462456",
+     "start": "2026-07-12",
+     "snapshot": "https://www.facebook.com/ads/library/?id=27248964751462456"
+    },
+    {
+     "id": "1292762776004569",
+     "start": "2026-07-09",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1292762776004569"
+    },
+    {
+     "id": "1598044344944931",
+     "start": "2026-07-09",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1598044344944931"
+    },
+    {
+     "id": "1739026500675240",
+     "start": "2026-07-09",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1739026500675240"
+    },
+    {
+     "id": "1550968916423312",
+     "start": "2026-07-09",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1550968916423312"
+    },
+    {
+     "id": "1414441230496939",
+     "start": "2026-07-09",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1414441230496939"
+    },
+    {
+     "id": "1838600853798334",
+     "start": "2026-07-09",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1838600853798334"
+    }
+   ]
+  },
+  {
+   "page_id": "991025154096095",
+   "page_name": "متجر الثقة",
+   "classification": "relevant",
+   "reason": "COD shapewear post-partum — «استعيدي رشاقتك في ثواني.. جسم منحوت», 3 ads",
+   "seen_under_keywords": [
+    "مشد بعد الولادة",
+    "مشد بعد القيصرية"
+   ],
+   "active_ads_total": 3,
+   "oldest_ad_start": "2026-06-03",
+   "profiled": true,
+   "creative_texts": [
+    "استعيدي رشاقتك في ثواني.. جسم منحوت وثقة مالهاش حدود 😍"
+   ],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "4489437564673876",
+     "start": "2026-07-13",
+     "snapshot": "https://www.facebook.com/ads/library/?id=4489437564673876"
+    },
+    {
+     "id": "1519073079187963",
+     "start": "2026-07-13",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1519073079187963"
+    },
+    {
+     "id": "967338002753579",
+     "start": "2026-06-03",
+     "snapshot": "https://www.facebook.com/ads/library/?id=967338002753579"
+    }
+   ]
+  },
+  {
+   "page_id": "1001234429750413",
+   "page_name": "التاج لمستلزمات الأم والطفل",
+   "classification": "relevant",
+   "reason": "Boutique mère-enfant LY — 4 ads actives, vend produits maternité dont ceintures",
+   "seen_under_keywords": [
+    "حزام الحمل"
+   ],
+   "active_ads_total": 4,
+   "oldest_ad_start": "2026-07-05",
+   "profiled": true,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1334103228924733",
+     "start": "2026-07-13",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1334103228924733"
+    },
+    {
+     "id": "2445770479270783",
+     "start": "2026-07-12",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2445770479270783"
+    },
+    {
+     "id": "2183458499102782",
+     "start": "2026-07-07",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2183458499102782"
+    },
+    {
+     "id": "817451468000748",
+     "start": "2026-07-05",
+     "snapshot": "https://www.facebook.com/ads/library/?id=817451468000748"
+    }
+   ]
+  },
+  {
+   "page_id": "101540188323665",
+   "page_name": "مستلزمات الولادة والأمومة - Birth & Beyond",
+   "classification": "relevant",
+   "reason": "Boutique maternité (CAD — gérée depuis l'étranger), 3 ads actives",
+   "seen_under_keywords": [
+    "مشد بعد الولادة",
+    "حزام بعد الولادة"
+   ],
+   "active_ads_total": 3,
+   "oldest_ad_start": "2026-06-21",
+   "profiled": true,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "919467524501984",
+     "start": "2026-07-13",
+     "snapshot": "https://www.facebook.com/ads/library/?id=919467524501984"
+    },
+    {
+     "id": "1920130555324821",
+     "start": "2026-07-12",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1920130555324821"
+    },
+    {
+     "id": "988957934047919",
+     "start": "2026-06-21",
+     "snapshot": "https://www.facebook.com/ads/library/?id=988957934047919"
+    }
+   ]
+  },
+  {
+   "page_id": "1120892851110754",
+   "page_name": "لوازم Lwazem",
+   "classification": "relevant",
+   "reason": "Store LY — ad حزام الحمل active",
+   "seen_under_keywords": [
+    "حزام الحمل"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-12",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1551507596666577",
+     "start": "2026-07-12",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1551507596666577"
+    }
+   ]
+  },
+  {
+   "page_id": "117828967915102",
+   "page_name": "شركة تيتانيوم للمعدات الرياضية",
+   "classification": "relevant",
+   "reason": "Réseau équipements sport/médical (4 pages) — vend ceintures de soutien",
+   "seen_under_keywords": [
+    "حزام الحمل",
+    "مشد بعد القيصرية"
+   ],
+   "active_ads_total": 12,
+   "oldest_ad_start": "2026-07-04",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "3256173241350700",
+     "start": "2026-07-04",
+     "snapshot": "https://www.facebook.com/ads/library/?id=3256173241350700"
+    }
+   ]
+  },
+  {
+   "page_id": "105635655726051",
+   "page_name": "شركة تيتانيوم فيتنس",
+   "classification": "relevant",
+   "reason": "Page sœur Titanium",
+   "seen_under_keywords": [
+    "حزام الحمل",
+    "مشد بعد القيصرية"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-05",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1054012370549426",
+     "start": "2026-07-05",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1054012370549426"
+    },
+    {
+     "id": "1690474112283837",
+     "start": "2026-07-05",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1690474112283837"
+    }
+   ]
+  },
+  {
+   "page_id": "107496781027327",
+   "page_name": "شركة تيتانيوم للمعدات الرياضية والطبية",
+   "classification": "relevant",
+   "reason": "Page sœur Titanium",
+   "seen_under_keywords": [
+    "مشد بعد القيصرية"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-05",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "27934575192806680",
+     "start": "2026-07-05",
+     "snapshot": "https://www.facebook.com/ads/library/?id=27934575192806680"
+    }
+   ]
+  },
+  {
+   "page_id": "108347055201047",
+   "page_name": "شركة القامة للمعدات الطبية والرياضية",
+   "classification": "relevant",
+   "reason": "Équipements médicaux — vend gaines post-césarienne",
+   "seen_under_keywords": [
+    "مشد بعد القيصرية"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-01",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1523082055353355",
+     "start": "2026-07-01",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1523082055353355"
+    }
+   ]
+  },
+  {
+   "page_id": "100444091807326",
+   "page_name": "صيدلية الكروان",
+   "classification": "relevant",
+   "reason": "Pharmacie LY — annonce مشد قيصرية",
+   "seen_under_keywords": [
+    "مشد بعد القيصرية"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-13",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1548606340005046",
+     "start": "2026-07-13",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1548606340005046"
+    }
+   ]
+  },
+  {
+   "page_id": "137791546091856",
+   "page_name": "المعتمد للتجارة والتسويق الالكتروني",
+   "classification": "relevant",
+   "reason": "Store COD LY multi-hits ceintures (déjà vu étude sweat-belt)",
+   "seen_under_keywords": [
+    "حزام الحمل"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-06-22",
+   "profiled": false,
+   "creative_texts": [
+    "توصيل مجاني"
+   ],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1975810493061355",
+     "start": "2026-06-22",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1975810493061355"
+    }
+   ]
+  },
+  {
+   "page_id": "1075177009019948",
+   "page_name": "أيلورا للاكسسوارات والحقائب",
+   "classification": "uncertain",
+   "reason": "accessoires/sacs, hit حزام الحمل",
+   "seen_under_keywords": [
+    "حزام الحمل"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-09",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1040075428502058",
+     "start": "2026-07-09",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1040075428502058"
+    }
+   ]
+  },
+  {
+   "page_id": "112775761672538",
+   "page_name": "Baity - بيتي",
+   "classification": "uncertain",
+   "reason": "store maison",
+   "seen_under_keywords": [
+    "حزام الحمل"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-06",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "866078512892132",
+     "start": "2026-07-06",
+     "snapshot": "https://www.facebook.com/ads/library/?id=866078512892132"
+    }
+   ]
+  },
+  {
+   "page_id": "1198659980002725",
+   "page_name": "Nervoo Store Lib",
+   "classification": "uncertain",
+   "reason": "store LY-branded (EGP), multi-hits ولادة",
+   "seen_under_keywords": [
+    "مشد بعد الولادة",
+    "حزام بعد الولادة"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-13",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1014115664558298",
+     "start": "2026-07-13",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1014115664558298"
+    }
+   ]
+  },
+  {
+   "page_id": "628974396976367",
+   "page_name": "كل شي هني",
+   "classification": "uncertain",
+   "reason": "généraliste LY",
+   "seen_under_keywords": [
+    "مشد بعد القيصرية"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-07",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "2038216580169025",
+     "start": "2026-07-07",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2038216580169025"
+    }
+   ]
+  },
+  {
+   "page_id": "559280023939622",
+   "page_name": "سوق الليبي اون لاين",
+   "classification": "uncertain",
+   "reason": "généraliste LY",
+   "seen_under_keywords": [
+    "مشد بعد القيصرية"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-07",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1321715706787857",
+     "start": "2026-07-07",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1321715706787857"
+    }
+   ]
+  },
+  {
+   "page_id": "216726751529945",
+   "page_name": "Solar store",
+   "classification": "uncertain",
+   "reason": "généraliste, 2 hits",
+   "seen_under_keywords": [
+    "مشد بعد القيصرية",
+    "للحوامل"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-06-30",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "999179242892481",
+     "start": "2026-07-10",
+     "snapshot": "https://www.facebook.com/ads/library/?id=999179242892481"
+    },
+    {
+     "id": "1642082943550793",
+     "start": "2026-06-30",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1642082943550793"
+    }
+   ]
+  },
+  {
+   "page_id": "975447952315920",
+   "page_name": "Shoporia",
+   "classification": "uncertain",
+   "reason": "généraliste COD massif (131 ads) — hits قيصرية, produit exact inconnu",
+   "seen_under_keywords": [
+    "مشد بعد القيصرية"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-11",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1024433886835015",
+     "start": "2026-07-11",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1024433886835015"
+    }
+   ]
+  },
+  {
+   "page_id": "1063550246846244",
+   "page_name": "صيدلية خالد",
+   "classification": "uncertain",
+   "reason": "pharmacie",
+   "seen_under_keywords": [
+    "النفاس"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-11",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1014980357963677",
+     "start": "2026-07-11",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1014980357963677"
+    }
+   ]
+  },
+  {
+   "page_id": "121993030996834",
+   "page_name": "عالم التخفيضات",
+   "classification": "uncertain",
+   "reason": "généraliste",
+   "seen_under_keywords": [
+    "النفاس"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-11",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "890247386912651",
+     "start": "2026-07-11",
+     "snapshot": "https://www.facebook.com/ads/library/?id=890247386912651"
+    }
+   ]
+  },
+  {
+   "page_id": "361968113674393",
+   "page_name": "Lolo Shop",
+   "classification": "uncertain",
+   "reason": "généraliste",
+   "seen_under_keywords": [
+    "النفاس"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-09",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1556379036078786",
+     "start": "2026-07-09",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1556379036078786"
+    }
+   ]
+  },
+  {
+   "page_id": "109534348521369",
+   "page_name": "Bella Fashion",
+   "classification": "uncertain",
+   "reason": "mode femme",
+   "seen_under_keywords": [
+    "النفاس"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-06",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1650632546007200",
+     "start": "2026-07-06",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1650632546007200"
+    }
+   ]
+  },
+  {
+   "page_id": "1003115879553935",
+   "page_name": "المعدات الطبية المنزلية ليبيا - HomeCare",
+   "classification": "uncertain",
+   "reason": "équipement médical domicile",
+   "seen_under_keywords": [
+    "للحوامل"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-11",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "4310044209259299",
+     "start": "2026-07-11",
+     "snapshot": "https://www.facebook.com/ads/library/?id=4310044209259299"
+    }
+   ]
+  },
+  {
+   "page_id": "523876347485637",
+   "page_name": "Inticare.stor",
+   "classification": "uncertain",
+   "reason": "soins intimes",
+   "seen_under_keywords": [
+    "للحوامل"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-12",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "993736320139959",
+     "start": "2026-07-12",
+     "snapshot": "https://www.facebook.com/ads/library/?id=993736320139959"
+    }
+   ]
+  },
+  {
+   "page_id": "1160214263848953",
+   "page_name": "Zenon Care زينون للعناية",
+   "classification": "uncertain",
+   "reason": "cosmétique",
+   "seen_under_keywords": [
+    "للحوامل"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-11",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1031095492637989",
+     "start": "2026-07-11",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1031095492637989"
+    }
+   ]
+  },
+  {
+   "page_id": "1567772036577606",
+   "page_name": "صيدلية التفاح الاخضر- طرابلس",
+   "classification": "uncertain",
+   "reason": "pharmacie, ads depuis 2025-11-14",
+   "seen_under_keywords": [
+    "للحوامل"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2025-11-14",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "728111586317844",
+     "start": "2025-11-14",
+     "snapshot": "https://www.facebook.com/ads/library/?id=728111586317844"
+    },
+    {
+     "id": "819884260798964",
+     "start": "2025-11-16",
+     "snapshot": "https://www.facebook.com/ads/library/?id=819884260798964"
+    }
+   ]
+  },
+  {
+   "page_id": "924943380704099",
+   "page_name": "مستشفي آكام الصنوان التخصصي",
+   "classification": "off-topic",
+   "reason": "hôpital gynéco",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "111713245087285",
+   "page_name": "مصحه قصر الشفاء",
+   "classification": "off-topic",
+   "reason": "clinique",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "325999497261110",
+   "page_name": "مركز مسار التقدم للحقن المجهري",
+   "classification": "off-topic",
+   "reason": "centre FIV (EGP)",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "496015367230189",
+   "page_name": "Prophets stories",
+   "classification": "off-topic",
+   "reason": "contenu religieux",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "155849061592781",
+   "page_name": "من وحي النبوة",
+   "classification": "off-topic",
+   "reason": "contenu religieux",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "314796165290204",
+   "page_name": "سرت بعيون أبنائها",
+   "classification": "off-topic",
+   "reason": "page locale",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "1197140340148225",
+   "page_name": "6movies",
+   "classification": "off-topic",
+   "reason": "ferme streaming",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "1258763557311003",
+   "page_name": "Hot Shorts Hub-HP-3",
+   "classification": "off-topic",
+   "reason": "ferme streaming",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "1130619356797427",
+   "page_name": "SonderReel",
+   "classification": "off-topic",
+   "reason": "ferme streaming",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "102735901965763",
+   "page_name": "Ww",
+   "classification": "off-topic",
+   "reason": "ferme jeux",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "103653441764351",
+   "page_name": "Oraatiilwe",
+   "classification": "off-topic",
+   "reason": "ferme jeux",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "1086474181226444",
+   "page_name": "King Kiss",
+   "classification": "off-topic",
+   "reason": "app TV",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "114600565060089",
+   "page_name": "Free Short Drama-5",
+   "classification": "off-topic",
+   "reason": "ferme drama",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "534723883047347",
+   "page_name": "Short tvs",
+   "classification": "off-topic",
+   "reason": "ferme drama",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "866369629882963",
+   "page_name": "Seguridad Privada Speal Mazatlan",
+   "classification": "off-topic",
+   "reason": "sécurité MX",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "1148782368326682",
+   "page_name": "OffLimits Romance",
+   "classification": "off-topic",
+   "reason": "ferme romans",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "1635870573347794",
+   "page_name": "Res Q Hair Libya",
+   "classification": "off-topic",
+   "reason": "soins capillaires",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "1940684309499758",
+   "page_name": "رسالة السماء",
+   "classification": "off-topic",
+   "reason": "religieux",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "100307862966840",
+   "page_name": "Gentle Grooming Store",
+   "classification": "off-topic",
+   "reason": "grooming",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "642472142292558",
+   "page_name": "ZENON ACN للعناية بالبشرة",
+   "classification": "off-topic",
+   "reason": "cosmétique",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "111233051226906",
+   "page_name": "شفاؤكم لطب البديل",
+   "classification": "off-topic",
+   "reason": "médecine alternative",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "1111641898705584",
+   "page_name": "Steven Garcia",
+   "classification": "off-topic",
+   "reason": "spam VND",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  }
+ ],
+ "notes": "Segment intermédiaire entre le désert (sweat belt) et la muraille (montres). Ceinture GROSSESSE: quasi vide — un seul vendeur dédié (Mzyan, EGP, 117 j, garantie remboursement) + boutiques mère-enfant génériques. Segment POST-PARTUM/césarienne: modérément servi par stores médicaux et corsets (Med Store 9 ads, Corset Libya 11, متجر الثقة 3, القامة, pharmacies) et adjacent à la niche مشد saturée (QAVA/Liposta/Libya market) qui peut copier en un jour. Les gros counts (333/343) sont de la pollution streaming, pas de la concurrence.",
+ "status": "ok"
+}

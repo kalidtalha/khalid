@@ -1,0 +1,23 @@
+{
+  "products": {
+    "P1_maternity_support_belt": {
+      "tier1": [
+        "حزام الحمل", "حزام للحامل", "حزام داعم للحامل", "حزام البطن للحامل",
+        "مشد بعد الولادة", "حزام ما بعد الولادة", "حزام بعد الولادة", "مشد الولادة",
+        "مشد بعد القيصرية", "حزام بعد القيصرية"
+      ],
+      "tier2": [
+        "ربط البطن بعد الولادة", "دعم الظهر للحامل", "آلام الظهر للحامل", "مشد النفاس",
+        "للحوامل", "مستلزمات الحامل", "الحامل", "النفاس",
+        "maternity belt", "postpartum belt", "pregnancy support belt",
+        "ceinture de grossesse", "ceinture post-partum", "حزام حوامل"
+      ],
+      "tier3": [
+        "مشد", "مشد البطن", "مستلزمات الولادة", "هدية المولود", "بيبي شوب",
+        "waist trainer postpartum", "belly wrap"
+      ]
+    }
+  },
+  "generic_cod_terms": ["توصيل لكل ليبيا", "الدفع عند الاستلام ليبيا"],
+  "note_reuse": "Baseline 2026-07-08 (libya-market-analysis hunt_P02): مشد=176, مشد البطن=82, مشد بعد الولادة=285 (3 nouvelles pages seulement — à re-vérifier pollution), مشد الخصر=66. Acteurs مشد: Libya market 113, Liposta 77, QAVA 40, BaraBora (01/2025), عالم المشدات 11."
+}

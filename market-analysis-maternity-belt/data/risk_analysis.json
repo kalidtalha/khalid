@@ -1,0 +1,14 @@
+{
+  "P01": {
+    "risks": [
+      {"risk": "Audience étroite: femmes enceintes/jeunes mamans libyennes actives sur FB/IG — bassin de ciblage bien plus petit que «hommes 20-45» → plafond de scale bas et CPM ciblé plus cher", "dimension": "demand", "severity": 3, "probability": 4, "score": 12, "mitigation": "Pack 2-en-1 (grossesse+post-partum) pour élargir la cible; ciblage broad + créative auto-sélectionnante; angle cadeau (mari/mère achète pour elle)"},
+      {"risk": "Un concurrent installé possède déjà l'angle exact: Mzyan (117 j d'ads, garantie remboursement) + boutiques mère-enfant crédibles (التاج, Birth & Beyond) avec confiance établie", "dimension": "saturation", "severity": 3, "probability": 4, "score": 12, "mitigation": "Différenciation: pack 2-en-1, guide taille en dialecte, livraison discrète rapide; ne pas copier son créatif"},
+      {"risk": "La niche مشد saturée (QAVA/Liposta/Libya market, 40–113 ads) est à UNE porte: s'ils ajoutent une ceinture grossesse à leur catalogue, ils écrasent l'entrant en une semaine", "dimension": "saturation", "severity": 4, "probability": 3, "score": 12, "mitigation": "Vitesse, branding maternité dédié (pas «مشد»), audience retargeting précoce"},
+      {"risk": "Tailles/morphologie: le ventre évolue par trimestre → erreurs de taille, échanges, refus COD", "dimension": "product", "severity": 3, "probability": 4, "score": 12, "mitigation": "Modèle taille unique très ajustable (velcro large), guide taille vidéo au confirmation call, 2 tailles max en stock"},
+      {"risk": "Claims santé: promesses médicales (soulage sciatique, protège le bébé…) peuvent déclencher la police pub Meta santé et la responsabilité produit", "dimension": "marketing", "severity": 3, "probability": 3, "score": 9, "mitigation": "Vocabulaire confort/soutien uniquement, pas de promesses médicales; certificat CE du fournisseur"},
+      {"risk": "Refus COD standard 20–30% (atténué par le besoin réel mais présent)", "dimension": "operations", "severity": 3, "probability": 3, "score": 9, "mitigation": "Confirmation téléphonique avec vérification du stade de grossesse/taille"},
+      {"risk": "FX dinar volatil", "dimension": "fx", "severity": 3, "probability": 3, "score": 9, "mitigation": "Rotation <30 j, conversion hebdomadaire"},
+      {"risk": "Qualité textile (élastique qui lâche, tissu chaud en été libyen)", "dimension": "product", "severity": 2, "probability": 3, "score": 6, "mitigation": "Échantillons, version coton respirant, QC photo avant expédition"}
+    ]
+  }
+}

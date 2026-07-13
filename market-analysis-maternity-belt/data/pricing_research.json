@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "generated": "2026-07-13",
+    "agent": "Pricing & Margin Analyst (inline)",
+    "integrity_note": "FX/shipping/customs/COD réutilisés des recherches vérifiées 2026-07-08/13. Prix locaux du produit: aucun prix LYD public trouvé — comps régionaux et ancres locales utilisés, marqués 'estimate'."
+  },
+  "exchange_rates": {
+    "official": {"rate": 6.40, "currency_pair": "USD/LYD", "date": "2026-07-08", "source": "https://www.misknews.com/2026/07/dollar-prices.html + https://cbl.gov.ly/currency-exchange-rates/"},
+    "parallel": {"rate": 8.4, "range": "8.26–8.52", "currency_pair": "USD/LYD", "date": "2026-07-08",
+      "sources": ["https://www.misknews.com/2026/07/dollar-prices.html", "https://www.libyaakhbar.com/business-news/2830787.html"]}
+  },
+  "product_prices_lyd": {
+    "P01_maternity_support_belt": {
+      "findings": [
+        {"price_lyd": null, "what": "Aucun prix LYD public pour حزام الحمل/حزام داعم للحامل — cohérent avec 1 seul annonceur dédié (Mzyan, prix non affiché dans le texte d'annonce)", "source": "sweep Meta Ad Library + WebSearch 2026-07-13"},
+        {"price_lyd": 51, "what": "Ancre plancher segment مشد: SHEIN مشد بطن 51 د.ل (meam.ly, étude 2026-07-08)", "source": "https://meam.ly/products/shein-ملابس-داخلية-لتحديد-الجسم-مشد-بطن"},
+        {"price_lyd": null, "what": "Comps régionaux: maternity support belts 25–70 SAR (≈7–19 USD) sur noon/amazon.sa — estimate", "source": "comps catégorie (estimate)"}
+      ],
+      "estimated_cod_price_band_lyd": "99–149 د.ل la ceinture grossesse ; 149–189 د.ل le pack 2-en-1 (grossesse + bande post-partum) — ESTIMATE"
+    }
+  },
+  "unit_economics_estimate": {
+    "assumption_price_lyd": 129,
+    "assumption_bundle": "ceinture grossesse seule ; upsell pack 2-en-1 (grossesse+post-partum) à 169 د.ل",
+    "cogs_usd": "1.5–3.5 (catégorie maternity belt Alibaba, MOQ 20–100)",
+    "air_freight_usd_per_unit": "1.9–3.8 (0.25 kg emballé × 7.5–15 USD/kg)",
+    "landed_cost_usd": "3.5–7.5 (pas de batterie/liquide)",
+    "revenue_delivered_usd_at_parallel": "129 LYD ÷ 8.4 ≈ 15.4 USD (pack 169 LYD ≈ 20.1 USD)",
+    "fulfillment_lyd": "10–20 د.ل/commande livrée (Shipeh) — ESTIMATE",
+    "cod_delivery_rate_pct": "60–70 ; probablement au-DESSUS de la moyenne (produit besoin réel, acheteuse motivée) — estimate",
+    "ad_cost_per_delivered_usd": "5–8 — ESTIMATE: audience plus étroite (femmes enceintes/jeunes mamans) = CPM ciblé plus cher, mais zéro enchère concurrente directe sur les kw grossesse",
+    "net_margin_per_delivered_usd": "≈ 15.4 − (3.5–7.5) − (1.2–2.4) − (5–8) = −2.5 à +5.7 USD ; pack 2-en-1 à 169 د.ل: −0.9 à +9.5 USD",
+    "verdict": "Économie correcte, entre la montre (mauvaise) et le sweat belt (très bonne). Le pack 2-en-1 est la clé: il double la durée d'usage perçue (grossesse PUIS récupération) et porte le panier à ~20$. Breakeven CPA livré ≈ 9$ (ceinture seule) / 12$ (pack)."
+  },
+  "shipping": {
+    "reused_from": "libya-market-analysis/data/pricing_research.json (2026-07-08)",
+    "china_to_libya_air_door_to_door_usd_per_kg": {"low": 7.5, "high": 15, "transit_days": "10-14", "source": "https://www.dantful.com/how-much-is-shipping-from-china-to-libya/"},
+    "note": "Produit textile plat sans batterie: 100 unités ≈ 25 kg ≈ 190–375 USD par air."
+  },
+  "customs": {
+    "reused_from": "libya-market-analysis/data/pricing_research.json (2026-07-08)",
+    "structure": "4% Port Services Tax sur CIF ; taxe d'importation 2026 biens de consommation ~12% (code SH textile médical à confirmer)",
+    "sources": ["https://deepbeez.com/import-duty/libya-customs-tariff"]
+  },
+  "cod_return_rates": {
+    "reused_from": "libya-market-analysis/data/pricing_research.json (2026-07-08)",
+    "mena_cod_refusal_benchmark": "20–30% typique ; attendu MEILLEUR ici (besoin réel + acheteuse motivée par l'inconfort) mais risque taille/déception à gérer",
+    "source": "https://selligate.com/top-10-e-commerce"
+  }
+}

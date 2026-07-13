@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "num": 1,
+      "ref": "ALI1",
+      "name_from_list": "Luxury Waterproof Night Light Business Men (Alibaba 1601756392041)",
+      "identified_name": "Men's luxury-style business quartz wristwatch — waterproof + luminous (night light), POEDAGAR-class Chinese brand",
+      "what_it_is": "Montre-bracelet homme style business/luxe : mouvement quartz, étanche (3ATM typique), aiguilles/index lumineux (night light), bracelet cuir ou acier, souvent avec calendrier. Catégorie identique aux POEDAGAR 613/615/816, CURREN, NAVIFORCE vendues en COD au Maghreb/MENA.",
+      "verified_price_usd": null,
+      "category_price_estimate_usd": "3–8 USD/unité en gros (MOQ 1–50) ; fourchette catégorie observée 6–20 USD pour les modèles premium ; POEDAGAR-class typiquement 3.5–6 USD",
+      "moq": "1–50 pièces selon fournisseur (catégorie) — MOQ exact du listing non vérifiable (Alibaba 403)",
+      "weight_size": "≈ 60–120 g avec boîte ; colis petit (< 0.3 kg volumétrique) — idéal fret aérien",
+      "battery_or_liquid": true,
+      "supplier": "Non vérifiable (Alibaba 403). Catégorie dominée par Guangzhou/Shenzhen watch suppliers (POEDAGAR = Guangzhou)",
+      "identification_confidence": "medium",
+      "sources": [
+        "https://www.alibaba.com/product-detail/POEDAGAR-Advanced-waterproof-calendar-night-light_1601778973411.html",
+        "https://www.alibaba.com/product-detail/POEDAGAR-613-Luxury-Watch-Business-Waterproof_1600925342755.html",
+        "https://www.alibaba.com/showroom/night-light-wrist-watch.html",
+        "https://www.alibaba.com/showroom/watches-men.html"
+      ],
+      "notes": "Le listing exact 1601756392041 est inaccessible (403 egress) et introuvable via WebSearch. L'identification est CATÉGORIELLE (confiance haute sur la catégorie, moyenne sur le modèle exact) : le slug du titre « Luxury Waterproof Night Light Business Men » correspond mot pour mot au gabarit des titres POEDAGAR/CURREN. La bataille concurrentielle se joue au niveau de la catégorie « montre business homme », donc l'analyse marché reste pleinement valide. Contient pile bouton (quartz) → contrainte fret aérien mineure, standard pour ce flux.",
+      "status": "ok"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "P01": {
+    "risks": [
+      {"risk": "Saturation concurrentielle : 44 pages actives dont ~20 boutiques 100% montres et un méga-acteur COD (ليبيا إكسبريس, 179 ads actives) ; 36 ads actives sur le seul segment POEDAGAR-class ; 867 ads historiques sur 'ساعة رجالية'", "dimension": "saturation", "severity": 5, "probability": 5, "score": 25, "mitigation": "N'entrer QUE avec un angle différencié (bundle exclusif, garantie 12 mois, unboxing premium) et un budget test plafonné ; sinon choisir une autre niche"},
+      {"risk": "Guerre des prix : produit banalisé (copie/low-cost dispo chez tous les grossistes de Guangzhou), les boutiques physiques libyennes (أوس، الماجري، المتجر الليبي) cassent les prix et offrent l'essayage", "dimension": "pricing", "severity": 4, "probability": 5, "score": 20, "mitigation": "Bundle + branding perçu ; éviter le face-à-face sur le prix unitaire"},
+      {"risk": "CPA publicitaire élevé : enchères Meta disputées par des dizaines d'annonceurs montres actifs → CPA livré > 8 USD = marge nulle", "dimension": "marketing", "severity": 4, "probability": 4, "score": 16, "mitigation": "Créatives vidéo natives dialecte libyen, ciblage villes secondaires, kill-switch à CPA lead > 4 USD"},
+      {"risk": "Taux de refus COD 20–30% sur un produit 'plaisir' non essentiel ; cash bloqué chez le transporteur", "dimension": "operations", "severity": 3, "probability": 4, "score": 12, "mitigation": "Confirmation téléphonique systématique, Shipeh avec remise cash rapide, exclusion zones à faible taux de livraison"},
+      {"risk": "Change : encaissement LYD au parallèle (8.26–8.52, volatil : 10.5 en février → 8.4 en juillet) ; toute appréciation du dinar comprime la marge en USD", "dimension": "fx", "severity": 3, "probability": 3, "score": 9, "mitigation": "Rotation stock rapide (<30 j), conversion hebdomadaire, prix révisables"},
+      {"risk": "Logistique/batterie : pile bouton lithium = surcharge ou refus sur certaines lignes aériennes ; voie maritime = 30–40 j d'immobilisation", "dimension": "logistics", "severity": 2, "probability": 3, "score": 6, "mitigation": "Ligne aérienne 'battery goods' éprouvée ; premier lot 50–100 unités par air"},
+      {"risk": "Qualité/contrefaçon : le listing exact est invérifiable (Alibaba 403) ; risque de recevoir une variante de moindre qualité ; SAV inexistant en Libye", "dimension": "product", "severity": 3, "probability": 3, "score": 9, "mitigation": "Échantillons avant commande, contrôle qualité photo/vidéo, fournisseur Trade Assurance"},
+      {"risk": "Réglementaire : nouvelle taxe d'importation 2026 (électronique/luxe 30–35%) au statut politique flou — peut frapper les montres selon le code SH", "dimension": "regulatory", "severity": 3, "probability": 2, "score": 6, "mitigation": "Confirmer le taux SH 9102 avec le transitaire avant commande volume"}
+    ]
+  }
+}

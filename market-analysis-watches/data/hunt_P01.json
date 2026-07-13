@@ -1,0 +1,2187 @@
+{
+ "product": "P01",
+ "product_key": "P1_mens_business_watch",
+ "hunter": "orchestrator-inline",
+ "searches": [
+  {
+   "kw": "ساعة رجالية",
+   "tier": 1,
+   "count": 24,
+   "new_pages": 12
+  },
+  {
+   "kw": "ساعات رجالية",
+   "tier": 1,
+   "count": 25,
+   "new_pages": 6
+  },
+  {
+   "kw": "ساعة يد رجالية",
+   "tier": 1,
+   "count": 1,
+   "new_pages": 0
+  },
+  {
+   "kw": "ساعة فاخرة",
+   "tier": 1,
+   "count": 243,
+   "new_pages": 2,
+   "note": "count gonflé par pollution (ferme de romans Daftar buku)"
+  },
+  {
+   "kw": "ساعة رجالي",
+   "tier": 1,
+   "count": 21,
+   "new_pages": 3
+  },
+  {
+   "kw": "ساعة مضيئة",
+   "tier": 1,
+   "count": 10,
+   "new_pages": 4
+  },
+  {
+   "kw": "ساعة ضد الماء",
+   "tier": 1,
+   "count": 61,
+   "new_pages": 2,
+   "note": "pollution romans; nouveaux: step watches, LUIS BIEN (uncertain)"
+  },
+  {
+   "kw": "ساعة كوارتز",
+   "tier": 1,
+   "count": 19,
+   "new_pages": 4
+  },
+  {
+   "kw": "POEDAGAR",
+   "tier": 2,
+   "count": 36,
+   "new_pages": 8,
+   "note": "CLASSE EXACTE du produit — 36 ads actives, ~12 vendeurs"
+  },
+  {
+   "kw": "رولكس",
+   "tier": 2,
+   "count": 24,
+   "new_pages": 4,
+   "note": "pollution services égyptiens rachat de montres (EGP)"
+  },
+  {
+   "kw": "ساعة اصلية",
+   "tier": 2,
+   "count": 69,
+   "new_pages": 2
+  },
+  {
+   "kw": "طقم رجالي",
+   "tier": 2,
+   "count": 59,
+   "new_pages": 0,
+   "note": "kw dominé par vêtements"
+  },
+  {
+   "kw": "montre homme",
+   "tier": 1,
+   "count": 171,
+   "new_pages": 0,
+   "note": "100% pollution drama/novels FR"
+  },
+  {
+   "kw": "CURREN",
+   "tier": 2,
+   "count": 19,
+   "new_pages": 7
+  },
+  {
+   "kw": "ساعه رجاليه",
+   "tier": "dialect",
+   "count": 0,
+   "new_pages": 0
+  },
+  {
+   "kw": "هدية رجالية",
+   "tier": 2,
+   "count": 14,
+   "new_pages": 0
+  },
+  {
+   "kw": "ساعة ذكية",
+   "tier": 3,
+   "count": 103,
+   "new_pages": 0,
+   "note": "niche adjacente smartwatch: majorité pollution + tech stores"
+  },
+  {
+   "kw": "ساعة رجالية (ALL/historique)",
+   "tier": 1,
+   "count": 867,
+   "new_pages": 0,
+   "note": "profondeur historique: 867 ads all-time vs 24 actives"
+  },
+  {
+   "kw": "NAVIFORCE",
+   "tier": 2,
+   "count": 12,
+   "new_pages": 6,
+   "note": "audit spot-check — réseau ريماس (4 pages sœurs) + 2 groupes; porte les relevant à 50"
+  }
+ ],
+ "sweep_end_reason": "orchestrator-cap",
+ "sweep_end_note": "Arrêt après 18 recherches: ~44 pages 'relevant' déjà identifiées (bien au-delà du cap de profilage 25) et le taux de découverte marginal déclinait. La règle de saturation (12 recherches consécutives sans nouvelle page) n'a PAS été atteinte — la niche est si dense que presque chaque mot-clé produit ramenait de nouveaux vendeurs, ce qui est en soi la preuve de saturation du marché.",
+ "profiling_capped": true,
+ "profiling_note": "12 pages profilées individuellement (page_ids). Pour les pages profilées, la liste d'ads est tronquée aux 10 plus récentes (contrôle de contexte); active_ads_total = estimated_total_count exact de l'API; oldest_ad_start = plus ancienne ad VISIBLE (borne inférieure de l'ancienneté).",
+ "competitors": [
+  {
+   "page_id": "1045056362016605",
+   "page_name": "ليبيا إكسبريس - عنوان الفخامة والرقي",
+   "classification": "relevant",
+   "reason": "COD dropshipper étranger (devise EUR) — montres/coffrets cadeaux hommes, 179 ads actives",
+   "seen_under_keywords": [
+    "ساعة رجالية",
+    "POEDAGAR",
+    "هدية رجالية"
+   ],
+   "active_ads_total": 179,
+   "oldest_ad_start": "2026-06-19",
+   "profiled": true,
+   "creative_texts": [
+    "ساعة أحلامك وصلت 🔥 اطلب الآن مع علبة هدية مجانية",
+    "🎁 الهدية المثالية لمن يقدر الفخامة والهيبة!",
+    "🎁 الهدية المثالية لمن تحب.. جاهز في علبة قطيفة فاخرة.",
+    "عرض محدود: طواقم مطلية بمية الذهب!"
+   ],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1002955165770106",
+     "start": "2026-06-21",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1002955165770106"
+    },
+    {
+     "id": "1551553426363417",
+     "start": "2026-06-25",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1551553426363417"
+    },
+    {
+     "id": "1719562955601232",
+     "start": "2026-06-19",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1719562955601232"
+    },
+    {
+     "id": "1740386200653470",
+     "start": "2026-06-19",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1740386200653470"
+    },
+    {
+     "id": "1263893105611736",
+     "start": "2026-06-19",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1263893105611736"
+    },
+    {
+     "id": "1008346265494853",
+     "start": "2026-06-19",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1008346265494853"
+    },
+    {
+     "id": "1527729152098783",
+     "start": "2026-06-19",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1527729152098783"
+    },
+    {
+     "id": "966794016320304",
+     "start": "2026-06-20",
+     "snapshot": "https://www.facebook.com/ads/library/?id=966794016320304"
+    }
+   ]
+  },
+  {
+   "page_id": "435296593300924",
+   "page_name": "Wejha Market",
+   "classification": "relevant",
+   "reason": "Store COD généraliste — campagne montre active: «ساعة فاخرة + سوار هدية مجانًا» (6 variantes)",
+   "seen_under_keywords": [
+    "ساعة فاخرة"
+   ],
+   "active_ads_total": 16,
+   "oldest_ad_start": "2026-07-12",
+   "profiled": true,
+   "creative_texts": [
+    "⌚ ساعة فاخرة + سوار هدية مجانًا"
+   ],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1361713635904999",
+     "start": "2026-07-12",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1361713635904999"
+    },
+    {
+     "id": "820314281046681",
+     "start": "2026-07-12",
+     "snapshot": "https://www.facebook.com/ads/library/?id=820314281046681"
+    },
+    {
+     "id": "1039618848465132",
+     "start": "2026-07-12",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1039618848465132"
+    },
+    {
+     "id": "1602416831558966",
+     "start": "2026-07-12",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1602416831558966"
+    },
+    {
+     "id": "2135361470425929",
+     "start": "2026-07-12",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2135361470425929"
+    },
+    {
+     "id": "1013797568040256",
+     "start": "2026-07-12",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1013797568040256"
+    }
+   ]
+  },
+  {
+   "page_id": "191354384061621",
+   "page_name": "خطوة للساعات - step watches",
+   "classification": "relevant",
+   "reason": "Boutique montres libyenne dédiée, 5 ads actives",
+   "seen_under_keywords": [
+    "ساعة ضد الماء",
+    "ساعة كوارتز",
+    "ساعة اصلية"
+   ],
+   "active_ads_total": 5,
+   "oldest_ad_start": "2026-07-06",
+   "profiled": true,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "3824042821095043",
+     "start": "2026-07-12",
+     "snapshot": "https://www.facebook.com/ads/library/?id=3824042821095043"
+    },
+    {
+     "id": "1723530555335033",
+     "start": "2026-07-12",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1723530555335033"
+    },
+    {
+     "id": "1599219601851003",
+     "start": "2026-07-10",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1599219601851003"
+    },
+    {
+     "id": "2012713092707587",
+     "start": "2026-07-06",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2012713092707587"
+    },
+    {
+     "id": "2082131172655623",
+     "start": "2026-07-06",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2082131172655623"
+    }
+   ]
+  },
+  {
+   "page_id": "347317811808091",
+   "page_name": "Gold Watch",
+   "classification": "relevant",
+   "reason": "Boutique montres dédiée, 4 ads actives",
+   "seen_under_keywords": [
+    "ساعة رجالية",
+    "ساعات رجالية",
+    "ساعة مضيئة",
+    "هدية رجالية"
+   ],
+   "active_ads_total": 4,
+   "oldest_ad_start": "2026-07-11",
+   "profiled": true,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1390643126251393",
+     "start": "2026-07-11",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1390643126251393"
+    },
+    {
+     "id": "1068617405733969",
+     "start": "2026-07-11",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1068617405733969"
+    },
+    {
+     "id": "4325855334226992",
+     "start": "2026-07-11",
+     "snapshot": "https://www.facebook.com/ads/library/?id=4325855334226992"
+    },
+    {
+     "id": "1507703064419485",
+     "start": "2026-07-11",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1507703064419485"
+    }
+   ]
+  },
+  {
+   "page_id": "103112262463602",
+   "page_name": "متجر الشارقة للساعات",
+   "classification": "relevant",
+   "reason": "Boutique montres dédiée, 3 ads actives",
+   "seen_under_keywords": [
+    "ساعة رجالية",
+    "ساعات رجالية",
+    "ساعة كوارتز"
+   ],
+   "active_ads_total": 3,
+   "oldest_ad_start": "2026-07-11",
+   "profiled": true,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1737533780602076",
+     "start": "2026-07-11",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1737533780602076"
+    },
+    {
+     "id": "1049799070964186",
+     "start": "2026-07-11",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1049799070964186"
+    },
+    {
+     "id": "1538620317762683",
+     "start": "2026-07-11",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1538620317762683"
+    }
+   ]
+  },
+  {
+   "page_id": "350026699416248",
+   "page_name": "زوايـــا للساعـــات و العطـــور Zawaya Store",
+   "classification": "relevant",
+   "reason": "Montres+parfums; ad active depuis ~110 jours (2026-03-24) = signal fort de rentabilité",
+   "seen_under_keywords": [
+    "ساعات رجالية",
+    "ساعة مضيئة"
+   ],
+   "active_ads_total": 3,
+   "oldest_ad_start": "2026-03-25",
+   "profiled": true,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "2109000139743089",
+     "start": "2026-07-01",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2109000139743089"
+    },
+    {
+     "id": "941720791923083",
+     "start": "2026-04-10",
+     "snapshot": "https://www.facebook.com/ads/library/?id=941720791923083"
+    },
+    {
+     "id": "2137961630285734",
+     "start": "2026-03-25",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2137961630285734"
+    }
+   ]
+  },
+  {
+   "page_id": "453933674463619",
+   "page_name": "متجر طه للساعات والنظارات",
+   "classification": "relevant",
+   "reason": "Montres+lunettes; ads depuis 2026-05-15 (longévité ~2 mois)",
+   "seen_under_keywords": [
+    "ساعة رجالية",
+    "ساعات رجالية"
+   ],
+   "active_ads_total": 3,
+   "oldest_ad_start": "2026-05-16",
+   "profiled": true,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "898830849231085",
+     "start": "2026-07-03",
+     "snapshot": "https://www.facebook.com/ads/library/?id=898830849231085"
+    },
+    {
+     "id": "2086067415281794",
+     "start": "2026-07-03",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2086067415281794"
+    },
+    {
+     "id": "26623647670618924",
+     "start": "2026-05-16",
+     "snapshot": "https://www.facebook.com/ads/library/?id=26623647670618924"
+    }
+   ]
+  },
+  {
+   "page_id": "196643050203641",
+   "page_name": "عقارب للساعات",
+   "classification": "relevant",
+   "reason": "Boutique montres dédiée, 2 ads actives",
+   "seen_under_keywords": [
+    "ساعة رجالية",
+    "ساعة مضيئة",
+    "POEDAGAR",
+    "ساعة اصلية"
+   ],
+   "active_ads_total": 2,
+   "oldest_ad_start": "2026-07-06",
+   "profiled": true,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1756340482206707",
+     "start": "2026-07-08",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1756340482206707"
+    },
+    {
+     "id": "1488211683303735",
+     "start": "2026-07-06",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1488211683303735"
+    }
+   ]
+  },
+  {
+   "page_id": "112165054691255",
+   "page_name": "الذوق الرفيع / Aldhawq Alrafie",
+   "classification": "relevant",
+   "reason": "Vend des montres POEDAGAR-class, 2 ads actives depuis 2026-07-01",
+   "seen_under_keywords": [
+    "ساعة مضيئة",
+    "ساعة كوارتز",
+    "POEDAGAR"
+   ],
+   "active_ads_total": 2,
+   "oldest_ad_start": "2026-07-01",
+   "profiled": true,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "844847048484629",
+     "start": "2026-07-01",
+     "snapshot": "https://www.facebook.com/ads/library/?id=844847048484629"
+    },
+    {
+     "id": "883940540856521",
+     "start": "2026-07-01",
+     "snapshot": "https://www.facebook.com/ads/library/?id=883940540856521"
+    }
+   ]
+  },
+  {
+   "page_id": "298447396688647",
+   "page_name": "Time Watch",
+   "classification": "relevant",
+   "reason": "Boutique montres dédiée, 2 ads actives",
+   "seen_under_keywords": [
+    "ساعة رجالية",
+    "ساعات رجالية",
+    "ساعة اصلية"
+   ],
+   "active_ads_total": 2,
+   "oldest_ad_start": "2026-07-03",
+   "profiled": true,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1634510158094713",
+     "start": "2026-07-12",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1634510158094713"
+    },
+    {
+     "id": "4294397844206375",
+     "start": "2026-07-03",
+     "snapshot": "https://www.facebook.com/ads/library/?id=4294397844206375"
+    }
+   ]
+  },
+  {
+   "page_id": "1114769895060342",
+   "page_name": "المتجر الليبي للساعات - فرع مصراتة",
+   "classification": "relevant",
+   "reason": "Chaîne libyenne de montres (succursale Misrata), 1 ad active",
+   "seen_under_keywords": [
+    "ساعة رجالي"
+   ],
+   "active_ads_total": 1,
+   "oldest_ad_start": "2026-07-11",
+   "profiled": true,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1767241751384847",
+     "start": "2026-07-11",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1767241751384847"
+    }
+   ]
+  },
+  {
+   "page_id": "470689992795239",
+   "page_name": "Watch store",
+   "classification": "relevant",
+   "reason": "Boutique montres dédiée, 1 ad active",
+   "seen_under_keywords": [
+    "ساعة رجالية",
+    "ساعة مضيئة",
+    "POEDAGAR",
+    "ساعة كوارتز",
+    "هدية رجالية"
+   ],
+   "active_ads_total": 1,
+   "oldest_ad_start": "2026-07-12",
+   "profiled": true,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1691955482085307",
+     "start": "2026-07-12",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1691955482085307"
+    }
+   ]
+  },
+  {
+   "page_id": "151582488040897",
+   "page_name": "Omar للساعات",
+   "classification": "relevant",
+   "reason": "boutique montres dédiée",
+   "seen_under_keywords": [
+    "ساعة رجالية"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-11",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1393906282621215",
+     "start": "2026-07-11",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1393906282621215"
+    }
+   ]
+  },
+  {
+   "page_id": "156640514525305",
+   "page_name": "Elmagri Bros Stores / محلات إخوان الماجري للساعات العالميه",
+   "classification": "relevant",
+   "reason": "chaîne montres internationale",
+   "seen_under_keywords": [
+    "ساعة رجالية"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-11",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1397078952323663",
+     "start": "2026-07-11",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1397078952323663"
+    }
+   ]
+  },
+  {
+   "page_id": "1212814038581618",
+   "page_name": "متجر عمر الساعات والاكسسوارات",
+   "classification": "relevant",
+   "reason": "montres+accessoires",
+   "seen_under_keywords": [
+    "ساعات رجالية"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-11",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1401305431821730",
+     "start": "2026-07-11",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1401305431821730"
+    }
+   ]
+  },
+  {
+   "page_id": "499543763233990",
+   "page_name": "دقات للساعات",
+   "classification": "relevant",
+   "reason": "boutique montres dédiée",
+   "seen_under_keywords": [
+    "ساعات رجالية"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-06-02",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "2226358748195572",
+     "start": "2026-06-02",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2226358748195572"
+    }
+   ]
+  },
+  {
+   "page_id": "718183664715677",
+   "page_name": "ركن الساعة",
+   "classification": "relevant",
+   "reason": "boutique montres dédiée",
+   "seen_under_keywords": [
+    "ساعة فاخرة",
+    "رولكس"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-12",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "2270247377138249",
+     "start": "2026-07-12",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2270247377138249"
+    }
+   ]
+  },
+  {
+   "page_id": "648704348638205",
+   "page_name": "المتجر الليبي : libyan store",
+   "classification": "relevant",
+   "reason": "chaîne libyenne montres",
+   "seen_under_keywords": [
+    "ساعة رجالي"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-11",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1771519607340218",
+     "start": "2026-07-11",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1771519607340218"
+    }
+   ]
+  },
+  {
+   "page_id": "745491681990387",
+   "page_name": "Nesma watches",
+   "classification": "relevant",
+   "reason": "boutique montres dédiée",
+   "seen_under_keywords": [
+    "ساعة رجالي"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-01",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "2488543608331988",
+     "start": "2026-07-01",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2488543608331988"
+    }
+   ]
+  },
+  {
+   "page_id": "688545647880499",
+   "page_name": "Luxury accessory",
+   "classification": "relevant",
+   "reason": "montres/accessoires luxe",
+   "seen_under_keywords": [
+    "ساعة مضيئة",
+    "ساعة كوارتز"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-11",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1775621150269410",
+     "start": "2026-07-11",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1775621150269410"
+    }
+   ]
+  },
+  {
+   "page_id": "102609406183502",
+   "page_name": "Polso Regale",
+   "classification": "relevant",
+   "reason": "marque montres online",
+   "seen_under_keywords": [
+    "ساعة مضيئة"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-09",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1566631488348245",
+     "start": "2026-07-09",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1566631488348245"
+    }
+   ]
+  },
+  {
+   "page_id": "374598262408869",
+   "page_name": "ميقات للساعات",
+   "classification": "relevant",
+   "reason": "boutique montres dédiée",
+   "seen_under_keywords": [
+    "ساعة مضيئة",
+    "POEDAGAR"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-08",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1037643952294205",
+     "start": "2026-07-08",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1037643952294205"
+    }
+   ]
+  },
+  {
+   "page_id": "106449728940569",
+   "page_name": "سيلفر للساعات",
+   "classification": "relevant",
+   "reason": "boutique montres (vend POEDAGAR)",
+   "seen_under_keywords": [
+    "POEDAGAR"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-13",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "985558754304713",
+     "start": "2026-07-13",
+     "snapshot": "https://www.facebook.com/ads/library/?id=985558754304713"
+    }
+   ]
+  },
+  {
+   "page_id": "401797113009507",
+   "page_name": "BY Store",
+   "classification": "relevant",
+   "reason": "vend POEDAGAR, 2 ads vues",
+   "seen_under_keywords": [
+    "POEDAGAR"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-11",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1973185260001506",
+     "start": "2026-07-13",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1973185260001506"
+    },
+    {
+     "id": "2306540410109291",
+     "start": "2026-07-11",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2306540410109291"
+    }
+   ]
+  },
+  {
+   "page_id": "517325678141931",
+   "page_name": "Nareez Shopping",
+   "classification": "relevant",
+   "reason": "vend POEDAGAR",
+   "seen_under_keywords": [
+    "POEDAGAR"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-11",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1379707350699725",
+     "start": "2026-07-11",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1379707350699725"
+    }
+   ]
+  },
+  {
+   "page_id": "435105963012818",
+   "page_name": "متجر ميلانو للساعات والنظارات الشمسية",
+   "classification": "relevant",
+   "reason": "montres+lunettes",
+   "seen_under_keywords": [
+    "POEDAGAR"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-10",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "2557487158017127",
+     "start": "2026-07-10",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2557487158017127"
+    }
+   ]
+  },
+  {
+   "page_id": "382975988234442",
+   "page_name": "MN Store",
+   "classification": "relevant",
+   "reason": "vend POEDAGAR/quartz",
+   "seen_under_keywords": [
+    "POEDAGAR",
+    "ساعة كوارتز"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-09",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1436174161679516",
+     "start": "2026-07-09",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1436174161679516"
+    }
+   ]
+  },
+  {
+   "page_id": "439402292600664",
+   "page_name": "AHD Store",
+   "classification": "relevant",
+   "reason": "vend POEDAGAR, 2 ads vues",
+   "seen_under_keywords": [
+    "POEDAGAR"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-06",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1858307995143753",
+     "start": "2026-07-06",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1858307995143753"
+    },
+    {
+     "id": "2153184908584666",
+     "start": "2026-07-06",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2153184908584666"
+    }
+   ]
+  },
+  {
+   "page_id": "100434392531491",
+   "page_name": "LiBo ShOp - متجر ليبو",
+   "classification": "relevant",
+   "reason": "vend POEDAGAR",
+   "seen_under_keywords": [
+    "POEDAGAR"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-03",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1570573287747110",
+     "start": "2026-07-03",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1570573287747110"
+    }
+   ]
+  },
+  {
+   "page_id": "116883961332308",
+   "page_name": "Ziad store",
+   "classification": "relevant",
+   "reason": "vend POEDAGAR",
+   "seen_under_keywords": [
+    "POEDAGAR"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-01",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1160605322955161",
+     "start": "2026-07-01",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1160605322955161"
+    }
+   ]
+  },
+  {
+   "page_id": "105799111300528",
+   "page_name": "مجدولين للساعات",
+   "classification": "relevant",
+   "reason": "boutique montres dédiée",
+   "seen_under_keywords": [
+    "رولكس"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-12",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "2865906840567867",
+     "start": "2026-07-12",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2865906840567867"
+    }
+   ]
+  },
+  {
+   "page_id": "104910272101766",
+   "page_name": "هارون للساعات",
+   "classification": "relevant",
+   "reason": "boutique montres dédiée",
+   "seen_under_keywords": [
+    "رولكس"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-01",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "2103197397299529",
+     "start": "2026-07-01",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2103197397299529"
+    }
+   ]
+  },
+  {
+   "page_id": "111120681690382",
+   "page_name": "الخيّـالـي للساعات والمجوهـرات",
+   "classification": "relevant",
+   "reason": "montres+bijoux, ads depuis 2026-03-10",
+   "seen_under_keywords": [
+    "رولكس"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-03-12",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1342024914784556",
+     "start": "2026-06-30",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1342024914784556"
+    },
+    {
+     "id": "2394839234363781",
+     "start": "2026-03-12",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2394839234363781"
+    }
+   ]
+  },
+  {
+   "page_id": "1230182623503894",
+   "page_name": "U S POLO ASSN. Watches Libya",
+   "classification": "relevant",
+   "reason": "distributeur marque US Polo montres",
+   "seen_under_keywords": [
+    "ساعة اصلية"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-12",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "980659294808732",
+     "start": "2026-07-12",
+     "snapshot": "https://www.facebook.com/ads/library/?id=980659294808732"
+    }
+   ]
+  },
+  {
+   "page_id": "100343501357342",
+   "page_name": "أوس للساعات فرع بن عاشور 2",
+   "classification": "relevant",
+   "reason": "chaîne physique montres (Tripoli)",
+   "seen_under_keywords": [
+    "ساعة اصلية",
+    "CURREN"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-09",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1028738756333280",
+     "start": "2026-07-09",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1028738756333280"
+    },
+    {
+     "id": "1813175860056458",
+     "start": "2026-07-09",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1813175860056458"
+    }
+   ]
+  },
+  {
+   "page_id": "387620854921294",
+   "page_name": "مجوهرات الجعفري للفضة والساعات",
+   "classification": "relevant",
+   "reason": "argent+montres",
+   "seen_under_keywords": [
+    "CURREN"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-13",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1558103315706373",
+     "start": "2026-07-13",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1558103315706373"
+    }
+   ]
+  },
+  {
+   "page_id": "105468985647567",
+   "page_name": "محل ريماس watch",
+   "classification": "relevant",
+   "reason": "boutique montres, 3 ads vues",
+   "seen_under_keywords": [
+    "CURREN"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-12",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1701360991128483",
+     "start": "2026-07-12",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1701360991128483"
+    },
+    {
+     "id": "1376572714353435",
+     "start": "2026-07-12",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1376572714353435"
+    },
+    {
+     "id": "1555961836254490",
+     "start": "2026-07-12",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1555961836254490"
+    }
+   ]
+  },
+  {
+   "page_id": "194478197088585",
+   "page_name": "النّمر للساعات و المجوهرات",
+   "classification": "relevant",
+   "reason": "montres+bijoux",
+   "seen_under_keywords": [
+    "CURREN"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-11",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "2544557429335157",
+     "start": "2026-07-11",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2544557429335157"
+    }
+   ]
+  },
+  {
+   "page_id": "210921672115406",
+   "page_name": "مجموعة تايم - Time Group",
+   "classification": "relevant",
+   "reason": "groupe montres",
+   "seen_under_keywords": [
+    "CURREN"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-10",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "3476994132477459",
+     "start": "2026-07-10",
+     "snapshot": "https://www.facebook.com/ads/library/?id=3476994132477459"
+    }
+   ]
+  },
+  {
+   "page_id": "141890822341499",
+   "page_name": "Golden Time",
+   "classification": "relevant",
+   "reason": "boutique montres",
+   "seen_under_keywords": [
+    "CURREN"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-07",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1428657982433704",
+     "start": "2026-07-07",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1428657982433704"
+    }
+   ]
+  },
+  {
+   "page_id": "351750821684877",
+   "page_name": "الكيلاني للساعات",
+   "classification": "relevant",
+   "reason": "boutique montres, 2 ads vues",
+   "seen_under_keywords": [
+    "CURREN"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-05",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1025378573378733",
+     "start": "2026-07-05",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1025378573378733"
+    },
+    {
+     "id": "1321989333373213",
+     "start": "2026-07-05",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1321989333373213"
+    }
+   ]
+  },
+  {
+   "page_id": "654182724974943",
+   "page_name": "عالم الزمن سيتى مول",
+   "classification": "relevant",
+   "reason": "boutique montres (City Mall)",
+   "seen_under_keywords": [
+    "CURREN"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-06-06",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1709445373426056",
+     "start": "2026-06-06",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1709445373426056"
+    }
+   ]
+  },
+  {
+   "page_id": "108833384374997",
+   "page_name": "Smartwatch Libya",
+   "classification": "relevant",
+   "reason": "niche adjacente smartwatch",
+   "seen_under_keywords": [
+    "ساعة كوارتز"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-06-18",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1510982377192739",
+     "start": "2026-06-18",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1510982377192739"
+    }
+   ]
+  },
+  {
+   "page_id": "224333090771181",
+   "page_name": "Shopping master",
+   "classification": "relevant",
+   "reason": "dropshipper COD — montre de poche Texas Steampunk",
+   "seen_under_keywords": [
+    "ساعة كوارتز"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-06-15",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1164243122530310",
+     "start": "2026-06-15",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1164243122530310"
+    }
+   ]
+  },
+  {
+   "page_id": "103200482555452",
+   "page_name": "YilĐiz",
+   "classification": "uncertain",
+   "reason": "page mode/générale, ads matchent kw montres",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "107517552421251",
+   "page_name": "فايف ستار",
+   "classification": "uncertain",
+   "reason": "store généraliste, ads montres probables (3 kw hits)",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "619602694573020",
+   "page_name": "ORZO - أورزو",
+   "classification": "uncertain",
+   "reason": "store généraliste",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "302028612995686",
+   "page_name": "Zero Store",
+   "classification": "uncertain",
+   "reason": "store généraliste",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "101052666282708",
+   "page_name": "NF.Store",
+   "classification": "uncertain",
+   "reason": "store généraliste (hits: ساعة رجالية, كوارتز, CURREN)",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "631102053419810",
+   "page_name": "متجر الاناقة Store style",
+   "classification": "uncertain",
+   "reason": "store généraliste",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "1022836814239076",
+   "page_name": "متجر الفخامة",
+   "classification": "uncertain",
+   "reason": "store généraliste (hits multiples kw montres)",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "101977427991901",
+   "page_name": "Hashem Group",
+   "classification": "uncertain",
+   "reason": "devise MYR, cible LY, produit incertain",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "438708795992057",
+   "page_name": "ماركت أونلاين - Market Online",
+   "classification": "uncertain",
+   "reason": "store généraliste",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "597707626764195",
+   "page_name": "متجر عبدو",
+   "classification": "uncertain",
+   "reason": "store généraliste",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "104434625951531",
+   "page_name": "متجر العتيق",
+   "classification": "uncertain",
+   "reason": "store généraliste",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "278733791995473",
+   "page_name": "STYLI",
+   "classification": "uncertain",
+   "reason": "store mode",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "164094053447959",
+   "page_name": "Royal Perfume",
+   "classification": "uncertain",
+   "reason": "parfums, possibles coffrets montre+parfum",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "253603281489734",
+   "page_name": "متجر بريرا - brera store",
+   "classification": "uncertain",
+   "reason": "store généraliste",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "505041852699755",
+   "page_name": "أفاق-afaq",
+   "classification": "uncertain",
+   "reason": "store généraliste",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "1192863353908770",
+   "page_name": "Maison Alhambra Libya",
+   "classification": "uncertain",
+   "reason": "parfums, hit kw ساعات رجالية",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "914295115091121",
+   "page_name": "LUIS BIEN- Libya",
+   "classification": "uncertain",
+   "reason": "marque turque accessoires, 2 ads",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "101732412802208",
+   "page_name": "متجر سندباد",
+   "classification": "uncertain",
+   "reason": "store généraliste",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "124887997381482",
+   "page_name": "متجر Nosa",
+   "classification": "uncertain",
+   "reason": "store généraliste",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "436140212925312",
+   "page_name": "مجوهراتي",
+   "classification": "uncertain",
+   "reason": "bijoux",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "1101077646418720",
+   "page_name": "متجر تيك ترند Tick Trend للمجوهرات والساعات",
+   "classification": "uncertain",
+   "reason": "bijoux+montres (nom l'indique) — probable relevant",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "900158609848590",
+   "page_name": "Deal shop",
+   "classification": "uncertain",
+   "reason": "store généraliste",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "971422509384590",
+   "page_name": "LY SHOP",
+   "classification": "uncertain",
+   "reason": "store généraliste",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "109605557115663",
+   "page_name": "Zona store",
+   "classification": "uncertain",
+   "reason": "store généraliste",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "429652400212829",
+   "page_name": "OIA Store",
+   "classification": "uncertain",
+   "reason": "store généraliste",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "184750181379368",
+   "page_name": "La Porta Di Roma - Online Boutique",
+   "classification": "uncertain",
+   "reason": "boutique mode/luxe",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "684828511387187",
+   "page_name": "Luxury & co",
+   "classification": "uncertain",
+   "reason": "boutique luxe",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "112693774982192",
+   "page_name": "Nasser store",
+   "classification": "uncertain",
+   "reason": "store généraliste",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "1230401115813413",
+   "page_name": "المتألق للتجارة الإلكترونية",
+   "classification": "uncertain",
+   "reason": "e-commerce généraliste",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "138680422660306",
+   "page_name": "Wadaa store Us/Uk",
+   "classification": "uncertain",
+   "reason": "achat/importation US-UK",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "384069048116135",
+   "page_name": "Special Piece",
+   "classification": "uncertain",
+   "reason": "store généraliste (3 ads)",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "114165921580640",
+   "page_name": "Diamond core - دايموند كور",
+   "classification": "uncertain",
+   "reason": "accessoires",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "104033435523674",
+   "page_name": "Revan Online Store",
+   "classification": "uncertain",
+   "reason": "store généraliste",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "101099201445626",
+   "page_name": "البرج للتكنولوجيا",
+   "classification": "uncertain",
+   "reason": "tech",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "101358426346740",
+   "page_name": "Boudaka",
+   "classification": "uncertain",
+   "reason": "store généraliste",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "354254637765295",
+   "page_name": "diamannt rose -online boutique",
+   "classification": "uncertain",
+   "reason": "boutique cadeaux",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "100136618262514",
+   "page_name": "مجوهرات البلعزي - فرع بنغازي",
+   "classification": "uncertain",
+   "reason": "bijouterie",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "1783374078597203",
+   "page_name": "مجوهرات البلعزي",
+   "classification": "uncertain",
+   "reason": "bijouterie",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "1154215861112428",
+   "page_name": "Viet 11",
+   "classification": "off-topic",
+   "reason": "ferme drama/apps",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "102733775124676",
+   "page_name": "Gorgeous",
+   "classification": "off-topic",
+   "reason": "app jeux/drama",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "771544516032575",
+   "page_name": "Daftar buku novel romantis",
+   "classification": "off-topic",
+   "reason": "ferme de romans (pollution massive)",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "359325191255296",
+   "page_name": "Holidayce",
+   "classification": "off-topic",
+   "reason": "voyages",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "290590464135438",
+   "page_name": "Sera Travel Company",
+   "classification": "off-topic",
+   "reason": "voyages",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "103770982217953",
+   "page_name": "شركة ديار الخير لخدمات الحج والعمره",
+   "classification": "off-topic",
+   "reason": "hajj/omra",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "998536823345570",
+   "page_name": "عالم النضارة",
+   "classification": "off-topic",
+   "reason": "lunetterie",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "108601158768557",
+   "page_name": "D shop",
+   "classification": "off-topic",
+   "reason": "parfums",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "1048369291691849",
+   "page_name": "شاهد في أي وقت",
+   "classification": "off-topic",
+   "reason": "ferme drama",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "965344683338978",
+   "page_name": "دراما تأسر القلوب",
+   "classification": "off-topic",
+   "reason": "ferme drama",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "1059968463862122",
+   "page_name": "تجربة مشاهدة سريعة",
+   "classification": "off-topic",
+   "reason": "ferme drama",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "1097665513431812",
+   "page_name": "حلقات جديدة يوميًا",
+   "classification": "off-topic",
+   "reason": "ferme drama",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "1085643017959101",
+   "page_name": "دراما قصيرة وممتعة",
+   "classification": "off-topic",
+   "reason": "ferme drama",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "986387087902143",
+   "page_name": "Flora Cosmetics Dz",
+   "classification": "off-topic",
+   "reason": "cosmétique DZ",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "155077031022363",
+   "page_name": "أحذية فينيسيا 2 فرع بنغازي",
+   "classification": "off-topic",
+   "reason": "chaussures",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "985656481299863",
+   "page_name": "مجموعة الأسطورة للفرمونات",
+   "classification": "off-topic",
+   "reason": "parfums phéromones",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "107149725566946",
+   "page_name": "Servicio de transporte particular",
+   "classification": "off-topic",
+   "reason": "transport",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "190687470805585",
+   "page_name": "شركة براند ليبيا للآثاث",
+   "classification": "off-topic",
+   "reason": "meubles",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "1073146722557318",
+   "page_name": "القراءة المجانية",
+   "classification": "off-topic",
+   "reason": "ferme de romans",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "101795953010706",
+   "page_name": "Produits Tendance",
+   "classification": "off-topic",
+   "reason": "COD généraliste FR (gadgets)",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "744053238798373",
+   "page_name": "Olivia Parker",
+   "classification": "off-topic",
+   "reason": "ferme drama FR",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "1090968414107176",
+   "page_name": "Romances du Moment",
+   "classification": "off-topic",
+   "reason": "ferme romans FR",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "108591378100444",
+   "page_name": "مجموعة البريق - Bariq Group",
+   "classification": "relevant",
+   "reason": "vend NAVIFORCE (audit spot-check)",
+   "seen_under_keywords": [
+    "NAVIFORCE"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-13",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1800927147556676",
+     "start": "2026-07-13",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1800927147556676"
+    }
+   ]
+  },
+  {
+   "page_id": "271741196013305",
+   "page_name": "ALSaheen Group - مجموعة الشاهين",
+   "classification": "relevant",
+   "reason": "vend NAVIFORCE (audit)",
+   "seen_under_keywords": [
+    "NAVIFORCE"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-12",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1046281677924013",
+     "start": "2026-07-12",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1046281677924013"
+    }
+   ]
+  },
+  {
+   "page_id": "116488818046306",
+   "page_name": "ريماس للساعات الحدائق",
+   "classification": "relevant",
+   "reason": "réseau ريماس — montres (audit)",
+   "seen_under_keywords": [
+    "NAVIFORCE"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-12",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1640195567532062",
+     "start": "2026-07-12",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1640195567532062"
+    },
+    {
+     "id": "4520162164925870",
+     "start": "2026-07-12",
+     "snapshot": "https://www.facebook.com/ads/library/?id=4520162164925870"
+    }
+   ]
+  },
+  {
+   "page_id": "113331418396033",
+   "page_name": "ريماس للساعات VIP",
+   "classification": "relevant",
+   "reason": "réseau ريماس — montres (audit)",
+   "seen_under_keywords": [
+    "NAVIFORCE"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-12",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1073020511743777",
+     "start": "2026-07-12",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1073020511743777"
+    },
+    {
+     "id": "1491156219711489",
+     "start": "2026-07-12",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1491156219711489"
+    }
+   ]
+  },
+  {
+   "page_id": "329529145102214",
+   "page_name": "ريماس watch",
+   "classification": "relevant",
+   "reason": "réseau ريماس — montres (audit)",
+   "seen_under_keywords": [
+    "NAVIFORCE"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-12",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "2561449517644417",
+     "start": "2026-07-12",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2561449517644417"
+    }
+   ]
+  },
+  {
+   "page_id": "110169387560259",
+   "page_name": "ريماس للساعات",
+   "classification": "relevant",
+   "reason": "réseau ريماس — montres (audit)",
+   "seen_under_keywords": [
+    "NAVIFORCE"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-12",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1535058545025758",
+     "start": "2026-07-12",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1535058545025758"
+    }
+   ]
+  }
+ ],
+ "notes": "Marché montres homme Libye = FORTEMENT CONCURRENTIEL. 44 pages pertinentes (dont ~20 boutiques 100% montres avec succursales physiques: أوس، المتجر الليبي، الماجري، US Polo Watches Libya). Le segment exact du produit (POEDAGAR-class business watch) compte à lui seul 36 ads actives et ~12 vendeurs. Un méga-acteur COD étranger (ليبيا إكسبريس, 179 ads actives, EUR) domine l'angle 'montre + coffret cadeau'. Historique 867 ads sur 'ساعة رجالية'. Pollution notée et exclue: fermes de romans/dramas (AR/FR), services égyptiens de rachat de montres de luxe (EGP). AUDIT 2026-07-13: spot-check NAVIFORCE (12 ads) a ajouté 6 pages relevant (réseau ريماس multi-pages) → 50 relevant au total; la saturation est si dense que chaque sonde supplémentaire trouve encore de nouveaux vendeurs.",
+ "status": "ok"
+}

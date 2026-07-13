@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "generated": "2026-07-13",
+    "agent": "Pricing & Margin Analyst (inline)",
+    "integrity_note": "Chiffres avec source URL ou explicitement marqués 'estimate'. Alibaba/Facebook et la plupart des sites libyens sont bloqués en fetch direct (403) — données via snippets WebSearch. Les sections shipping/customs/COD réutilisent la recherche vérifiée du 2026-07-08 (libya-market-analysis/data/pricing_research.json) — toujours valide à 5 jours d'écart."
+  },
+  "exchange_rates": {
+    "official": {
+      "rate": 6.40,
+      "currency_pair": "USD/LYD",
+      "date": "2026-07-08",
+      "source": "https://www.misknews.com/2026/07/dollar-prices.html (achat 6.38 / vente 6.42, CBL) ; cohérent avec https://cbl.gov.ly/currency-exchange-rates/"
+    },
+    "parallel": {
+      "rate": 8.4,
+      "range": "8.26–8.52",
+      "currency_pair": "USD/LYD",
+      "date": "2026-07-08 (dernier point daté disponible)",
+      "sources": [
+        "https://www.misknews.com/2026/07/dollar-prices.html (~8.26 le 8 juillet 2026)",
+        "https://www.libyaakhbar.com/business-news/2830787.html (8.52 Tripoli le 8 juillet 2026 — bulletin parallèle quotidien)"
+      ],
+      "note": "Deux bulletins du même jour donnent 8.26 et 8.52 ; on retient 8.4 comme milieu de fourchette. Le cash COD encaissé en LYD se convertit au taux PARALLÈLE (prime ~30% sur l'officiel)."
+    }
+  },
+  "product_prices_lyd": {
+    "P01_mens_business_watch": {
+      "findings": [
+        {
+          "price_lyd": 180,
+          "what": "Montres homme (dont copies Rolex) sur ly.opensooq.com — annonces à partir de ~180 د.ل",
+          "source": "https://ly.opensooq.com/ar/search/276476121 (via snippet WebSearch)"
+        },
+        {
+          "price_lyd": 195,
+          "what": "Smartwatch HK95 (niche adjacente) vendue 195 د.ل par un e-commerçant libyen",
+          "source": "https://www.oukitellibya.com/product/hk95/"
+        },
+        {
+          "price_lyd": null,
+          "what": "MHS-11 (boutique en ligne arabe) liste la POEDAGAR 'ساعة رجالية عصرية فاخرة مقاومة للماء مضيئة' — prix non visible dans le snippet",
+          "source": "https://mhs-11.com/poedagar-ساعة-رجالية/p516668106"
+        },
+        {
+          "price_lyd": null,
+          "what": "Reel Instagram 'ساعة POEDAGAR 958 الأصلية — 28 ألف دينار' : très probablement dinar IRAKIEN (28 000 IQD ≈ 21 USD), inutilisable pour la Libye — écarté",
+          "source": "https://www.instagram.com/reel/DHjlzRNom_m/"
+        }
+      ],
+      "estimated_cod_price_band_lyd": "95–160 د.ل pour une POEDAGAR-class simple ; 150–250 د.ل en bundle (montre+bracelet+coffret) — ESTIMATE calé sur les prix observés (à partir de 180 د.ل en 'اصلية' informel) et sur les angles bundle des concurrents (ليبيا إكسبريس, Wejha Market)"
+    }
+  },
+  "unit_economics_estimate": {
+    "assumption_price_lyd": 149,
+    "assumption_bundle": "montre + bracelet cadeau + coffret",
+    "cogs_usd": "4.0–6.0 (montre 3.5–4.5 + bracelet 0.3 + coffret 0.7–1.0) — catégorie Alibaba, MOQ 50+",
+    "air_freight_usd_per_unit": "1.9–3.8 (0.25 kg emballé × 7.5–15 USD/kg porte-à-porte Chine→Libye, 10–14 j)",
+    "landed_cost_usd": "6–10 (pile bouton lithium: surcharge batterie possible sur ligne aérienne)",
+    "revenue_delivered_usd_at_parallel": "149 LYD ÷ 8.4 ≈ 17.7 USD",
+    "fulfillment_lyd": "10–20 د.ل/commande livrée (Shipeh: livraison + part des retours) — ESTIMATE, grille Shipeh non publique",
+    "cod_delivery_rate_pct": "60–70 (MENA COD standard ; refus +15-30% vs prépayé — source section cod_return_rates)",
+    "ad_cost_per_delivered_usd": "5–9 — ESTIMATE: CPA lead COD 3–6 USD dans une niche disputée, ÷ taux de livraison 65%",
+    "net_margin_per_delivered_usd": "≈ 17.7 − (6–10) − (1.2–2.4) − (5–9) = −3.7 à +5.5 USD",
+    "verdict": "Marges FINES et très sensibles au CPA. À 149 د.ل le breakeven exige un CPA livré ≤ 8 USD ; les acteurs installés (179 ads actives chez le leader) rendent ce CPA difficile pour un entrant sans angle différencié. Bundle à 179–199 د.ل obligatoire pour respirer."
+  },
+  "shipping": {
+    "reused_from": "libya-market-analysis/data/pricing_research.json (2026-07-08)",
+    "china_to_libya_air_door_to_door_usd_per_kg": {"low": 7.5, "high": 15, "transit_days": "10-14", "source": "https://www.dantful.com/how-much-is-shipping-from-china-to-libya/"},
+    "china_to_libya_sea_lcl_usd_per_cbm": {"low": 50, "high": 150, "transit_days": "30-40", "sources": ["https://hongocean.com/shipping-from-china-to-libya/", "https://goodhopefreight.com/freight/shipping-rates-from-china-to-libya.html (Misrata 603 LYD/CBM avril 2026)"]},
+    "battery_caveat": "La montre quartz contient une pile bouton (lithium) : restrictions/surcharges possibles en fret aérien — ligne batterie ou mer recommandées pour les gros volumes."
+  },
+  "customs": {
+    "reused_from": "libya-market-analysis/data/pricing_research.json (2026-07-08)",
+    "structure": "Pas de droits de douane classiques depuis 2005 : 4% Port Services Tax sur CIF ; nouvelle taxe d'importation 2026 : biens de consommation ~12%, électronique/luxe 30–35% (contestée politiquement, à confirmer au niveau code SH pour les montres)",
+    "sources": ["https://deepbeez.com/import-duty/libya-customs-tariff", "https://libyaobserver.ly/economy/cbl-moves-implement-import-tax-law-dollar-passes-10-dinars"]
+  },
+  "cod_return_rates": {
+    "reused_from": "libya-market-analysis/data/pricing_research.json (2026-07-08)",
+    "mena_cod_refusal_benchmark": "COD ≈ 80% des commandes MENA ; taux de refus/retour 20–30% typique ; provider par défaut: Shipeh",
+    "source": "https://selligate.com/top-10-e-commerce (via recherche du 2026-07-08)"
+  }
+}

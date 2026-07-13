@@ -1,7 +1,7 @@
 ---
 name: client-outreach
 description: >
-  Cycle hebdomadaire automatisé d'acquisition de clients pour le service e-commerce COD/MENA de
+  Cycle QUOTIDIEN automatisé (tous les jours 08:00 heure Maroc) d'acquisition de clients pour le service e-commerce COD/MENA de
   Khalid : chasse aux opportunités (Mostaql, Bahr, Freelancer, LinkedIn jobs, job boards), extraction
   des contacts business publiés publiquement, rédaction d'emails personnalisés AR/FR/EN, envoi
   automatique via Gmail (fallback : brouillons), surveillance des réponses et alerte email à Khalid.
@@ -31,7 +31,8 @@ L'utilisateur ne doit RIEN avoir à expliquer — tout son contexte est ici.
 
 ## Configuration choisie par Khalid (2026-07-13)
 - **Envoi : 100% automatique** (voir « Envoi » ci-dessous, avec garde-fous).
-- **Cadence : hebdomadaire** (Routine déjà créée — voir « Routine »).
+- **Cadence : QUOTIDIENNE — tous les jours à 08:00 heure Maroc (07:00 UTC)**, rapport envoyé
+  dans l'email de Khalid après CHAQUE cycle (Routine déjà créée — voir « Routine »).
 - **Modèle : adapté par opportunité** (§ Rédaction).
 - **Canal : emails uniquement** (pas de posts LinkedIn ni de textes à coller, sauf en annexe informative).
 - Email de Khalid pour les alertes : l'adresse Gmail connectée à la session (kalidtalha667kt319910@gmail.com).
@@ -41,7 +42,8 @@ L'utilisateur ne doit RIEN avoir à expliquer — tout son contexte est ici.
    contactée** (email affiché sur une offre d'emploi, un site d'entreprise page contact, un profil
    public professionnel). JAMAIS de harvesting, jamais d'emails devinés (prenom@entreprise), jamais
    d'emails extraits de bases de données tierces.
-2. **Maximum 15 nouveaux emails par cycle** et **1 seule relance** par prospect (à J+7, puis stop).
+2. **Maximum 10 nouveaux emails par cycle quotidien** (protège la réputation Gmail de Khalid ;
+   ~60-70/semaine max) et **1 seule relance** par prospect (à J+7, puis stop).
 3. **Dédup permanente** : ne jamais recontacter quelqu'un présent dans `outreach/state/contacted.json`.
 4. Toute réponse négative (« pas intéressé », « stop ») → statut `optout` définitif dans l'état.
 5. Chaque email : identité réelle de Khalid, aucune promesse chiffrée de gains, proposition honnête,
@@ -114,11 +116,14 @@ Sauver dans `state/cycle_NN/rapport.md`, committer et pousser tout l'état.
 5. Agent 6 (rapport + email à Khalid + commit/push).
 Si une limite de session coupe le cycle : l'état sur disque permet de reprendre — ne jamais repartir de zéro ni ré-envoyer.
 
-## Routine hebdomadaire
-Une Routine (trigger cron) doit exister : chaque **lundi 08:00 UTC**, nouvelle session fraîche avec le
-prompt : « Utilise le skill client-outreach et exécute un cycle complet de prospection hebdomadaire. »
+## Routine quotidienne
+Une Routine (trigger cron) doit exister : **tous les jours à 07:00 UTC (= 08:00 heure Maroc)**,
+nouvelle session fraîche avec le prompt : « Utilise le skill client-outreach et exécute un cycle
+complet de prospection quotidien, puis envoie le rapport par email à Khalid. »
 Vérifier avec `list_triggers` qu'elle existe ; la créer avec `create_trigger`
-(cron `0 8 * * 1`, create_new_session_on_fire=true, notifications push+email) si absente.
+(cron `0 7 * * *`, create_new_session_on_fire=true, notifications push+email) si absente.
+**Le rapport par email à Khalid en fin de cycle est OBLIGATOIRE, même si le cycle n'a rien trouvé**
+(« aucune nouvelle opportunité aujourd'hui » est un rapport valide).
 
 ## Honnêteté envers Khalid (dans chaque rapport)
 - Les plateformes login-walled (Upwork, LinkedIn DM) ne sont pas automatisables → le rapport liste ces

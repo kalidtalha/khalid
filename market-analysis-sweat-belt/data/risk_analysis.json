@@ -1,0 +1,14 @@
+{
+  "P01": {
+    "risks": [
+      {"risk": "Police publicitaire Meta sur la perte de poids : claims 'avant/après', attributs personnels (كرشك) et promesses sensationnelles → rejets d'ads voire restriction du compte publicitaire", "dimension": "marketing", "severity": 4, "probability": 4, "score": 16, "mitigation": "Créatives 'performance sportive/sudation' plutôt que 'maigrir' ; pas d'avant/après corporels ; angle confort gym ; comptes/BM de secours"},
+      {"risk": "Décalage promesse/réalité (la sudation ≠ perte de graisse) → déception, refus COD au-dessus de la moyenne, bouche-à-oreille négatif", "dimension": "product", "severity": 4, "probability": 3, "score": 12, "mitigation": "Positionner comme accessoire d'entraînement (support lombaire + sudation), pas comme solution miracle ; script de confirmation téléphonique honnête"},
+      {"risk": "Barrière d'entrée quasi nulle : produit à 1.5$, si le test réussit les copies arrivent en 2–4 semaines (le réseau Titanium et les généralistes COD peuvent suivre immédiatement)", "dimension": "saturation", "severity": 3, "probability": 4, "score": 12, "mitigation": "Vitesse d'exécution, page/vidéos de marque, verrouiller un bundle et une taille d'offre difficile à copier, construire l'audience retargeting tôt"},
+      {"risk": "Adjacence toxique : la niche مشد féminine est saturée (QAVA 40 ads, Liposta 77, Libya market 113) — si le ciblage dérive vers l'angle femme/gaine on retombe dans un mur concurrentiel", "dimension": "pricing", "severity": 3, "probability": 3, "score": 9, "mitigation": "Rester sur l'angle sport/homme «الكرش» ; ne pas acheter les kw مشد"},
+      {"risk": "Refus COD 20–30%+ (produit non essentiel, promesse)", "dimension": "operations", "severity": 3, "probability": 4, "score": 12, "mitigation": "Confirmation téléphonique, taille unique ajustable (moins d'erreurs de taille), exclusion zones faibles"},
+      {"risk": "Tailles/qualité : néoprène bas de gamme qui pue ou se déchire → retours ; grande taille (3XL) souvent demandée au Maghreb", "dimension": "product", "severity": 2, "probability": 3, "score": 6, "mitigation": "Échantillons, choisir la version 10–12 cm large zip + velcro, stock 30% grandes tailles"},
+      {"risk": "FX dinar volatil (10.5 → 8.4 en 5 mois)", "dimension": "fx", "severity": 3, "probability": 3, "score": 9, "mitigation": "Rotation <30 j, conversion hebdomadaire"},
+      {"risk": "Saisonnalité: chaleur estivale libyenne peut freiner le port du néoprène en extérieur (pic naturel: rentrée gym sept–nov, pré-été mars–mai)", "dimension": "demand", "severity": 2, "probability": 3, "score": 6, "mitigation": "Timer le scale sur sept. ; en été, angle 'résultats plus rapides pendant la chaleur' testé prudemment"}
+    ]
+  }
+}

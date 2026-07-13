@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "num": 1,
+      "ref": "ALI1",
+      "name_from_list": "Neoprene Gym Fitness Weight Loss Sweat (Alibaba 1600373882829)",
+      "identified_name": "Ceinture de sudation néoprène (sweat waist trimmer belt) — sport/fitness/perte de poids",
+      "what_it_is": "حزام تخسيس/تعرّق نيوبرين يُلبس على البطن أثناء الرياضة لزيادة التعرق الموضعي. Unisexe (fort angle homme «كرش» + angle femme post-partum/rétention). Réglable velcro, tailles M-3XL. Catégorie identique aux 'Sweat Slim Belt' vendus partout en COD MENA.",
+      "verified_price_usd": null,
+      "category_price_estimate_usd": "0.8–2.5 USD/unité en gros (MOQ 2–100) — fourchette catégorie waist trimmer néoprène Alibaba",
+      "moq": "2–100 pièces selon fournisseur (catégorie) — MOQ exact du listing non vérifiable (Alibaba 403)",
+      "weight_size": "≈ 150–250 g ; plat, compressible — colis très léger, idéal fret aérien",
+      "battery_or_liquid": false,
+      "supplier": "Non vérifiable (Alibaba 403). Catégorie dominée par les fabricants néoprène de Dongguan/Yiwu",
+      "identification_confidence": "high",
+      "sources": [
+        "https://www.alibaba.com/showroom/workout-neoprene-waist-trimmer.html",
+        "https://www.alibaba.com/showroom/sweat-neoprene-waist-belt.html",
+        "https://www.alibaba.com/showroom/sweat-slim-belt.html"
+      ],
+      "notes": "Le listing exact 1600373882829 est inaccessible (403 egress). L'identification catégorielle est à HAUTE confiance : le slug «Neoprene Gym Fitness Weight Loss Sweat» ne correspond qu'à un seul type de produit (ceinture de sudation). Pas de batterie ni liquide → aucun frein logistique. Niche adjacente مشد (gaine femme) déjà cartographiée le 2026-07-08 (libya-market-analysis hunt_P02) : QAVA 40 ads, Liposta 77, Libya market 113 — mais les mots-clés «حزام» y étaient quasi vides.",
+      "status": "ok"
+    }
+  ]
+}

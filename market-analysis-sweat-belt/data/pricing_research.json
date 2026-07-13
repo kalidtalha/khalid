@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "generated": "2026-07-13",
+    "agent": "Pricing & Margin Analyst (inline)",
+    "integrity_note": "Chiffres avec source URL ou marqués 'estimate'. FX/shipping/customs/COD réutilisés de la recherche vérifiée du 2026-07-08 + refresh FX du 2026-07-13 (misknews 8.26 / libyaakhbar 8.52, milieu 8.4)."
+  },
+  "exchange_rates": {
+    "official": {"rate": 6.40, "currency_pair": "USD/LYD", "date": "2026-07-08", "source": "https://www.misknews.com/2026/07/dollar-prices.html + https://cbl.gov.ly/currency-exchange-rates/"},
+    "parallel": {"rate": 8.4, "range": "8.26–8.52", "currency_pair": "USD/LYD", "date": "2026-07-08",
+      "sources": ["https://www.misknews.com/2026/07/dollar-prices.html", "https://www.libyaakhbar.com/business-news/2830787.html"],
+      "note": "Cash COD LYD → USD au taux parallèle."}
+  },
+  "product_prices_lyd": {
+    "P01_neoprene_sweat_belt": {
+      "findings": [
+        {"price_lyd": null, "what": "Aucun prix LYD public trouvé pour حزام التخسيس en Libye (recherche dédiée) — cohérent avec l'absence quasi totale d'annonceurs sur le produit", "source": "WebSearch 2026-07-13 (requête حزام التخسيس سعر ليبيا دينار)"},
+        {"price_lyd": null, "what": "Comps régionaux: ceintures néoprène thermales vendues ~30–80 SAR (≈8–21 USD) en Arabie Saoudite (noon, fstyle-sa, h-medical) et versions Vibro Shape électriques plus cher", "source": "https://www.noon.com/saudi-ar/slimming-abdominal-thermal-belt-l/N34153107A/p/ ; https://fstyle-sa.com/ar/مشد-البطن/p1706114263 ; https://h-medical.sa/XevwVVV"},
+        {"price_lyd": 51, "what": "Ancre bas de gamme locale: SHEIN مشد بطن à 51 د.ل sur meam.ly (étude 2026-07-08) — plancher psychologique du segment مشد", "source": "https://meam.ly/products/shein-ملابس-داخلية-لتحديد-الجسم-مشد-بطن (via étude 2026-07-08)"}
+      ],
+      "estimated_cod_price_band_lyd": "79–129 د.ل la ceinture seule ; 129–169 د.ل en bundle (ceinture + corde à sauter/gourde shaker) — ESTIMATE calé sur comps régionaux et pouvoir d'achat COD libyen"
+    }
+  },
+  "unit_economics_estimate": {
+    "assumption_price_lyd": 119,
+    "assumption_bundle": "ceinture néoprène seule (offre 2 tailles) ; upsell bundle 159 د.ل",
+    "cogs_usd": "1.2–2.0 (catégorie waist trimmer néoprène Alibaba, MOQ 50–100)",
+    "air_freight_usd_per_unit": "1.5–3.0 (0.2 kg emballé × 7.5–15 USD/kg porte-à-porte)",
+    "landed_cost_usd": "2.7–5.0 (pas de batterie/liquide — aucune surcharge)",
+    "revenue_delivered_usd_at_parallel": "119 LYD ÷ 8.4 ≈ 14.2 USD",
+    "fulfillment_lyd": "10–20 د.ل/commande livrée (Shipeh) — ESTIMATE",
+    "cod_delivery_rate_pct": "60–70 (standard MENA)",
+    "ad_cost_per_delivered_usd": "4–7 — ESTIMATE: mots-clés cœur sans concurrence → CPM/CPA détendus ; malus modéré pour les restrictions Meta sur les claims perte de poids",
+    "net_margin_per_delivered_usd": "≈ 14.2 − (2.7–5.0) − (1.2–2.4) − (4–7) = −0.2 à +6.3 USD ; à 159 د.ل bundle: +2 à +9 USD",
+    "verdict": "Économie NETTEMENT meilleure que les montres: coût landing 3× plus bas, zéro enchère concurrente directe sur les kw cœur. Breakeven CPA livré ≈ 9–10 USD à 119 د.ل — large. Le risque n'est pas la marge mais le taux de refus COD (produit promesse) et la police pub Meta."
+  },
+  "shipping": {
+    "reused_from": "libya-market-analysis/data/pricing_research.json (2026-07-08)",
+    "china_to_libya_air_door_to_door_usd_per_kg": {"low": 7.5, "high": 15, "transit_days": "10-14", "source": "https://www.dantful.com/how-much-is-shipping-from-china-to-libya/"},
+    "china_to_libya_sea_lcl_usd_per_cbm": {"low": 50, "high": 150, "transit_days": "30-40", "sources": ["https://hongocean.com/shipping-from-china-to-libya/", "https://goodhopefreight.com/freight/shipping-rates-from-china-to-libya.html"]},
+    "note": "Produit plat compressible sans batterie: 100 unités ≈ 20 kg ≈ 150–300 USD par air — test lot très bon marché."
+  },
+  "customs": {
+    "reused_from": "libya-market-analysis/data/pricing_research.json (2026-07-08)",
+    "structure": "4% Port Services Tax sur CIF ; nouvelle taxe d'importation 2026 biens de consommation ~12% (à confirmer code SH textile/sport)",
+    "sources": ["https://deepbeez.com/import-duty/libya-customs-tariff", "https://libyaobserver.ly/economy/cbl-moves-implement-import-tax-law-dollar-passes-10-dinars"]
+  },
+  "cod_return_rates": {
+    "reused_from": "libya-market-analysis/data/pricing_research.json (2026-07-08)",
+    "mena_cod_refusal_benchmark": "COD ≈ 80% des commandes MENA ; refus/retour 20–30% typique — probablement au-dessus de la moyenne pour un produit 'promesse minceur'",
+    "source": "https://selligate.com/top-10-e-commerce (via recherche 2026-07-08)"
+  }
+}

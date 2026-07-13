@@ -1,0 +1,1233 @@
+{
+ "product": "P01",
+ "product_key": "P1_neoprene_sweat_belt",
+ "hunter": "orchestrator-inline",
+ "searches": [
+  {
+   "kw": "حزام التخسيس",
+   "tier": 1,
+   "count": 0,
+   "new_pages": 0,
+   "note": "ZÉRO ad active — kw cœur du produit vide"
+  },
+  {
+   "kw": "حزام حراري",
+   "tier": 1,
+   "count": 2,
+   "new_pages": 1,
+   "note": "Sports Wear libya: ad active ≈253 j"
+  },
+  {
+   "kw": "مشد رياضي",
+   "tier": 1,
+   "count": 3,
+   "new_pages": 2
+  },
+  {
+   "kw": "حزام البطن",
+   "tier": 1,
+   "count": 32,
+   "new_pages": 5,
+   "note": "mixte: Titanium (équip. sport), post-partum, dos"
+  },
+  {
+   "kw": "حزام التعرق",
+   "tier": 1,
+   "count": 12,
+   "new_pages": 1,
+   "note": "pollution boutique montres (texte ضد الماء)"
+  },
+  {
+   "kw": "مشد حراري",
+   "tier": 1,
+   "count": 2,
+   "new_pages": 2,
+   "note": "XD Sport: ad active ≈158 j"
+  },
+  {
+   "kw": "حزام ساونا",
+   "tier": 1,
+   "count": 0,
+   "new_pages": 0
+  },
+  {
+   "kw": "شد الكرش",
+   "tier": 2,
+   "count": 28,
+   "new_pages": 0,
+   "note": "pages 'solution ventre' EGP longue durée (455j/274j/228j/218j) — demande prouvée, produits probablement compléments/crèmes"
+  },
+  {
+   "kw": "الكرش",
+   "tier": 2,
+   "count": 244,
+   "new_pages": 0,
+   "note": "large + pollution; confirme les vendeurs minceur"
+  },
+  {
+   "kw": "waist trimmer",
+   "tier": 2,
+   "count": 5,
+   "new_pages": 1,
+   "note": "Ancienflow (sauna vest) + ads catalogue Alibaba.com contenant le TITRE EXACT du produit"
+  },
+  {
+   "kw": "sweat belt",
+   "tier": 2,
+   "count": 158,
+   "new_pages": 0,
+   "note": "100% pollution fermes drama/romans EN"
+  },
+  {
+   "kw": "حزام تنحيف (ALL historique)",
+   "tier": 1,
+   "count": 2,
+   "new_pages": 0,
+   "note": "2 ads DE TOUT TEMPS — espace kw ceinture historiquement vierge"
+  },
+  {
+   "kw": "حزام رياضي",
+   "tier": 1,
+   "count": 7,
+   "new_pages": 0,
+   "note": "audit spot-check — toutes pages déjà connues (Titanium, المعتمد) → sweep confirmé complet"
+  }
+ ],
+ "sweep_end_reason": "exhausted",
+ "sweep_end_note": "Mots-clés cœur épuisés (12 recherches + baseline مشد* réutilisée de l'étude 2026-07-08: مشد=176, مشد البطن=82, مشد بعد الولادة=285, QAVA 40 ads / Liposta 77 / Libya market 113). Les 5 derniers kw n'ont produit aucune nouvelle page pertinente.",
+ "profiling_capped": false,
+ "profiling_note": "7 pages profilées par page_ids (listes tronquées aux 10 plus récentes; totaux exacts API). Baseline niche مشد féminine reprise de libya-market-analysis/data/hunt_P02.json (2026-07-08).",
+ "competitors": [
+  {
+   "page_id": "830488536819776",
+   "page_name": "Soprts Wear libya",
+   "classification": "relevant",
+   "reason": "Boutique sport LY — ad ceinture/حزام حراري active depuis 2025-11-02 (≈253 j) = signal de rentabilité",
+   "seen_under_keywords": [
+    "حزام حراري"
+   ],
+   "active_ads_total": 2,
+   "oldest_ad_start": "2025-11-02",
+   "profiled": true,
+   "creative_texts": [
+    "الكمية محدودة احجز الآن"
+   ],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1459750715090046",
+     "start": "2025-11-02",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1459750715090046"
+    },
+    {
+     "id": "1542973387151540",
+     "start": "2025-11-02",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1542973387151540"
+    }
+   ]
+  },
+  {
+   "page_id": "106861741821250",
+   "page_name": "XD Sport",
+   "classification": "relevant",
+   "reason": "Boutique sport LY — ad مشد حراري active depuis 2026-02-05 (≈158 j), 4 ads",
+   "seen_under_keywords": [
+    "مشد حراري"
+   ],
+   "active_ads_total": 4,
+   "oldest_ad_start": "2026-02-05",
+   "profiled": true,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "2005104933425666",
+     "start": "2026-07-05",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2005104933425666"
+    },
+    {
+     "id": "4521210228199321",
+     "start": "2026-07-05",
+     "snapshot": "https://www.facebook.com/ads/library/?id=4521210228199321"
+    },
+    {
+     "id": "1054169877271879",
+     "start": "2026-06-16",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1054169877271879"
+    },
+    {
+     "id": "756526763747964",
+     "start": "2026-02-05",
+     "snapshot": "https://www.facebook.com/ads/library/?id=756526763747964"
+    }
+   ]
+  },
+  {
+   "page_id": "106107525190940",
+   "page_name": "Alqama Sport",
+   "classification": "relevant",
+   "reason": "Boutique sport LY — vend مشد حراري",
+   "seen_under_keywords": [
+    "مشد حراري"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-06-29",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1573383794493727",
+     "start": "2026-06-29",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1573383794493727"
+    }
+   ]
+  },
+  {
+   "page_id": "117828967915102",
+   "page_name": "شركة تيتانيوم للمعدات الرياضية",
+   "classification": "relevant",
+   "reason": "Réseau équipements sport (4 pages sœurs) — 12 ads actives, vend ceintures/trimmers gym",
+   "seen_under_keywords": [
+    "حزام البطن",
+    "waist trimmer",
+    "حزام تنحيف"
+   ],
+   "active_ads_total": 12,
+   "oldest_ad_start": "2026-07-04",
+   "profiled": true,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "4341794652741329",
+     "start": "2026-07-12",
+     "snapshot": "https://www.facebook.com/ads/library/?id=4341794652741329"
+    },
+    {
+     "id": "1387804373299642",
+     "start": "2026-07-12",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1387804373299642"
+    },
+    {
+     "id": "1748374042865910",
+     "start": "2026-07-04",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1748374042865910"
+    },
+    {
+     "id": "885502347930740",
+     "start": "2026-07-04",
+     "snapshot": "https://www.facebook.com/ads/library/?id=885502347930740"
+    },
+    {
+     "id": "1032223556433797",
+     "start": "2026-07-04",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1032223556433797"
+    },
+    {
+     "id": "27505138579138157",
+     "start": "2026-07-04",
+     "snapshot": "https://www.facebook.com/ads/library/?id=27505138579138157"
+    }
+   ]
+  },
+  {
+   "page_id": "105078138492028",
+   "page_name": "شركة تيتانيوم لمعدات العلاج الطبيعي",
+   "classification": "relevant",
+   "reason": "Page sœur Titanium (physio)",
+   "seen_under_keywords": [
+    "حزام البطن",
+    "الكرش"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-12",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "913765001747099",
+     "start": "2026-07-12",
+     "snapshot": "https://www.facebook.com/ads/library/?id=913765001747099"
+    }
+   ]
+  },
+  {
+   "page_id": "105635655726051",
+   "page_name": "شركة تيتانيوم فيتنس للمعدات الرياضية",
+   "classification": "relevant",
+   "reason": "Page sœur Titanium (fitness), 2 ads vues",
+   "seen_under_keywords": [
+    "حزام البطن",
+    "حزام تنحيف"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-05",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1018824130553717",
+     "start": "2026-07-12",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1018824130553717"
+    },
+    {
+     "id": "1690474112283837",
+     "start": "2026-07-05",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1690474112283837"
+    }
+   ]
+  },
+  {
+   "page_id": "107496781027327",
+   "page_name": "شركة تيتانيوم للمعدات الرياضية والطبية",
+   "classification": "relevant",
+   "reason": "Page sœur Titanium (sport+médical)",
+   "seen_under_keywords": [
+    "حزام البطن"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-12",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1012582365017989",
+     "start": "2026-07-12",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1012582365017989"
+    }
+   ]
+  },
+  {
+   "page_id": "158242414032459",
+   "page_name": "Ancienflow.OW09",
+   "classification": "relevant",
+   "reason": "Dropshipper étranger — «Men's Zipper Waist Trainer Trimmer Vest» actif depuis 2026-06-21",
+   "seen_under_keywords": [
+    "waist trimmer"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-06-21",
+   "profiled": false,
+   "creative_texts": [
+    "Men's Zipper Waist Trainer Trimmer Vest"
+   ],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1616407003368504",
+     "start": "2026-06-21",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1616407003368504"
+    }
+   ]
+  },
+  {
+   "page_id": "137791546091856",
+   "page_name": "المعتمد للتجارة والتسويق الالكتروني",
+   "classification": "relevant",
+   "reason": "Store COD LY — hits sous حزام التعرق + مشد حراري + حزام البطن (multi-hit produit ceinture), depuis 2026-06-15",
+   "seen_under_keywords": [
+    "حزام التعرق",
+    "حزام البطن",
+    "مشد حراري"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-06-14",
+   "profiled": false,
+   "creative_texts": [
+    "توصيل مجاني"
+   ],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "2806812389702785",
+     "start": "2026-06-14",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2806812389702785"
+    },
+    {
+     "id": "2029324084349434",
+     "start": "2026-07-03",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2029324084349434"
+    }
+   ]
+  },
+  {
+   "page_id": "106147499006997",
+   "page_name": "Med Store",
+   "classification": "relevant",
+   "reason": "Store médical/sport LY — hits مشد رياضي + شد الكرش, depuis 2026-06-03",
+   "seen_under_keywords": [
+    "مشد رياضي",
+    "شد الكرش"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-06-02",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1006005055136839",
+     "start": "2026-06-02",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1006005055136839"
+    }
+   ]
+  },
+  {
+   "page_id": "188229644373645",
+   "page_name": "متجر الصين",
+   "classification": "relevant",
+   "reason": "Store généraliste LY — ad مشد رياضي",
+   "seen_under_keywords": [
+    "مشد رياضي"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-09",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1459678752852112",
+     "start": "2026-07-09",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1459678752852112"
+    }
+   ]
+  },
+  {
+   "page_id": "100524702917904",
+   "page_name": "عالم المشدات",
+   "classification": "relevant",
+   "reason": "Boutique مشدات dédiée (11 ads actives au 2026-07-08, étude précédente) — vend aussi مشدات حرارية",
+   "seen_under_keywords": [
+    "حزام البطن"
+   ],
+   "active_ads_total": 11,
+   "oldest_ad_start": "2026-07-05",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1051199681200131",
+     "start": "2026-07-05",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1051199681200131"
+    }
+   ]
+  },
+  {
+   "page_id": "975447952315920",
+   "page_name": "Shoporia",
+   "classification": "uncertain",
+   "reason": "Généraliste COD massif — 131 ads actives; hits sous حزام البطن/شد الكرش mais produit exact non identifiable (texte scarcity générique)",
+   "seen_under_keywords": [
+    "حزام البطن",
+    "شد الكرش",
+    "الكرش"
+   ],
+   "active_ads_total": 131,
+   "oldest_ad_start": "2026-06-13",
+   "profiled": true,
+   "creative_texts": [
+    "⚠️ الكمية محدودة جداً والطلب عليها كبير"
+   ],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "869619099528598",
+     "start": "2026-06-13",
+     "snapshot": "https://www.facebook.com/ads/library/?id=869619099528598"
+    },
+    {
+     "id": "1667668937771769",
+     "start": "2026-06-14",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1667668937771769"
+    },
+    {
+     "id": "27870304449239760",
+     "start": "2026-07-11",
+     "snapshot": "https://www.facebook.com/ads/library/?id=27870304449239760"
+    },
+    {
+     "id": "1243505757786448",
+     "start": "2026-07-11",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1243505757786448"
+    }
+   ]
+  },
+  {
+   "page_id": "657290170790529",
+   "page_name": "السوق الرجالي الليبي",
+   "classification": "uncertain",
+   "reason": "Page produit-ventre hommes (EGP) — ad active depuis 2025-04-14 (≈455 j!) — produit exact inconnu (probable complément/crème)",
+   "seen_under_keywords": [
+    "شد الكرش"
+   ],
+   "active_ads_total": 2,
+   "oldest_ad_start": "2025-04-14",
+   "profiled": true,
+   "creative_texts": [
+    "اضغط هنا لطلب المنتج"
+   ],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "678834351679586",
+     "start": "2025-04-14",
+     "snapshot": "https://www.facebook.com/ads/library/?id=678834351679586"
+    },
+    {
+     "id": "2797769013752279",
+     "start": "2025-10-26",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2797769013752279"
+    }
+   ]
+  },
+  {
+   "page_id": "939237042598721",
+   "page_name": "محطم كرش الرجال والنساء",
+   "classification": "uncertain",
+   "reason": "Page «casseur de ventre» (EGP) — ad active depuis 2025-12-07 (≈218 j)",
+   "seen_under_keywords": [
+    "شد الكرش"
+   ],
+   "active_ads_total": 1,
+   "oldest_ad_start": "2025-12-07",
+   "profiled": true,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "2094041174670877",
+     "start": "2025-12-07",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2094041174670877"
+    }
+   ]
+  },
+  {
+   "page_id": "834203023116800",
+   "page_name": "Fit & Firm",
+   "classification": "uncertain",
+   "reason": "Slimming (EGP) — ad depuis 2025-11-27 (≈228 j)",
+   "seen_under_keywords": [
+    "شد الكرش"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2025-11-27",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "858119756576899",
+     "start": "2025-11-27",
+     "snapshot": "https://www.facebook.com/ads/library/?id=858119756576899"
+    }
+   ]
+  },
+  {
+   "page_id": "741785529019010",
+   "page_name": "التخسيس والصحه المثاليه",
+   "classification": "uncertain",
+   "reason": "Slimming (EGP) — ad depuis 2025-10-12 (≈274 j)",
+   "seen_under_keywords": [
+    "شد الكرش"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2025-10-12",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1151917350410734",
+     "start": "2025-10-12",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1151917350410734"
+    }
+   ]
+  },
+  {
+   "page_id": "445297235333087",
+   "page_name": "سبيرولينا",
+   "classification": "uncertain",
+   "reason": "Slimming/compléments — ad depuis 2025-01-28 (≈531 j)",
+   "seen_under_keywords": [
+    "شد الكرش"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2025-01-28",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1604140963559000",
+     "start": "2025-01-28",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1604140963559000"
+    }
+   ]
+  },
+  {
+   "page_id": "1146559595198468",
+   "page_name": "Zero Fat",
+   "classification": "uncertain",
+   "reason": "Slimming (EGP) — «ودع كابوس الكرش», 2 ads depuis 2026-05-05",
+   "seen_under_keywords": [
+    "شد الكرش"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-05-05",
+   "profiled": false,
+   "creative_texts": [
+    "اضغط هنا وودع كابوس الكرش اليوم."
+   ],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1579266757201672",
+     "start": "2026-05-05",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1579266757201672"
+    },
+    {
+     "id": "1973560093289990",
+     "start": "2026-05-06",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1973560093289990"
+    }
+   ]
+  },
+  {
+   "page_id": "113314015196615",
+   "page_name": "TZ SHOP",
+   "classification": "uncertain",
+   "reason": "Store LY — hook dialecte «تبّي تسمني وتبرزي أنوثتك بدون كرش؟» — produit forme/poids féminin",
+   "seen_under_keywords": [
+    "الكرش"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-12",
+   "profiled": false,
+   "creative_texts": [
+    "تبّي تسمني وتبرزي أنوثتك بدون كرش؟ 😉"
+   ],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "27476440112040190",
+     "start": "2026-07-12",
+     "snapshot": "https://www.facebook.com/ads/library/?id=27476440112040190"
+    }
+   ]
+  },
+  {
+   "page_id": "1100542649810674",
+   "page_name": "Shapee Store",
+   "classification": "uncertain",
+   "reason": "Slimming EGP (funnel site officiel)",
+   "seen_under_keywords": [
+    "شد الكرش",
+    "الكرش"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-06-26",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1681432312976071",
+     "start": "2026-06-26",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1681432312976071"
+    },
+    {
+     "id": "986300134235229",
+     "start": "2026-07-11",
+     "snapshot": "https://www.facebook.com/ads/library/?id=986300134235229"
+    }
+   ]
+  },
+  {
+   "page_id": "1221655357693211",
+   "page_name": "دهان Shapee للتخسيس",
+   "classification": "uncertain",
+   "reason": "Crème amincissante (EGP)",
+   "seen_under_keywords": [
+    "الكرش"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-12",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1920142735609564",
+     "start": "2026-07-12",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1920142735609564"
+    }
+   ]
+  },
+  {
+   "page_id": "1250259994829395",
+   "page_name": "ملكة التخسيس",
+   "classification": "uncertain",
+   "reason": "Slimming (EGP)",
+   "seen_under_keywords": [
+    "شد الكرش"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-11",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "2432320534169306",
+     "start": "2026-07-11",
+     "snapshot": "https://www.facebook.com/ads/library/?id=2432320534169306"
+    }
+   ]
+  },
+  {
+   "page_id": "884162548124666",
+   "page_name": "رشاقة بلا حدود",
+   "classification": "uncertain",
+   "reason": "Slimming (EGP)",
+   "seen_under_keywords": [
+    "الكرش"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-12",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1270803108297886",
+     "start": "2026-07-12",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1270803108297886"
+    }
+   ]
+  },
+  {
+   "page_id": "886713914515961",
+   "page_name": "انسف كرشك",
+   "classification": "uncertain",
+   "reason": "Slimming (EGP) — nom = «explose ton ventre»",
+   "seen_under_keywords": [
+    "الكرش"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-13",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1659499575312960",
+     "start": "2026-07-13",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1659499575312960"
+    }
+   ]
+  },
+  {
+   "page_id": "866172653248973",
+   "page_name": "صحه وتخسيس",
+   "classification": "uncertain",
+   "reason": "Slimming (EGP)",
+   "seen_under_keywords": [
+    "الكرش",
+    "شد الكرش"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-11",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1526223762611596",
+     "start": "2026-07-11",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1526223762611596"
+    }
+   ]
+  },
+  {
+   "page_id": "1198659980002725",
+   "page_name": "Nervoo Store Lib",
+   "classification": "uncertain",
+   "reason": "Store LY-branded (EGP)",
+   "seen_under_keywords": [
+    "شد الكرش",
+    "الكرش"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-13",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1014115664558298",
+     "start": "2026-07-13",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1014115664558298"
+    }
+   ]
+  },
+  {
+   "page_id": "1175435205653938",
+   "page_name": "رشاقة الطبيعة",
+   "classification": "uncertain",
+   "reason": "Slimming (EGP) — «اطلبي وسنأتيكِ أينما كنتِ»",
+   "seen_under_keywords": [
+    "شد الكرش"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-06-12",
+   "profiled": false,
+   "creative_texts": [
+    "الكمية محدودة! اطلبي وسنأتيكِ أينما كنتِ"
+   ],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1678875786692763",
+     "start": "2026-06-12",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1678875786692763"
+    }
+   ]
+  },
+  {
+   "page_id": "1105445409309401",
+   "page_name": "Active Soutien",
+   "classification": "uncertain",
+   "reason": "Dropshipper EUR — «المشد السحري» (shapewear, pas ceinture sport)",
+   "seen_under_keywords": [
+    "الكرش"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-11",
+   "profiled": false,
+   "creative_texts": [
+    "المشد السحري"
+   ],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1601763448620170",
+     "start": "2026-07-11",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1601763448620170"
+    }
+   ]
+  },
+  {
+   "page_id": "1113190861875154",
+   "page_name": "NovaMix",
+   "classification": "uncertain",
+   "reason": "Post-partum angle «استعيدي رشاقتك بعد الولادة» — probable مشد femme",
+   "seen_under_keywords": [
+    "حزام البطن"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-06-12",
+   "profiled": false,
+   "creative_texts": [
+    "استعيدي رشاقتك بعد الولادة بثقة"
+   ],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1012526801324178",
+     "start": "2026-06-12",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1012526801324178"
+    },
+    {
+     "id": "1716327216065436",
+     "start": "2026-06-12",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1716327216065436"
+    }
+   ]
+  },
+  {
+   "page_id": "240737372462116",
+   "page_name": "Mzyan",
+   "classification": "uncertain",
+   "reason": "Ceinture support/confort (EGP) — «راحة ودعم أو استردي أموالك», 3 ads dont une depuis 2026-03-18",
+   "seen_under_keywords": [
+    "حزام البطن"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-03-19",
+   "profiled": false,
+   "creative_texts": [
+    "استمتعي براحة ودعم طول الوقت او استردي اموالك!!"
+   ],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "4423931924506353",
+     "start": "2026-06-02",
+     "snapshot": "https://www.facebook.com/ads/library/?id=4423931924506353"
+    },
+    {
+     "id": "1624717102078395",
+     "start": "2026-04-22",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1624717102078395"
+    },
+    {
+     "id": "4261144337473638",
+     "start": "2026-03-19",
+     "snapshot": "https://www.facebook.com/ads/library/?id=4261144337473638"
+    }
+   ]
+  },
+  {
+   "page_id": "384340694756049",
+   "page_name": "Time shop تايم شوب",
+   "classification": "uncertain",
+   "reason": "Généraliste LY — produit chaleur/relaxation",
+   "seen_under_keywords": [
+    "حزام البطن"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-06-20",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1345118277594268",
+     "start": "2026-06-20",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1345118277594268"
+    }
+   ]
+  },
+  {
+   "page_id": "105378609165457",
+   "page_name": "المتجر الالكتروني",
+   "classification": "uncertain",
+   "reason": "Généraliste LY",
+   "seen_under_keywords": [
+    "حزام البطن",
+    "شد الكرش"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-08",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1005072072501817",
+     "start": "2026-07-08",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1005072072501817"
+    }
+   ]
+  },
+  {
+   "page_id": "211839025349185",
+   "page_name": "LOXX KING MAN",
+   "classification": "uncertain",
+   "reason": "Page TR (TRY) mode homme",
+   "seen_under_keywords": [
+    "مشد رياضي"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-07",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1325282579738922",
+     "start": "2026-07-07",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1325282579738922"
+    }
+   ]
+  },
+  {
+   "page_id": "937940859402931",
+   "page_name": "Thika shop",
+   "classification": "uncertain",
+   "reason": "Généraliste — «المنتج السحري»",
+   "seen_under_keywords": [
+    "حزام البطن",
+    "حزام التعرق"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-05-05",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1592063849148064",
+     "start": "2026-05-05",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1592063849148064"
+    }
+   ]
+  },
+  {
+   "page_id": "787815248009362",
+   "page_name": "منتجات دنيا للعنايه بصحة والجمال",
+   "classification": "uncertain",
+   "reason": "Santé/beauté LY",
+   "seen_under_keywords": [
+    "الكرش"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-07-13",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1558734706046727",
+     "start": "2026-07-13",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1558734706046727"
+    }
+   ]
+  },
+  {
+   "page_id": "1029691740237573",
+   "page_name": "عيادة التناسق",
+   "classification": "uncertain",
+   "reason": "Clinique minceur (EGP)",
+   "seen_under_keywords": [
+    "شد الكرش"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-05-11",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "1066002569938021",
+     "start": "2026-05-11",
+     "snapshot": "https://www.facebook.com/ads/library/?id=1066002569938021"
+    }
+   ]
+  },
+  {
+   "page_id": "833595139842893",
+   "page_name": "د.اميره علي",
+   "classification": "uncertain",
+   "reason": "Page conseil minceur (EGP)",
+   "seen_under_keywords": [
+    "شد الكرش"
+   ],
+   "active_ads_total": null,
+   "oldest_ad_start": "2026-06-21",
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": [
+    {
+     "id": "849356694600818",
+     "start": "2026-06-21",
+     "snapshot": "https://www.facebook.com/ads/library/?id=849356694600818"
+    }
+   ]
+  },
+  {
+   "page_id": "565446973933799",
+   "page_name": "Dr Andrew Fares",
+   "classification": "off-topic",
+   "reason": "médecin",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "575881918951193",
+   "page_name": "متجر الرايس للساعات",
+   "classification": "off-topic",
+   "reason": "boutique montres (hit texte ضد الماء/تعرق)",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "111834251406320",
+   "page_name": "Laboratoire Novali",
+   "classification": "off-topic",
+   "reason": "compléments digestifs",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "227532293952",
+   "page_name": "دكتور جميل القدسي الدويك",
+   "classification": "off-topic",
+   "reason": "médecin",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "481807345176850",
+   "page_name": "شركة البرج للالكترونات",
+   "classification": "off-topic",
+   "reason": "électronique",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "280984361758920",
+   "page_name": "Sali Ali David Bradley",
+   "classification": "off-topic",
+   "reason": "page spam",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "454579481074269",
+   "page_name": "Dr. Ahmed Lotfy ElGamal جراح تجميل",
+   "classification": "off-topic",
+   "reason": "chirurgien",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "22437985072",
+   "page_name": "Alibaba.com",
+   "classification": "off-topic",
+   "reason": "ads plateforme B2B (contient le titre EXACT du produit — preuve d'identification)",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "1207719642424138",
+   "page_name": "Lyue-15",
+   "classification": "off-topic",
+   "reason": "ferme drama",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "1155166884357073",
+   "page_name": "LByy-0721-29",
+   "classification": "off-topic",
+   "reason": "ferme drama",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "1229476976912980",
+   "page_name": "LByy-0721-28",
+   "classification": "off-topic",
+   "reason": "ferme drama",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "1109499578923263",
+   "page_name": "LByy-0721-82",
+   "classification": "off-topic",
+   "reason": "ferme drama",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "975354745665236",
+   "page_name": "Le-ww0224-1",
+   "classification": "off-topic",
+   "reason": "ferme drama",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "873097435891823",
+   "page_name": "The reader-LX2",
+   "classification": "off-topic",
+   "reason": "ferme romans",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  },
+  {
+   "page_id": "836620629542827",
+   "page_name": "The reader-LX1",
+   "classification": "off-topic",
+   "reason": "ferme romans",
+   "seen_under_keywords": [],
+   "active_ads_total": null,
+   "oldest_ad_start": null,
+   "profiled": false,
+   "creative_texts": [],
+   "landing_url": null,
+   "ads": []
+  }
+ ],
+ "notes": "CONTRASTE TOTAL avec la niche montres. Ceinture de sudation sport: ~12 vendeurs pertinents seulement, dont un seul réseau structuré (Titanium, équipements sport génériques) et AUCUN acteur COD dédié au produit avec volume. Kw cœur vides: حزام التخسيس=0, حزام ساونا=0, حزام تنحيف=2 all-time. MAIS demande 'ventre' prouvée par des pages EGP actives 218–455 jours et par la niche مشد féminine saturée (à ÉVITER frontalement: QAVA/Liposta/Libya market). Fenêtre d'entrée réelle sur l'angle sport/homme «نحي الكرش» avec la ceinture néoprène.",
+ "status": "ok"
+}

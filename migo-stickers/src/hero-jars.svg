@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 760" width="900" height="760" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8fb7d6"/><stop offset="26%" stop-color="#a9c98f"/>
+      <stop offset="60%" stop-color="#6f9a4e"/><stop offset="100%" stop-color="#3f6a2e"/>
+    </linearGradient>
+    <linearGradient id="wood" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7a4a24"/><stop offset="50%" stop-color="#5f3717"/><stop offset="100%" stop-color="#insert"/>
+      <stop offset="100%" stop-color="#8a5a2c"/>
+    </linearGradient>
+    <linearGradient id="lemonH" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#ffdf7a"/><stop offset="100%" stop-color="#e8a81c"/></linearGradient>
+    <linearGradient id="sidrH" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#e0a544"/><stop offset="100%" stop-color="#b06a16"/></linearGradient>
+    <linearGradient id="zaatarH" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#3a2a12"/><stop offset="100%" stop-color="#0f0a05"/></linearGradient>
+    <linearGradient id="lid" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#f6e392"/><stop offset="100%" stop-color="#b8860b"/></linearGradient>
+  </defs>
+
+  <!-- garden background -->
+  <rect width="900" height="760" fill="url(#sky)"/>
+  <g opacity="0.5">
+    <circle cx="120" cy="150" r="7" fill="#e85fa0"/><circle cx="150" cy="180" r="6" fill="#e85fa0"/>
+    <circle cx="90" cy="300" r="7" fill="#e85fa0"/><circle cx="800" cy="250" r="6" fill="#e85fa0"/>
+    <circle cx="770" cy="300" r="7" fill="#e85fa0"/>
+  </g>
+  <g opacity="0.28" fill="#2f5122">
+    <ellipse cx="200" cy="120" rx="140" ry="90"/><ellipse cx="700" cy="150" rx="160" ry="100"/>
+    <ellipse cx="450" cy="90" rx="180" ry="80"/>
+  </g>
+  <!-- wooden tray -->
+  <rect x="0" y="560" width="900" height="200" fill="url(#wood)"/>
+  <g stroke="#e0b53a" stroke-width="5" opacity="0.75">
+    <line x1="120" y1="760" x2="260" y2="560"/><line x1="320" y1="760" x2="460" y2="560"/>
+    <line x1="520" y1="760" x2="660" y2="560"/><line x1="720" y1="760" x2="860" y2="560"/>
+    <line x1="0" y1="700" x2="900" y2="650"/>
+  </g>
+
+  <!-- JAR helper drawn inline x3 -->
+  <!-- top: zaatar -->
+  <g transform="translate(340,150)">
+    <rect x="52" y="0" width="116" height="34" rx="7" fill="url(#lid)"/>
+    <path d="M40 44 h140 v150 q0 26 -30 26 h-80 q-30 0 -30 -26 Z" fill="url(#zaatarH)" stroke="#c9c0a8" stroke-width="2"/>
+    <rect x="34" y="120" width="152" height="86" rx="6" fill="#fbfaf6"/>
+    <circle cx="110" cy="150" r="20" fill="none" stroke="#caa028" stroke-width="2"/>
+    <text x="110" y="192" text-anchor="middle" font-family="Cairo" font-weight="900" font-size="20" fill="#1a1a1a">عسل الزعتر</text>
+  </g>
+  <!-- bottom-left: lemon -->
+  <g transform="translate(150,360)">
+    <rect x="46" y="0" width="104" height="30" rx="6" fill="url(#lid)"/>
+    <path d="M36 40 h124 v160 q0 24 -26 24 h-72 q-26 0 -26 -24 Z" fill="url(#lemonH)" stroke="#e9d9a0" stroke-width="2"/>
+    <rect x="30" y="120" width="136" height="80" rx="6" fill="#fbfaf6"/>
+    <circle cx="98" cy="150" r="18" fill="none" stroke="#caa028" stroke-width="2"/>
+    <text x="98" y="190" text-anchor="middle" font-family="Cairo" font-weight="900" font-size="18" fill="#1a1a1a">عسل الليمون</text>
+  </g>
+  <!-- bottom-right: sidr -->
+  <g transform="translate(560,360)">
+    <rect x="46" y="0" width="104" height="30" rx="6" fill="url(#lid)"/>
+    <path d="M36 40 h124 v160 q0 24 -26 24 h-72 q-26 0 -26 -24 Z" fill="url(#sidrH)" stroke="#e9d9a0" stroke-width="2"/>
+    <rect x="30" y="120" width="136" height="80" rx="6" fill="#fbfaf6"/>
+    <circle cx="98" cy="150" r="18" fill="none" stroke="#caa028" stroke-width="2"/>
+    <text x="98" y="190" text-anchor="middle" font-family="Cairo" font-weight="900" font-size="18" fill="#1a1a1a">عسل السدر</text>
+  </g>
+</svg>

@@ -1,0 +1,180 @@
+<!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8"><style>
+@font-face{font-family:'Cairo';src:url('file:///home/user/khalid/migo-stickers/fonts/Cairo-Black.ttf');font-weight:900;font-display:block}
+@font-face{font-family:'Cairo';src:url('file:///home/user/khalid/migo-stickers/fonts/Cairo-Bold.ttf');font-weight:700;font-display:block}
+@font-face{font-family:'Cairo';src:url('file:///home/user/khalid/migo-stickers/fonts/Cairo-SemiBold.ttf');font-weight:600;font-display:block}
+@font-face{font-family:'Cairo';src:url('file:///home/user/khalid/migo-stickers/fonts/Cairo-Regular.ttf');font-weight:400;font-display:block}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1080px;overflow:hidden}
+body{font-family:'Cairo',sans-serif;background:#0c0a08;color:#fff;position:relative}
+.hex-bg{position:absolute;inset:0;opacity:.06;
+  background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='56' height='96' viewBox='0 0 56 96'><path d='M28 0 L56 16 L56 48 L28 64 L0 48 L0 16 Z M28 64 L56 80 L56 112 M28 64 L0 80 L0 112' fill='none' stroke='%23d4af37' stroke-width='2'/></svg>");
+  background-size:56px 96px}
+.frame{position:absolute;inset:26px;border:3px solid #caa028;border-radius:22px}
+.frame:before{content:'';position:absolute;inset:9px;border:1.5px solid rgba(202,160,40,.55);border-radius:15px}
+.corner{position:absolute;width:26px;height:30px;
+  background:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 26 30'><path d='M13 0 L26 7.5 L26 22.5 L13 30 L0 22.5 L0 7.5 Z' fill='%23d4af37'/></svg>") center/contain no-repeat}
+.c1{top:12px;left:12px}.c2{top:12px;right:12px}.c3{bottom:12px;left:12px}.c4{bottom:12px;right:12px}
+.wrap{position:absolute;inset:26px;display:flex;flex-direction:column;align-items:center;
+  padding:34px 58px 30px;text-align:center}
+.logo{width:214px;height:214px;margin-top:2px}
+.logo svg{width:100%;height:100%}
+.divider{display:flex;align-items:center;gap:14px;margin:10px 0 4px;width:70%;justify-content:center}
+.divider .line{height:2px;flex:1;background:linear-gradient(90deg,transparent,#caa028)}
+.divider .line:last-child{background:linear-gradient(90deg,#caa028,transparent)}
+.divider .hx{width:16px;height:18px;background:#B4772F;clip-path:polygon(50% 0,100% 25%,100% 75%,50% 100%,0 75%,0 25%)}
+.name{font-weight:900;font-size:96px;line-height:1;letter-spacing:-1px;
+  text-shadow:0 3px 14px rgba(0,0,0,.6)}
+.name b{color:#B4772F}
+.underline{width:220px;height:7px;border-radius:4px;margin:16px 0 10px;
+  background:linear-gradient(90deg,#8a561f,#B4772F)}
+.fr{font-family:'Cairo';font-weight:700;font-size:34px;letter-spacing:3px;color:#B4772F;text-transform:none}
+.pill{margin-top:14px;display:inline-flex;align-items:center;gap:10px;
+  background:#B4772F;color:#1a1204;font-weight:900;font-size:28px;padding:9px 26px;border-radius:40px}
+.feat{display:flex;gap:14px;margin-top:22px;flex-wrap:wrap;justify-content:center}
+.chip{display:flex;align-items:center;gap:10px;background:rgba(255,255,255,.05);
+  border:1.5px solid rgba(202,160,40,.4);border-radius:40px;padding:11px 22px;font-weight:700;font-size:26px}
+.chip .ck{width:26px;height:29px;display:flex;align-items:center;justify-content:center;
+  background:#B4772F;color:#1a1204;font-weight:900;font-size:18px;
+  clip-path:polygon(50% 0,100% 25%,100% 75%,50% 100%,0 75%,0 25%)}
+.bottomrow{display:flex;align-items:center;gap:36px;margin-top:26px;width:100%;justify-content:center}
+.jar{width:138px;height:176px;filter:drop-shadow(0 8px 20px rgba(0,0,0,.5))}
+.weight{display:flex;flex-direction:column;align-items:center;justify-content:center;
+  width:172px;height:172px;border-radius:50%;border:4px solid #B4772F;
+  background:radial-gradient(circle at 50% 40%,rgba(255,255,255,.06),rgba(0,0,0,.2))}
+.weight .lbl{font-weight:700;font-size:24px;color:#B4772F}
+.weight .big{font-weight:900;font-size:82px;line-height:.95;margin-top:2px}
+.weight .big span{font-size:34px}
+.contact{width:100%;margin-top:26px;display:flex;align-items:center;justify-content:center;gap:26px;
+  background:linear-gradient(90deg,rgba(202,160,40,.08),rgba(202,160,40,.16),rgba(202,160,40,.08));
+  border-top:1.5px solid rgba(202,160,40,.4);border-bottom:1.5px solid rgba(202,160,40,.4);
+  padding:16px 10px;border-radius:14px}
+.contact .item{display:flex;align-items:center;gap:11px;font-weight:700;font-size:30px;direction:ltr}
+.contact .ico{width:38px;height:38px;border-radius:9px;background:#B4772F;color:#1a1204;
+  display:flex;align-items:center;justify-content:center;font-size:22px}
+.contact .sep{width:2px;height:34px;background:rgba(202,160,40,.5)}
+.city{margin-top:14px;font-weight:600;font-size:24px;color:#d9c98f;letter-spacing:1px}
+</style></head><body>
+<div class="hex-bg"></div>
+<div class="frame"></div>
+<div class="corner c1"></div><div class="corner c2"></div><div class="corner c3"></div><div class="corner c4"></div>
+<div class="wrap">
+  <div class="logo"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <radialGradient id="discG" cx="50%" cy="42%" r="65%">
+      <stop offset="0%" stop-color="#2a2115"/>
+      <stop offset="55%" stop-color="#1a1410"/>
+      <stop offset="100%" stop-color="#0d0a07"/>
+    </radialGradient>
+    <linearGradient id="goldRing" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f6e27a"/>
+      <stop offset="35%" stop-color="#d4af37"/>
+      <stop offset="70%" stop-color="#b8860b"/>
+      <stop offset="100%" stop-color="#f6e27a"/>
+    </linearGradient>
+    <linearGradient id="beeBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f7d354"/>
+      <stop offset="100%" stop-color="#e0a92e"/>
+    </linearGradient>
+    <linearGradient id="drop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f5c542"/>
+      <stop offset="100%" stop-color="#c8860a"/>
+    </linearGradient>
+    <path id="topArc" d="M 60 200 A 140 140 0 0 1 340 200" fill="none"/>
+    <path id="botArc" d="M 66 200 A 134 134 0 0 0 334 200" fill="none"/>
+  </defs>
+
+  <!-- outer disc -->
+  <circle cx="200" cy="200" r="196" fill="#0d0a07"/>
+  <circle cx="200" cy="200" r="190" fill="none" stroke="url(#goldRing)" stroke-width="7"/>
+  <circle cx="200" cy="200" r="176" fill="url(#discG)"/>
+  <circle cx="200" cy="200" r="150" fill="none" stroke="#d4af37" stroke-width="1.4" stroke-dasharray="1.5 7" opacity="0.8"/>
+
+  <!-- top brand text -->
+  <text font-family="Cairo, sans-serif" font-weight="700" fill="#e9c85a" letter-spacing="4"
+        font-size="26" text-anchor="middle">
+    <textPath href="#topArc" startOffset="50%">MIGO • NATURAL HONEY</textPath>
+  </text>
+  <!-- bottom arabic -->
+  <text font-family="Cairo, sans-serif" font-weight="700" fill="#e9c85a" letter-spacing="1"
+        font-size="24" text-anchor="middle">
+    <textPath href="#botArc" startOffset="50%">عسل ميغو الطبيعي</textPath>
+  </text>
+  <!-- side diamonds -->
+  <path d="M 44 200 l 9 -9 l 9 9 l -9 9 z" fill="#d4af37"/>
+  <path d="M 338 200 l 9 -9 l 9 9 l -9 9 z" fill="#d4af37"/>
+
+  <!-- ===== BEE ===== -->
+  <g transform="translate(200,205)">
+    <!-- wings -->
+    <g opacity="0.85">
+      <ellipse cx="-46" cy="-22" rx="52" ry="30" fill="#e8ecf0" opacity="0.55" transform="rotate(-24 -46 -22)" stroke="#cfd6dd" stroke-width="1"/>
+      <ellipse cx="46" cy="-22" rx="52" ry="30" fill="#e8ecf0" opacity="0.55" transform="rotate(24 46 -22)" stroke="#cfd6dd" stroke-width="1"/>
+      <ellipse cx="-40" cy="12" rx="40" ry="22" fill="#e8ecf0" opacity="0.45" transform="rotate(-32 -40 12)" stroke="#cfd6dd" stroke-width="1"/>
+      <ellipse cx="40" cy="12" rx="40" ry="22" fill="#e8ecf0" opacity="0.45" transform="rotate(32 40 12)" stroke="#cfd6dd" stroke-width="1"/>
+    </g>
+    <!-- antennae -->
+    <path d="M -10 -74 q -16 -22 -30 -30" stroke="#241a10" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+    <path d="M 10 -74 q 16 -22 30 -30" stroke="#241a10" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+    <circle cx="-42" cy="-106" r="6" fill="#e0a92e"/>
+    <circle cx="42" cy="-106" r="6" fill="#e0a92e"/>
+    <!-- head -->
+    <circle cx="0" cy="-60" r="26" fill="#241a10"/>
+    <circle cx="-9" cy="-62" r="6.5" fill="#fff"/><circle cx="-9" cy="-62" r="3" fill="#111"/>
+    <circle cx="9" cy="-62" r="6.5" fill="#fff"/><circle cx="9" cy="-62" r="3" fill="#111"/>
+    <!-- thorax -->
+    <ellipse cx="0" cy="-18" rx="34" ry="30" fill="url(#beeBody)"/>
+    <ellipse cx="0" cy="-18" rx="34" ry="30" fill="none" stroke="#b8860b" stroke-width="1.5" opacity="0.5"/>
+    <!-- abdomen striped -->
+    <g>
+      <path d="M -30 5 Q 0 -2 30 5 L 26 30 Q 0 36 -26 30 Z" fill="#f7d354"/>
+      <path d="M -26 30 Q 0 36 26 30 L 22 54 Q 0 60 -22 54 Z" fill="#241a10"/>
+      <path d="M -22 54 Q 0 60 22 54 L 18 76 Q 0 82 -18 76 Z" fill="#f7d354"/>
+      <path d="M -18 76 Q 0 82 18 76 L 13 96 Q 0 101 -13 96 Z" fill="#241a10"/>
+      <path d="M -13 96 Q 0 101 13 96 L 9 112 Q 0 116 -9 112 Z" fill="#f7d354"/>
+    </g>
+    <!-- honey drop -->
+    <path d="M 0 118 C 14 138 20 150 20 160 a 20 20 0 1 1 -40 0 c 0 -10 6 -22 20 -42 Z" fill="url(#drop)"/>
+    <ellipse cx="-6" cy="158" rx="5" ry="8" fill="#ffe9a8" opacity="0.7"/>
+  </g>
+</svg>
+</div>
+  <div class="divider"><span class="line"></span><span class="hx"></span><span class="line"></span></div>
+  <div class="name">عسل <b>السدر</b></div>
+  <div class="underline"></div>
+  <div class="fr">Miel de Sidr</div>
+  <div class="pill">طبيعي 100% ✦ دوق العسل عاد خلّص</div>
+  <div class="feat">
+    <div class="chip"><span class="ck">✓</span>عسل طبيعي 100%</div>
+    <div class="chip"><span class="ck">✓</span>مذاق أصيل</div>
+    <div class="chip"><span class="ck">✓</span>جودة مختارة</div>
+  </div>
+  <div class="bottomrow">
+    <div class="jar"><svg viewBox="0 0 200 240" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="hny" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#A8702E"/><stop offset="100%" stop-color="#5E360F"/>
+      </linearGradient>
+      <linearGradient id="lid" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#f6e27a"/><stop offset="100%" stop-color="#b8860b"/>
+      </linearGradient>
+    </defs>
+    <rect x="58" y="14" width="84" height="26" rx="6" fill="url(#lid)"/>
+    <rect x="62" y="38" width="76" height="12" fill="#caa028"/>
+    <path d="M50 60 q0 -12 12 -12 h76 q12 0 12 12 v150 q0 20 -22 20 h-56 q-22 0 -22 -20 Z" fill="rgba(180,119,47,0.14)" stroke="#e9c85a" stroke-width="2.5"/>
+    <path d="M56 96 q0 -6 8 -6 h72 q8 0 8 6 v112 q0 14 -16 14 h-56 q-16 0 -16 -14 Z" fill="url(#hny)"/>
+    <ellipse cx="80" cy="120" rx="14" ry="8" fill="#ffffff" opacity="0.18"/>
+    <text x="100" y="172" text-anchor="middle" font-family="Cairo" font-weight="900" font-size="30" fill="#ffffff" opacity="0.92">MiGO</text>
+  </svg></div>
+    <div class="weight">
+      <span class="lbl">الوزن الصافي</span>
+      <span class="big">1<span> kg</span></span>
+    </div>
+  </div>
+  <div class="contact">
+    <div class="item"><span class="ico">✆</span>0619271646</div>
+    <div class="sep"></div>
+    <div class="item"><span class="ico">◎</span>@honey_migo1</div>
+  </div>
+  <div class="city">الدار البيضاء · كازابلانكا</div>
+</div>
+</body></html>

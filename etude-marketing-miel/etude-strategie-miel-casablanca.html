@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Étude Stratégique & Analyse de Risque — Vente de Miel en Ligne (Casablanca)</title>
+<style>
+  :root{
+    --gold:#C8891B; --gold-d:#9c6a10; --ink:#1c2530; --ink2:#3a4757;
+    --muted:#6b7787; --line:#e3e7ec; --bg-soft:#faf6ee; --bg-soft2:#f2f6f9;
+    --green:#1f8a54; --red:#c0392b; --amber:#d68910; --blue:#2c6fb3;
+  }
+  *{box-sizing:border-box;}
+  html{-webkit-print-color-adjust:exact; print-color-adjust:exact;}
+  body{font-family:"Segoe UI","Helvetica Neue",Arial,sans-serif; color:var(--ink);
+    font-size:11.2px; line-height:1.55; margin:0;}
+  h1,h2,h3,h4{color:var(--ink); line-height:1.2; margin:0 0 .4em;}
+  h2{font-size:19px; border-bottom:3px solid var(--gold); padding-bottom:6px; margin-top:6px;}
+  h3{font-size:14.5px; color:var(--gold-d); margin-top:16px;}
+  h4{font-size:12.2px; color:var(--ink2); margin-top:12px;}
+  p{margin:.35em 0;}
+  a{color:var(--blue); text-decoration:none;}
+  table{width:100%; border-collapse:collapse; margin:8px 0 12px; font-size:10.3px;}
+  th{background:var(--ink); color:#fff; text-align:left; padding:6px 8px; font-weight:600;}
+  td{border:1px solid var(--line); padding:5px 8px; vertical-align:top;}
+  tr:nth-child(even) td{background:#fafbfc;}
+  .cover{height:100vh; background:linear-gradient(150deg,#14324a 0%,#1c2530 60%,#0d1a25 100%);
+    color:#fff; display:flex; flex-direction:column; justify-content:center; padding:0 12mm; position:relative;}
+  .cover .badge{display:inline-block; border:1px solid var(--gold); color:var(--gold);
+    padding:5px 14px; border-radius:30px; font-size:11px; letter-spacing:1px; margin-bottom:22px; width:max-content;}
+  .cover h1{color:#fff; font-size:38px; margin-bottom:10px; line-height:1.12;}
+  .cover .sub{color:#d9c9a3; font-size:16px; font-weight:400; max-width:75%;}
+  .cover .meta{position:absolute; bottom:16mm; left:12mm; right:12mm; color:#93a1b0; font-size:11px;
+    border-top:1px solid #33404d; padding-top:12px; display:flex; justify-content:space-between;}
+  .cover .prods{margin-top:26px; display:flex; gap:10px;}
+  .cover .prods span{background:rgba(200,137,27,.15); border:1px solid var(--gold);
+    color:#f0dcb4; padding:6px 14px; border-radius:8px; font-size:12px;}
+  .page{padding:14mm 12mm; page-break-after:always;}
+  .page:last-child{page-break-after:auto;}
+  .lead{font-size:12px; color:var(--ink2); background:var(--bg-soft2); border-left:4px solid var(--blue);
+    padding:10px 14px; margin:10px 0; border-radius:0 6px 6px 0;}
+  .box{border:1px solid var(--line); border-radius:8px; padding:10px 14px; margin:10px 0; background:#fff;}
+  .box-gold{background:var(--bg-soft); border:1px solid #e8d6ab; border-radius:8px; padding:10px 14px; margin:10px 0;}
+  .box-red{background:#fdeeec; border-left:4px solid var(--red); padding:10px 14px; margin:10px 0; border-radius:0 6px 6px 0;}
+  .box-green{background:#eafaf1; border-left:4px solid var(--green); padding:10px 14px; margin:10px 0; border-radius:0 6px 6px 0;}
+  .darija{background:#fff8ec; border:1px dashed var(--gold); border-radius:8px; padding:9px 13px; margin:8px 0;
+    direction:rtl; text-align:right; font-size:12.5px; line-height:1.7; color:#4a3a12;}
+  .darija .lbl{direction:ltr; text-align:left; font-size:9.5px; color:var(--gold-d); letter-spacing:.5px; margin-bottom:4px; font-weight:700;}
+  .grid2{display:flex; gap:12px;} .grid2>div{flex:1;}
+  .kpi-row{display:flex; gap:10px; margin:12px 0;}
+  .kpi{flex:1; background:linear-gradient(160deg,#fff,#f7f9fb); border:1px solid var(--line);
+    border-radius:10px; padding:11px; text-align:center;}
+  .kpi .n{font-size:22px; font-weight:800; color:var(--gold-d);}
+  .kpi .l{font-size:9.3px; color:var(--muted); text-transform:uppercase; letter-spacing:.4px; margin-top:3px;}
+  .tag{display:inline-block; font-size:9px; padding:2px 8px; border-radius:20px; font-weight:700; letter-spacing:.3px;}
+  .t-hi{background:#fdeeec; color:var(--red);} .t-md{background:#fef5e7; color:var(--amber);} .t-lo{background:#eafaf1; color:var(--green);}
+  ul,ol{margin:.3em 0 .6em; padding-left:18px;} li{margin:2px 0;}
+  .toc li{margin:5px 0; list-style:none; display:flex; justify-content:space-between; border-bottom:1px dotted var(--line); padding-bottom:3px;}
+  .toc a{color:var(--ink); font-weight:600;} .toc .pg{color:var(--gold-d); font-weight:700;}
+  .small{font-size:9.5px; color:var(--muted);}
+  .num{font-variant-numeric:tabular-nums;}
+  .footer-note{font-size:8.8px; color:var(--muted); border-top:1px solid var(--line); margin-top:14px; padding-top:6px;}
+  .persona{border:1px solid var(--line); border-radius:10px; padding:0; margin:10px 0; overflow:hidden;}
+  .persona .hd{background:var(--ink); color:#fff; padding:7px 12px; font-weight:700; font-size:12px; display:flex; justify-content:space-between;}
+  .persona .bd{padding:9px 13px; display:flex; gap:14px;} .persona .bd>div{flex:1;}
+  .chk{color:var(--green); font-weight:800;} .crs{color:var(--red); font-weight:800;}
+  .angle{border-left:4px solid var(--gold); background:#fffdf8; padding:9px 13px; margin:9px 0; border-radius:0 6px 6px 0;}
+  .angle .h{font-weight:800; color:var(--gold-d); font-size:12.5px;}
+  hr{border:none; border-top:1px solid var(--line); margin:12px 0;}
+</style>
+</head>
+<body>
+
+<!-- ============ COUVERTURE ============ -->
+<div class="cover">
+  <span class="badge">DOCUMENT STRATÉGIQUE CONFIDENTIEL</span>
+  <h1>Vendre son Miel en Ligne<br>à Casablanca</h1>
+  <div class="sub">Étude de marché, stratégie publicitaire, analyse d'audience et analyse de risque — pour un lancement solo, rentable et différencié.</div>
+  <div class="prods">
+    <span>🍯 Sidr (Jujubier)</span><span>🍊 Oranger / Limoune</span><span>🌿 Thym / Zaâtar</span>
+  </div>
+  <div class="meta">
+    <span>Préparé pour&nbsp;: Khalid — Fondateur (solo)</span>
+    <span>Marché&nbsp;: Casablanca / Maroc &nbsp;•&nbsp; Modèle&nbsp;: E-commerce COD</span>
+    <span>Juillet 2026</span>
+  </div>
+</div>
+
+<!-- ============ SOMMAIRE ============ -->
+<div class="page">
+  <h2>Sommaire</h2>
+  <ul class="toc">
+    <li><a href="#s1">1 &nbsp; Résumé exécutif &amp; décision principale</a><span class="pg">03</span></li>
+    <li><a href="#s2">2 &nbsp; La réalité du marché (données chiffrées)</a><span class="pg">04</span></li>
+    <li><a href="#s3">3 &nbsp; Analyse concurrentielle (Meta Ad Library)</a><span class="pg">06</span></li>
+    <li><a href="#s4">4 &nbsp; Positionnement unique — la « Big Idea »</a><span class="pg">08</span></li>
+    <li><a href="#s5">5 &nbsp; Analyse d'audience &amp; personas</a><span class="pg">10</span></li>
+    <li><a href="#s6">6 &nbsp; Les angles gagnants (Winning Angles)</a><span class="pg">12</span></li>
+    <li><a href="#s7">7 &nbsp; Stratégie publicitaire &amp; structure de compte</a><span class="pg">14</span></li>
+    <li><a href="#s8">8 &nbsp; L'offre irrésistible &amp; pricing</a><span class="pg">16</span></li>
+    <li><a href="#s9">9 &nbsp; Créatifs &amp; contenu qui convertit</a><span class="pg">17</span></li>
+    <li><a href="#s10">10 &nbsp; Opérations COD (réduire les retours)</a><span class="pg">18</span></li>
+    <li><a href="#s11">11 &nbsp; Analyse de risque complète</a><span class="pg">19</span></li>
+    <li><a href="#s12">12 &nbsp; Projections financières (3 scénarios)</a><span class="pg">21</span></li>
+    <li><a href="#s13">13 &nbsp; Plan d'action 30 / 60 / 90 jours</a><span class="pg">23</span></li>
+    <li><a href="#s14">14 &nbsp; KPIs &amp; règles de décision (scale / kill)</a><span class="pg">24</span></li>
+    <li><a href="#s15">15 &nbsp; Décisions du « board » — synthèse dirigeant</a><span class="pg">25</span></li>
+  </ul>
+  <div class="box-gold" style="margin-top:20px;">
+    <b>Comment lire ce document.</b> Il est écrit en français (langue d'analyse) avec tous les
+    textes clients / scripts publicitaires en <b>darija</b> (prêts à l'emploi). Les chiffres marqués
+    <span class="small">(hypothèse)</span> sont des estimations à remplacer par tes vrais coûts d'achat.
+    Chaque section se termine par une <b>décision concrète</b>, pas seulement de la théorie.
+  </div>
+  <div class="footer-note">Sources externes citées en fin de document (§ Sources). Données concurrentielles extraites de la Meta Ad Library (Maroc), juillet 2026.</div>
+</div>
+
+<!-- ============ 1. RÉSUMÉ EXÉCUTIF ============ -->
+<div class="page" id="s1">
+  <h2>1 &nbsp;·&nbsp; Résumé exécutif &amp; décision principale</h2>
+
+  <div class="lead">
+    <b>Le vrai problème n'est pas « est-ce que je lance des ads ou pas ». Le vrai problème est
+    que le marché du miel au Maroc est un « océan rouge »</b> : plus de <b>5 400 publicités miel</b>
+    tournent actuellement au Maroc sur Meta, et elles disent presque toutes la même chose
+    (« miel pur / naturel », « كمية محدودة », « livraison gratuite »). Si tu lances une ad de plus
+    qui répète le même discours, ton intuition est correcte : le résultat sera faible. Ton blocage
+    n'est donc pas technique — il est <b>stratégique</b>. Ce document règle ce point-là.
+  </div>
+
+  <div class="kpi-row">
+    <div class="kpi"><div class="n">5 441</div><div class="l">pubs « miel » actives au Maroc (Meta)</div></div>
+    <div class="kpi"><div class="n">~30–46%</div><div class="l">du miel dans le monde est falsifié</div></div>
+    <div class="kpi"><div class="n">83,8%</div><div class="l">des acheteurs en ligne paient en COD</div></div>
+    <div class="kpi"><div class="n">17,3 M</div><div class="l">utilisateurs Facebook au Maroc</div></div>
+  </div>
+
+  <h3>Le diagnostic en une phrase</h3>
+  <p>Tu ne dois pas vendre « du miel ». Tu dois vendre <b>la certitude d'un miel non-falsifié + une identité
+  de marque + une offre structurée</b>, à une audience qui a <u>peur de se faire arnaquer</u> — parce que
+  c'est la douleur n°1 du marché, et personne ne l'exploite proprement.</p>
+
+  <h3>Les 5 décisions structurantes (le cœur de la stratégie)</h3>
+  <table>
+    <tr><th style="width:26%">Décision</th><th>Ce que tu fais concrètement</th></tr>
+    <tr><td><b>1. Anti-falsification comme axe n°1</b></td><td>Transformer « la peur du faux miel » en argument central : preuve, test à la maison, traçabilité, ONSSA, garantie « remboursé si tu prouves que c'est pas pur ».</td></tr>
+    <tr><td><b>2. Marque, pas commodité</b></td><td>Un nom, un logo, un pot reconnaissable, un « personnage » (toi, l'apiculteur/le fondateur). On n'achète pas « du miel », on achète <i>ton</i> miel.</td></tr>
+    <tr><td><b>3. Le Sidr comme produit « héros »</b></td><td>Le miel de Sidr = marge la plus haute + désir le plus fort (cadeau, santé, statut). C'est ton produit d'acquisition premium ; thym &amp; oranger = volume &amp; récurrence.</td></tr>
+    <tr><td><b>4. Vendre par offre, pas par pot</b></td><td>Bundles + panier moyen (AOV) &gt; 200 MAD pour absorber le coût COD. Jamais « 1 pot à 60 dh ».</td></tr>
+    <tr><td><b>5. Gagner l'opération COD</b></td><td>Le vrai tueur de rentabilité au Maroc n'est pas le CPM, c'est le <b>taux de retour (jusqu'à 25%)</b>. Appel de confirmation systématique = +30 à 50% de livraisons.</td></tr>
+  </table>
+
+  <div class="box-green">
+    <b>Verdict du dirigeant :</b> le projet est <b>viable</b>, mais uniquement avec différenciation + discipline opérationnelle.
+    Lancé « comme tout le monde », il perd de l'argent. Lancé avec l'angle anti-falsification + marque + offre + confirmation COD,
+    il a un avantage réel et défendable. <b>Budget de test recommandé pour valider&nbsp;: 3 000–5 000 MAD sur 3–4 semaines</b> (détails § 12).
+  </div>
+</div>
+
+<!-- ============ 2. MARCHÉ ============ -->
+<div class="page" id="s2">
+  <h2>2 &nbsp;·&nbsp; La réalité du marché (données chiffrées)</h2>
+
+  <h3>2.1 &nbsp; L'e-commerce marocain — le vent est dans le dos</h3>
+  <table>
+    <tr><th style="width:42%">Indicateur</th><th>Valeur</th><th>Ce que ça signifie pour toi</th></tr>
+    <tr><td>Taille du marché e-commerce (2023)</td><td class="num">~22 milliards MAD</td><td>Marché massif et jeune, loin d'être saturé hors grandes plateformes.</td></tr>
+    <tr><td>Croissance annuelle</td><td class="num">&gt; 30% / an</td><td>Tu entres dans un marché qui grossit vite&nbsp;: le timing est bon.</td></tr>
+    <tr><td>Projection 2029</td><td class="num">~24 Mds MAD · 9,9 M acheteurs</td><td>La base d'acheteurs en ligne continue de s'élargir.</td></tr>
+    <tr><td>Part du COD (paiement à la livraison)</td><td class="num">83,8% (déclaré)</td><td>Ton modèle sera <b>COD</b>. Le client ne paie pas d'avance → confiance = tout.</td></tr>
+    <tr><td>Taux de retour / refus COD</td><td class="num">jusqu'à 25%</td><td>1 colis sur 4 peut revenir. C'est le risque n°1 de rentabilité (voir § 10 &amp; 11).</td></tr>
+    <tr><td>Effet d'un appel avant livraison</td><td class="num">−30 à −50% de refus</td><td>La confirmation téléphonique n'est pas optionnelle&nbsp;: c'est un levier de profit.</td></tr>
+  </table>
+  <div class="box"><b>Lecture stratège :</b> Casablanca est le meilleur terrain COD du Maroc (livreurs qui connaissent les zones, délais tenus, points relais nombreux). Concentrer d'abord le ciblage sur le Grand Casablanca réduit les frais de livraison, les délais et donc les retours.</div>
+
+  <h3>2.2 &nbsp; Le marché du miel — demande forte + méfiance forte</h3>
+  <div class="grid2">
+    <div class="box-gold">
+      <b>La demande</b>
+      <ul>
+        <li>Le miel est un <b>produit culturel et de santé</b> au Maroc (Ramadan, hiver/toux, cadeaux, médecine prophétique, sport).</li>
+        <li>Consommation mondiale <b>+12% en 2024</b> vs production <b>+3%</b> → tension sur l'offre de <i>vrai</i> miel.</li>
+        <li>Le Sidr (jujubier) est classé parmi <b>les meilleurs miels du monde</b> → fort potentiel « premium / cadeau ».</li>
+      </ul>
+    </div>
+    <div class="box-red">
+      <b>La méfiance (= ton opportunité)</b>
+      <ul>
+        <li><b>~30%</b> du miel vendu dans le monde serait falsifié (sucre, sirop, glucose).</li>
+        <li>Contrôle UE aux frontières&nbsp;: <b>46%</b> des échantillons « ne seraient pas vraiment du miel ».</li>
+        <li>Au Maroc, la peur du « miel mghchoch » (frelaté) est <b>ancrée et quotidienne</b>.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="box-green"><b>L'insight central de toute la stratégie :</b> le marché ne manque pas de miel — il manque de <b>confiance</b>.
+  La marque qui vend la <u>preuve</u> et non le produit gagne. C'est exactement l'espace vide que tes concurrents laissent ouvert (§ 3).</div>
+
+  <h3>2.3 &nbsp; L'audience digitale disponible</h3>
+  <table>
+    <tr><th>Plateforme / donnée</th><th>Chiffre (Maroc)</th><th>Usage recommandé</th></tr>
+    <tr><td>Utilisateurs réseaux sociaux</td><td class="num">~22,5 M</td><td>Volume largement suffisant pour scaler localement.</td></tr>
+    <tr><td>Facebook</td><td class="num">17,3 M (52% pop.)</td><td><b>Canal n°1</b> pour ton audience (30–55 ans, achat COD, darija).</td></tr>
+    <tr><td>Instagram</td><td class="num">8,7 M (26% pop.)</td><td>Marque, Reels esthétiques, audience plus jeune/urbaine premium.</td></tr>
+    <tr><td>Répartition H / F</td><td class="num">58% H · 42% F</td><td>La <b>femme</b> décide souvent l'achat alimentaire familial → créatifs dédiés.</td></tr>
+    <tr><td>Cœur d'âge social</td><td class="num">18–24 = 32%</td><td>Mais ton acheteur miel est plus âgé (25–55). Ne te laisse pas biaiser par l'âge médian.</td></tr>
+  </table>
+  <div class="footer-note">Le marché social maroc est « broad-friendly » : ciblage large + bon créatif &gt; ciblage d'intérêts trop étroit (voir § 7).</div>
+</div>
+
+<!-- ============ 3. CONCURRENCE ============ -->
+<div class="page" id="s3">
+  <h2>3 &nbsp;·&nbsp; Analyse concurrentielle — Meta Ad Library (Maroc)</h2>
+  <p class="small">Extraction en direct de la bibliothèque publicitaire Meta pour le terme « عسل » (miel), pays = Maroc. ~5 441 publicités estimées actives — un marché <b>très</b> disputé, ce qui prouve la demande mais impose la différenciation.</p>
+
+  <h3>3.1 &nbsp; Qui fait de la publicité miel au Maroc (échantillon réel)</h3>
+  <table>
+    <tr><th style="width:24%">Annonceur (Page)</th><th style="width:30%">Angle / accroche observée</th><th>Lecture</th></tr>
+    <tr><td>Novamel</td><td>« Livraison gratuite » 🎉</td><td>Joue l'offre logistique — angle générique, facile à battre.</td></tr>
+    <tr><td>Sahra bio</td><td>« عرض محدود وكمية محدودة » (offre &amp; quantité limitées)</td><td>Urgence / rareté — l'angle le <b>plus répété</b> du marché.</td></tr>
+    <tr><td>Hora Cooperative</td><td>« ماشي أي عسل… جرب الفرق بنفسك » (pas n'importe quel miel, teste la différence)</td><td>Le <b>seul</b> qui frôle la différenciation qualité. À dépasser.</td></tr>
+    <tr><td>متجر عسل يوسف</td><td>« راحتك الزوجية بين يديك » (bien-être conjugal)</td><td>Angle <b>santé masculine / intimité</b> — puissant, sous-exploité proprement.</td></tr>
+    <tr><td>Sahra bio / شفاء بيو</td><td>« الكمية جد محدودة » (quantité très limitée)</td><td>Encore la rareté. Signal que tout le monde copie la même formule.</td></tr>
+    <tr><td>Assilbio · Natura Premium · عسل ولد الشريف · Coop Elbounaamani</td><td>Miel « bio / coopérative / naturel », packs, amlou</td><td>Positionnement « terroir/coopérative » — crédible mais indifférencié visuellement.</td></tr>
+  </table>
+
+  <h3>3.2 &nbsp; Ce que TOUS répètent (l'océan rouge)</h3>
+  <div class="grid2">
+    <div class="box-red">
+      <b>Les 4 angles saturés (à éviter en angle principal)</b>
+      <ol>
+        <li><b>« Pur / naturel / bio »</b> — devenu un mot vide, tout le monde le dit.</li>
+        <li><b>« كمية محدودة »</b> (rareté) — usé, le client n'y croit plus.</li>
+        <li><b>« Livraison gratuite »</b> — table stakes, ne différencie pas.</li>
+        <li><b>Photo d'un pot + goutte qui coule</b> — visuel identique partout.</li>
+      </ol>
+    </div>
+    <div class="box-green">
+      <b>Les 4 espaces vides (ton avantage)</b>
+      <ol>
+        <li><b>La PREUVE anti-falsification</b> (test live, garantie) — quasi personne.</li>
+        <li><b>Une vraie MARQUE / un visage</b> — le fondateur, l'histoire, la confiance.</li>
+        <li><b>Segmentation par usage</b> (Sidr cadeau, thym toux, oranger enfants/sport).</li>
+        <li><b>Contenu éducatif</b> (« comment reconnaître le vrai miel ») — bâtisseur de confiance.</li>
+      </ol>
+    </div>
+  </div>
+
+  <h3>3.3 &nbsp; Espionner intelligemment (méthode, à refaire chaque semaine)</h3>
+  <div class="box">
+    <ol>
+      <li>Ouvre <b>facebook.com/ads/library</b> → pays <b>Maroc</b> → mot-clé <b>عسل</b> / <b>miel</b> / <b>سدر</b>.</li>
+      <li>Repère les pubs <b>actives depuis longtemps</b> (date de diffusion ancienne = elles sont rentables → à décortiquer).</li>
+      <li>Note pour chaque&nbsp;: le <b>hook</b> (3 premières secondes), l'<b>offre</b>, le <b>prix</b>, le <b>format</b> (UGC vidéo vs photo).</li>
+      <li>Ne copie pas — <b>surpasse</b>&nbsp;: prends leur meilleur angle et ajoute ta preuve + ta marque.</li>
+    </ol>
+    <span class="small">Règle&nbsp;: une pub concurrente qui tourne depuis 30–60 jours+ est une mine d'or. Une pub récente qui disparaît vite = angle qui a échoué, ne le copie pas.</span>
+  </div>
+  <div class="box-gold"><b>Décision § 3 :</b> ne pas entrer sur les angles « pur/limité/livraison ». Entrer par <b>« anti-arnaque + preuve + marque »</b>. C'est là que la concurrence est faible et la douleur client forte.</div>
+</div>
+
+<!-- ============ 4. POSITIONNEMENT / BIG IDEA ============ -->
+<div class="page" id="s4">
+  <h2>4 &nbsp;·&nbsp; Positionnement unique — la « Big Idea »</h2>
+
+  <div class="lead">Les grandes marques ne gagnent pas parce que leur produit est « meilleur » dans l'absolu. Elles gagnent parce qu'elles occupent <b>une idée dans la tête du client</b>. Ta place à prendre&nbsp;: <b>« le miel en qui on peut avoir confiance les yeux fermés »</b>.</div>
+
+  <h3>4.1 &nbsp; Le mécanisme unique (Unique Mechanism)</h3>
+  <p>Les marques internationales (et les meilleurs vendeurs COD) associent toujours une <b>promesse</b> à un <b>mécanisme qui la rend crédible</b>. Sans mécanisme, la promesse = du vent. Voici le tien&nbsp;:</p>
+  <table>
+    <tr><th style="width:33%">Promesse</th><th>Mécanisme crédible (la preuve)</th></tr>
+    <tr><td>« Miel 100% non falsifié »</td><td>Le <b>test de l'eau / du pouce / du feu</b> filmé en vidéo + certificat <b>ONSSA</b> + garantie remboursement.</td></tr>
+    <tr><td>« Du rucher à ta maison »</td><td>Traçabilité&nbsp;: région de récolte (Khénifra, Souss…), photo de l'apiculteur, lot/date.</td></tr>
+    <tr><td>« Le bon miel pour le bon besoin »</td><td>Guide d'usage&nbsp;: Sidr = force/cadeau/immunité, Thym = gorge/toux/cicatrisation, Oranger = enfants/sommeil/douceur.</td></tr>
+  </table>
+
+  <h3>4.2 &nbsp; Construire la marque (même en solo, même petit budget)</h3>
+  <div class="grid2">
+    <div class="box">
+      <b>Les 6 actifs de marque à créer (semaine 1)</b>
+      <ul>
+        <li><b>Nom</b> court, mémorisable, prononçable en darija (ex. « Assil », « Nahla », « Dar l'Assil »).</li>
+        <li><b>Logo</b> simple + <b>couleur signature</b> (or/ambre + une 2ᵉ couleur qui te distingue du beige générique).</li>
+        <li><b>Étiquette</b> propre avec type, région, poids, date, QR/numéro de lot.</li>
+        <li><b>Le fondateur visible</b>&nbsp;: ton visage/ta voix = confiance instantanée en COD.</li>
+        <li><b>Une phrase-signature</b> (slogan) répétée partout.</li>
+        <li><b>Un packaging « déballage »</b> soigné → photos clients gratuites = preuve sociale.</li>
+      </ul>
+    </div>
+    <div class="box-gold">
+      <b>Exemples de slogans (darija) à tester</b>
+      <div class="darija"><div class="lbl">SLOGAN — TRUST</div>العسل اللي تقدر تثق فيه بعينيك مغمضين. مجرّب قدّامك.</div>
+      <div class="darija"><div class="lbl">SLOGAN — PROOF</div>ماشي غير كنقولو طبيعي… كنوريوه ليك.</div>
+      <div class="darija"><div class="lbl">SLOGAN — TERROIR</div>من الخلية ديال الجبل، نيشان لدارك.</div>
+    </div>
+  </div>
+
+  <h3>4.3 &nbsp; La hiérarchie produit (architecture d'offre)</h3>
+  <table>
+    <tr><th>Rôle</th><th>Produit</th><th>Fonction business</th></tr>
+    <tr><td><b>HÉROS (acquisition premium)</b></td><td>Miel de <b>Sidr</b></td><td>Marge la plus haute, désir/cadeau/statut. La « star » des pubs.</td></tr>
+    <tr><td><b>VOLUME (entrée &amp; récurrence)</b></td><td>Miel de <b>Thym</b></td><td>Usage santé (toux, gorge, immunité) → rachat fréquent, surtout en hiver.</td></tr>
+    <tr><td><b>FAMILLE (grand public)</b></td><td>Miel d'<b>Oranger/Limoune</b></td><td>Doux, pour enfants/petit-déj → panier familial, bundles.</td></tr>
+    <tr><td><b>MULTIPLICATEUR (AOV)</b></td><td><b>Pack découverte 3 miels</b></td><td>Fait monter le panier, réduit le coût COD par commande, idéal cadeau.</td></tr>
+  </table>
+  <div class="box-green"><b>Décision § 4 :</b> lancer la marque avec le <b>Sidr en produit héros</b> et le <b>pack 3 miels</b> en offre-cadeau, sous une identité « confiance/preuve ». Tout le reste (créatifs, pubs, page) découle de ce positionnement.</div>
+</div>
+
+<!-- ============ 5. AUDIENCE / PERSONAS ============ -->
+<div class="page" id="s5">
+  <h2>5 &nbsp;·&nbsp; Analyse d'audience &amp; personas</h2>
+  <p class="small">4 segments prioritaires. Pour chacun&nbsp;: la douleur, le désir, le déclencheur d'achat, le produit et l'angle. C'est la base de tout ciblage et de tout script.</p>
+
+  <div class="persona">
+    <div class="hd"><span>👩 Persona 1 — « Oum Salma », la mère de famille (LE cœur de cible)</span><span>Femme · 28–45 · Casa</span></div>
+    <div class="bd">
+      <div>
+        <b>Douleur</b><br>Peur d'acheter du faux miel pour ses enfants&nbsp;; hiver = toux/rhumes&nbsp;; veut du naturel mais se méfie.<br>
+        <b>Désir</b><br>Protéger la santé de la famille, produit « sain » de confiance, prix juste.
+      </div>
+      <div>
+        <b>Déclencheur</b><br>Une vidéo qui <i>montre</i> comment reconnaître le vrai miel + garantie.<br>
+        <b>Produit / Angle</b><br>Oranger (enfants) + Thym (toux). Angle&nbsp;: <b>« santé des enfants / anti-arnaque »</b>.
+      </div>
+    </div>
+  </div>
+
+  <div class="persona">
+    <div class="hd"><span>💪 Persona 2 — « Yassine », le sportif / soucieux de sa santé</span><span>Homme · 22–40 · urbain</span></div>
+    <div class="bd">
+      <div>
+        <b>Douleur</b><br>Énergie, récupération, immunité&nbsp;; en a marre du sucre raffiné.<br>
+        <b>Désir</b><br>Booster naturel de performance, « clean », premium.
+      </div>
+      <div>
+        <b>Déclencheur</b><br>Angle énergie/musculation + « vrai miel = vrais bienfaits ».<br>
+        <b>Produit / Angle</b><br>Sidr + Thym. Angle&nbsp;: <b>« énergie &amp; immunité naturelles »</b>.
+      </div>
+    </div>
+  </div>
+
+  <div class="persona">
+    <div class="hd"><span>🎁 Persona 3 — « L'acheteur cadeau / premium »</span><span>H/F · 30–55 · CSP+</span></div>
+    <div class="bd">
+      <div>
+        <b>Douleur</b><br>Veut offrir un cadeau <b>qui a de la valeur et du sens</b> (invités, famille, patron, retour de voyage).<br>
+        <b>Désir</b><br>Prestige, packaging beau, « le meilleur miel du Maroc ».
+      </div>
+      <div>
+        <b>Déclencheur</b><br>Sidr en coffret + storytelling terroir + belle boîte.<br>
+        <b>Produit / Angle</b><br>Sidr / Pack coffret. Angle&nbsp;: <b>« le cadeau noble &amp; rare »</b>.
+      </div>
+    </div>
+  </div>
+
+  <div class="persona">
+    <div class="hd"><span>🕌 Persona 4 — « Le traditionnel / santé prophétique »</span><span>H/F · 35–60</span></div>
+    <div class="bd">
+      <div>
+        <b>Douleur</b><br>Cherche le miel « comme autrefois », remède naturel, valeurs, méfiance du commerce.<br>
+        <b>Désir</b><br>Authenticité, terroir, médecine prophétique (سنة), confiance humaine.
+      </div>
+      <div>
+        <b>Déclencheur</b><br>Le visage de l'apiculteur, la région, l'histoire, le Sidr « السدر ».<br>
+        <b>Produit / Angle</b><br>Sidr / Thym. Angle&nbsp;: <b>« le miel authentique du terroir »</b>.
+      </div>
+    </div>
+  </div>
+
+  <h3>5.1 &nbsp; Traduction en ciblage Meta (concret)</h3>
+  <table>
+    <tr><th>Paramètre</th><th>Recommandation</th><th>Pourquoi</th></tr>
+    <tr><td>Localisation</td><td><b>Grand Casablanca</b> d'abord (puis Rabat, Marrakech, Tanger)</td><td>Livraison fiable, retours plus faibles, cash-flow plus sain.</td></tr>
+    <tr><td>Âge</td><td><b>25–55</b> (ne pas descendre à 18)</td><td>C'est l'acheteur, pas l'audience social médiane.</td></tr>
+    <tr><td>Genre</td><td>Tester H et F <b>séparément</b> par angle</td><td>La femme = santé famille&nbsp;; l'homme = énergie/cadeau.</td></tr>
+    <tr><td>Ciblage détaillé</td><td><b>Large / Advantage+</b> (laisse l'algo trouver)</td><td>Marché maroc = broad + bon créatif &gt; intérêts étroits. Le créatif fait le ciblage.</td></tr>
+    <tr><td>Placement</td><td>Advantage+ Placements (Feed, Reels, Stories)</td><td>Maximise la portée au meilleur coût, laisse l'algo optimiser.</td></tr>
+    <tr><td>Langue du créatif</td><td><b>Darija</b> (voix off + texte à l'écran)</td><td>Proximité, confiance, compréhension = meilleur taux de message/commande.</td></tr>
+  </table>
+  <div class="box-gold"><b>Décision § 5 :</b> 1 audience large par angle, on ne micro-cible pas. On laisse le <b>créatif</b> faire le tri des personas. On démarre <b>Casablanca</b> pour sécuriser l'opération COD avant d'élargir.</div>
+</div>
+
+<!-- ============ 6. ANGLES GAGNANTS ============ -->
+<div class="page" id="s6">
+  <h2>6 &nbsp;·&nbsp; Les angles gagnants (Winning Angles)</h2>
+  <p class="small">8 angles classés du plus fort au plus complémentaire. Chaque angle = 1 hook + 1 mécanisme + 1 persona + 1 script darija prêt à filmer. En publicité de réponse directe (Meta COD), <b>l'angle &gt; le budget</b>. On teste 3–4 angles en parallèle, on garde les gagnants.</p>
+
+  <div class="angle">
+    <div class="h">① LE TEST ANTI-ARNAQUE (angle n°1, à lancer en premier)</div>
+    <b>Hook</b> — montrer un test en direct (verre d'eau / pouce / papier) qui « démasque » le faux miel.
+    <div class="darija"><div class="lbl">SCRIPT VIDÉO — DARIJA</div>
+    واش كتعرف العسل اللي كتشري مغشوش ولا لا؟ 🍯 دير هاد التجربة فدارك&nbsp;: زيد ملعقة عسل فكاس ماء… إيلا دّاب بسرعة راه مغشوش. العسل ديالنا — شوف بعينيك — كيهبط للقاع وما كيدوبش. عسل خالص، مجرّب، ومضمون. إيلا لقيتيه ماشي طبيعي، كنردّو ليك فلوسك.</div>
+    <span class="small">Persona 1 &amp; 4 · Mécanisme&nbsp;: preuve visuelle + garantie. C'est ton angle signature.</span>
+  </div>
+
+  <div class="angle">
+    <div class="h">② LA SANTÉ DES ENFANTS EN HIVER</div>
+    <b>Hook</b> — « Ton enfant tousse la nuit ? Avant les sirops… »
+    <div class="darija"><div class="lbl">SCRIPT — DARIJA</div>
+    ولدك كيكحّ فالليل؟ 😔 قبل ما تعطيه الشراب ديال الصيدلية، جرّب ملعقة ديال عسل الزعتر ديالنا. طبيعي 100%، كيهدّي الحلق وكيقوّي المناعة. آمن للأطفال. عسل خالص من الجبل، كيوصلك لدارك وكتخلّص من داك اللي عيّطتي عليه.</div>
+    <span class="small">Persona 1 · Produit&nbsp;: Thym. Saison&nbsp;: automne/hiver = pic de demande.</span>
+  </div>
+
+  <div class="angle">
+    <div class="h">③ LE CADEAU NOBLE (Sidr premium)</div>
+    <b>Hook</b> — « Le cadeau que personne n'offre… et que tout le monde retient. »
+    <div class="darija"><div class="lbl">SCRIPT — DARIJA</div>
+    بغيتي تهدي هدية تبقى فالذاكرة؟ 🎁 عسل السدر — من أغلى وأجود العسل فالعالم. مقدّم فعلبة أنيقة، مناسب للضياف، للوالدين، وللمناسبات. ماشي غير هدية… راه ثقة وصحة. كمية محدودة من الموسم ديال هاد العام.</div>
+    <span class="small">Persona 3 · Produit&nbsp;: Sidr / coffret · Marge maximale · AOV élevé.</span>
+  </div>
+
+  <div class="angle">
+    <div class="h">④ ÉNERGIE &amp; IMMUNITÉ (sport / bien-être)</div>
+    <b>Hook</b> — « 1 cuillère le matin à la place du sucre… »
+    <div class="darija"><div class="lbl">SCRIPT — DARIJA</div>
+    بدّل السكر بملعقة عسل خالص كل صباح. 💪 طاقة طبيعية، مناعة قوية، وتعافي أسرع بعد الرياضة. ماشي أي عسل — عسل السدر والزعتر ديالنا، مجرّب ومضمون. جسمك يستاهل الحقيقي.</div>
+    <span class="small">Persona 2 · Produit&nbsp;: Sidr + Thym.</span>
+  </div>
+
+  <div class="angle">
+    <div class="h">⑤ L'HISTOIRE DU FONDATEUR / TERROIR (trust builder)</div>
+    <b>Hook</b> — toi face caméra, le rucher derrière, ton histoire.
+    <div class="darija"><div class="lbl">SCRIPT — DARIJA</div>
+    أنا [الاسم]، وهاد العسل كنجيبو ليكم نيشان من الخلايا فالجبل. شفت بعيني كيفاش الناس كيتغشّو، لهذا قررت نبيع غير العسل الخالص، وباللي كنثق فيه لعائلتي. إيلا ما عجبكش — ردّو ليّ فلوسكم. الثقة قبل الربح.</div>
+    <span class="small">Tous personas · construit la marque + réduit la peur COD (visage = confiance).</span>
+  </div>
+
+  <div class="angle">
+    <div class="h">⑥ SANTÉ MASCULINE / VITALITÉ (angle observé chez un concurrent, à traiter avec goût)</div>
+    <b>Hook</b> — vitalité, énergie du couple, force naturelle (rester élégant &amp; crédible).
+    <span class="small">Persona 2 · Produit&nbsp;: Sidr. Fort taux de clic, mais garder un ton respectueux et « santé », pas vulgaire (risque de rejet de la pub — voir § 11).</span>
+  </div>
+
+  <div class="angle">
+    <div class="h">⑦ ÉDUCATIF « Comment reconnaître le vrai miel » (contenu de confiance)</div>
+    <b>Hook</b> — « 3 signes que ton miel est faux » (carrousel ou vidéo liste).
+    <span class="small">Tous personas · format qui génère partages &amp; commentaires → baisse le CPM, réchauffe l'audience avant l'offre.</span>
+  </div>
+
+  <div class="angle">
+    <div class="h">⑧ PREUVE SOCIALE / TÉMOIGNAGES (à activer dès les 1ᵉʳˢ clients)</div>
+    <b>Hook</b> — captures d'avis WhatsApp réels, photos de déballage clients, « avant/après » toux.
+    <span class="small">Tous personas · le plus rentable une fois que tu as 10–20 ventes. Demande une photo/avis à chaque client livré.</span>
+  </div>
+
+  <div class="box-gold"><b>Décision § 6 :</b> lancer en test <b>①, ②, ③, ⑤</b> (4 angles). Après 5–7 jours, couper les 2 plus faibles, doubler le budget sur les 2 gagnants, puis produire des variations du gagnant.</div>
+</div>
+
+<!-- ============ 7. STRATÉGIE PUB ============ -->
+<div class="page" id="s7">
+  <h2>7 &nbsp;·&nbsp; Stratégie publicitaire &amp; structure de compte</h2>
+
+  <h3>7.1 &nbsp; Le tunnel (funnel) — simple et adapté au solo/COD</h3>
+  <table>
+    <tr><th>Étape</th><th>Objectif Meta</th><th>Destination</th><th>But</th></tr>
+    <tr><td><b>Froid (TOF)</b></td><td>Messages (WhatsApp) <i>ou</i> Ventes (site)</td><td>WhatsApp Business / Landing page COD</td><td>Générer commandes &amp; conversations à froid.</td></tr>
+    <tr><td><b>Retargeting (BOF)</b></td><td>Ventes / Messages</td><td>Idem</td><td>Récupérer ceux qui ont vu la vidéo/visité sans acheter.</td></tr>
+  </table>
+  <div class="box">
+    <b>Quel destination choisir&nbsp;? (décision importante)</b>
+    <ul>
+      <li><b>Option A — WhatsApp/Messages (recommandée pour démarrer solo)</b>&nbsp;: objectif « Conversations ». Le client clique → discute → tu confirmes → COD. Simple, humain, idéal pour la confiance, pas besoin de site.</li>
+      <li><b>Option B — Landing page COD + formulaire</b> (ex. sur ta boutique/Shopify avec formulaire COD)&nbsp;: plus « scalable », permet le pixel &amp; l'optimisation « Achat », meilleur à volume. À adopter quand tu passes à l'échelle.</li>
+    </ul>
+    <span class="small">Démarre en A (rapide, gratuit, confiance), migre vers B quand tu dépasses ~15–20 commandes/jour.</span>
+  </div>
+
+  <h3>7.2 &nbsp; Structure de compte (CBO simple)</h3>
+  <table>
+    <tr><th>Niveau</th><th>Réglage recommandé (phase de test)</th></tr>
+    <tr><td>Campagne</td><td>1 campagne CBO, objectif <b>Conversations</b> (ou Ventes si site+pixel), budget quotidien global.</td></tr>
+    <tr><td>Ad Sets</td><td><b>Audience large</b> (Casablanca, 25–55, Advantage+). 1 seul ad set au départ pour concentrer le budget.</td></tr>
+    <tr><td>Ads</td><td><b>4 créatifs = 4 angles</b> (§ 6). On teste les angles, pas les audiences.</td></tr>
+  </table>
+
+  <h3>7.3 &nbsp; Budget &amp; méthode de test (le protocole)</h3>
+  <div class="grid2">
+    <div class="box-gold">
+      <b>Phase 1 — Test (semaine 1–2)</b>
+      <ul>
+        <li>Budget&nbsp;: <b>150–250 MAD/jour</b>.</li>
+        <li>4 angles en parallèle, on ne touche à rien pendant 3–4 jours (phase d'apprentissage).</li>
+        <li>On juge sur&nbsp;: coût par message/commande, taux de réponse, coût par commande confirmée.</li>
+      </ul>
+    </div>
+    <div class="box-green">
+      <b>Phase 2 — Scale (semaine 3+)</b>
+      <ul>
+        <li>Couper les angles &gt; 1,5× le CPA cible.</li>
+        <li>Augmenter le budget du gagnant de <b>+20% tous les 2–3 jours</b> (jamais doubler d'un coup).</li>
+        <li>Dupliquer le gagnant, lancer 3 variations (nouveau hook, nouvelle 1ʳᵉ scène).</li>
+      </ul>
+    </div>
+  </div>
+  <div class="box-red"><b>Erreurs qui tuent les comptes (à ne PAS faire)</b>&nbsp;: éteindre une pub après 1 jour&nbsp;; changer le budget chaque heure&nbsp;; mettre 10 intérêts étroits&nbsp;; 1 seul créatif&nbsp;; juger sur les « likes » au lieu du <b>coût par commande livrée</b>&nbsp;; lancer sans avoir préparé la confirmation COD.</div>
+
+  <h3>7.4 &nbsp; Le compte publicitaire (éviter le blocage/restriction)</h3>
+  <ul>
+    <li>Vérifier l'entreprise dans <b>Business Manager</b>, ajouter un moyen de paiement stable, activer la double authentification.</li>
+    <li>Éviter les mots « médicaux » interdits (guérit, soigne une maladie, remplace un médicament) → risque de rejet. Parler <b>bien-être</b>, pas <b>traitement</b>.</li>
+    <li>Réchauffer un compte neuf&nbsp;: commencer petit budget, monter progressivement (pas 0 → 500 dh/j d'un coup).</li>
+    <li>Page FB/IG propres, avec publications, avis, infos de contact → réduit les restrictions.</li>
+  </ul>
+</div>
+
+<!-- ============ 8. OFFRE ============ -->
+<div class="page" id="s8">
+  <h2>8 &nbsp;·&nbsp; L'offre irrésistible &amp; pricing</h2>
+  <div class="lead">En COD, <b>l'offre bat le produit</b>. Le client ne compare pas la chimie du miel — il compare la <b>valeur perçue, le risque et le prix</b>. Ton travail&nbsp;: rendre le « oui » facile et le panier &gt; 200 MAD.</div>
+
+  <h3>8.1 &nbsp; Structure d'offre recommandée (bundles)</h3>
+  <table>
+    <tr><th>Offre</th><th>Contenu</th><th>Prix conseillé <span class="small">(à ajuster)</span></th><th>Rôle</th></tr>
+    <tr><td><b>Découverte</b></td><td>1 pot Thym ou Oranger 500g</td><td class="num">~129–149 MAD</td><td>Entrée de gamme, faible friction.</td></tr>
+    <tr><td><b>Best-seller ⭐</b></td><td>Pot Sidr 500g + petit pot offert</td><td class="num">~199–249 MAD</td><td>Marge + désir, mis en avant.</td></tr>
+    <tr><td><b>Pack Famille (AOV)</b></td><td>3 miels (Sidr + Thym + Oranger)</td><td class="num">~299–349 MAD</td><td>Panier haut, cadeau, meilleure rentabilité COD.</td></tr>
+    <tr><td><b>Coffret Cadeau</b></td><td>Sidr en boîte premium</td><td class="num">~249–299 MAD</td><td>Marge premium, occasions.</td></tr>
+  </table>
+  <span class="small">Prix indicatifs&nbsp;: le miel bio marocain se situe grosso modo à ~215–320 MAD/kg de valeur ; le Sidr est nettement au-dessus. Cale tes prix sur ton coût d'achat réel (voir § 12).</span>
+
+  <h3>8.2 &nbsp; Les 6 amplificateurs d'offre (empruntés aux grandes marques)</h3>
+  <table>
+    <tr><th style="width:30%">Levier</th><th>Application miel</th></tr>
+    <tr><td><b>Garantie de renversement du risque</b></td><td>« Si le miel n'est pas pur → remboursé. » Enlève la peur COD. <b>Ton arme n°1.</b></td></tr>
+    <tr><td><b>Bonus / cadeau</b></td><td>Petit pot offert, ou « cuillère en bois offerte », ou mini-guide d'usage.</td></tr>
+    <tr><td><b>Urgence honnête</b></td><td>« Récolte de saison, stock réel limité » — mais <u>vrai</u>, pas le faux « كمية محدودة » usé.</td></tr>
+    <tr><td><b>Livraison</b></td><td>Gratuite dès le pack best-seller → pousse vers le panier haut.</td></tr>
+    <tr><td><b>Preuve sociale</b></td><td>Avis WhatsApp, photos clients, nombre de commandes livrées.</td></tr>
+    <tr><td><b>Paiement à la livraison</b></td><td>« Tu paies quand tu reçois, dans ta main » — rassure, à mettre en avant.</td></tr>
+  </table>
+
+  <h3>8.3 &nbsp; Monter le panier (upsell / cross-sell)</h3>
+  <ul>
+    <li><b>Bump au moment de la confirmation WhatsApp</b>&nbsp;: « Tu veux ajouter un pot de thym à −20% avec ta commande&nbsp;? » → +30–40% d'AOV sans coût pub.</li>
+    <li><b>Offre par quantité</b>&nbsp;: 2 pots = livraison offerte + petit prix cassé.</li>
+    <li><b>Rachat</b>&nbsp;: relancer les clients livrés 30–45 j après (WhatsApp) → ventes quasi gratuites.</li>
+  </ul>
+  <div class="box-green"><b>Décision § 8 :</b> mettre le <b>Pack best-seller Sidr</b> en offre principale des pubs, viser un <b>AOV ≥ 220 MAD</b>, systématiser la <b>garantie « pur ou remboursé »</b> et le <b>bump WhatsApp</b>. C'est ce qui rend le COD rentable malgré les frais et les retours.</div>
+</div>
+
+<!-- ============ 9. CRÉATIFS ============ -->
+<div class="page" id="s9">
+  <h2>9 &nbsp;·&nbsp; Créatifs &amp; contenu qui convertit</h2>
+  <div class="lead">Sur Meta en 2026, <b>le créatif EST le ciblage.</b> 80% de ton résultat vient de la vidéo, pas des réglages. Bonne nouvelle&nbsp;: tu n'as pas besoin d'un studio — un téléphone + lumière du jour + vérité = suffisant, et souvent <b>plus performant</b> que le « trop pro ».</div>
+
+  <h3>9.1 &nbsp; Le format qui gagne au Maroc&nbsp;: UGC vertical (9:16)</h3>
+  <table>
+    <tr><th style="width:22%">Élément</th><th>Règle</th></tr>
+    <tr><td><b>Les 3 premières secondes (hook)</b></td><td>Un geste + une question/choc visuel. Ex.&nbsp;: le test de l'eau, l'enfant qui tousse, le pot qui s'ouvre. <b>Si le hook rate, tout rate.</b></td></tr>
+    <tr><td><b>Durée</b></td><td>15–35 s pour le froid. Format vertical plein écran.</td></tr>
+    <tr><td><b>Voix</b></td><td>Darija, ton naturel, comme si tu parlais à un proche. Sous-titres à l'écran (beaucoup regardent sans son).</td></tr>
+    <tr><td><b>Structure</b></td><td>Hook → Douleur → Preuve/Mécanisme → Offre → Appel à l'action clair (« إبعت لينا رسالة »).</td></tr>
+    <tr><td><b>CTA</b></td><td>Un seul, explicite&nbsp;: « Envoie-nous un message pour commander, paiement à la livraison ».</td></tr>
+  </table>
+
+  <h3>9.2 &nbsp; La banque de créatifs à produire (semaine 1)</h3>
+  <div class="grid2">
+    <div class="box">
+      <b>À filmer (téléphone)</b>
+      <ul>
+        <li>Le <b>test anti-arnaque</b> (angle ①) — priorité absolue.</li>
+        <li>Toi qui te présentes au rucher (angle ⑤).</li>
+        <li>Gros plans « satisfaisants »&nbsp;: miel qui coule, texture, cuillère.</li>
+        <li>Déballage du colis + étiquette + garantie.</li>
+      </ul>
+    </div>
+    <div class="box">
+      <b>À composer (Canva / photo)</b>
+      <ul>
+        <li>Carrousel « 3 signes d'un faux miel » (angle ⑦).</li>
+        <li>Comparatif visuel « vrai vs faux ».</li>
+        <li>Fiche « quel miel pour quel besoin ».</li>
+        <li>Captures d'avis clients (dès les 1ʳˢ ventes).</li>
+      </ul>
+    </div>
+  </div>
+  <div class="box-gold"><b>Règle de production&nbsp;:</b> vise <b>3–5 nouveaux créatifs / semaine</b>. La « fatigue créative » est la 1ʳᵉ cause de chute des performances&nbsp;: un bon angle meurt en 2–4 semaines, il faut du renouvellement constant. Réutilise le gagnant en changeant seulement le hook.</div>
+
+  <h3>9.3 &nbsp; Idées « uniques » pour sortir du lot (ce que tu demandais)</h3>
+  <ul>
+    <li><b>La série « je teste les miels du marché »</b>&nbsp;: tu achètes des miels concurrents anonymes, tu fais le test devant caméra. Contenu viral + positionnement d'expert de confiance.</li>
+    <li><b>Le « défi de la transparence »</b>&nbsp;: QR code sur l'étiquette → vidéo de la récolte de ce lot précis.</li>
+    <li><b>« Miel + rituel »</b>&nbsp;: associer chaque miel à un moment (Sidr = force du matin, Thym = soir d'hiver, Oranger = goûter des enfants). On ne vend pas un pot, on vend une habitude.</li>
+    <li><b>Garantie affichée en gros</b> comme signature de marque (peu osent l'écrire noir sur blanc).</li>
+  </ul>
+</div>
+
+<!-- ============ 10. OPÉRATIONS COD ============ -->
+<div class="page" id="s10">
+  <h2>10 &nbsp;·&nbsp; Opérations COD — le vrai centre de profit</h2>
+  <div class="lead"><b>90% des vendeurs COD échouent ici, pas sur les pubs.</b> Tu peux avoir un coût par commande excellent et perdre de l'argent si 30% des colis reviennent. Cette section est aussi importante que la pub.</div>
+
+  <h3>10.1 &nbsp; La chaîne COD et ses points de fuite</h3>
+  <table>
+    <tr><th>Étape</th><th>Risque</th><th>Contre-mesure</th></tr>
+    <tr><td>Commande passée</td><td>Fausse commande, mauvais numéro, hésitation</td><td>Confirmation obligatoire (appel/WhatsApp) sous 1–2 h.</td></tr>
+    <tr><td>Confirmation</td><td>Client injoignable / se rétracte</td><td>2–3 tentatives, message vocal, WhatsApp. Ne pas expédier un non-confirmé.</td></tr>
+    <tr><td>Expédition</td><td>Livreur lent, zone difficile</td><td>Casablanca d'abord&nbsp;; transporteur COD fiable&nbsp;; suivi.</td></tr>
+    <tr><td>Livraison</td><td><b>Refus au moment de payer (le tueur)</b></td><td>SMS/WhatsApp « ton colis arrive aujourd'hui »&nbsp;; rappeler la garantie&nbsp;; packaging pro qui rassure.</td></tr>
+    <tr><td>Après-livraison</td><td>Client déçu, pas de rachat</td><td>Message de remerciement + demande d'avis/photo + offre de rachat J+30.</td></tr>
+  </table>
+
+  <div class="box-green">
+    <b>Le chiffre à retenir&nbsp;:</b> appeler/confirmer avant livraison réduit les refus de <b>30 à 50%</b>. Sur une marge serrée, c'est souvent la différence entre <b>perte et profit</b>. La confirmation n'est pas de l'administratif&nbsp;: c'est ta 2ᵉ vente.
+  </div>
+
+  <h3>10.2 &nbsp; Script de confirmation WhatsApp (darija, prêt)</h3>
+  <div class="darija"><div class="lbl">CONFIRMATION — DARIJA</div>
+  السلام عليكم [الاسم] 🙏 مبروك عليك الطلب ديالك من [اسم البراند]&nbsp;: [المنتج] بثمن [السومة] مع التوصيل. باش نأكّدو الطلب، عافاك أكّد لينا&nbsp;: العنوان [...] والمدينة [...]. غادي يوصلك خلال [X] أيام وكتخلّص منين تستلم فيدك. شي سؤال؟ راني هنا. 🍯</div>
+  <div class="darija"><div class="lbl">BUMP / UPSELL — DARIJA</div>
+  بما أنك طلبتي، عندي ليك عرض خاص&nbsp;: زيد بوطة ديال عسل الزعتر بـ ناقص 20% مع نفس الطلب. بغيتي نزيدها ليك؟</div>
+
+  <h3>10.3 &nbsp; Cash-flow &amp; stock (piège du solo)</h3>
+  <ul>
+    <li><b>Le COD immobilise ton cash</b>&nbsp;: tu paies la pub &amp; le produit <b>avant</b> d'encaisser (le transporteur te reverse après livraison, souvent J+7 à J+15). Prévois une trésorerie tampon.</li>
+    <li><b>Ne surstocke pas au départ</b>&nbsp;: valide la demande avec un petit stock, réassort après.</li>
+    <li><b>Suis 3 chiffres chaque jour</b>&nbsp;: dépense pub, nombre de commandes confirmées, nombre de colis livrés (= le seul qui paie).</li>
+  </ul>
+  <div class="box-gold"><b>Décision § 10 :</b> aucune expédition sans confirmation. Casablanca en priorité. Un tableur simple (commande → confirmée → expédiée → livrée → payée) tenu <b>tous les jours</b>. C'est ça, être « patron » de l'opération.</div>
+</div>
+
+<!-- ============ 11. RISQUES ============ -->
+<div class="page" id="s11">
+  <h2>11 &nbsp;·&nbsp; Analyse de risque complète</h2>
+  <p class="small">Matrice Probabilité × Impact, avec mitigation et signal d'alerte pour chaque risque. C'est la partie « analyste de risque » que tu as demandée&nbsp;: on ne cache rien.</p>
+
+  <table>
+    <tr><th style="width:20%">Risque</th><th style="width:9%">Prob.</th><th style="width:9%">Impact</th><th>Mitigation &amp; signal d'alerte</th></tr>
+    <tr><td><b>Taux de retour COD élevé</b></td><td><span class="tag t-hi">Élevée</span></td><td><span class="tag t-hi">Fort</span></td><td>Confirmation systématique&nbsp;; Casa d'abord&nbsp;; transporteur fiable&nbsp;; garantie. <b>Alerte&nbsp;: &gt;25% de retours.</b></td></tr>
+    <tr><td><b>Angle « comme tout le monde » → pas de ventes</b></td><td><span class="tag t-hi">Élevée</span></td><td><span class="tag t-hi">Fort</span></td><td>Angle anti-falsification + marque (§4/§6). <b>Alerte&nbsp;: CPM ok mais 0 message/commande.</b></td></tr>
+    <tr><td><b>Marge écrasée par frais (pub+COD+retours)</b></td><td><span class="tag t-md">Moyenne</span></td><td><span class="tag t-hi">Fort</span></td><td>AOV ≥ 220 MAD, bundles, upsell, prix calé sur coût réel. <b>Alerte&nbsp;: marge nette/commande &lt; frais COD.</b></td></tr>
+    <tr><td><b>Blocage du compte publicitaire / Page</b></td><td><span class="tag t-md">Moyenne</span></td><td><span class="tag t-hi">Fort</span></td><td>Éviter claims médicaux&nbsp;; BM vérifié&nbsp;; montée progressive&nbsp;; garder une 2ᵉ page/pixel de secours. <b>Alerte&nbsp;: pubs « refusées » répétées.</b></td></tr>
+    <tr><td><b>Rupture de trésorerie (cash immobilisé)</b></td><td><span class="tag t-md">Moyenne</span></td><td><span class="tag t-hi">Fort</span></td><td>Tampon de trésorerie&nbsp;; petit stock&nbsp;; ne pas scaler plus vite que les reversements COD. <b>Alerte&nbsp;: tu avances plus que tu n'encaisses 2 semaines de suite.</b></td></tr>
+    <tr><td><b>Fatigue créative (chute des perfs)</b></td><td><span class="tag t-hi">Élevée</span></td><td><span class="tag t-md">Moyen</span></td><td>3–5 créatifs/semaine, renouveler les hooks. <b>Alerte&nbsp;: CPM ↑ + CTR ↓ sur 3–4 jours.</b></td></tr>
+    <tr><td><b>Qualité produit / lot non conforme</b></td><td><span class="tag t-lo">Faible</span></td><td><span class="tag t-hi">Fort</span></td><td>Fournisseur fiable, certificat ONSSA, contrôle de lot. Un client déçu en COD = avis négatif viral. <b>Alerte&nbsp;: 1ʳᵉ plainte « mghchoch ».</b></td></tr>
+    <tr><td><b>Saisonnalité (été = demande plus basse)</b></td><td><span class="tag t-md">Moyenne</span></td><td><span class="tag t-md">Moyen</span></td><td>Angles été (énergie, sport, cadeau) ; pousser fort en automne/hiver &amp; Ramadan. <b>Alerte&nbsp;: baisse saisonnière → ne pas confondre avec échec d'angle.</b></td></tr>
+    <tr><td><b>Solo / surcharge (tu fais tout seul)</b></td><td><span class="tag t-hi">Élevée</span></td><td><span class="tag t-md">Moyen</span></td><td>Automatiser (réponses WhatsApp types, confirmation), déléguer la livraison à un transporteur COD, plus tard 1 personne pour la confirmation. <b>Alerte&nbsp;: tu ne réponds plus aux messages en &lt;2h.</b></td></tr>
+    <tr><td><b>Concurrence sur les prix</b></td><td><span class="tag t-md">Moyenne</span></td><td><span class="tag t-md">Moyen</span></td><td>Ne pas jouer le prix — jouer la <b>confiance/marque</b>. Sortir de la guerre des prix par la valeur perçue.</td></tr>
+  </table>
+
+  <h3>11.1 &nbsp; Les 3 risques « rouges » à surveiller chaque semaine</h3>
+  <div class="kpi-row">
+    <div class="kpi"><div class="n">Retours</div><div class="l">objectif &lt; 20% · confirmation obligatoire</div></div>
+    <div class="kpi"><div class="n">Marge</div><div class="l">marge nette/colis livré &gt; 0 après TOUS frais</div></div>
+    <div class="kpi"><div class="n">Compte</div><div class="l">0 claim médical · BM vérifié · page de secours</div></div>
+  </div>
+
+  <div class="box-red"><b>Le scénario d'échec le plus probable (à éviter consciemment)&nbsp;:</b> lancer vite, angle générique, pas de confirmation COD, juger sur 1 jour, paniquer, tout couper. → Conclusion fausse « les ads marchent pas ». La <b>vraie</b> cause serait le process, pas le canal. Ce document existe pour t'éviter exactement ce piège.</div>
+</div>
+
+<!-- ============ 12. FINANCES ============ -->
+<div class="page" id="s12">
+  <h2>12 &nbsp;·&nbsp; Projections financières — 3 scénarios</h2>
+  <div class="box-red" style="margin-top:0"><b>⚠️ Chiffres = modèle, pas promesse.</b> Les hypothèses ci-dessous sont des ordres de grandeur réalistes pour le COD miel au Maroc. <b>Remplace-les par tes vrais chiffres</b> (surtout le coût d'achat du miel et les frais COD de ton transporteur). Aucun média n'est capable de garantir un ROAS&nbsp;: on modélise pour décider, pas pour rêver.</div>
+
+  <h3>12.1 &nbsp; Économie unitaire d'une commande (exemple : Pack best-seller)</h3>
+  <table>
+    <tr><th>Ligne</th><th>Montant (MAD)</th><th>Note</th></tr>
+    <tr><td>Prix de vente (AOV)</td><td class="num">220</td><td>Pack Sidr best-seller.</td></tr>
+    <tr><td>− Coût produit (COGS) <span class="small">(hypothèse)</span></td><td class="num">−90</td><td><b>À REMPLACER</b> par ton coût réel (Sidr = cher).</td></tr>
+    <tr><td>− Emballage</td><td class="num">−10</td><td>Pot, boîte, étiquette.</td></tr>
+    <tr><td>− Frais COD / livraison <span class="small">(hyp.)</span></td><td class="num">−35</td><td>Transporteur COD Casablanca.</td></tr>
+    <tr><td>− Coût pub par commande livrée <span class="small">(hyp.)</span></td><td class="num">−55</td><td>CPA pub ÷ taux de livraison.</td></tr>
+    <tr><td>− Provision retours (colis perdus)</td><td class="num">−15</td><td>~20% de retours amortis sur les livrés.</td></tr>
+    <tr><td><b>= Marge nette par commande livrée</b></td><td class="num"><b>+15</b></td><td>Positif <b>mais serré</b> → d'où l'importance de l'AOV &amp; du rachat.</td></tr>
+  </table>
+  <div class="box"><b>Levier n°1 de rentabilité&nbsp;:</b> passer l'AOV de 220 → 300 MAD (bundle 3 miels + bump) fait bondir la marge nette de ~15 à ~70+ MAD/commande <b>sans</b> augmenter le coût pub. La rentabilité se joue sur le <b>panier</b>, pas sur le CPM.</div>
+
+  <h3>12.2 &nbsp; Scénarios sur un test de 30 jours</h3>
+  <table>
+    <tr><th>Hypothèse</th><th>Pessimiste</th><th>Réaliste</th><th>Optimiste</th></tr>
+    <tr><td>Budget pub / mois</td><td class="num">4 000</td><td class="num">4 000</td><td class="num">4 000</td></tr>
+    <tr><td>Coût par commande <b>confirmée</b></td><td class="num">70</td><td class="num">45</td><td class="num">30</td></tr>
+    <tr><td>Commandes confirmées</td><td class="num">~57</td><td class="num">~89</td><td class="num">~133</td></tr>
+    <tr><td>Taux de livraison (après retours)</td><td class="num">65%</td><td class="num">75%</td><td class="num">82%</td></tr>
+    <tr><td>Commandes livrées</td><td class="num">~37</td><td class="num">~67</td><td class="num">~109</td></tr>
+    <tr><td>AOV</td><td class="num">200</td><td class="num">250</td><td class="num">300</td></tr>
+    <tr><td>Chiffre d'affaires livré</td><td class="num">~7 400</td><td class="num">~16 750</td><td class="num">~32 700</td></tr>
+    <tr><td>Marge nette estimée (après TOUS frais)</td><td class="num" style="color:var(--red)">~ −500 à 0</td><td class="num" style="color:var(--green)">~ +2 500</td><td class="num" style="color:var(--green)">~ +8 000</td></tr>
+    <tr><td>Lecture</td><td>Seuil / on optimise</td><td>Rentable &amp; scalable</td><td>On scale fort</td></tr>
+  </table>
+  <div class="box-gold"><b>Interprétation dirigeant&nbsp;:</b> même le scénario <b>pessimiste</b> n'est pas une catastrophe — c'est un point mort qui te donne des données, des premiers clients et des avis. Le levier pour passer de « pessimiste » à « réaliste »&nbsp;: <b>meilleur angle</b> (baisse le CPA) + <b>confirmation COD</b> (hausse le taux de livraison) + <b>AOV</b> (hausse la marge). Les 3 sont sous ton contrôle.</div>
+
+  <h3>12.3 &nbsp; Seuil de rentabilité (break-even)</h3>
+  <p>Avec la structure ci-dessus, tu es à l'équilibre autour de <b>~40–50 commandes livrées/mois</b> à AOV 250. Chaque amélioration d'AOV ou de taux de livraison <b>abaisse</b> ce seuil. <b>Objectif réaliste mois 1&nbsp;:</b> atteindre le point mort + constituer 20–40 avis clients à réinvestir en créatifs de preuve sociale.</p>
+</div>
+
+<!-- ============ 13. PLAN D'ACTION ============ -->
+<div class="page" id="s13">
+  <h2>13 &nbsp;·&nbsp; Plan d'action 30 / 60 / 90 jours</h2>
+
+  <h3 style="color:var(--green)">🟢 Jours 1–30 — Fondations &amp; premier test</h3>
+  <table>
+    <tr><th style="width:20%">Domaine</th><th>Actions</th></tr>
+    <tr><td>Marque</td><td>Nom + logo + étiquette + slogan (§4). Créer/nettoyer page FB &amp; IG, bio claire, infos contact.</td></tr>
+    <tr><td>Offre</td><td>Définir les 4 bundles &amp; prix réels (§8). Rédiger la garantie « pur ou remboursé ».</td></tr>
+    <tr><td>Créatifs</td><td>Filmer 4 angles (①②③⑤). Monter en vertical + sous-titres darija.</td></tr>
+    <tr><td>Setup</td><td>BM vérifié, moyen de paiement, WhatsApp Business avec catalogue &amp; réponses rapides.</td></tr>
+    <tr><td>Ops COD</td><td>Choisir transporteur COD, préparer scripts de confirmation &amp; le tableur de suivi.</td></tr>
+    <tr><td>Lancement</td><td>Campagne CBO « Conversations », 150–250 MAD/j, 4 créatifs, Casa 25–55, laisser tourner 3–4 j.</td></tr>
+  </table>
+
+  <h3 style="color:var(--amber)">🟠 Jours 31–60 — Optimiser &amp; trouver le gagnant</h3>
+  <ul>
+    <li>Couper les 2 angles faibles, doubler sur les gagnants, produire 3 variations du meilleur.</li>
+    <li>Lancer le <b>retargeting</b> (vidéo-vues, visiteurs, messages non finalisés).</li>
+    <li>Activer la <b>preuve sociale</b>&nbsp;: collecter avis/photos, en faire des créatifs.</li>
+    <li>Systématiser l'<b>upsell/bump</b> WhatsApp pour monter l'AOV.</li>
+    <li>Suivre les KPIs (§14) et le taux de livraison. Élargir à Rabat/Marrakech si Casa est maîtrisée.</li>
+  </ul>
+
+  <h3 style="color:var(--blue)">🔵 Jours 61–90 — Scaler proprement</h3>
+  <ul>
+    <li>Monter le budget du gagnant <b>+20% tous les 2–3 jours</b>.</li>
+    <li>Migrer (si volume) vers <b>landing page COD + pixel</b> pour optimiser sur « Achat ».</li>
+    <li>Lancer la <b>relance de rachat</b> (clients J+30/45) → ventes à coût quasi nul.</li>
+    <li>Construire une petite <b>banque de créatifs</b> permanente (anti-fatigue).</li>
+    <li>Déléguer la confirmation COD si le volume dépasse ta capacité solo.</li>
+  </ul>
+
+  <div class="box-green"><b>Boussole&nbsp;:</b> chaque semaine, réponds à 3 questions — (1) Quel angle a le meilleur coût par commande livrée&nbsp;? (2) Mon taux de livraison monte-t-il&nbsp;? (3) Mon AOV monte-t-il&nbsp;? Si les 3 progressent, tu peux scaler. Sinon, tu corriges avant d'ajouter du budget.</div>
+</div>
+
+<!-- ============ 14. KPIs ============ -->
+<div class="page" id="s14">
+  <h2>14 &nbsp;·&nbsp; KPIs &amp; règles de décision (scale / kill)</h2>
+  <p class="small">Ce que les grandes équipes appellent « ne pas piloter à l'émotion ». Des seuils clairs&nbsp;: quand augmenter, quand couper, quand attendre.</p>
+
+  <h3>14.1 &nbsp; Le tableau de bord (à regarder chaque jour / semaine)</h3>
+  <table>
+    <tr><th>KPI</th><th>Définition</th><th>Repère</th></tr>
+    <tr><td>CPM</td><td>Coût pour 1000 impressions</td><td>Contexte marché (bas au Maroc). Suivre la <b>tendance</b>, pas le chiffre absolu.</td></tr>
+    <tr><td>CTR (lien/clic)</td><td>% de clics</td><td>&lt; ~1% = créatif/hook faible. &gt; ~2% = bon.</td></tr>
+    <tr><td>Coût / message ou commande</td><td>Dépense ÷ résultats</td><td>Ton indicateur d'acquisition principal.</td></tr>
+    <tr><td>Taux de confirmation</td><td>Confirmées ÷ commandes</td><td>Vise &gt; 70%.</td></tr>
+    <tr><td><b>Taux de livraison</b></td><td>Livrées ÷ confirmées</td><td><b>Vise &gt; 75%.</b> Le KPI qui décide de ta rentabilité.</td></tr>
+    <tr><td><b>Coût / commande LIVRÉE</b></td><td>Dépense ÷ livrées</td><td>Doit rester &lt; ta marge brute. <b>Le seul CPA qui compte.</b></td></tr>
+    <tr><td>AOV</td><td>CA ÷ commandes</td><td>Vise &gt; 220, pousse vers 300.</td></tr>
+    <tr><td>Marge nette / commande</td><td>Après TOUS frais</td><td>Doit être &gt; 0. C'est le juge final.</td></tr>
+    <tr><td>Taux de retour</td><td>Retournées ÷ expédiées</td><td>Alerte &gt; 25%.</td></tr>
+  </table>
+
+  <h3>14.2 &nbsp; Règles de décision automatiques</h3>
+  <table>
+    <tr><th>Situation</th><th>Décision</th></tr>
+    <tr><td>Un créatif a dépensé ~1,5× le CPA cible sans commande</td><td><span class="tag t-hi">KILL</span> Couper le créatif.</td></tr>
+    <tr><td>Un créatif est &lt; le CPA cible et stable 3 j</td><td><span class="tag t-lo">SCALE</span> +20% de budget tous les 2–3 j.</td></tr>
+    <tr><td>Campagne en apprentissage (&lt; 3 j / peu de données)</td><td><span class="tag t-md">WAIT</span> Ne rien toucher.</td></tr>
+    <tr><td>CPM ↑ + CTR ↓ sur 3–4 j (même créatif)</td><td><span class="tag t-md">REFRESH</span> Fatigue → nouveau hook/créatif.</td></tr>
+    <tr><td>Marge nette/commande &lt; 0 malgré bon CPA</td><td><span class="tag t-hi">FIX</span> Problème d'AOV ou de retours, pas de pub.</td></tr>
+  </table>
+  <div class="box-gold"><b>Principe du patron&nbsp;:</b> on ne juge <b>jamais</b> une pub sur 1 journée ni sur les « j'aime ». On juge sur le <b>coût par commande livrée</b> et la <b>marge nette</b>, sur une fenêtre de 3–4 jours minimum. La discipline bat l'émotion.</div>
+</div>
+
+<!-- ============ 15. SYNTHÈSE ============ -->
+<div class="page" id="s15">
+  <h2>15 &nbsp;·&nbsp; Décisions du « board » — synthèse dirigeant</h2>
+  <div class="lead">Si tu ne retiens qu'une page de tout ce document, c'est celle-ci. Les décisions qu'un comité de direction validerait pour ce projet.</div>
+
+  <h3>Ce qui est validé (GO)</h3>
+  <div class="box-green">
+    <ol>
+      <li><b>GO sur le lancement</b>, en modèle COD, en démarrant par <b>Casablanca</b>.</li>
+      <li><b>Positionnement « confiance / anti-falsification »</b> comme axe de marque unique et défendable.</li>
+      <li><b>Sidr = produit héros</b> ; thym &amp; oranger = volume/récurrence ; <b>pack 3 miels = AOV</b>.</li>
+      <li><b>Budget de test&nbsp;: 3 000–5 000 MAD sur ~30 jours</b>, 4 angles, protocole de test discipliné.</li>
+      <li><b>Garantie « pur ou remboursé »</b> et <b>confirmation COD systématique</b> comme piliers opérationnels.</li>
+    </ol>
+  </div>
+
+  <h3>Ce qui est interdit (NO-GO)</h3>
+  <div class="box-red">
+    <ul>
+      <li>❌ Lancer avec l'angle générique « miel pur / كمية محدودة » comme message principal.</li>
+      <li>❌ Expédier sans confirmation.</li>
+      <li>❌ Vendre « à l'unité » un pot à bas prix (AOV trop bas → COD non rentable).</li>
+      <li>❌ Juger les pubs sur 1 jour / sur les likes. Couper ou scaler avant 3–4 jours.</li>
+      <li>❌ Claims médicaux (« guérit », « soigne ») → risque de blocage du compte.</li>
+      <li>❌ Scaler plus vite que la trésorerie et le taux de livraison ne le permettent.</li>
+    </ul>
+  </div>
+
+  <h3>La réponse à ta question de départ</h3>
+  <div class="box-gold">
+    <p>« <i>Est-ce que si je lance des ads ça va marcher&nbsp;?</i> » — <b>Pas si tu les lances comme tout le monde.</b> Oui, avec une <b>vraie différenciation</b> (confiance/preuve), une <b>offre structurée</b> (bundles + garantie), et une <b>opération COD maîtrisée</b> (confirmation). Ton intuition de blocage était juste&nbsp;: elle t'a empêché de brûler du budget sur une stratégie « moi aussi ». Le problème n'était pas les ads — c'était l'absence d'angle et de système. Les deux sont réglés dans ce document.</p>
+    <p style="margin-top:8px"><b>Prochaine action concrète (cette semaine)&nbsp;:</b> figer le nom + l'étiquette + la garantie, filmer le <b>test anti-arnaque</b> (angle ①), préparer le script de confirmation WhatsApp, lancer 150–200 MAD/j sur 4 angles à Casablanca. Puis on lit les données et on décide — pas à l'émotion, aux chiffres.</p>
+  </div>
+
+  <h3>Sources (données externes)</h3>
+  <p class="small">
+    E-commerce &amp; COD Maroc — CODRocket / Statista / ANRT (via pulsemarketing.ma, fgm.ma, hilaldigital.com, codrocket.com) ·
+    Réseaux sociaux Maroc — fnh.ma, mediamarketing.ma, nerolinkmedia.com ·
+    Fraude au miel — economie.gouv.fr (DGCCRF), quechoisir.org, ori.ma, FAO (via lerucherdophelie.com) ·
+    Bienfaits &amp; angles — ori.ma, nutripure.fr, zarbees.ca ·
+    Prix miel Maroc — jumia.ma, ori.ma, herboristerie-principale.ma, lesdouceursdumaroc.ma ·
+    Concurrence — Meta Ad Library (Maroc, requête « عسل »), juillet 2026.
+  </p>
+  <div class="footer-note">Document préparé comme outil de décision. Les projections financières sont des modèles à recalibrer avec les coûts réels. Aucune performance publicitaire n'est garantie&nbsp;: la valeur vient de la méthode, de la différenciation et de la discipline d'exécution.</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Plan de Bataille Créatif — Angle « Faux Miel »</title>
+<style>
+  :root{
+    --gold:#C8891B; --gold-d:#9c6a10; --ink:#1c2530; --ink2:#3a4757;
+    --muted:#6b7787; --line:#e3e7ec; --bg-soft:#faf6ee; --bg-soft2:#f2f6f9;
+    --green:#1f8a54; --red:#c0392b; --amber:#d68910; --blue:#2c6fb3;
+  }
+  *{box-sizing:border-box;}
+  html{-webkit-print-color-adjust:exact; print-color-adjust:exact;}
+  body{font-family:"Segoe UI","Helvetica Neue",Arial,sans-serif; color:var(--ink); font-size:11.2px; line-height:1.55; margin:0;}
+  h1,h2,h3,h4{color:var(--ink); line-height:1.2; margin:0 0 .4em;}
+  h2{font-size:19px; border-bottom:3px solid var(--gold); padding-bottom:6px; margin-top:6px;}
+  h3{font-size:14.5px; color:var(--gold-d); margin-top:16px;}
+  h4{font-size:12.2px; color:var(--ink2); margin-top:12px;}
+  p{margin:.35em 0;}
+  a{color:var(--blue); text-decoration:none;}
+  table{width:100%; border-collapse:collapse; margin:8px 0 12px; font-size:10.3px;}
+  th{background:var(--ink); color:#fff; text-align:left; padding:6px 8px; font-weight:600;}
+  td{border:1px solid var(--line); padding:5px 8px; vertical-align:top;}
+  tr:nth-child(even) td{background:#fafbfc;}
+  .cover{height:100vh; background:linear-gradient(150deg,#14324a 0%,#1c2530 60%,#0d1a25 100%);
+    color:#fff; display:flex; flex-direction:column; justify-content:center; padding:0 12mm; position:relative;}
+  .cover .badge{display:inline-block; border:1px solid var(--gold); color:var(--gold); padding:5px 14px; border-radius:30px; font-size:11px; letter-spacing:1px; margin-bottom:22px; width:max-content;}
+  .cover h1{color:#fff; font-size:36px; margin-bottom:10px; line-height:1.12;}
+  .cover .sub{color:#d9c9a3; font-size:15px; font-weight:400; max-width:80%;}
+  .cover .meta{position:absolute; bottom:16mm; left:12mm; right:12mm; color:#93a1b0; font-size:11px; border-top:1px solid #33404d; padding-top:12px; display:flex; justify-content:space-between;}
+  .page{padding:14mm 12mm; page-break-after:always;}
+  .page:last-child{page-break-after:auto;}
+  .lead{font-size:12px; color:var(--ink2); background:var(--bg-soft2); border-left:4px solid var(--blue); padding:10px 14px; margin:10px 0; border-radius:0 6px 6px 0;}
+  .box{border:1px solid var(--line); border-radius:8px; padding:10px 14px; margin:10px 0; background:#fff;}
+  .box-gold{background:var(--bg-soft); border:1px solid #e8d6ab; border-radius:8px; padding:10px 14px; margin:10px 0;}
+  .box-red{background:#fdeeec; border-left:4px solid var(--red); padding:10px 14px; margin:10px 0; border-radius:0 6px 6px 0;}
+  .box-green{background:#eafaf1; border-left:4px solid var(--green); padding:10px 14px; margin:10px 0; border-radius:0 6px 6px 0;}
+  .darija{background:#fff8ec; border:1px dashed var(--gold); border-radius:8px; padding:9px 13px; margin:8px 0; direction:rtl; text-align:right; font-size:13px; line-height:1.75; color:#4a3a12;}
+  .darija .lbl{direction:ltr; text-align:left; font-size:9.5px; color:var(--gold-d); letter-spacing:.5px; margin-bottom:4px; font-weight:700;}
+  .grid2{display:flex; gap:12px;} .grid2>div{flex:1;}
+  .kpi-row{display:flex; gap:10px; margin:12px 0;}
+  .kpi{flex:1; background:linear-gradient(160deg,#fff,#f7f9fb); border:1px solid var(--line); border-radius:10px; padding:11px; text-align:center;}
+  .kpi .n{font-size:20px; font-weight:800; color:var(--gold-d);}
+  .kpi .l{font-size:9.3px; color:var(--muted); text-transform:uppercase; letter-spacing:.4px; margin-top:3px;}
+  .tag{display:inline-block; font-size:9px; padding:2px 8px; border-radius:20px; font-weight:700; letter-spacing:.3px;}
+  .t-hi{background:#fdeeec; color:var(--red);} .t-md{background:#fef5e7; color:var(--amber);} .t-lo{background:#eafaf1; color:var(--green);}
+  ul,ol{margin:.3em 0 .6em; padding-left:18px;} li{margin:2px 0;}
+  .toc li{margin:5px 0; list-style:none; display:flex; justify-content:space-between; border-bottom:1px dotted var(--line); padding-bottom:3px;}
+  .toc a{color:var(--ink); font-weight:600;} .toc .pg{color:var(--gold-d); font-weight:700;}
+  .small{font-size:9.5px; color:var(--muted);}
+  .num{font-variant-numeric:tabular-nums;}
+  .footer-note{font-size:8.8px; color:var(--muted); border-top:1px solid var(--line); margin-top:14px; padding-top:6px;}
+  .hookbox{border-left:4px solid var(--gold); background:#fffdf8; padding:7px 12px; margin:7px 0; border-radius:0 6px 6px 0;}
+  .hookbox .n{display:inline-block; background:var(--gold); color:#fff; font-weight:800; font-size:10px; border-radius:5px; padding:1px 7px; margin-right:6px;}
+  .shot{border:1px solid var(--line); border-radius:8px; margin:8px 0; overflow:hidden;}
+  .shot .hd{background:var(--ink); color:#fff; padding:5px 11px; font-weight:700; font-size:11px; display:flex; justify-content:space-between;}
+  .shot .bd{padding:8px 12px;}
+  .pill{display:inline-block; background:#eef2f6; color:var(--ink2); border-radius:5px; padding:1px 7px; font-size:9px; font-weight:600; margin-right:5px;}
+  hr{border:none; border-top:1px solid var(--line); margin:12px 0;}
+  .step{display:flex; gap:10px; align-items:flex-start; margin:6px 0;}
+  .step .c{flex:0 0 24px; height:24px; background:var(--gold); color:#fff; border-radius:50%; display:flex; align-items:center; justify-content:center; font-weight:800; font-size:11px;}
+</style>
+</head>
+<body>
+
+<!-- COVER -->
+<div class="cover">
+  <span class="badge">PLAN DE PRODUCTION CRÉATIVE — CONFIDENTIEL</span>
+  <h1>Angle « Faux Miel »<br>De l'angle au Video Creative gagnant</h1>
+  <div class="sub">La recherche, le repositionnement de l'angle, la banque de hooks, le shot-list, les scripts prêts à filmer, le protocole de test et le système d'itération — exactement comme le font les grandes marques après avoir choisi un angle.</div>
+  <div class="meta">
+    <span>Pour : Khalid — Fondateur</span>
+    <span>Produit héros : Miel · Marché : Casablanca / Maroc</span>
+    <span>Juillet 2026</span>
+  </div>
+</div>
+
+<!-- SOMMAIRE -->
+<div class="page">
+  <h2>Sommaire</h2>
+  <ul class="toc">
+    <li><a>1 · La recherche & l'insight décisif (le piège des « tests »)</a><span class="pg">03</span></li>
+    <li><a>2 · Le repositionnement gagnant de l'angle</a><span class="pg">04</span></li>
+    <li><a>3 · Banque de HOOKS (18 accroches darija classées)</a><span class="pg">05</span></li>
+    <li><a>4 · Le SHOT-LIST (لقطات) — plan de tournage plan par plan</a><span class="pg">07</span></li>
+    <li><a>5 · Les 4 SCRIPTS complets prêts à filmer</a><span class="pg">08</span></li>
+    <li><a>6 · Plan de tournage pratique (téléphone, lumière, B-roll)</a><span class="pg">10</span></li>
+    <li><a>7 · Le montage (rythme, sous-titres, textes, durée)</a><span class="pg">11</span></li>
+    <li><a>8 · Le protocole de TEST pour trouver le winner</a><span class="pg">12</span></li>
+    <li><a>9 · Le système d'itération & de scaling du gagnant</a><span class="pg">13</span></li>
+    <li><a>10 · Risques, garde-fous & interdits</a><span class="pg">14</span></li>
+    <li><a>11 · Plan d'action semaine par semaine + checklists</a><span class="pg">15</span></li>
+  </ul>
+  <div class="box-gold" style="margin-top:18px"><b>Ce document est un manuel opérationnel.</b> Objectif : que tu puisses ouvrir ton téléphone et filmer dès demain, tester correctement, et savoir exactement quoi faire une fois que tu as trouvé la vidéo qui gagne. Tous les hooks et scripts sont en darija, prêts à l'emploi.</div>
+</div>
+
+<!-- 1. RECHERCHE -->
+<div class="page">
+  <h2>1 &nbsp;·&nbsp; La recherche & l'insight décisif</h2>
+
+  <div class="lead"><b>Pourquoi cet angle est le meilleur :</b> la douleur n°1 du marché du miel n'est pas le prix ni le goût — c'est <b>la peur de se faire arnaquer</b>. ~30% du miel dans le monde est falsifié, et au Maroc « l'3ssel mghchoch » est une hantise quotidienne. Un angle qui parle à une peur déjà présente dans la tête du client n'a pas besoin de créer le désir : il le <b>libère</b>. C'est le carburant le plus puissant en publicité de réponse directe.</div>
+
+  <div class="box-red">
+    <b>⚠️ Le piège mortel à connaître AVANT de filmer (insight d'analyste)</b><br>
+    Les tests maison viraux — <b>test de l'eau, du pouce, du feu, du papier</b> — sont <b>scientifiquement des mythes</b>. Vérifié : un <u>vrai</u> miel peut échouer à ces tests (humidité, cristallisation), et un <u>faux</u> miel (sirop épais) peut les réussir. Le seul vrai juge est le <b>laboratoire / la traçabilité / la certification</b>.
+    <br><br>
+    <b>Conséquence business :</b> si tu bases ta marque sur « fais le test de l'eau, mon miel est pur » →
+    <ol style="margin-top:4px">
+      <li>Un client fait le test sur TON vrai miel, il « échoue » le mythe → il pense que tu l'as arnaqué → <b>retour + avis négatif viral</b>.</li>
+      <li>Un concurrent ou un commentateur informé te démolit publiquement dans les commentaires → <b>ta crédibilité s'effondre</b>.</li>
+    </ol>
+    Bâtir sur un mythe, c'est bâtir sur du sable. Mais il y a bien mieux à faire avec ça 👇
+  </div>
+
+  <div class="box-green">
+    <b>Le retournement (c'est ça, penser comme une grande marque) :</b> ne sois pas le 100ᵉ vendeur qui montre le test de l'eau. Sois <b>celui qui révèle que ces tests sont faux</b> et qui dit enfin la vérité. C'est <b>contrarian</b> (ça arrête le scroll), <b>vrai</b> (personne ne peut te contredire), <b>autoritaire</b> (tu deviens l'expert honnête), et ça vend <b>le vrai mécanisme de confiance</b> : la source + le certificat + ta garantie. Tu transformes une faiblesse du marché en ta position dominante.</div>
+
+  <h3>La psychologie que tu actionnes</h3>
+  <table>
+    <tr><th style="width:26%">Levier psychologique</th><th>Comment l'angle « faux miel » l'active</th></tr>
+    <tr><td><b>Peur / protection</b></td><td>« Tu manges peut-être du sirop coloré » → alerte, on ne scrolle plus.</td></tr>
+    <tr><td><b>Curiosité / boucle ouverte</b></td><td>« Ces tests que tout le monde te montre sont faux… voici pourquoi » → il DOIT connaître la suite.</td></tr>
+    <tr><td><b>Effet contre-intuitif</b></td><td>Dire l'inverse de ce que tout le monde répète = surprise = engagement + partages.</td></tr>
+    <tr><td><b>Autorité / confiance</b></td><td>Celui qui dénonce l'arnaque devient le « camp du client », pas des vendeurs.</td></tr>
+    <tr><td><b>Réciprocité</b></td><td>Tu donnes un vrai savoir gratuit → le client se sent redevable → il achète chez toi.</td></tr>
+  </table>
+  <div class="footer-note">Sources tests miel : onehoney.ca, royalbeebrothers.com, smileyhoney.com, gleeezi.com — consensus : aucun test maison n'est fiable ; seule la source + le labo/certification prouvent l'authenticité.</div>
+</div>
+
+<!-- 2. REPOSITIONNEMENT -->
+<div class="page">
+  <h2>2 &nbsp;·&nbsp; Le repositionnement gagnant de l'angle</h2>
+  <p class="small">Un même angle (« faux miel ») peut être joué de plusieurs manières. Voici les 3 pistes, de la plus forte à la plus risquée. On teste, mais on <b>parie</b> sur la piste A.</p>
+
+  <div class="box-gold">
+    <b>🅰️ PISTE A — « Le Révélateur de vérité » (recommandée, à lancer en premier)</b><br>
+    Tu exposes que les tests viraux sont des mythes, puis tu révèles ce qui garantit VRAIMENT un miel pur (source, certificat ONSSA, cristallisation naturelle, garantie). Position = l'expert honnête du camp du client.
+    <br><span class="small">✔ Indéboulonnable · ✔ engagement max · ✔ construit une marque d'autorité · ✔ vend le vrai mécanisme.</span>
+  </div>
+  <div class="box">
+    <b>🅱️ PISTE B — « La comparaison / démo honnête »</b><br>
+    Tu montres 2 miels côte à côte (le tien vs un anonyme) et un signal <u>défendable</u> : la <b>cristallisation</b> (le vrai miel finit par cristalliser, beaucoup de sirops restent liquides) + le certificat. Jamais présenté comme « preuve absolue » mais comme « indice + garantie ».
+    <br><span class="small">✔ Visuel fort · ⚠ rester nuancé pour ne pas retomber dans le mythe.</span>
+  </div>
+  <div class="box">
+    <b>🅲 PISTE C — « La peur directe » (support, pas principal)</b><br>
+    « Voilà comment on fabrique le faux miel que tu manges. » Choc + éducation. Puissant en hook, mais à équilibrer avec du positif pour ne pas paraître alarmiste.
+    <br><span class="small">✔ Hook très fort · ⚠ ne pas rester dans le négatif, pivoter vite vers la solution.</span>
+  </div>
+
+  <h3>Le « Unique Mechanism » que toute la vidéo doit vendre</h3>
+  <p>Peu importe la piste, la vidéo doit toujours atterrir sur <b>ta</b> raison crédible de confiance. C'est ça qui transforme l'attention en vente :</p>
+  <table>
+    <tr><th>Ce que tu promets</th><th>La preuve que tu montres (le mécanisme)</th></tr>
+    <tr><td>« Un miel dont tu es SÛR »</td><td>Certificat <b>ONSSA</b> + origine nommée (région, apiculteur) + numéro de lot.</td></tr>
+    <tr><td>« Zéro risque pour toi »</td><td><b>Garantie</b> : « إيلا ما عجبكش أو شكّيتي فيه، ردّ ليا فلوسك » (remboursé).</td></tr>
+    <tr><td>« Je suis du côté du client »</td><td>Toi, visage + voix, qui expliques la vérité gratuitement.</td></tr>
+  </table>
+  <div class="box-green"><b>Décision :</b> Piste A en fer de lance. B et C en variantes de hook pour le test. Chaque vidéo se termine <b>toujours</b> par : certificat + garantie + « paiement à la livraison ».</div>
+</div>
+
+<!-- 3. HOOKS -->
+<div class="page">
+  <h2>3 &nbsp;·&nbsp; Banque de HOOKS — 18 accroches (darija)</h2>
+  <p class="small">Le hook = les 3 premières secondes = <b>80% du résultat</b>. Si le hook rate, le reste ne sera jamais vu. On en produit beaucoup pour en tester plusieurs (§8). Chaque hook = ce que tu DIS + ce qu'on VOIT. Classés par type.</p>
+
+  <h4>🔥 Type 1 — Contre-intuitif / Révélateur (Piste A — les plus forts)</h4>
+  <div class="hookbox"><span class="n">01</span><b>Dire :</b> <span class="darija" style="display:inline-block;border:none;background:none;padding:0;margin:0">التجربة ديال الماء اللي كايوريوك فيها العسل خالص؟ راها كذبة. وغادي نثبت ليك.</span><br><span class="small">Voir : toi qui verses le fameux verre d'eau… puis tu l'écartes de la main.</span></div>
+  <div class="hookbox"><span class="n">02</span><b>Dire :</b> <span class="darija" style="display:inline-block;border:none;background:none;padding:0;margin:0">بطّل دير تجربة الإبهام. عسل خالص كيمكن يفشل فيها، ومغشوش كيمكن ينجح.</span><br><span class="small">Voir : gros plan pouce avec goutte de miel, puis « ❌ » en gros à l'écran.</span></div>
+  <div class="hookbox"><span class="n">03</span><b>Dire :</b> <span class="darija" style="display:inline-block;border:none;background:none;padding:0;margin:0">90% ديال الناس كايشريو عسل مغشوش وهما مبسوطين… حيت نجح فتجربة غالطة.</span><br><span class="small">Voir : plusieurs pots de miel de supermarché alignés.</span></div>
+  <div class="hookbox"><span class="n">04</span><b>Dire :</b> <span class="darija" style="display:inline-block;border:none;background:none;padding:0;margin:0">حبس! قبل ما تشري العسل، خاصك تعرف هاد الحقيقة اللي كايخبيوها عليك.</span><br><span class="small">Voir : main levée « stop », regard caméra.</span></div>
+
+  <h4>😨 Type 2 — Peur / Problème (Piste C)</h4>
+  <div class="hookbox"><span class="n">05</span><b>Dire :</b> <span class="darija" style="display:inline-block;border:none;background:none;padding:0;margin:0">هاد العسل اللي فدارك دابا… واش متأكد بلي ماشي سكر ملوّن؟</span><br><span class="small">Voir : un pot de miel « normal » sur une table de cuisine.</span></div>
+  <div class="hookbox"><span class="n">06</span><b>Dire :</b> <span class="darija" style="display:inline-block;border:none;background:none;padding:0;margin:0">هكذا كيصاوبو العسل المغشوش اللي كتعطي لولادك…</span><br><span class="small">Voir : sirop/sucre qu'on mélange (B-roll générique).</span></div>
+  <div class="hookbox"><span class="n">07</span><b>Dire :</b> <span class="darija" style="display:inline-block;border:none;background:none;padding:0;margin:0">علاش العسل رخيص بزاف؟ حيت غالبا ماشي عسل أصلا.</span><br><span class="small">Voir : étiquette prix « 40 DH » barrée.</span></div>
+
+  <h4>❓ Type 3 — Question / Curiosité</h4>
+  <div class="hookbox"><span class="n">08</span><b>Dire :</b> <span class="darija" style="display:inline-block;border:none;background:none;padding:0;margin:0">علاش العسل الرخيص كيبقى سايل وعمرو ما كيجمّد؟</span><br><span class="small">Voir : comparaison 2 pots, un liquide / un cristallisé.</span></div>
+  <div class="hookbox"><span class="n">09</span><b>Dire :</b> <span class="darija" style="display:inline-block;border:none;background:none;padding:0;margin:0">زعمة تعرف تفرّق بين العسل الخالص والمغشوش؟ وحد من هادو مزوّر.</span><br><span class="small">Voir : deux cuillères de miel côte à côte.</span></div>
+  <div class="hookbox"><span class="n">10</span><b>Dire :</b> <span class="darija" style="display:inline-block;border:none;background:none;padding:0;margin:0">شنو كيوقع منين العسل الحقيقي كيجمّد فالبرد؟ الناس كيظنوه خسر… بالعكس!</span><br><span class="small">Voir : pot de miel cristallisé tenu en main.</span></div>
+
+  <h4>👤 Type 4 — Autorité / Fondateur</h4>
+  <div class="hookbox"><span class="n">11</span><b>Dire :</b> <span class="darija" style="display:inline-block;border:none;background:none;padding:0;margin:0">أنا كنخدم فالعسل من سنين، وغادي نقول ليك اللي التجّار ما بغاوش تعرفو.</span><br><span class="small">Voir : toi, face caméra, cadre honnête (cuisine/rucher).</span></div>
+  <div class="hookbox"><span class="n">12</span><b>Dire :</b> <span class="darija" style="display:inline-block;border:none;background:none;padding:0;margin:0">شفت بعيني كيفاش كيغشّو الناس، لهذا قررت نبيع غير الخالص.</span><br><span class="small">Voir : toi qui tiens un pot avec étiquette/lot visible.</span></div>
+  <div class="hookbox"><span class="n">13</span><b>Dire :</b> <span class="darija" style="display:inline-block;border:none;background:none;padding:0;margin:0">الطريقة الوحيدة الحقيقية باش تتأكد من العسل… ماشي التجربة ديال الماء. هاهي.</span><br><span class="small">Voir : tu montres un certificat / papier ONSSA.</span></div>
+
+  <h4>🛡️ Type 5 — Garantie / Renversement du risque</h4>
+  <div class="hookbox"><span class="n">14</span><b>Dire :</b> <span class="darija" style="display:inline-block;border:none;background:none;padding:0;margin:0">أنا الوحيد اللي كايقول ليك: إيلا شكّيتي فالعسل ديالي، ردّ ليا فلوسك.</span><br><span class="small">Voir : toi, main sur le cœur, pot dans l'autre main.</span></div>
+  <div class="hookbox"><span class="n">15</span><b>Dire :</b> <span class="darija" style="display:inline-block;border:none;background:none;padding:0;margin:0">ما كنطلبش منك تثق فيا. كنطلب منك تجرّب، وإيلا ما عجبكش ترجّعو.</span><br><span class="small">Voir : geste « ouvert », emballage prêt à livrer.</span></div>
+
+  <h4>👥 Type 6 — Preuve sociale (à activer après tes 1ᵉʳˢ ventes)</h4>
+  <div class="hookbox"><span class="n">16</span><b>Dire :</b> <span class="darija" style="display:inline-block;border:none;background:none;padding:0;margin:0">آلاف العائلات بدّلو العسل ديالهم من بعد ما شافو هاد الفيديو.</span><br><span class="small">Voir : montage de captures d'avis WhatsApp.</span></div>
+  <div class="hookbox"><span class="n">17</span><b>Dire :</b> <span class="darija" style="display:inline-block;border:none;background:none;padding:0;margin:0">« ظنّيت العسل ديالي مزيان… حتى جرّبت هادا. » — وحدة من الزبونات ديالنا.</span><br><span class="small">Voir : capture d'un vrai message client.</span></div>
+  <div class="hookbox"><span class="n">18</span><b>Dire :</b> <span class="darija" style="display:inline-block;border:none;background:none;padding:0;margin:0">هادا اللي كيوقع منين الناس كيدوقو العسل الخالص لأول مرة 👇</span><br><span class="small">Voir : réactions / déballage clients.</span></div>
+
+  <div class="box-gold"><b>À tester en priorité :</b> <b>01, 03, 05, 11, 14</b> — un de chaque type, pour voir quel « registre » accroche le plus ton audience. Le gagnant t'indique la direction de toute la suite.</div>
+</div>
+
+<!-- 4. SHOT LIST -->
+<div class="page">
+  <h2>4 &nbsp;·&nbsp; Le SHOT-LIST (اللقطات) — plan par plan</h2>
+  <p class="small">Voici le découpage image par image de la vidéo principale (Piste A). Chaque « لقطة » = une prise à filmer. Tu peux tout faire au téléphone, en vertical (9:16). Filme chaque plan 2–3 fois.</p>
+
+  <div class="shot"><div class="hd"><span>لقطة 1 — LE HOOK (0–3s)</span><span>Gros plan visage / geste</span></div>
+    <div class="bd"><span class="pill">Plan serré</span><span class="pill">Lumière du jour</span><span class="pill">Regard caméra</span><br>
+    <b>Action :</b> tu verses le verre d'eau + goutte de miel, PUIS tu écartes le verre de la main en disant le Hook 01.<br>
+    <b>Texte écran :</b> <span class="darija" style="display:inline;border:none;background:none;padding:0">تجربة الماء = كذبة ❌</span></div></div>
+
+  <div class="shot"><div class="hd"><span>لقطة 2 — LA TENSION / PROBLÈME (3–8s)</span><span>Plan moyen</span></div>
+    <div class="bd"><span class="pill">Plan poitrine</span><span class="pill">Ton complice</span><br>
+    <b>Action :</b> tu expliques que vrai miel peut échouer, faux miel peut réussir. Tu montres 2 pots.<br>
+    <b>Texte écran :</b> <span class="darija" style="display:inline;border:none;background:none;padding:0">عسل خالص كيمكن يفشل… ومغشوش ينجح</span></div></div>
+
+  <div class="shot"><div class="hd"><span>لقطة 3 — LA RÉVÉLATION / MÉCANISME (8–18s)</span><span>Gros plans « preuve »</span></div>
+    <div class="bd"><span class="pill">Insert certificat</span><span class="pill">Insert étiquette/lot</span><span class="pill">Cristallisation</span><br>
+    <b>Action :</b> tu révèles ce qui garantit vraiment : origine nommée + certificat ONSSA + cristallisation naturelle. B-roll de chaque élément.<br>
+    <b>Texte écran :</b> <span class="darija" style="display:inline;border:none;background:none;padding:0">الضمان الحقيقي: المصدر + الشهادة</span></div></div>
+
+  <div class="shot"><div class="hd"><span>لقطة 4 — LE PRODUIT DÉSIRABLE (18–24s)</span><span>B-roll sensoriel</span></div>
+    <div class="bd"><span class="pill">Miel qui coule</span><span class="pill">Texture</span><span class="pill">Ralenti</span><br>
+    <b>Action :</b> plans « satisfaisants » : cuillère qui soulève le miel, coulée lente, lumière dorée. Tu nommes tes 3 miels (Sidr/Thym/Oranger).<br>
+    <b>Texte écran :</b> <span class="darija" style="display:inline;border:none;background:none;padding:0">سدر · زعتر · ليمون — خالص 100%</span></div></div>
+
+  <div class="shot"><div class="hd"><span>لقطة 5 — GARANTIE + OFFRE (24–30s)</span><span>Plan moyen</span></div>
+    <div class="bd"><span class="pill">Emballage</span><span class="pill">Main sur le cœur</span><br>
+    <b>Action :</b> tu annonces la garantie « pur ou remboursé » + paiement à la livraison. Tu montres le colis prêt.<br>
+    <b>Texte écran :</b> <span class="darija" style="display:inline;border:none;background:none;padding:0">خالص ولا رجّع فلوسك · خلّص فيد</span></div></div>
+
+  <div class="shot"><div class="hd"><span>لقطة 6 — CTA (30–34s)</span><span>Regard caméra</span></div>
+    <div class="bd"><span class="pill">Appel clair</span><span class="pill">1 seule action</span><br>
+    <b>Action :</b> « Envoie-moi un message pour commander ». Un seul CTA, direct.<br>
+    <b>Texte écran :</b> <span class="darija" style="display:inline;border:none;background:none;padding:0">صيفط لينا رسالة باش تطلب 👆</span></div></div>
+
+  <div class="box"><b>Règle d'or du montage de ces plans :</b> une coupe toutes les 1,5–3 s. Jamais un plan statique de plus de 4 s au début — le cerveau décroche. Le mouvement = la rétention.</div>
+</div>
+
+<!-- 5. SCRIPTS -->
+<div class="page">
+  <h2>5 &nbsp;·&nbsp; Les 4 SCRIPTS complets prêts à filmer</h2>
+  <p class="small">4 scripts = 4 registres différents à tester. Chacun ~30 s. Structure universelle : <b>Hook → Tension → Révélation/Mécanisme → Produit → Offre/Garantie → CTA.</b></p>
+
+  <h4>🅰️ SCRIPT 1 — « Le Révélateur » (Piste A · le pari principal)</h4>
+  <div class="darija"><div class="lbl">SCRIPT COMPLET — DARIJA</div>
+  التجربة ديال الماء اللي كايوريوك فيها العسل خالص؟ راها كذبة. 🚫<br>
+  عسل خالص يقدر يهبط للقاع، ومغشوش بالسيرو الغليظ حتى هو كيهبط. ماكتثبت والو.<br>
+  الحقيقة الوحيدة باش تتأكد؟ تعرف <b>منين جا</b> العسل، وتكون عندو <b>شهادة ONSSA</b>، وتشوف كيفاش كيجمّد بطبيعتو فالبرد.<br>
+  أنا [الاسم]، كنجيب ليك العسل نيشان من [المنطقة]&nbsp;: سدر، زعتر، وليمون. خالص 100%، بالشهادة والمصدر.<br>
+  وباش تكون مرتاح&nbsp;: إيلا شكّيتي فيه، ردّ ليا فلوسك. وتخلّص غير منين توصلك الطلبية فيدك.<br>
+  صيفط لينا رسالة دابا باش نبعثوها ليك. 👆</div>
+
+  <h4>😨 SCRIPT 2 — « La Peur → Solution » (Piste C · persona maman)</h4>
+  <div class="darija"><div class="lbl">SCRIPT COMPLET — DARIJA</div>
+  واش عارفة أش كتعطي لولادك فالصباح؟ 😟 بزاف ديال العسل الرخيص فالسوق راه غير سكر وسيرو ملوّن.<br>
+  والأخطر&nbsp;: ماتقدريش تعرفي بالتجربة ديال الماء، حيت راها ماكتخدمش بصح.<br>
+  اللي كيضمن ليك&nbsp;: عسل بمصدر معروف وشهادة، من نحّال تثقي فيه.<br>
+  أنا كنبيع غير العسل اللي كنعطي لولادي أنا&nbsp;: زعتر للكحة والمناعة، وليمون حلو للصغار.<br>
+  جرّبيه، وإيلا ما عجبكش رجّعيه وخدي فلوسك. تخلّصي غير فالتوصيل.<br>
+  صيفطي لينا رسالة. 🍯</div>
+
+  <h4>👤 SCRIPT 3 — « Le Fondateur honnête » (autorité · trust)</h4>
+  <div class="darija"><div class="lbl">SCRIPT COMPLET — DARIJA</div>
+  أنا [الاسم]، وهاد العسل كنجيبو نيشان من الخلايا ديالي فـ[المنطقة].<br>
+  عيّيت نشوف الناس كيتغشّو بعسل مصنوع فالمعامل، لهذا بديت هاد المشروع.<br>
+  ماغاديش نقول ليك « دير تجربة الماء »… راها ماكتثبت والو. اللي كنعطيك هو <b>الشفافية</b>&nbsp;: المصدر، الشهادة، وضمان.<br>
+  كل بوطة عندها الرقم ديالها والمنطقة اللي منها. سدر، زعتر، ليمون — خالص.<br>
+  إيلا ما لقيتيهش كيف قلت ليك، ردّ ليا فلوسك، بلا سؤال.<br>
+  صيفط لينا رسالة ونهضرو. 🤝</div>
+
+  <h4>🅱️ SCRIPT 4 — « La démo cristallisation » (Piste B · visuel)</h4>
+  <div class="darija"><div class="lbl">SCRIPT COMPLET — DARIJA</div>
+  شوف هاد جوج ديال العسل. 👀 وحد بقا سايل من عام، والآخر جمّد.<br>
+  بزاف ديال الناس كيظنو اللي جمّد « خسر » — بالعكس، الجمود الطبيعي علامة مزيانة ديال العسل الحقيقي، ماشي دليل قاطع بوحدو، ولكن مع <b>المصدر والشهادة</b> كيطمّنك.<br>
+  السيرو المغشوش غالبا كيبقى سايل على طول.<br>
+  العسل ديالنا&nbsp;: مصدر معروف + شهادة ONSSA + ضمان استرجاع الفلوس.<br>
+  خلّص فيد منين توصلك. صيفط رسالة باش تطلب. 👆</div>
+
+  <div class="box-gold"><b>Note de production :</b> garde le MÊME corps (لقطات 3→6) et change SEULEMENT le hook (لقطة 1) pour créer 5 variantes rapides à tester (§8). C'est la méthode des grandes marques : on isole la variable « hook » pour trouver le déclencheur gagnant sans re-tourner toute la vidéo.</div>
+</div>
+
+<!-- 6. TOURNAGE -->
+<div class="page">
+  <h2>6 &nbsp;·&nbsp; Plan de tournage pratique (au téléphone)</h2>
+  <div class="lead">Tu n'as PAS besoin de matériel pro. Les vidéos qui vendent le plus au Maroc sont des UGC « vraies », filmées au téléphone. Le « trop propre » convertit souvent <b>moins</b> car ça ressemble à une pub. L'authenticité = la confiance.</div>
+
+  <div class="grid2">
+    <div class="box"><b>Matériel minimal</b>
+      <ul>
+        <li>Ton téléphone (caméra arrière, meilleure qualité).</li>
+        <li>Lumière du <b>jour</b> près d'une fenêtre (le meilleur éclairage gratuit).</li>
+        <li>Un support / trépied ou caler le tél. contre un objet.</li>
+        <li>Un fond simple et propre (cuisine, table en bois, rucher).</li>
+      </ul>
+    </div>
+    <div class="box"><b>Réglages</b>
+      <ul>
+        <li>Vidéo <b>verticale 9:16</b>, 1080p, 30 fps.</li>
+        <li>Nettoie l'objectif (empreintes = flou).</li>
+        <li>Filme le son au calme (pas de vent/écho) — le son compte plus que l'image.</li>
+        <li>Bloque l'exposition/la mise au point sur le sujet.</li>
+      </ul>
+    </div>
+  </div>
+
+  <h3>Les 6 B-roll « satisfaisants » à capturer absolument</h3>
+  <table>
+    <tr><th>Plan</th><th>Pourquoi</th></tr>
+    <tr><td>Miel qui coule de la cuillère (ralenti)</td><td>Déclencheur sensoriel, arrête le scroll.</td></tr>
+    <tr><td>Ouverture du pot + texture</td><td>Fraîcheur, réel, « à la maison ».</td></tr>
+    <tr><td>Certificat / étiquette avec n° de lot</td><td>La preuve = le mécanisme de confiance.</td></tr>
+    <tr><td>Pot cristallisé tenu à la lumière</td><td>Le signal défendable (Piste B).</td></tr>
+    <tr><td>Emballage / colis prêt à livrer</td><td>Rassure sur le COD, rend l'achat concret.</td></tr>
+    <tr><td>Toi qui goûtes / tartines</td><td>Preuve d'usage, humanise la marque.</td></tr>
+  </table>
+
+  <h3>Méthode de tournage efficace (1 seule session)</h3>
+  <div class="step"><div class="c">1</div><div>Filme <b>tous les hooks d'un coup</b> (les 5 à tester), face caméra, chacun 2–3 prises.</div></div>
+  <div class="step"><div class="c">2</div><div>Filme le <b>corps commun</b> (لقطات 2→6) une bonne fois, 2–3 prises par plan.</div></div>
+  <div class="step"><div class="c">3</div><div>Capture <b>tous les B-roll</b> en rafale (10–15 min suffisent).</div></div>
+  <div class="step"><div class="c">4</div><div>Au montage, tu assembles&nbsp;: 1 corps + 5 hooks = <b>5 vidéos</b> prêtes à tester. Efficacité maximale.</div></div>
+
+  <div class="box-green"><b>Objectif réaliste :</b> une seule séance de ~1h te donne de quoi produire tes 5 premières vidéos de test. Pas besoin d'attendre d'être « parfait » — la donnée du test te dira quoi améliorer.</div>
+</div>
+
+<!-- 7. MONTAGE -->
+<div class="page">
+  <h2>7 &nbsp;·&nbsp; Le montage (CapCut / téléphone)</h2>
+  <p class="small">Outil recommandé : <b>CapCut</b> (gratuit, en darija/arabe possible, fait pour ce format). Le montage transforme une prise correcte en vidéo qui retient.</p>
+
+  <table>
+    <tr><th style="width:24%">Élément</th><th>Règle</th></tr>
+    <tr><td><b>Rythme</b></td><td>Une coupe toutes les 1,5–3 s. Coupe les silences et les « euh ». Densité = rétention.</td></tr>
+    <tr><td><b>Sous-titres</b></td><td><b>Obligatoires</b>, gros, en darija, mot par mot animé. ~70% regardent sans le son.</td></tr>
+    <tr><td><b>Texte à l'écran</b></td><td>Le message clé de chaque plan écrit en gros (voir shot-list). Renforce même sans audio.</td></tr>
+    <tr><td><b>3 premières secondes</b></td><td>Le hook doit être visible ET lisible immédiatement. Mets le texte du hook dès la 1ʳᵉ frame.</td></tr>
+    <tr><td><b>Musique</b></td><td>Fond discret, sans droits (bibliothèque CapCut). La <b>voix</b> reste dominante.</td></tr>
+    <tr><td><b>Zoom / mouvement</b></td><td>Léger zoom sur les moments clés (garantie, certificat) pour appuyer.</td></tr>
+    <tr><td><b>Durée</b></td><td>25–35 s pour le froid. Si un plan n'ajoute rien, coupe-le.</td></tr>
+    <tr><td><b>Fin / CTA</b></td><td>Dernier plan net avec le CTA écrit + dit. Pas de fondu lent qui traîne.</td></tr>
+  </table>
+
+  <div class="box"><b>Format d'export :</b> 1080×1920, MP4, sans le watermark CapCut (désactive-le dans les réglages d'export — un watermark fait « amateur » et peut réduire la portée).</div>
+
+  <div class="box-gold"><b>Astuce pro :</b> garde une <b>version « brute »</b> (juste toi qui parles, peu montée) ET une version « montée ». Parfois la brute, plus authentique, convertit mieux au Maroc. Teste les deux — laisse la donnée trancher, pas ton goût.</div>
+</div>
+
+<!-- 8. TEST PROTOCOL -->
+<div class="page">
+  <h2>8 &nbsp;·&nbsp; Le protocole de TEST — trouver le winner</h2>
+  <div class="lead">C'est LA partie que font les grandes marques après avoir défini l'angle : elles ne « lancent pas une vidéo », elles <b>testent un système</b> pour laisser le marché élire le gagnant. On teste d'abord le <b>hook</b>, car c'est lui qui décide de tout.</div>
+
+  <h3>8.1 &nbsp; Étape 1 — Le test de HOOKS (semaine 1)</h3>
+  <table>
+    <tr><th>Paramètre</th><th>Réglage</th></tr>
+    <tr><td>Structure</td><td>1 campagne (CBO, objectif <b>Conversations/Messages</b>), 1 ad set large (Casablanca, 25–55), <b>5 ads = 5 hooks</b> (même corps).</td></tr>
+    <tr><td>Budget</td><td>~150–200 MAD/jour, pendant <b>4–5 jours</b>. Ne touche à rien avant.</td></tr>
+    <tr><td>Ce qu'on mesure</td><td>Le <b>« hook rate »</b> (vues 3s ÷ impressions) + le <b>« hold »</b> (ThruPlay/vues 15s) + coût par message.</td></tr>
+  </table>
+
+  <h3>8.2 &nbsp; Les 3 métriques qui désignent le gagnant</h3>
+  <div class="kpi-row">
+    <div class="kpi"><div class="n">Hook Rate</div><div class="l">vues 3s ÷ impressions · vise &gt; 25–30%</div></div>
+    <div class="kpi"><div class="n">Hold / ThruPlay</div><div class="l">a-t-on gardé l'attention jusqu'au bout ?</div></div>
+    <div class="kpi"><div class="n">Coût / message</div><div class="l">le hook transforme-t-il l'attention en action ?</div></div>
+  </div>
+  <table>
+    <tr><th>Diagnostic</th><th>Ce que ça veut dire</th><th>Action</th></tr>
+    <tr><td><b>Hook rate bas</b> (&lt; 20%)</td><td>Les 3 premières secondes ratent → personne ne regarde.</td><td><span class="tag t-hi">KILL le hook</span> Change l'accroche.</td></tr>
+    <tr><td>Hook rate haut, <b>hold bas</b></td><td>Bon hook mais le corps ennuie / ne tient pas la promesse.</td><td><span class="tag t-md">Retravaille le corps</span></td></tr>
+    <tr><td>Hook rate haut + <b>coût/message bas</b></td><td>🏆 Le gagnant. Il accroche ET fait agir.</td><td><span class="tag t-lo">SCALE + décline</span></td></tr>
+  </table>
+
+  <h3>8.3 &nbsp; Étape 2 — Isoler et amplifier (semaine 2)</h3>
+  <div class="step"><div class="c">1</div><div>Garde le(s) <b>1–2 hooks gagnants</b>, coupe le reste.</div></div>
+  <div class="step"><div class="c">2</div><div>Sur le hook gagnant, teste maintenant 2–3 <b>corps/offres</b> différents (garantie mise en avant vs prix, bundle vs pot).</div></div>
+  <div class="step"><div class="c">3</div><div>Puis teste le <b>format</b> : version montée vs version brute, avec/sans musique.</div></div>
+  <div class="step"><div class="c">4</div><div>Tu obtiens ta <b>vidéo « winner » complète</b> = meilleur hook + meilleur corps + meilleur format.</div></div>
+
+  <div class="box-red"><b>Discipline (non négociable) :</b> ne juge <b>jamais</b> sur 1 jour, ni sur les « j'aime ». On juge sur 4–5 jours, sur le coût par message/commande. Ne change qu'<b>une variable à la fois</b> (hook, PUIS corps, PUIS format), sinon tu ne sauras jamais ce qui a marché.</div>
+</div>
+
+<!-- 9. ITERATION / SCALING -->
+<div class="page">
+  <h2>9 &nbsp;·&nbsp; Le système d'itération & de scaling</h2>
+  <div class="lead">Une vidéo gagnante n'est pas une fin — c'est un <b>modèle à décliner</b>. Voici le « creative system » que les grandes marques font tourner en boucle. C'est ça, « la khedma li kaydiro men be3d l'angle ».</div>
+
+  <h3>9.1 &nbsp; La boucle créative (le moteur)</h3>
+  <div class="box-gold" style="text-align:center; font-weight:700; color:var(--gold-d)">
+    ANGLE &nbsp;→&nbsp; 5 HOOKS &nbsp;→&nbsp; TEST &nbsp;→&nbsp; WINNER &nbsp;→&nbsp; 5 VARIATIONS DU WINNER &nbsp;→&nbsp; TEST &nbsp;→&nbsp; NOUVEAU WINNER &nbsp;→&nbsp; SCALE &nbsp;↻
+  </div>
+
+  <h3>9.2 &nbsp; Comment décliner un winner (sans le « tuer »)</h3>
+  <table>
+    <tr><th>Variable à changer</th><th>Exemples</th></tr>
+    <tr><td>Le <b>hook</b> (garder le corps)</td><td>Nouveau 1ᵉʳ plan, nouvelle 1ʳᵉ phrase, nouvelle question.</td></tr>
+    <tr><td>Le <b>décor</b></td><td>Cuisine → rucher → extérieur. Même script, ambiance neuve.</td></tr>
+    <tr><td>Le <b>visage / la voix</b></td><td>Toi → un proche → une cliente (UGC). Diversifie les « personnages ».</td></tr>
+    <tr><td>La <b>preuve</b></td><td>Certificat → avis clients → déballage → comparaison.</td></tr>
+    <tr><td>L'<b>offre</b> en fin</td><td>Garantie → bundle → cadeau → urgence honnête.</td></tr>
+  </table>
+
+  <h3>9.3 &nbsp; La cadence (anti-fatigue créative)</h3>
+  <div class="box">
+    <ul>
+      <li>Un bon créatif « fatigue » en <b>2–4 semaines</b> (le CPM monte, le CTR baisse) : c'est normal, pas un échec.</li>
+      <li>Produis <b>3–5 nouvelles vidéos / semaine</b> — surtout des variations du winner (rapide à faire).</li>
+      <li>Garde une <b>« bibliothèque »</b> de créatifs prêts pour ne jamais être à sec.</li>
+      <li>Recycle les <b>gagnants morts</b> plus tard : après 4–6 semaines de pause, un ancien winner reperformera souvent.</li>
+    </ul>
+  </div>
+
+  <h3>9.4 &nbsp; Scaler le budget proprement</h3>
+  <div class="step"><div class="c">1</div><div>Le winner est stable 3–4 j sous ton coût cible → augmente le budget de <b>+20% tous les 2–3 j</b> (jamais doubler d'un coup, ça casse l'apprentissage).</div></div>
+  <div class="step"><div class="c">2</div><div>En parallèle, alimente toujours la campagne en nouveaux tests → tu ne dépends jamais d'une seule vidéo.</div></div>
+  <div class="step"><div class="c">3</div><div>Quand Casa est rentable et stable → élargis à Rabat, Marrakech, Tanger avec le même winner.</div></div>
+</div>
+
+<!-- 10. RISQUES -->
+<div class="page">
+  <h2>10 &nbsp;·&nbsp; Risques, garde-fous & interdits</h2>
+
+  <table>
+    <tr><th style="width:26%">Risque</th><th>Garde-fou</th></tr>
+    <tr><td><b>Baser la preuve sur un test mythe</b></td><td>Ne jamais dire « ce test PROUVE que mon miel est pur ». Utiliser les tests comme <b>hook</b>, ancrer la preuve sur source + certificat + garantie.</td></tr>
+    <tr><td><b>Claims médicaux → blocage du compte</b></td><td>Interdit : « يشفي »، « يعالج مرض »، « يعوّض الدواء ». Autorisé : bien-être, énergie, « kيهدّي الحلق », immunité <i>naturelle</i>. Meta bloque les promesses de guérison.</td></tr>
+    <tr><td><b>Dénigrer nommément un concurrent</b></td><td>Parler du « faux miel du marché » en général, jamais citer une marque → risque légal + signalements.</td></tr>
+    <tr><td><b>Sur-promesse / ton alarmiste</b></td><td>Rester factuel et positif. Trop de peur = rejet + fatigue. Pivoter vite vers la solution.</td></tr>
+    <tr><td><b>Le client fait le test et « échoue »</b></td><td>Comme tu as dit toi-même que les tests ne valent rien, tu es <b>protégé</b> : renvoie vers le certificat + la garantie. Ta cohérence te sauve.</td></tr>
+    <tr><td><b>Fatigue créative</b></td><td>Renouvellement 3–5/semaine + bibliothèque (§9).</td></tr>
+    <tr><td><b>Compte publicitaire jeune</b></td><td>Montée de budget progressive, BM vérifié, page propre, éviter les mots sensibles.</td></tr>
+  </table>
+
+  <div class="box-red"><b>La règle éthique qui est AUSSI la règle rentable :</b> ne ment jamais sur le produit. En COD, un client déçu ne paie pas / retourne / laisse un avis « mghchoch » qui te suit. La confiance n'est pas un slogan — c'est ton actif le plus cher. Tout ce plan ne fonctionne que si le miel est réellement à la hauteur de la promesse.</div>
+</div>
+
+<!-- 11. PLAN D'ACTION -->
+<div class="page">
+  <h2>11 &nbsp;·&nbsp; Plan d'action semaine par semaine</h2>
+
+  <h3 style="color:var(--green)">🟢 Semaine 1 — Préparer & filmer</h3>
+  <div class="box">
+    <b>Avant de filmer (checklist)</b>
+    <ul>
+      <li>☐ Obtenir/afficher le <b>certificat ONSSA</b> et préparer étiquettes avec n° de lot.</li>
+      <li>☐ Rédiger la <b>garantie</b> « pur ou remboursé » (1 phrase claire).</li>
+      <li>☐ Choisir les 5 hooks à tester (proposé : 01, 03, 05, 11, 14).</li>
+      <li>☐ Repérer le lieu + la lumière (fenêtre / rucher).</li>
+    </ul>
+    <b>Séance de tournage (~1h)</b>
+    <ul>
+      <li>☐ Filmer les 5 hooks (2–3 prises chacun).</li>
+      <li>☐ Filmer le corps commun (لقطات 2→6).</li>
+      <li>☐ Capturer les 6 B-roll.</li>
+    </ul>
+  </div>
+
+  <h3 style="color:var(--amber)">🟠 Semaine 1–2 — Monter & lancer le test</h3>
+  <ul>
+    <li>☐ Monter 5 vidéos (1 corps + 5 hooks) sur CapCut, sous-titres darija, sans watermark.</li>
+    <li>☐ Lancer la campagne test&nbsp;: 1 ad set large Casa, 5 ads, 150–200 MAD/j.</li>
+    <li>☐ Préparer le script de <b>confirmation WhatsApp</b> (les commandes vont arriver).</li>
+    <li>☐ Ne rien toucher pendant 4–5 jours.</li>
+  </ul>
+
+  <h3 style="color:var(--blue)">🔵 Semaine 2–3 — Lire, isoler, décliner</h3>
+  <ul>
+    <li>☐ Identifier le hook gagnant (hook rate + coût/message).</li>
+    <li>☐ Couper les perdants, garder 1–2 gagnants.</li>
+    <li>☐ Produire 5 variations du gagnant (nouveaux hooks/décors).</li>
+    <li>☐ Commencer à collecter avis/photos clients → futurs créatifs preuve sociale.</li>
+  </ul>
+
+  <h3 style="color:var(--gold-d)">🟡 Semaine 4+ — Scaler & systématiser</h3>
+  <ul>
+    <li>☐ Monter le budget du winner (+20% / 2–3 j).</li>
+    <li>☐ Tenir une cadence de 3–5 nouveaux créatifs/semaine.</li>
+    <li>☐ Élargir géographiquement une fois Casa rentable.</li>
+  </ul>
+
+  <div class="box-green">
+    <b>Ta prochaine action, aujourd'hui :</b> (1) écris ta phrase de garantie, (2) choisis tes 5 hooks, (3) bloque 1h demain pour filmer près d'une fenêtre. Tu n'as besoin de rien de plus pour démarrer. Le reste, c'est la donnée du test qui te le dira.
+  </div>
+
+  <div class="footer-note">Rappel : ce plan concentre TOUT sur un seul angle pour le rendre dominant. Une fois ce winner trouvé et scalé, le même système (angle → hooks → test → winner → itération) se réapplique à d'autres angles (§ étude précédente). Aucune performance n'est garantie : la méthode et la discipline font le résultat. Sources tests miel : onehoney.ca, royalbeebrothers.com, smileyhoney.com.</div>
+</div>
+
+</body>
+</html>

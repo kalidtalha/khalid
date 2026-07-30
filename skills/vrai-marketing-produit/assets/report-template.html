@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<!-- ==========================================================================
+  SQUELETTE DE RAPPORT — "Le Vrai Marketing d'un Produit"
+  Réutiliser ce <style> TEL QUEL (identité visuelle). Remplacer le contenu.
+  Chaque grande section = <div class="page" id="sN">...</div> (saut de page auto).
+  Composants dispo (exemples plus bas) : .kpi-row/.kpi, table, .box / .box-gold /
+  .box-red / .box-green, .lead, .darija (RTL, pour scripts), .persona, .angle,
+  .tag t-hi/t-md/t-lo (matrice de risque), .grid2.
+  Langue d'analyse au choix ; blocs .darija en RTL pour les textes clients.
+=========================================================================== -->
+<title>__TITRE_DU_RAPPORT__</title>
+<style>
+  :root{
+    --gold:#C8891B; --gold-d:#9c6a10; --ink:#1c2530; --ink2:#3a4757;
+    --muted:#6b7787; --line:#e3e7ec; --bg-soft:#faf6ee; --bg-soft2:#f2f6f9;
+    --green:#1f8a54; --red:#c0392b; --amber:#d68910; --blue:#2c6fb3;
+  }
+  *{box-sizing:border-box;}
+  html{-webkit-print-color-adjust:exact; print-color-adjust:exact;}
+  body{font-family:"Segoe UI","Helvetica Neue",Arial,sans-serif; color:var(--ink);
+    font-size:11.2px; line-height:1.55; margin:0;}
+  h1,h2,h3,h4{color:var(--ink); line-height:1.2; margin:0 0 .4em;}
+  h2{font-size:19px; border-bottom:3px solid var(--gold); padding-bottom:6px; margin-top:6px;}
+  h3{font-size:14.5px; color:var(--gold-d); margin-top:16px;}
+  h4{font-size:12.2px; color:var(--ink2); margin-top:12px;}
+  p{margin:.35em 0;}
+  a{color:var(--blue); text-decoration:none;}
+  table{width:100%; border-collapse:collapse; margin:8px 0 12px; font-size:10.3px;}
+  th{background:var(--ink); color:#fff; text-align:left; padding:6px 8px; font-weight:600;}
+  td{border:1px solid var(--line); padding:5px 8px; vertical-align:top;}
+  tr:nth-child(even) td{background:#fafbfc;}
+  .cover{height:100vh; background:linear-gradient(150deg,#14324a 0%,#1c2530 60%,#0d1a25 100%);
+    color:#fff; display:flex; flex-direction:column; justify-content:center; padding:0 12mm; position:relative;}
+  .cover .badge{display:inline-block; border:1px solid var(--gold); color:var(--gold);
+    padding:5px 14px; border-radius:30px; font-size:11px; letter-spacing:1px; margin-bottom:22px; width:max-content;}
+  .cover h1{color:#fff; font-size:38px; margin-bottom:10px; line-height:1.12;}
+  .cover .sub{color:#d9c9a3; font-size:16px; font-weight:400; max-width:78%;}
+  .cover .meta{position:absolute; bottom:16mm; left:12mm; right:12mm; color:#93a1b0; font-size:11px;
+    border-top:1px solid #33404d; padding-top:12px; display:flex; justify-content:space-between;}
+  .cover .prods{margin-top:26px; display:flex; gap:10px; flex-wrap:wrap;}
+  .cover .prods span{background:rgba(200,137,27,.15); border:1px solid var(--gold);
+    color:#f0dcb4; padding:6px 14px; border-radius:8px; font-size:12px;}
+  .page{padding:14mm 12mm; page-break-after:always;}
+  .page:last-child{page-break-after:auto;}
+  .lead{font-size:12px; color:var(--ink2); background:var(--bg-soft2); border-left:4px solid var(--blue);
+    padding:10px 14px; margin:10px 0; border-radius:0 6px 6px 0;}
+  .box{border:1px solid var(--line); border-radius:8px; padding:10px 14px; margin:10px 0; background:#fff;}
+  .box-gold{background:var(--bg-soft); border:1px solid #e8d6ab; border-radius:8px; padding:10px 14px; margin:10px 0;}
+  .box-red{background:#fdeeec; border-left:4px solid var(--red); padding:10px 14px; margin:10px 0; border-radius:0 6px 6px 0;}
+  .box-green{background:#eafaf1; border-left:4px solid var(--green); padding:10px 14px; margin:10px 0; border-radius:0 6px 6px 0;}
+  .darija{background:#fff8ec; border:1px dashed var(--gold); border-radius:8px; padding:9px 13px; margin:8px 0;
+    direction:rtl; text-align:right; font-size:12.5px; line-height:1.7; color:#4a3a12;}
+  .darija .lbl{direction:ltr; text-align:left; font-size:9.5px; color:var(--gold-d); letter-spacing:.5px; margin-bottom:4px; font-weight:700;}
+  .grid2{display:flex; gap:12px;} .grid2>div{flex:1;}
+  .kpi-row{display:flex; gap:10px; margin:12px 0;}
+  .kpi{flex:1; background:linear-gradient(160deg,#fff,#f7f9fb); border:1px solid var(--line);
+    border-radius:10px; padding:11px; text-align:center;}
+  .kpi .n{font-size:22px; font-weight:800; color:var(--gold-d);}
+  .kpi .l{font-size:9.3px; color:var(--muted); text-transform:uppercase; letter-spacing:.4px; margin-top:3px;}
+  .tag{display:inline-block; font-size:9px; padding:2px 8px; border-radius:20px; font-weight:700; letter-spacing:.3px;}
+  .t-hi{background:#fdeeec; color:var(--red);} .t-md{background:#fef5e7; color:var(--amber);} .t-lo{background:#eafaf1; color:var(--green);}
+  ul,ol{margin:.3em 0 .6em; padding-left:18px;} li{margin:2px 0;}
+  .toc li{margin:5px 0; list-style:none; display:flex; justify-content:space-between; border-bottom:1px dotted var(--line); padding-bottom:3px;}
+  .toc a{color:var(--ink); font-weight:600;} .toc .pg{color:var(--gold-d); font-weight:700;}
+  .small{font-size:9.5px; color:var(--muted);}
+  .num{font-variant-numeric:tabular-nums;}
+  .footer-note{font-size:8.8px; color:var(--muted); border-top:1px solid var(--line); margin-top:14px; padding-top:6px;}
+  .persona{border:1px solid var(--line); border-radius:10px; padding:0; margin:10px 0; overflow:hidden;}
+  .persona .hd{background:var(--ink); color:#fff; padding:7px 12px; font-weight:700; font-size:12px; display:flex; justify-content:space-between;}
+  .persona .bd{padding:9px 13px; display:flex; gap:14px;} .persona .bd>div{flex:1;}
+  .angle{border-left:4px solid var(--gold); background:#fffdf8; padding:9px 13px; margin:9px 0; border-radius:0 6px 6px 0;}
+  .angle .h{font-weight:800; color:var(--gold-d); font-size:12.5px;}
+  hr{border:none; border-top:1px solid var(--line); margin:12px 0;}
+</style>
+</head>
+<body>
+
+<!-- ===================== COUVERTURE ===================== -->
+<div class="cover">
+  <span class="badge">DOCUMENT STRATÉGIQUE CONFIDENTIEL</span>
+  <h1>__TITRE__<br>__SOUS_TITRE_PRODUIT__</h1>
+  <div class="sub">__PROMESSE_DU_DOSSIER : étude de marché, stratégie, audience & analyse de risque__</div>
+  <div class="prods">
+    <span>__PRODUIT_1__</span><span>__PRODUIT_2__</span><span>__PRODUIT_3__</span>
+  </div>
+  <div class="meta">
+    <span>Préparé pour : __CLIENT__</span>
+    <span>Marché : __VILLE_PAYS__ · Modèle : __COD_OU_ONLINE__</span>
+    <span>__DATE__</span>
+  </div>
+</div>
+
+<!-- ===================== SOMMAIRE ===================== -->
+<div class="page">
+  <h2>Sommaire</h2>
+  <ul class="toc">
+    <li><a href="#s1">1 · Résumé exécutif & décision principale</a><span class="pg">03</span></li>
+    <!-- ... répéter pour les 15 sections ... -->
+  </ul>
+</div>
+
+<!-- ===================== EXEMPLES DE COMPOSANTS (à supprimer/adapter) =====================
+  Copier ces motifs pour remplir les 15 sections (voir references/analysis-framework.md).
+
+<div class="page" id="s1">
+  <h2>1 · Résumé exécutif & décision principale</h2>
+
+  <div class="lead"><b>Le vrai problème :</b> ...</div>
+
+  <div class="kpi-row">
+    <div class="kpi"><div class="n">5 441</div><div class="l">concurrents en pub</div></div>
+    <div class="kpi"><div class="n">83,8%</div><div class="l">paient en COD</div></div>
+  </div>
+
+  <table>
+    <tr><th>Décision</th><th>Action concrète</th></tr>
+    <tr><td>1. ...</td><td>...</td></tr>
+  </table>
+
+  <div class="box-green"><b>Verdict :</b> GO conditionnel. Budget test : ...</div>
+</div>
+
+  Bloc script client (RTL) :
+  <div class="darija"><div class="lbl">SCRIPT VIDÉO — DARIJA</div>
+    واش كتعرف ... النص هنا بالدارجة ...
+  </div>
+
+  Persona :
+  <div class="persona">
+    <div class="hd"><span>Persona 1 — ...</span><span>Femme · 28–45</span></div>
+    <div class="bd"><div><b>Douleur</b><br>...</div><div><b>Déclencheur / Angle</b><br>...</div></div>
+  </div>
+
+  Angle gagnant :
+  <div class="angle"><div class="h">① ...</div><b>Hook</b> — ...
+    <div class="darija"><div class="lbl">SCRIPT — DARIJA</div>...</div>
+  </div>
+
+  Ligne de matrice de risque :
+  <tr><td>Retours COD</td><td><span class="tag t-hi">Élevée</span></td>
+      <td><span class="tag t-hi">Fort</span></td><td>Confirmation systématique. Alerte : >25%.</td></tr>
+====================================================================================== -->
+
+</body>
+</html>
